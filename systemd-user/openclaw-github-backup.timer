@@ -1,0 +1,10 @@
+[Unit]
+Description=Run OpenClaw GitHub backup daily at 04:30 UTC
+
+[Timer]
+OnCalendar=*-*-* 04:30:00 UTC
+Persistent=true
+Unit=openclaw-github-backup.service
+
+[Install]
+WantedBy=timers.target

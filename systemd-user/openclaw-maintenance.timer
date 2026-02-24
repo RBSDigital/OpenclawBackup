@@ -1,0 +1,10 @@
+[Unit]
+Description=Run OpenClaw maintenance daily at 04:00 UTC
+
+[Timer]
+OnCalendar=*-*-* 04:00:00 UTC
+Persistent=true
+Unit=openclaw-maintenance.service
+
+[Install]
+WantedBy=timers.target
