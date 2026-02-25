@@ -52,7 +52,7 @@
     "bind": "loopback",
     "auth": {
       "mode": "token",
-      "token": "[REDACTED_SECRET]"
+      "token": "fab64b78bef4949b261fe19fd4c728fdbbcbed3e577a1cb5"
     }
   },
   "skills": {
