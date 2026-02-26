@@ -31,6 +31,20 @@ Things like:
 - Default speaker: Kitchen HomePod
 ```
 
+## Excalidraw Diagrams (Obsidian)
+
+- Preferred diagram types:
+  - Architecture diagrams (components + connections)
+  - Flowcharts (steps + decision points)
+  - Concept maps (ideas + relationships)
+- Style:
+  - Clean/readable, low clutter
+  - Consistent color scheme
+  - Clear labels on all elements
+  - Keep under ~15 elements per diagram
+- Save location in vault:
+  - `/Diagrams/[descriptive-name].excalidraw`
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
