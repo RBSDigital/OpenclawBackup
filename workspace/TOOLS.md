@@ -45,6 +45,15 @@ Things like:
 - Save location in vault:
   - `/Diagrams/[descriptive-name].excalidraw`
 
+## Google Docs Organization
+
+- Linear algebra knowledge repo folder:
+  - Name: `Linear algebra`
+  - Folder ID: `1ULyBTDLQJqbZFuyOhqcPeiv5VJAlQKk4`
+  - URL: `https://drive.google.com/drive/folders/1ULyBTDLQJqbZFuyOhqcPeiv5VJAlQKk4`
+- Convention:
+  - Place future linear algebra Google Docs/Slides in this folder.
+
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.

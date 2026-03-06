@@ -1,0 +1,61 @@
+Slide 1 — Title
+Determinant and Rank: Big Picture + Core Properties
+
+Slide 2 — Big Picture: Determinant
+- Matrix = transformation of space
+- Determinant measures volume scaling and orientation
+- |det| > 1: expansion
+- 0 < |det| < 1: shrink
+- det = 0: collapses dimension (non-invertible)
+- sign (+/-): preserves or flips orientation
+
+Slide 3 — Big Picture: Rank
+- Rank = number of independent directions/information dimensions
+- Equals independent columns (and rows)
+- Full rank: no redundancy
+- Low rank: compression/redundancy
+- Critical for solving Ax = b (existence/uniqueness insights)
+
+Slide 4 — Determinant: Fundamental Properties
+- det(I) = 1
+- det(A^T) = det(A)
+- det(AB) = det(A)det(B)
+- If invertible: det(A^{-1}) = 1/det(A)
+- det(cA) = c^n det(A)
+- A invertible iff det(A) ≠ 0
+
+Slide 5 — Determinant: Row/Column Operation Effects
+- Swap two rows -> determinant changes sign
+- Scale one row by k -> determinant scales by k
+- Add multiple of one row to another -> determinant unchanged
+- Zero row or dependent rows -> determinant = 0
+
+Slide 6 — Determinant: Useful Structures/Connections
+- Triangular/diagonal: product of diagonal entries
+- Block triangular: product of block determinants
+- Product of eigenvalues = determinant
+- |det(A)| = geometric volume scale
+
+Slide 7 — Rank: Fundamental Properties
+- 0 <= rank(A) <= min(m, n)
+- Row rank = column rank
+- Rank = number of pivots in RREF
+- Rank = number of nonzero singular values
+- rank(A) + nullity(A) = n
+
+Slide 8 — Rank: Invertibility and Transform Invariance
+- Square A invertible iff rank(A) = n
+- rank(A) = rank(A^T)
+- rank(PAQ) = rank(A) for invertible P,Q
+- rank(cA)=rank(A), c != 0
+
+Slide 9 — Rank: Product and Sum Inequalities
+- rank(AB) <= min(rank(A), rank(B))
+- rank(A+B) <= rank(A) + rank(B)
+- Sylvester: rank(AB) >= rank(A)+rank(B)-n
+
+Slide 10 — Determinant vs Rank (Summary)
+- Determinant: geometric scaling/orientation (square matrices)
+- Rank: informational dimensionality (any matrix)
+- det = 0 implies rank deficiency (square case)
+- Together: fast structural insight into linear systems
