@@ -227,7 +227,7 @@
     {
       "name": "eightctl",
       "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
-      "emoji": "🎛️",
+      "emoji": "🛌",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -247,7 +247,7 @@
     {
       "name": "gemini",
       "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
-      "emoji": "♊️",
+      "emoji": "✨",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -543,7 +543,7 @@
     {
       "name": "openai-image-gen",
       "description": "Batch-generate images via OpenAI Images API. Random prompt sampler + `index.html` gallery.",
-      "emoji": "🖼️",
+      "emoji": "🎨",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -564,7 +564,7 @@
     {
       "name": "openai-whisper",
       "description": "Local speech-to-text with the Whisper CLI (no API key).",
-      "emoji": "🎙️",
+      "emoji": "🎤",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -584,7 +584,7 @@
     {
       "name": "openai-whisper-api",
       "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
-      "emoji": "☁️",
+      "emoji": "🌐",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -685,7 +685,7 @@
     {
       "name": "sag",
       "description": "ElevenLabs text-to-speech with mac-style say UX.",
-      "emoji": "🗣️",
+      "emoji": "🔊",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -727,7 +727,7 @@
     {
       "name": "sherpa-onnx-tts",
       "description": "Local text-to-speech via sherpa-onnx (offline, no cloud)",
-      "emoji": "🗣️",
+      "emoji": "🔉",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -923,7 +923,7 @@
     {
       "name": "video-frames",
       "description": "Extract frames or short clips from videos using ffmpeg.",
-      "emoji": "🎞️",
+      "emoji": "🎬",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -982,7 +982,7 @@
     {
       "name": "weather",
       "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.",
-      "emoji": "🌤️",
+      "emoji": "☔",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -1000,7 +1000,7 @@
     {
       "name": "xurl",
       "description": "A CLI tool for making authenticated requests to the X (Twitter) API. Use this skill when you need to post tweets, reply, quote, search, read posts, manage followers, send DMs, upload media, or interact with any X API v2 endpoint.",
-      "emoji": "𝕏",
+      "emoji": "🐦",
       "eligible": false,
       "disabled": false,
       "blockedByAllowlist": false,
