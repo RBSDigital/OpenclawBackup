@@ -62,7 +62,6 @@ mkdir -p "$STAGING_DIR"
 mkdir -p "$STAGING_DIR/workspace" "$STAGING_DIR/systemd-user" "$STAGING_DIR/openclaw"
 rsync -a --delete --exclude '.git' /home/vin/.openclaw/workspace/ "$STAGING_DIR/workspace/" >>"$RUN_LOG" 2>&1 || fail "rsync workspace failed"
 cp -a ~/.config/systemd/user/openclaw* "$STAGING_DIR/systemd-user/" 2>/dev/null || true
-cp -a ~/.openclaw/openclaw.json "$STAGING_DIR/openclaw/" 2>/dev/null || true
 cp -a ~/.openclaw/cron "$STAGING_DIR/openclaw/" 2>/dev/null || true
 cp -a ~/.openclaw/memory "$STAGING_DIR/openclaw/" 2>/dev/null || true
 cp -a ~/.openclaw/skills "$STAGING_DIR/openclaw/" 2>/dev/null || true

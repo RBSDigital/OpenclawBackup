@@ -1,5 +1,5 @@
 [Unit]
-Description=OpenClaw Gateway (v2026.2.23)
+Description=OpenClaw Gateway (v2026.3.7)
 After=network-online.target
 Wants=network-online.target
 
@@ -7,16 +7,19 @@ Wants=network-online.target
 ExecStart=/usr/bin/node /home/vin/.npm-global/lib/node_modules/openclaw/dist/index.js gateway --port 18789
 Restart=always
 RestartSec=5
-KillMode=process
+TimeoutStopSec=30
+TimeoutStartSec=30
+SuccessExitStatus=0 143
+KillMode=control-group
 Environment=HOME=/home/vin
 Environment=TMPDIR=/tmp
 Environment=PATH=/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.volta/bin:/home/vin/.asdf/shims:/home/vin/.bun/bin:/home/vin/.nvm/current/bin:/home/vin/.fnm/current/bin:/home/vin/.local/share/pnpm:/usr/local/bin:/usr/bin:/bin
 Environment=OPENCLAW_GATEWAY_PORT=18789
-Environment=OPENCLAW_GATEWAY_TOKEN=fab64b78bef4949b261fe19fd4c728fdbbcbed3e577a1cb5
 Environment=OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service
+Environment="OPENCLAW_WINDOWS_TASK_NAME=OpenClaw Gateway"
 Environment=OPENCLAW_SERVICE_MARKER=openclaw
 Environment=OPENCLAW_SERVICE_KIND=gateway
-Environment=OPENCLAW_SERVICE_VERSION=2026.2.23
+Environment=OPENCLAW_SERVICE_VERSION=2026.3.7
 
 [Install]
 WantedBy=default.target
