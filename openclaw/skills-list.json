@@ -4,7 +4,7 @@
   "skills": [
     {
       "name": "1password",
-      "description": "Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.",
+      "description": "Set up and use 1Password CLI for sign-in, desktop integration, and reading or injecting secrets.",
       "emoji": "🔐",
       "eligible": false,
       "disabled": false,
@@ -24,7 +24,7 @@
     },
     {
       "name": "apple-notes",
-      "description": "Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks OpenClaw to add a note, list notes, search notes, or manage note folders.",
+      "description": "Create, view, edit, delete, search, move, or export Apple Notes via the memo CLI on macOS.",
       "emoji": "📝",
       "eligible": false,
       "disabled": false,
@@ -46,7 +46,7 @@
     },
     {
       "name": "apple-reminders",
-      "description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.",
+      "description": "List, add, edit, complete, or delete Apple Reminders and reminder lists via remindctl.",
       "emoji": "⏰",
       "eligible": false,
       "disabled": false,
@@ -130,7 +130,7 @@
     },
     {
       "name": "bluebubbles",
-      "description": "Use when you need to send or manage iMessages via BlueBubbles (recommended iMessage integration). Calls go through the generic message tool with channel=\"bluebubbles\".",
+      "description": "Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups.",
       "emoji": "🫧",
       "eligible": false,
       "disabled": false,
@@ -169,7 +169,7 @@
     },
     {
       "name": "clawhub",
-      "description": "Use the ClawHub CLI to search, install, update, and publish agent skills from clawhub.com. Use when you need to fetch new skills on the fly, sync installed skills to latest or a specific version, or publish new/updated skill folders with the npm-installed clawhub CLI.",
+      "description": "Search, install, update, sync, or publish agent skills with the ClawHub CLI and registry.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -185,7 +185,7 @@
     },
     {
       "name": "coding-agent",
-      "description": "Delegate coding tasks to Codex, Claude Code, or Pi agents via background process. Use when: (1) building/creating new features or apps, (2) reviewing PRs (spawn in temp dir), (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one-liner fixes (just edit), reading code (use read tool), thread-bound ACP harness requests in chat (for example spawn/run Codex or Claude Code in a Discord thread; use sessions_spawn with runtime:\"acp\"), or any work in ~/clawd workspace (never spawn agents here). Claude Code: use --print --permission-mode bypassPermissions (no PTY). Codex/Pi/OpenCode: pty:true required.",
+      "description": "Delegate feature work, PR review, refactors, or iterative coding to background Codex, Claude Code, or Pi agents.",
       "emoji": "🧩",
       "eligible": false,
       "disabled": false,
@@ -264,7 +264,7 @@
     },
     {
       "name": "gh-issues",
-      "description": "Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]",
+      "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -301,7 +301,7 @@
     },
     {
       "name": "github",
-      "description": "GitHub operations via `gh` CLI: issues, PRs, CI runs, code review, API queries. Use when: (1) checking PR status or CI, (2) creating/commenting on issues, (3) listing/filtering PRs or issues, (4) viewing run logs. NOT for: complex web UI interactions requiring manual browser flows (use browser tooling when available), bulk operations across many repos (script with gh api), or when gh auth is not configured.",
+      "description": "Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.",
       "emoji": "🐙",
       "eligible": true,
       "disabled": false,
@@ -336,7 +336,7 @@
     },
     {
       "name": "goplaces",
-      "description": "Query Google Places API (New) via the goplaces CLI for text search, place details, resolve, and reviews. Use for human-friendly place lookup or JSON output for scripts.",
+      "description": "Query Google Places for text search, place details, resolve, reviews, or scriptable JSON via goplaces.",
       "emoji": "📍",
       "eligible": false,
       "disabled": false,
@@ -359,7 +359,7 @@
     },
     {
       "name": "healthcheck",
-      "description": "Host security hardening and risk-tolerance configuration for OpenClaw deployments. Use when a user asks for security audits, firewall/SSH/update hardening, risk posture, exposure review, OpenClaw cron scheduling for periodic checks, or version status checks on a machine running OpenClaw (laptop, workstation, Pi, VPS).",
+      "description": "Audit and harden hosts running OpenClaw for SSH, firewall, updates, exposure, cron checks, and risk posture.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -375,7 +375,7 @@
     },
     {
       "name": "himalaya",
-      "description": "CLI to manage emails via IMAP/SMTP. Use `himalaya` to list, read, write, reply, forward, search, and organize emails from the terminal. Supports multiple accounts and message composition with MML (MIME Meta Language).",
+      "description": "Use himalaya to list, read, search, compose, reply, forward, and organize IMAP/SMTP email.",
       "emoji": "📧",
       "eligible": false,
       "disabled": false,
@@ -417,7 +417,7 @@
     },
     {
       "name": "mcporter",
-      "description": "Use the mcporter CLI to list, configure, auth, and call MCP servers/tools directly (HTTP or stdio), including ad-hoc servers, config edits, and CLI/type generation.",
+      "description": "List, configure, authenticate, call, and inspect MCP servers/tools with mcporter over HTTP or stdio.",
       "emoji": "📦",
       "eligible": true,
       "disabled": false,
@@ -435,7 +435,7 @@
     },
     {
       "name": "model-usage",
-      "description": "Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.",
+      "description": "Summarize CodexBar local cost logs by model for Codex or Claude, including current or full breakdowns.",
       "emoji": "📊",
       "eligible": false,
       "disabled": false,
@@ -476,7 +476,7 @@
     },
     {
       "name": "node-connect",
-      "description": "Diagnose OpenClaw node connection and pairing failures for Android, iOS, and macOS companion apps. Use when QR/setup code/manual connect fails, local Wi-Fi works but VPS/tailnet does not, or errors mention pairing required, unauthorized, bootstrap token invalid or expired, gateway.bind, gateway.remote.url, Tailscale, or plugins.entries.device-pair.config.publicUrl.",
+      "description": "Diagnose OpenClaw Android, iOS, or macOS node pairing, QR/setup code, route, auth, and connection failures.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -594,7 +594,7 @@
     },
     {
       "name": "oracle",
-      "description": "Best practices for using the oracle CLI (prompt + file bundling, engines, sessions, and file attachment patterns).",
+      "description": "Use oracle CLI to bundle prompts and files for second-model debugging, refactor, design, or review checks.",
       "emoji": "🧿",
       "eligible": true,
       "disabled": false,
@@ -716,7 +716,7 @@
     },
     {
       "name": "skill-creator",
-      "description": "Create, edit, improve, or audit AgentSkills. Use when creating a new skill from scratch or when asked to improve, review, audit, tidy up, or clean up an existing skill or SKILL.md file. Also use when editing or restructuring a skill directory (moving files to references/ or scripts/, removing stale content, validating against the AgentSkills spec). Triggers on phrases like \"create a skill\", \"author a skill\", \"tidy up a skill\", \"improve this skill\", \"review the skill\", \"clean up the skill\", \"audit the skill\".",
+      "description": "Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -732,7 +732,7 @@
     },
     {
       "name": "slack",
-      "description": "Use when you need to control Slack from OpenClaw via the slack tool, including reacting to messages or pinning/unpinning items in Slack channels or DMs.",
+      "description": "Use the Slack tool to react, pin/unpin, send, edit, delete messages, or fetch Slack member info.",
       "emoji": "💬",
       "eligible": false,
       "disabled": false,
@@ -812,7 +812,7 @@
     },
     {
       "name": "summarize",
-      "description": "Summarize or extract text/transcripts from URLs, podcasts, and local files (great fallback for “transcribe this YouTube/video”).",
+      "description": "Summarize or transcribe URLs, YouTube/videos, podcasts, articles, transcripts, PDFs, and local files.",
       "emoji": "🧾",
       "eligible": false,
       "disabled": false,
@@ -832,7 +832,7 @@
     },
     {
       "name": "taskflow",
-      "description": "Use when work should span one or more detached tasks but still behave like one job with a single owner context. TaskFlow is the durable flow substrate under authoring layers like Lobster, ACPX, plugins, or plain code. Keep conditional logic in the caller; use TaskFlow for flow identity, child-task linkage, waiting state, revision-checked mutations, and user-facing emergence.",
+      "description": "Coordinate multi-step detached tasks as one durable TaskFlow job with owner context, state, waits, and child tasks.",
       "emoji": "🪝",
       "eligible": true,
       "disabled": false,
@@ -849,7 +849,7 @@
     },
     {
       "name": "taskflow-inbox-triage",
-      "description": "Example TaskFlow authoring pattern for inbox triage. Use when messages need different treatment based on intent, with some routes notifying immediately, some waiting on outside answers, and others rolling into a later summary.",
+      "description": "Example TaskFlow pattern for inbox triage, intent routing, waiting on replies, and later summaries.",
       "emoji": "📥",
       "eligible": true,
       "disabled": false,
@@ -866,7 +866,7 @@
     },
     {
       "name": "things-mac",
-      "description": "Manage Things 3 via the `things` CLI on macOS (add/update projects+todos via URL scheme; read/search/list from the local Things database). Use when a user asks OpenClaw to add a task to Things, list inbox/today/upcoming, search tasks, or inspect projects/areas/tags.",
+      "description": "Add, update, list, search, or inspect Things 3 todos, inbox, today, projects, areas, and tags on macOS.",
       "emoji": "✅",
       "eligible": false,
       "disabled": false,
@@ -965,7 +965,7 @@
     },
     {
       "name": "wacli",
-      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "description": "Send third-party WhatsApp messages or sync/search WhatsApp history via wacli, not normal active chats.",
       "emoji": "📱",
       "eligible": false,
       "disabled": false,
@@ -985,7 +985,7 @@
     },
     {
       "name": "weather",
-      "description": "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed.",
+      "description": "Get current weather, rain, temperature, and forecasts for locations or travel planning.",
       "emoji": "☔",
       "eligible": true,
       "disabled": false,
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "xurl",
-      "description": "A CLI tool for making authenticated requests to the X (Twitter) API. Use this skill when you need to post tweets, reply, quote, search, read posts, manage followers, send DMs, upload media, or interact with any X API v2 endpoint.",
+      "description": "Use xurl for authenticated X API posts, replies, search, DMs, media upload, followers, or raw v2 calls.",
       "emoji": "🐦",
       "eligible": false,
       "disabled": false,
