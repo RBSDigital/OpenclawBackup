@@ -148,6 +148,22 @@
       }
     },
     {
+      "name": "browser-automation",
+      "description": "Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "source": "openclaw-extra",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "camsnap",
       "description": "Capture frames or clips from RTSP/ONVIF cameras.",
       "emoji": "📸",
@@ -650,6 +666,63 @@
         "os": [
           "darwin"
         ]
+      }
+    },
+    {
+      "name": "qqbot-channel",
+      "description": "QQ 频道管理技能。查询频道列表、子频道、成员、发帖、公告、日程等操作。使用 qqbot_channel_api 工具代理 QQ 开放平台 HTTP 接口，自动处理 Token 鉴权。当用户需要查看频道、管理子频道、查询成员、发布帖子/公告/日程时使用。",
+      "emoji": "📡",
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "source": "openclaw-extra",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.qqbot"
+        ],
+        "os": []
+      }
+    },
+    {
+      "name": "qqbot-media",
+      "description": "QQBot 富媒体收发能力。使用 <qqmedia> 标签，系统根据文件扩展名自动识别类型（图片/语音/视频/文件）。",
+      "emoji": "📸",
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "source": "openclaw-extra",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.qqbot"
+        ],
+        "os": []
+      }
+    },
+    {
+      "name": "qqbot-remind",
+      "description": "QQBot 定时提醒。支持一次性和周期性提醒的创建、查询、取消。当通过 QQ 通道通信且涉及提醒/定时任务时使用。",
+      "emoji": "⏰",
+      "eligible": false,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "source": "openclaw-extra",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [
+          "channels.qqbot"
+        ],
+        "os": []
       }
     },
     {
