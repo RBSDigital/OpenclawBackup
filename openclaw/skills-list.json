@@ -217,7 +217,9 @@
           "pi"
         ],
         "env": [],
-        "config": [],
+        "config": [
+          "skills.entries.coding-agent.enabled"
+        ],
         "os": []
       }
     },
