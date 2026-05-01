@@ -1,5 +1,5 @@
 [Unit]
-Description=OpenClaw Gateway (v2026.4.26)
+Description=OpenClaw Gateway (v2026.4.27)
 After=network-online.target
 Wants=network-online.target
 StartLimitBurst=5
@@ -16,13 +16,13 @@ SuccessExitStatus=0 143
 KillMode=control-group
 Environment=HOME=/home/vin
 Environment=TMPDIR=/tmp
-Environment=PATH=/usr/bin:/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.volta/bin:/home/vin/.asdf/shims:/home/vin/.bun/bin:/home/vin/.nix-profile/bin:/home/vin/.nvm/current/bin:/home/vin/.local/share/fnm/aliases/default/bin:/home/vin/.local/share/fnm/current/bin:/home/vin/.fnm/aliases/default/bin:/home/vin/.fnm/current/bin:/home/vin/.local/share/pnpm:/usr/local/bin:/bin
+Environment=PATH=/usr/bin:/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.nix-profile/bin:/usr/local/bin:/bin:/home/vin/.volta/bin:/home/vin/.asdf/shims:/home/vin/.bun/bin:/home/vin/.nvm/current/bin:/home/vin/.local/share/fnm/aliases/default/bin:/home/vin/.local/share/fnm/current/bin:/home/vin/.fnm/aliases/default/bin:/home/vin/.fnm/current/bin:/home/vin/.local/share/pnpm
 Environment=OPENCLAW_GATEWAY_PORT=18789
 Environment=OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service
 Environment="OPENCLAW_WINDOWS_TASK_NAME=OpenClaw Gateway"
 Environment=OPENCLAW_SERVICE_MARKER=openclaw
 Environment=OPENCLAW_SERVICE_KIND=gateway
-Environment=OPENCLAW_SERVICE_VERSION=2026.4.26
+Environment=OPENCLAW_SERVICE_VERSION=2026.4.27
 
 [Install]
 WantedBy=default.target
