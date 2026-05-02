@@ -16,7 +16,7 @@ SuccessExitStatus=0 143
 KillMode=control-group
 Environment=HOME=/home/vin
 Environment=TMPDIR=/tmp
-Environment=PATH=/usr/bin:/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.nix-profile/bin:/usr/local/bin:/bin:/home/vin/.volta/bin:/home/vin/.asdf/shims:/home/vin/.bun/bin:/home/vin/.nvm/current/bin:/home/vin/.local/share/fnm/aliases/default/bin:/home/vin/.local/share/fnm/current/bin:/home/vin/.fnm/aliases/default/bin:/home/vin/.fnm/current/bin:/home/vin/.local/share/pnpm
+Environment=PATH=/usr/bin:/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.nix-profile/bin:/usr/local/bin:/bin
 Environment=OPENCLAW_GATEWAY_PORT=18789
 Environment=OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service
 Environment="OPENCLAW_WINDOWS_TASK_NAME=OpenClaw Gateway"

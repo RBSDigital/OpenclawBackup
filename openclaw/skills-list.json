@@ -148,22 +148,6 @@
       }
     },
     {
-      "name": "browser-automation",
-      "description": "Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.",
-      "eligible": true,
-      "disabled": false,
-      "blockedByAllowlist": false,
-      "source": "openclaw-extra",
-      "bundled": false,
-      "missing": {
-        "bins": [],
-        "anyBins": [],
-        "env": [],
-        "config": [],
-        "os": []
-      }
-    },
-    {
       "name": "camsnap",
       "description": "Capture frames or clips from RTSP/ONVIF cameras.",
       "emoji": "📸",

@@ -1,0 +1,1 @@
+/home/vin/ObsidianVaults/AdaKTVault/06_system/MEMORY.md
