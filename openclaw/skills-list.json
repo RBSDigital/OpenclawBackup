@@ -307,9 +307,7 @@
       "bundled": true,
       "homepage": "https://ai.google.dev/",
       "missing": {
-        "bins": [
-          "gemini"
-        ],
+        "bins": [],
         "anyBins": [],
         "env": [],
         "config": [],
