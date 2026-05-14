@@ -1,0 +1,10 @@
+[Unit]
+Description=Nightly QMD rebuild for AdaOC knowledgebase at 03:00 UTC
+
+[Timer]
+OnCalendar=*-*-* 03:00:00 UTC
+Persistent=true
+Unit=qmd-knowledgebase-index.service
+
+[Install]
+WantedBy=timers.target

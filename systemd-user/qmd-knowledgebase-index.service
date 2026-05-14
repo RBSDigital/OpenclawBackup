@@ -1,0 +1,13 @@
+[Unit]
+Description=QMD semantic index rebuild for AdaOC knowledgebase
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=/home/vin/.local/bin:/home/vin/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=VAULT_PATH=/home/vin/ObsidianVaults/AdaKTVault
+Environment=QMD_SOURCE=/home/vin/.cache/qmd/sources/AdaKTVault
+Environment=COLLECTION_NAME=ada_kt_vault
+Environment=INDEX_NAME=ada_kt_vault
+ExecStart=/usr/bin/env bash /home/vin/.openclaw/workspace/scripts/qmd-index-knowledgebase.sh

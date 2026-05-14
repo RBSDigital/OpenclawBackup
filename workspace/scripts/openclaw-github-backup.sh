@@ -2,6 +2,7 @@
 set -euo pipefail
 
 OPENCLAW_BIN="${OPENCLAW_BIN:-$HOME/.npm-global/bin/openclaw}"
+export OPENCLAW_CONFIG_PATH="${OPENCLAW_CONFIG_PATH:-$HOME/.openclaw/openclaw.json}"
 [ -x "$OPENCLAW_BIN" ] || OPENCLAW_BIN="$(command -v openclaw || true)"
 [ -x "$OPENCLAW_BIN" ] || { echo "ERROR: openclaw binary not found"; exit 127; }
 
@@ -59,30 +60,49 @@ rm -rf "$STAGING_DIR"/*
 mkdir -p "$STAGING_DIR"
 
 # Collect critical files
-mkdir -p "$STAGING_DIR/workspace" "$STAGING_DIR/systemd-user" "$STAGING_DIR/openclaw"
+mkdir -p "$STAGING_DIR/workspace" "$STAGING_DIR/systemd-user" "$STAGING_DIR/openclaw" "$STAGING_DIR/openclaw/agents-main" "$STAGING_DIR/openclaw/acpx" "$STAGING_DIR/openclaw/logs"
 rsync -a --delete --exclude '.git' /home/vin/.openclaw/workspace/ "$STAGING_DIR/workspace/" >>"$RUN_LOG" 2>&1 || fail "rsync workspace failed"
 cp -a ~/.config/systemd/user/openclaw* "$STAGING_DIR/systemd-user/" 2>/dev/null || true
+cp -a ~/.config/systemd/user/qmd-knowledgebase-index.* "$STAGING_DIR/systemd-user/" 2>/dev/null || true
+cp -a ~/.config/systemd/user/*.service.d "$STAGING_DIR/systemd-user/" 2>/dev/null || true
 cp -a ~/.openclaw/cron "$STAGING_DIR/openclaw/" 2>/dev/null || true
 cp -a ~/.openclaw/memory "$STAGING_DIR/openclaw/" 2>/dev/null || true
 cp -a ~/.openclaw/skills "$STAGING_DIR/openclaw/" 2>/dev/null || true
+cp -a ~/.openclaw/openclaw.json "$STAGING_DIR/openclaw/openclaw.json" 2>/dev/null || true
+cp -a ~/.openclaw/config.json "$STAGING_DIR/openclaw/config.json" 2>/dev/null || true
+cp -a ~/.openclaw/devices "$STAGING_DIR/openclaw/" 2>/dev/null || true
+cp -a ~/.openclaw/credentials "$STAGING_DIR/openclaw/" 2>/dev/null || true
+cp -a ~/.openclaw/agents/main/agent/models.json "$STAGING_DIR/openclaw/agents-main/" 2>/dev/null || true
+cp -a ~/.openclaw/agents/main/agent/auth-profiles.json "$STAGING_DIR/openclaw/agents-main/" 2>/dev/null || true
+cp -a ~/.openclaw/acpx/codex-home/config.toml "$STAGING_DIR/openclaw/acpx/" 2>/dev/null || true
+cp -a ~/.openclaw/logs/config-health.json "$STAGING_DIR/openclaw/logs/" 2>/dev/null || true
+tail -n 200 ~/.openclaw/logs/config-audit.jsonl > "$STAGING_DIR/openclaw/logs/config-audit-tail.jsonl" 2>/dev/null || true
 
 "$OPENCLAW_BIN" cron list --json > "$STAGING_DIR/openclaw/cron-list.json" 2>>"$RUN_LOG" || fail "openclaw cron list failed"
 "$OPENCLAW_BIN" skills list --json > "$STAGING_DIR/openclaw/skills-list.json" 2>>"$RUN_LOG" || fail "openclaw skills list failed"
+"$OPENCLAW_BIN" plugins list --json > "$STAGING_DIR/openclaw/plugins-list.json" 2>>"$RUN_LOG" || fail "openclaw plugins list failed"
+"$OPENCLAW_BIN" config validate --json > "$STAGING_DIR/openclaw/config-validate.json" 2>>"$RUN_LOG" || fail "openclaw config validate failed"
+"$OPENCLAW_BIN" health --json > "$STAGING_DIR/openclaw/health.json" 2>>"$RUN_LOG" || fail "openclaw health failed"
 
-# Redact secrets in all text files
-python3 - <<'PY' "$STAGING_DIR" >>"$RUN_LOG" 2>&1 || exit 90
+# Redact secrets in all text files, then fail closed if recognizable secrets remain.
+set +e
+python3 - <<'PY' "$STAGING_DIR" >>"$RUN_LOG" 2>&1
 import os,re,sys
 root=sys.argv[1]
 patterns=[
+ (re.compile(r'(sk-[A-Za-z0-9_\-]{20,})'),'[OPENAI_API_KEY]'),
  (re.compile(r'(AIza[0-9A-Za-z\-_]{20,})'),'[GOOGLE_API_KEY]'),
  (re.compile(r'(ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})'),'[GITHUB_TOKEN]'),
  (re.compile(r'(xox[baprs]-[A-Za-z0-9-]{10,})'),'[SLACK_TOKEN]'),
  (re.compile(r'([0-9]{8,10}:[A-Za-z0-9_-]{20,})'),'[TELEGRAM_BOT_TOKEN]'),
+ (re.compile(r'\b(mfa\.[A-Za-z0-9_-]{20,}|[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{5,}\.[A-Za-z0-9_-]{20,})\b'),'[DISCORD_BOT_TOKEN]'),
  (re.compile(r'(?i)(discord[^\n\r:=]{0,20}[=:]\s*)([A-Za-z0-9._-]{20,})'),r'\1[DISCORD_BOT_TOKEN]'),
- (re.compile(r'(?i)(token|api[_-]?key|secret|password|passphrase|client_secret|refresh_token|access_token)(\s*[=:]\s*)([^\s"\']+)'),r'\1\2[REDACTED_SECRET]'),
+ (re.compile(r'(?i)((?:token|api[_-]?key|secret|password|passphrase|client_secret|refresh_token|access_token|key)\s*[=:]\s*)(["\']?)([^\s,"\']+)(["\']?)'),r'\1\2[REDACTED_SECRET]\4'),
+ (re.compile(r'(?i)("(?:token|api[_-]?key|secret|password|passphrase|client_secret|refresh_token|access_token|key)"\s*:\s*")([^"]+)(")'),r'\1[REDACTED_SECRET]\3'),
  (re.compile(r'(https?://[^\s/]+:[^@\s]+@[^\s]+)'),'[REDACTED_PRIVATE_URL]'),
+ (re.compile(r'-----BEGIN (?:OPENSSH|RSA|EC|DSA) PRIVATE KEY-----.*?-----END (?:OPENSSH|RSA|EC|DSA) PRIVATE KEY-----', re.S),'[REDACTED_PRIVATE_KEY]'),
 ]
-text_ext={'.md','.txt','.json','.yaml','.yml','.env','.ini','.conf','.service','.timer','.sh','.py','.js','.ts','.toml','.cfg','.xml','.csv','.log'}
+text_ext={'.md','.txt','.json','.jsonl','.yaml','.yml','.env','.ini','.conf','.service','.timer','.sh','.py','.js','.ts','.toml','.cfg','.xml','.csv','.log'}
 redacted=0
 for dp,_,files in os.walk(root):
     for f in files:
@@ -103,8 +123,39 @@ for dp,_,files in os.walk(root):
             open(p,'w',encoding='utf-8').write(s)
             redacted+=1
 print(f"redacted_files={redacted}")
+
+suspect_patterns=[
+ ('OpenAI API key', re.compile(r'sk-[A-Za-z0-9_\-]{20,}')),
+ ('Google API key', re.compile(r'AIza[0-9A-Za-z\-_]{20,}')),
+ ('GitHub token', re.compile(r'ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,}')),
+ ('Telegram bot token', re.compile(r'[0-9]{8,10}:[A-Za-z0-9_-]{20,}')),
+ ('Discord bot token', re.compile(r'\b(?:mfa\.[A-Za-z0-9_-]{20,}|[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{5,}\.[A-Za-z0-9_-]{20,})\b')),
+ ('private key', re.compile(r'BEGIN (?:OPENSSH|RSA|EC|DSA) PRIVATE KEY')),
+]
+findings=[]
+for dp,_,files in os.walk(root):
+    for f in files:
+        p=os.path.join(dp,f)
+        if os.path.getsize(p)>2_000_000: continue
+        try:
+            s=open(p,encoding='utf-8',errors='ignore').read()
+        except Exception:
+            continue
+        for label,pat in suspect_patterns:
+            if pat.search(s):
+                findings.append(f"{label}: {os.path.relpath(p, root)}")
+                break
+if findings:
+    print('unredacted_secret_findings=' + '; '.join(findings[:20]))
+    raise SystemExit(91)
 PY
-if [ $? -eq 90 ]; then fail "secret scan/redaction failed"; fi
+redact_status=$?
+set -e
+case $redact_status in
+  0) ;;
+  91) fail "secret scan found unredacted secrets after redaction" ;;
+  *) fail "secret scan/redaction failed" ;;
+esac
 
 # Sync staging into repo (preserve git metadata)
 rsync -a --delete --exclude '.git' "$STAGING_DIR/" "$BACKUP_WORKDIR/" >>"$RUN_LOG" 2>&1 || fail "sync into backup repo failed"

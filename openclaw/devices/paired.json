@@ -1,0 +1,117 @@
+{
+  "edc539ccddf31a1690319e4ae23e0a9ce9cced095e7776dcc287b2b7c4c299fb": {
+    "deviceId": "edc539ccddf31a1690319e4ae23e0a9ce9cced095e7776dcc287b2b7c4c299fb",
+    "publicKey": "zw1qZKCTZbGZTCPtdk8iuygkB-YJjGoNiDxRx5qRY6U",
+    "platform": "linux",
+    "clientId": "cli",
+    "clientMode": "cli",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing",
+      "operator.talk.secrets"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "[REDACTED_SECRET]",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1772166640472,
+        "lastUsedAtMs": 1778705315857
+      }
+    },
+    "createdAtMs": 1772166640472,
+    "approvedAtMs": 1772166640472
+  },
+  "da51b3f4102cf2afb0f7495341f161162b9f26d7471fc372768c3ca044811e2e": {
+    "deviceId": "da51b3f4102cf2afb0f7495341f161162b9f26d7471fc372768c3ca044811e2e",
+    "publicKey": "3XzyXW3K64L_ZVPnoeC_BMN-wrxk37AWMRKkSNk93O4",
+    "platform": "MacIntel",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.admin",
+      "operator.read",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "[REDACTED_SECRET]",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing",
+          "operator.read",
+          "operator.write"
+        ],
+        "createdAtMs": 1774860031625
+      }
+    },
+    "createdAtMs": 1774860031625,
+    "approvedAtMs": 1774860031625
+  },
+  "49be1ad5a14621f07767a3f3661fb357415f0746467b545ce973c8e7a3f71648": {
+    "deviceId": "49be1ad5a14621f07767a3f3661fb357415f0746467b545ce973c8e7a3f71648",
+    "publicKey": "yFvlTXQhc6OIFRXFmoUFyEw1PJTQcZL4SjUVIZke2qg",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "[REDACTED_SECRET]",
+        "role": "operator",
+        "scopes": [
+          "operator.pairing"
+        ],
+        "createdAtMs": 1778685228962,
+        "lastUsedAtMs": 1778688228703
+      }
+    },
+    "createdAtMs": 1778685228962,
+    "approvedAtMs": 1778685228962,
+    "displayName": "gateway:channels.status"
+  }
+}

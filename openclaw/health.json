@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "ts": 1778749403810,
+  "durationMs": 144,
+  "eventLoop": {
+    "degraded": true,
+    "reasons": [
+      "event_loop_utilization",
+      "cpu"
+    ],
+    "intervalMs": 159,
+    "delayP99Ms": 0,
+    "delayMaxMs": 0,
+    "utilization": 0.978,
+    "cpuCoreRatio": 0.996
+  },
+  "plugins": {
+    "loaded": [
+      "browser",
+      "device-pair",
+      "file-transfer",
+      "memory-core",
+      "phone-control",
+      "talk-voice",
+      "telegram"
+    ],
+    "errors": []
+  },
+  "channels": {
+    "telegram": {
+      "accountId": "default",
+      "enabled": true,
+      "configured": true,
+      "running": true,
+      "lastStartAt": 1778748612692,
+      "lastStopAt": null,
+      "lastError": null,
+      "connected": true,
+      "restartPending": false,
+      "reconnectAttempts": 0,
+      "lastConnectedAt": 1778749377121,
+      "lastEventAt": 1778749377121,
+      "lastTransportActivityAt": 1778749377121,
+      "lastInboundAt": null,
+      "lastOutboundAt": null,
+      "tokenSource": "config",
+      "tokenStatus": "available",
+      "mode": "polling",
+      "allowUnmentionedGroups": false,
+      "lastProbeAt": 1778749403810,
+      "accounts": {
+        "default": {
+          "accountId": "default",
+          "enabled": true,
+          "configured": true,
+          "running": true,
+          "lastStartAt": 1778748612692,
+          "lastStopAt": null,
+          "lastError": null,
+          "connected": true,
+          "restartPending": false,
+          "reconnectAttempts": 0,
+          "lastConnectedAt": 1778749377121,
+          "lastEventAt": 1778749377121,
+          "lastTransportActivityAt": 1778749377121,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "tokenSource": "config",
+          "tokenStatus": "available",
+          "mode": "polling",
+          "allowUnmentionedGroups": false,
+          "lastProbeAt": 1778749403810
+        }
+      }
+    }
+  },
+  "channelOrder": [
+    "telegram"
+  ],
+  "channelLabels": {
+    "telegram": "Telegram"
+  },
+  "heartbeatSeconds": 1800,
+  "defaultAgentId": "main",
+  "agents": [
+    {
+      "agentId": "main",
+      "isDefault": true,
+      "heartbeat": {
+        "enabled": true,
+        "every": "30m",
+        "everyMs": 1800000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/main/sessions/sessions.json",
+        "count": 3,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778749237042,
+            "age": 166624
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778705458899,
+            "age": 43944767
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778691430592,
+            "age": 57973074
+          }
+        ]
+      }
+    }
+  ],
+  "sessions": {
+    "path": "/home/vin/.openclaw/agents/main/sessions/sessions.json",
+    "count": 3,
+    "recent": [
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778749237042,
+        "age": 166624
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778705458899,
+        "age": 43944767
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778691430592,
+        "age": 57973074
+      }
+    ]
+  }
+}

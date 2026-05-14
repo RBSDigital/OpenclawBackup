@@ -2,6 +2,7 @@
 set -uo pipefail
 
 OPENCLAW_BIN="${OPENCLAW_BIN:-$HOME/.npm-global/bin/openclaw}"
+export OPENCLAW_CONFIG_PATH="${OPENCLAW_CONFIG_PATH:-$HOME/.openclaw/openclaw.json}"
 if [ ! -x "$OPENCLAW_BIN" ]; then
   OPENCLAW_BIN="$(command -v openclaw 2>/dev/null || true)"
 fi
@@ -34,6 +35,55 @@ send_report() {
 
 suggestions_common=$'- Check gateway logs: openclaw logs --follow\n- Run diagnostics: openclaw doctor\n- Verify service: systemctl --user status openclaw-gateway.service'
 
+health_gate() {
+  local phase="$1"
+  local config_out health_out
+
+  if ! config_out="$("$OPENCLAW_BIN" config validate --json 2>&1)"; then
+    printf 'config validation command failed during %s\n%s\n' "$phase" "$config_out"
+    return 1
+  fi
+
+  if ! health_out="$("$OPENCLAW_BIN" health --json 2>&1)"; then
+    printf 'health command failed during %s\n%s\n' "$phase" "$health_out"
+    return 1
+  fi
+
+  CONFIG_OUT="$config_out" HEALTH_OUT="$health_out" node <<'NODE'
+const fs = require('fs');
+const cfgPath = process.env.OPENCLAW_CONFIG_PATH;
+let cfg, config, health;
+try {
+  cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));
+  config = JSON.parse(process.env.CONFIG_OUT || '{}');
+  health = JSON.parse(process.env.HEALTH_OUT || '{}');
+} catch (err) {
+  console.error(`health parse failed: ${err.message}`);
+  process.exit(1);
+}
+
+const errors = [];
+if (config.valid !== true) errors.push('config validate did not return valid=true');
+if (health.ok !== true) errors.push('health ok != true');
+if (health.plugins?.errors?.length) errors.push(`plugin errors: ${health.plugins.errors.length}`);
+for (const [channel, entry] of Object.entries(cfg.channels || {})) {
+  if (entry?.enabled !== true) continue;
+  const state = health.channels?.[channel];
+  if (!state) {
+    errors.push(`enabled channel missing from health: ${channel}`);
+    continue;
+  }
+  const accounts = state.accounts ? Object.values(state.accounts) : [state];
+  const anyRunning = accounts.some((account) => account?.running === true && account?.connected !== false && !account?.lastError);
+  if (!anyRunning) errors.push(`enabled channel not healthy: ${channel}`);
+}
+if (errors.length) {
+  console.error(errors.join('\n'));
+  process.exit(1);
+}
+NODE
+}
+
 log "Starting daily OpenClaw maintenance"
 BEFORE_VER="$("$OPENCLAW_BIN" --version 2>&1 || true)"
 log "Before version: $BEFORE_VER"
@@ -63,11 +113,12 @@ if [ "$UPDATE_MODE" = "openclaw-update" ]; then
 let s=""; process.stdin.on("data",d=>s+=d).on("end",()=>{
   try {
     const j=JSON.parse(s);
-    const actions=(j.actions||[]).join("; ");
+    const stepNames=(j.steps||[]).map(s=>s.name).filter(Boolean);
+    const actions=(j.actions||stepNames||[]).join("; ");
     const out=[
-      j.currentVersion||"unknown",
-      j.targetVersion||"unknown",
-      j.effectiveChannel||"unknown",
+      j.currentVersion||j.before?.version||"unknown",
+      j.targetVersion||j.after?.version||"unknown",
+      j.effectiveChannel||j.updateChannel||"unknown",
       actions||"none"
     ];
     console.log(out.join("\n"));
@@ -98,9 +149,9 @@ echo "$RESTART_OUT" >> "$RUN_LOG"
 AFTER_VER="$("$OPENCLAW_BIN" --version 2>&1 || true)"
 STATUS_LINE="$("$OPENCLAW_BIN" update status 2>&1 | head -n 5 | tr '\n' '; ' || true)"
 
-# Post-update health gate (catches broken module/link states)
+# Post-update health gate (catches broken module/link states and enabled channels that did not come back)
 HEALTH_OUT=""
-if ! HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; "$OPENCLAW_BIN" status 2>&1)"; then
+if ! HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; health_gate "post-update" 2>&1)"; then
   log "Health gate failed after update/restart. Attempting recovery reinstall."
 
   RECOVER_OUT=""
@@ -118,7 +169,7 @@ if ! HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; "$OPENCLAW_BIN" status 2>&1)"
   fi
 
   FINAL_HEALTH_OUT=""
-  if ! FINAL_HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; "$OPENCLAW_BIN" status 2>&1)"; then
+  if ! FINAL_HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; health_gate "post-recovery" 2>&1)"; then
     MSG="⚠️ OpenClaw maintenance failed after recovery (UTC $TS).\n\nPost-recovery health gate still failing.\n\nOutput:\n$FINAL_HEALTH_OUT\n\nSuggested fixes:\n$suggestions_common"
     send_report "$MSG"
     exit 5

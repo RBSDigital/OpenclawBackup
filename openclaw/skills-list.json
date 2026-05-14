@@ -176,6 +176,26 @@
       }
     },
     {
+      "name": "browser-automation",
+      "description": "Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": false,
+      "commandVisible": false,
+      "source": "openclaw-extra",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "camsnap",
       "description": "Capture frames or clips from RTSP/ONVIF cameras.",
       "emoji": "📸",
@@ -251,20 +271,22 @@
       "name": "discord",
       "description": "Discord ops via the message tool (channel=discord).",
       "emoji": "🎮",
-      "eligible": true,
-      "disabled": false,
+      "eligible": false,
+      "disabled": true,
       "blockedByAllowlist": false,
       "blockedByAgentFilter": false,
-      "modelVisible": true,
+      "modelVisible": false,
       "userInvocable": true,
-      "commandVisible": true,
+      "commandVisible": false,
       "source": "openclaw-bundled",
       "bundled": true,
       "missing": {
         "bins": [],
         "anyBins": [],
         "env": [],
-        "config": [],
+        "config": [
+          "channels.discord.token"
+        ],
         "os": []
       }
     },
@@ -296,13 +318,13 @@
       "name": "gemini",
       "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
       "emoji": "✨",
-      "eligible": false,
-      "disabled": true,
+      "eligible": true,
+      "disabled": false,
       "blockedByAllowlist": false,
       "blockedByAgentFilter": false,
-      "modelVisible": false,
+      "modelVisible": true,
       "userInvocable": true,
-      "commandVisible": false,
+      "commandVisible": true,
       "source": "openclaw-bundled",
       "bundled": true,
       "homepage": "https://ai.google.dev/",
