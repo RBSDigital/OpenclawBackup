@@ -1,5 +1,5 @@
 {
-  "workspaceDir": "/home/vin/.openclaw/workspace",
+  "workspaceDir": "/home/vin/.openclaw/workspaces/manager-bot",
   "managedSkillsDir": "/home/vin/.openclaw/skills",
   "skills": [
     {
@@ -153,29 +153,6 @@
       }
     },
     {
-      "name": "bluebubbles",
-      "description": "Send and manage iMessages via BlueBubbles, including attachments, tapbacks, edits, replies, and groups.",
-      "emoji": "🫧",
-      "eligible": false,
-      "disabled": true,
-      "blockedByAllowlist": false,
-      "blockedByAgentFilter": false,
-      "modelVisible": false,
-      "userInvocable": true,
-      "commandVisible": false,
-      "source": "openclaw-bundled",
-      "bundled": true,
-      "missing": {
-        "bins": [],
-        "anyBins": [],
-        "env": [],
-        "config": [
-          "channels.bluebubbles"
-        ],
-        "os": []
-      }
-    },
-    {
       "name": "browser-automation",
       "description": "Use when controlling web pages with the OpenClaw browser tool, especially multi-step flows, login checks, tab management, or recovery from stale refs/timeouts.",
       "eligible": true,
@@ -284,9 +261,7 @@
         "bins": [],
         "anyBins": [],
         "env": [],
-        "config": [
-          "channels.discord.token"
-        ],
+        "config": [],
         "os": []
       }
     },

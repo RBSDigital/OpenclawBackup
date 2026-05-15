@@ -17,20 +17,37 @@
       "workspace": "/home/vin/.openclaw/workspace",
       "models": {
         "openai/gpt-5.5": {
-          "alias": "GPT"
-        },
-        "openai-codex/gpt-5.5": {}
+          "alias": "GPT",
+          "agentRuntime": {
+            "id": "codex"
+          }
+        }
       },
       "model": {
         "primary": "openai/gpt-5.5",
         "fallbacks": [
-          "openai-codex/gpt-5.5"
+          "openai/gpt-5.5"
         ]
-      },
-      "agentRuntime": {
-        "id": "pi"
       }
-    }
+    },
+    "list": [
+      {
+        "id": "manager-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/manager-bot"
+      },
+      {
+        "id": "researcher-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/researcher-bot"
+      },
+      {
+        "id": "ops-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/ops-bot"
+      },
+      {
+        "id": "admin-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/admin-bot"
+      }
+    ]
   },
   "gateway": {
     "port": 18789,
@@ -70,6 +87,9 @@
       },
       "telegram": {
         "enabled": true
+      },
+      "discord": {
+        "enabled": true
       }
     }
   },
@@ -80,14 +100,14 @@
     "profile": "coding"
   },
   "wizard": {
-    "lastRunAt": "2026-05-14T08:20:30.161Z",
-    "lastRunVersion": "2026.5.7",
-    "lastRunCommand": "configure",
+    "lastRunAt": "2026-05-15T04:01:51.328Z",
+    "lastRunVersion": "2026.5.12",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.5.7",
-    "lastTouchedAt": "2026-05-14T08:20:30.266Z"
+    "lastTouchedVersion": "2026.5.12",
+    "lastTouchedAt": "2026-05-15T04:02:07.527Z"
   },
   "skills": {
     "entries": {
@@ -216,11 +236,103 @@
         }
       },
       "botToken": "[TELEGRAM_BOT_TOKEN]"
+    },
+    "discord": {
+      "enabled": true,
+      "token": "[REDACTED_SECRET]",
+      "groupPolicy": "allowlist",
+      "allowFrom": [
+        "1057573629275148369",
+        "1504151367164498050",
+        "1504151368343228636",
+        "1504151369261514856",
+        "1504151371195220160"
+      ],
+      "guilds": {
+        "1485914371766091809": {
+          "requireMention": false,
+          "users": [
+            "1057573629275148369"
+          ],
+          "channels": {
+            "1504151367164498050": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1504151368343228636": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1504151369261514856": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1504151371195220160": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            }
+          }
+        }
+      }
     }
   },
   "messages": {
     "groupChat": {
       "visibleReplies": "message_tool"
     }
-  }
+  },
+  "bindings": [
+    {
+      "agentId": "manager-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151367164498050"
+        }
+      }
+    },
+    {
+      "agentId": "researcher-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151368343228636"
+        }
+      }
+    },
+    {
+      "agentId": "ops-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151369261514856"
+        }
+      }
+    },
+    {
+      "agentId": "admin-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151371195220160"
+        }
+      }
+    }
+  ]
 }

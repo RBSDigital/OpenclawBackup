@@ -1,23 +1,23 @@
 {
   "ok": true,
-  "ts": 1778749403810,
-  "durationMs": 144,
+  "ts": 1778819422411,
+  "durationMs": 1405,
   "eventLoop": {
-    "degraded": true,
-    "reasons": [
-      "event_loop_utilization",
-      "cpu"
-    ],
-    "intervalMs": 159,
-    "delayP99Ms": 0,
-    "delayMaxMs": 0,
-    "utilization": 0.978,
-    "cpuCoreRatio": 0.996
+    "degraded": false,
+    "reasons": [],
+    "intervalMs": 8110,
+    "delayP99Ms": 24.1,
+    "delayMaxMs": 609.7,
+    "utilization": 0.09,
+    "cpuCoreRatio": 0.138
   },
   "plugins": {
     "loaded": [
       "browser",
+      "canvas",
+      "codex",
       "device-pair",
+      "discord",
       "file-transfer",
       "memory-core",
       "phone-control",
@@ -26,65 +26,141 @@
     ],
     "errors": []
   },
+  "modelPricing": {
+    "state": "ok",
+    "sources": []
+  },
   "channels": {
-    "telegram": {
+    "discord": {
       "accountId": "default",
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1778748612692,
+      "lastStartAt": 1778817795218,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1778749377121,
-      "lastEventAt": 1778749377121,
-      "lastTransportActivityAt": 1778749377121,
+      "lastConnectedAt": 1778817798224,
+      "lastEventAt": 1778817798224,
+      "lastTransportActivityAt": 1778819390829,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
-      "mode": "polling",
-      "allowUnmentionedGroups": false,
-      "lastProbeAt": 1778749403810,
+      "lastDisconnect": null,
+      "application": {
+        "id": "1486337968208875581",
+        "flags": 8953856,
+        "intents": {
+          "presence": "limited",
+          "guildMembers": "limited",
+          "messageContent": "limited"
+        }
+      },
+      "bot": {
+        "id": "1486337968208875581",
+        "username": "OpenClaw agent_Ada001"
+      },
+      "lastProbeAt": 1778819422396,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1778748612692,
+          "lastStartAt": 1778817795218,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1778749377121,
-          "lastEventAt": 1778749377121,
-          "lastTransportActivityAt": 1778749377121,
+          "lastConnectedAt": 1778817798224,
+          "lastEventAt": 1778817798224,
+          "lastTransportActivityAt": 1778819390829,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "tokenSource": "config",
+          "tokenStatus": "available",
+          "lastDisconnect": null,
+          "application": {
+            "id": "1486337968208875581",
+            "flags": 8953856,
+            "intents": {
+              "presence": "limited",
+              "guildMembers": "limited",
+              "messageContent": "limited"
+            }
+          },
+          "bot": {
+            "id": "1486337968208875581",
+            "username": "OpenClaw agent_Ada001"
+          },
+          "lastProbeAt": 1778819422396
+        }
+      }
+    },
+    "telegram": {
+      "accountId": "default",
+      "enabled": true,
+      "configured": true,
+      "running": true,
+      "lastStartAt": 1778817795218,
+      "lastStopAt": null,
+      "lastError": null,
+      "connected": true,
+      "restartPending": false,
+      "reconnectAttempts": 0,
+      "lastConnectedAt": 1778819402272,
+      "lastEventAt": 1778819402272,
+      "lastTransportActivityAt": 1778819402272,
+      "lastInboundAt": null,
+      "lastOutboundAt": null,
+      "tokenSource": "config",
+      "tokenStatus": "available",
+      "mode": "polling",
+      "allowUnmentionedGroups": false,
+      "lastProbeAt": 1778819422411,
+      "accounts": {
+        "default": {
+          "accountId": "default",
+          "enabled": true,
+          "configured": true,
+          "running": true,
+          "lastStartAt": 1778817795218,
+          "lastStopAt": null,
+          "lastError": null,
+          "connected": true,
+          "restartPending": false,
+          "reconnectAttempts": 0,
+          "lastConnectedAt": 1778819402272,
+          "lastEventAt": 1778819402272,
+          "lastTransportActivityAt": 1778819402272,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
-          "lastProbeAt": 1778749403810
+          "lastProbeAt": 1778819422411
         }
       }
     }
   },
   "channelOrder": [
+    "discord",
     "telegram"
   ],
   "channelLabels": {
+    "discord": "Discord",
     "telegram": "Telegram"
   },
   "heartbeatSeconds": 1800,
-  "defaultAgentId": "main",
+  "defaultAgentId": "manager-bot",
   "agents": [
     {
-      "agentId": "main",
+      "agentId": "manager-bot",
       "isDefault": true,
       "heartbeat": {
         "enabled": true,
@@ -95,46 +171,113 @@
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/main/sessions/sessions.json",
-        "count": 3,
+        "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
+        "count": 4,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778749237042,
-            "age": 166624
+            "updatedAt": 1778818383653,
+            "age": 1037352
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778705458899,
-            "age": 43944767
+            "updatedAt": 1778817704907,
+            "age": 1716098
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778691430592,
-            "age": 57973074
+            "updatedAt": 1778817704907,
+            "age": 1716098
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778817704907,
+            "age": 1716098
           }
         ]
+      }
+    },
+    {
+      "agentId": "researcher-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/researcher-bot/sessions/sessions.json",
+        "count": 0,
+        "recent": []
+      }
+    },
+    {
+      "agentId": "ops-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/ops-bot/sessions/sessions.json",
+        "count": 1,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778817704909,
+            "age": 1716096
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "admin-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/admin-bot/sessions/sessions.json",
+        "count": 0,
+        "recent": []
       }
     }
   ],
   "sessions": {
-    "path": "/home/vin/.openclaw/agents/main/sessions/sessions.json",
-    "count": 3,
+    "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
+    "count": 4,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778749237042,
-        "age": 166624
+        "updatedAt": 1778818383653,
+        "age": 1037352
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778705458899,
-        "age": 43944767
+        "updatedAt": 1778817704907,
+        "age": 1716098
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778691430592,
-        "age": 57973074
+        "updatedAt": 1778817704907,
+        "age": 1716098
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778817704907,
+        "age": 1716098
       }
     ]
   }

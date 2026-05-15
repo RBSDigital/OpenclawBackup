@@ -4,12 +4,15 @@
     "openai-codex:default": {
       "type": "oauth",
       "provider": "openai-codex",
-      "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_7hHBLV400MMCWH36sRfc1KXc2hxMEg3r0GCvFsjsDAo.knbSUIs_KdQdMC4EGvXaDiggVe6AWN3JpO3rlbTlO8Q",
       "expires": 1779013269657,
       "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
       "email": "vincentreynolds1@gmail.com",
-      "chatgptPlanType": "plus"
+      "chatgptPlanType": "plus",
+      "oauthRef": {
+        "source": "openclaw-credentials",
+        "provider": "openai-codex",
+        "id": "d41e727f5af97bd133bb2b0b8cbd8394"
+      }
     },
     "openai:default": {
       "type": "api_key",
@@ -19,12 +22,15 @@
     "openai-codex:vincentreynolds1@gmail.com": {
       "type": "oauth",
       "provider": "openai-codex",
-      "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_NFkHJ24NFdovzR7uwcI7R6TtlsR6tIoYIo3w_iHonNs.U06q-MbZMmxKdxXpzZkvvPLMGC6dmTXvIlxnJ1xI7s0",
       "expires": 1779610775865,
       "email": "vincentreynolds1@gmail.com",
       "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
-      "chatgptPlanType": "plus"
+      "chatgptPlanType": "plus",
+      "oauthRef": {
+        "source": "openclaw-credentials",
+        "provider": "openai-codex",
+        "id": "aaf9109492420317a705b1003c51f69f"
+      }
     },
     "google:default": {
       "type": "api_key",
