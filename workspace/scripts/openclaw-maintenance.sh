@@ -34,6 +34,8 @@ send_report() {
 }
 
 suggestions_common=$'- Check gateway logs: openclaw logs --follow\n- Run diagnostics: openclaw doctor\n- Verify service: systemctl --user status openclaw-gateway.service'
+HEALTH_TIMEOUT_SECONDS="${HEALTH_TIMEOUT_SECONDS:-180}"
+HEALTH_RETRY_SECONDS="${HEALTH_RETRY_SECONDS:-10}"
 
 health_gate() {
   local phase="$1"
@@ -82,6 +84,33 @@ if (errors.length) {
   process.exit(1);
 }
 NODE
+}
+
+wait_for_health_gate() {
+  local phase="$1"
+  local deadline attempt out
+
+  deadline=$(( $(date +%s) + HEALTH_TIMEOUT_SECONDS ))
+  attempt=1
+
+  while true; do
+    if out="$("$OPENCLAW_BIN" --version 2>&1; health_gate "$phase" 2>&1)"; then
+      if [ "$attempt" -gt 1 ]; then
+        log "Health gate passed during $phase after $attempt attempts."
+      fi
+      printf '%s\n' "$out"
+      return 0
+    fi
+
+    if [ "$(date +%s)" -ge "$deadline" ]; then
+      printf '%s\n' "$out"
+      return 1
+    fi
+
+    log "Health gate not ready during $phase (attempt $attempt); retrying in ${HEALTH_RETRY_SECONDS}s."
+    sleep "$HEALTH_RETRY_SECONDS"
+    attempt=$((attempt + 1))
+  done
 }
 
 log "Starting daily OpenClaw maintenance"
@@ -151,7 +180,7 @@ STATUS_LINE="$("$OPENCLAW_BIN" update status 2>&1 | head -n 5 | tr '\n' '; ' || 
 
 # Post-update health gate (catches broken module/link states and enabled channels that did not come back)
 HEALTH_OUT=""
-if ! HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; health_gate "post-update" 2>&1)"; then
+if ! HEALTH_OUT="$(wait_for_health_gate "post-update" 2>&1)"; then
   log "Health gate failed after update/restart. Attempting recovery reinstall."
 
   RECOVER_OUT=""
@@ -169,7 +198,7 @@ if ! HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; health_gate "post-update" 2>&
   fi
 
   FINAL_HEALTH_OUT=""
-  if ! FINAL_HEALTH_OUT="$("$OPENCLAW_BIN" --version 2>&1; health_gate "post-recovery" 2>&1)"; then
+  if ! FINAL_HEALTH_OUT="$(wait_for_health_gate "post-recovery" 2>&1)"; then
     MSG="⚠️ OpenClaw maintenance failed after recovery (UTC $TS).\n\nPost-recovery health gate still failing.\n\nOutput:\n$FINAL_HEALTH_OUT\n\nSuggested fixes:\n$suggestions_common"
     send_report "$MSG"
     exit 5
