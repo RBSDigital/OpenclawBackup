@@ -46,6 +46,10 @@
       {
         "id": "admin-bot",
         "workspace": "/home/vin/.openclaw/workspaces/admin-bot"
+      },
+      {
+        "id": "modeler-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/modeler-bot"
       }
     ]
   },
@@ -246,7 +250,8 @@
         "1504151367164498050",
         "1504151368343228636",
         "1504151369261514856",
-        "1504151371195220160"
+        "1504151371195220160",
+        "1505085743414902819"
       ],
       "guilds": {
         "1485914371766091809": {
@@ -274,6 +279,12 @@
               ]
             },
             "1504151371195220160": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1505085743414902819": {
               "requireMention": false,
               "users": [
                 "1057573629275148369"
@@ -331,6 +342,17 @@
         "peer": {
           "kind": "channel",
           "id": "1504151371195220160"
+        }
+      }
+    },
+    {
+      "agentId": "modeler-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1505085743414902819"
         }
       }
     }

@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "ts": 1778905821155,
-  "durationMs": 424,
+  "ts": 1778992221514,
+  "durationMs": 812,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 8081,
-    "delayP99Ms": 25,
-    "delayMaxMs": 26.7,
-    "utilization": 0.019,
-    "cpuCoreRatio": 0.021
+    "intervalMs": 8574,
+    "delayP99Ms": 25.7,
+    "delayMaxMs": 28,
+    "utilization": 0.062,
+    "cpuCoreRatio": 0.088
   },
   "plugins": {
     "loaded": [
@@ -36,15 +36,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1778904130217,
+      "lastStartAt": 1778990538074,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1778904768561,
-      "lastEventAt": 1778904768561,
-      "lastTransportActivityAt": 1778905790722,
+      "lastConnectedAt": 1778991169012,
+      "lastEventAt": 1778991169012,
+      "lastTransportActivityAt": 1778992214700,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -63,22 +63,22 @@
         "id": "1486337968208875581",
         "username": "OpenClaw agent_Ada001"
       },
-      "lastProbeAt": 1778905821138,
+      "lastProbeAt": 1778992221161,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1778904130217,
+          "lastStartAt": 1778990538074,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1778904768561,
-          "lastEventAt": 1778904768561,
-          "lastTransportActivityAt": 1778905790722,
+          "lastConnectedAt": 1778991169012,
+          "lastEventAt": 1778991169012,
+          "lastTransportActivityAt": 1778992214700,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -97,7 +97,7 @@
             "id": "1486337968208875581",
             "username": "OpenClaw agent_Ada001"
           },
-          "lastProbeAt": 1778905821138
+          "lastProbeAt": 1778992221161
         }
       }
     },
@@ -106,44 +106,44 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1778904130217,
+      "lastStartAt": 1778990538074,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1778905800223,
-      "lastEventAt": 1778905800223,
-      "lastTransportActivityAt": 1778905800223,
+      "lastConnectedAt": 1778992205856,
+      "lastEventAt": 1778992205856,
+      "lastTransportActivityAt": 1778992205856,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
       "mode": "polling",
       "allowUnmentionedGroups": false,
-      "lastProbeAt": 1778905821154,
+      "lastProbeAt": 1778992221514,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1778904130217,
+          "lastStartAt": 1778990538074,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1778905800223,
-          "lastEventAt": 1778905800223,
-          "lastTransportActivityAt": 1778905800223,
+          "lastConnectedAt": 1778992205856,
+          "lastEventAt": 1778992205856,
+          "lastTransportActivityAt": 1778992205856,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
-          "lastProbeAt": 1778905821154
+          "lastProbeAt": 1778992221514
         }
       }
     }
@@ -172,27 +172,32 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-        "count": 4,
+        "count": 5,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778904794419,
-            "age": 1026312
+            "updatedAt": 1778991197327,
+            "age": 1023375
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778927043087,
+            "age": 65177615
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1778911004657,
+            "age": 81216045
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778878476813,
-            "age": 27343918
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778865743098,
-            "age": 40077633
+            "age": 113743889
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704907,
-            "age": 88115824
+            "age": 174515795
           }
         ]
       }
@@ -232,7 +237,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 88115822
+            "age": 174515793
           }
         ]
       }
@@ -253,31 +258,53 @@
         "count": 0,
         "recent": []
       }
+    },
+    {
+      "agentId": "modeler-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/modeler-bot/sessions/sessions.json",
+        "count": 0,
+        "recent": []
+      }
     }
   ],
   "sessions": {
     "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-    "count": 4,
+    "count": 5,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778904794419,
-        "age": 1026312
+        "updatedAt": 1778991197327,
+        "age": 1023375
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778927043087,
+        "age": 65177615
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1778911004657,
+        "age": 81216045
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778878476813,
-        "age": 27343918
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778865743098,
-        "age": 40077633
+        "age": 113743889
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778817704907,
-        "age": 88115824
+        "age": 174515795
       }
     ]
   }
