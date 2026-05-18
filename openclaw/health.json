@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "ts": 1778992221514,
-  "durationMs": 812,
+  "ts": 1779078621583,
+  "durationMs": 772,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 8574,
-    "delayP99Ms": 25.7,
-    "delayMaxMs": 28,
-    "utilization": 0.062,
-    "cpuCoreRatio": 0.088
+    "intervalMs": 7986,
+    "delayP99Ms": 23.8,
+    "delayMaxMs": 28.9,
+    "utilization": 0.02,
+    "cpuCoreRatio": 0.023
   },
   "plugins": {
     "loaded": [
@@ -36,15 +36,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1778990538074,
+      "lastStartAt": 1779076942182,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1778991169012,
-      "lastEventAt": 1778991169012,
-      "lastTransportActivityAt": 1778992214700,
+      "lastConnectedAt": 1779076946296,
+      "lastEventAt": 1779076946296,
+      "lastTransportActivityAt": 1779078603702,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -63,22 +63,22 @@
         "id": "1486337968208875581",
         "username": "OpenClaw agent_Ada001"
       },
-      "lastProbeAt": 1778992221161,
+      "lastProbeAt": 1779078621223,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1778990538074,
+          "lastStartAt": 1779076942182,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1778991169012,
-          "lastEventAt": 1778991169012,
-          "lastTransportActivityAt": 1778992214700,
+          "lastConnectedAt": 1779076946296,
+          "lastEventAt": 1779076946296,
+          "lastTransportActivityAt": 1779078603702,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -97,7 +97,7 @@
             "id": "1486337968208875581",
             "username": "OpenClaw agent_Ada001"
           },
-          "lastProbeAt": 1778992221161
+          "lastProbeAt": 1779078621223
         }
       }
     },
@@ -106,44 +106,44 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1778990538074,
+      "lastStartAt": 1779076942182,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1778992205856,
-      "lastEventAt": 1778992205856,
-      "lastTransportActivityAt": 1778992205856,
+      "lastConnectedAt": 1779078609336,
+      "lastEventAt": 1779078609336,
+      "lastTransportActivityAt": 1779078609336,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
       "mode": "polling",
       "allowUnmentionedGroups": false,
-      "lastProbeAt": 1778992221514,
+      "lastProbeAt": 1779078621583,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1778990538074,
+          "lastStartAt": 1779076942182,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1778992205856,
-          "lastEventAt": 1778992205856,
-          "lastTransportActivityAt": 1778992205856,
+          "lastConnectedAt": 1779078609336,
+          "lastEventAt": 1779078609336,
+          "lastTransportActivityAt": 1779078609336,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
-          "lastProbeAt": 1778992221514
+          "lastProbeAt": 1779078621583
         }
       }
     }
@@ -176,28 +176,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778991197327,
-            "age": 1023375
+            "updatedAt": 1779077599416,
+            "age": 1021395
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778927043087,
-            "age": 65177615
+            "age": 151577724
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778911004657,
-            "age": 81216045
+            "age": 167616154
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778878476813,
-            "age": 113743889
+            "age": 200143998
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704907,
-            "age": 174515795
+            "age": 260915904
           }
         ]
       }
@@ -237,7 +237,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 174515793
+            "age": 260915902
           }
         ]
       }
@@ -283,28 +283,28 @@
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778991197327,
-        "age": 1023375
+        "updatedAt": 1779077599416,
+        "age": 1021395
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778927043087,
-        "age": 65177615
+        "age": 151577724
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778911004657,
-        "age": 81216045
+        "age": 167616154
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778878476813,
-        "age": 113743889
+        "age": 200143998
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778817704907,
-        "age": 174515795
+        "age": 260915904
       }
     ]
   }

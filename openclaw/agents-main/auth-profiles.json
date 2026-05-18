@@ -4,7 +4,7 @@
     "openai-codex:default": {
       "type": "oauth",
       "provider": "openai-codex",
-      "expires": 1779013269657,
+      "expires": 1779940896225,
       "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
       "email": "vincentreynolds1@gmail.com",
       "chatgptPlanType": "plus",
