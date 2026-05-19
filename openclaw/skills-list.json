@@ -197,6 +197,27 @@
       }
     },
     {
+      "name": "canvas",
+      "description": "Present HTML on connected OpenClaw node canvases, navigate/eval/snapshot, and debug canvas host URLs.",
+      "emoji": "🖼️",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "clawhub",
       "description": "Search, install, update, sync, or publish agent skills with the ClawHub CLI and registry.",
       "eligible": true,
@@ -218,7 +239,7 @@
     },
     {
       "name": "coding-agent",
-      "description": "Delegate coding tasks to Codex, Claude Code, OpenCode, or Pi agents via immediate background processes. Use when: (1) building or creating features/apps, (2) reviewing PRs in a temp clone/worktree, (3) refactoring large codebases, (4) iterative coding that needs file exploration. NOT for: simple one-line fixes (just edit), reading code (use read tool), thread-bound ACP harness requests in chat (use sessions_spawn with runtime:\"acp\"), or any work in ~/clawd workspace (never spawn agents here). All coding-agent runs start with background:true immediately. Claude Code: use --print --permission-mode bypassPermissions (no PTY). Codex/Pi/OpenCode: pty:true required. Completion notification must use openclaw message send, not system event/heartbeat.",
+      "description": "Delegate coding work to Codex, Claude Code, OpenCode, or Pi as background workers; not simple edits or read-only code lookup.",
       "emoji": "🧩",
       "eligible": false,
       "disabled": true,
@@ -245,8 +266,29 @@
       }
     },
     {
+      "name": "diagram-maker",
+      "description": "Create SVG/HTML or Excalidraw diagrams for concepts, architecture, flows, and whiteboards.",
+      "emoji": "🧭",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "discord",
-      "description": "Discord ops via the message tool (channel=discord).",
+      "description": "Discord message-tool ops: send/read/edit/delete, react, poll, pin, thread, search, presence, media/components.",
       "emoji": "🎮",
       "eligible": false,
       "disabled": true,
@@ -291,7 +333,7 @@
     },
     {
       "name": "gemini",
-      "description": "Gemini CLI for one-shot Q&A, summaries, and generation.",
+      "description": "Gemini CLI one-shot prompts, summaries, generation, skills, hooks, MCP, or Gemma routing.",
       "emoji": "✨",
       "eligible": true,
       "disabled": false,
@@ -313,7 +355,7 @@
     },
     {
       "name": "gh-issues",
-      "description": "Fetch GitHub issues, delegate fixes to subagents, open PRs, watch reviews, or run /gh-issues workflows.",
+      "description": "Fetch GitHub issues, select candidates, spawn background fix agents, open PRs, and optionally process PR review comments.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -358,7 +400,7 @@
     },
     {
       "name": "github",
-      "description": "Use gh for GitHub issues, PR status, CI/logs, comments, reviews, releases, and API queries.",
+      "description": "GitHub CLI for issues, PRs, CI/check logs, comments, reviews, releases, repos, and gh api queries.",
       "emoji": "🐙",
       "eligible": true,
       "disabled": false,
@@ -428,7 +470,7 @@
     },
     {
       "name": "healthcheck",
-      "description": "Audit and harden hosts running OpenClaw for SSH, firewall, updates, exposure, cron checks, and risk posture.",
+      "description": "Audit/harden OpenClaw hosts: SSH, firewall, updates, exposure, backups, disk encryption, gateway security.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -448,7 +490,7 @@
     },
     {
       "name": "himalaya",
-      "description": "Use himalaya to list, read, search, compose, reply, forward, and organize IMAP/SMTP email.",
+      "description": "Himalaya CLI for IMAP/SMTP mail: list, read, search, compose, reply, forward, copy, move, delete.",
       "emoji": "📧",
       "eligible": false,
       "disabled": true,
@@ -510,6 +552,27 @@
       "source": "openclaw-bundled",
       "bundled": true,
       "homepage": "http://mcporter.dev",
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "meme-maker",
+      "description": "Search meme templates, suggest formats, and generate local or hosted image memes.",
+      "emoji": "🖼️",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
       "missing": {
         "bins": [],
         "anyBins": [],
@@ -588,8 +651,29 @@
       }
     },
     {
+      "name": "node-inspect-debugger",
+      "description": "Debug Node.js with node inspect, --inspect, breakpoints, CDP, heap, and CPU profiles.",
+      "emoji": "🪲",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "notion",
-      "description": "Notion API for creating and managing pages, databases, and blocks.",
+      "description": "Notion CLI/API for pages, Markdown content, data sources, files, comments, search, Workers, and raw API calls.",
       "emoji": "📝",
       "eligible": false,
       "disabled": true,
@@ -600,21 +684,19 @@
       "commandVisible": false,
       "source": "openclaw-bundled",
       "bundled": true,
-      "primaryEnv": "NOTION_API_KEY",
-      "homepage": "https://developers.notion.com",
+      "primaryEnv": "NOTION_API_TOKEN",
+      "homepage": "https://developers.notion.com/cli/get-started/overview",
       "missing": {
         "bins": [],
         "anyBins": [],
-        "env": [
-          "NOTION_API_KEY"
-        ],
+        "env": [],
         "config": [],
         "os": []
       }
     },
     {
       "name": "obsidian",
-      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli.",
+      "description": "Work with Obsidian vaults using the official obsidian CLI: read/search/create/edit notes, tasks, links, properties, plugins.",
       "emoji": "💎",
       "eligible": false,
       "disabled": true,
@@ -625,10 +707,10 @@
       "commandVisible": false,
       "source": "openclaw-bundled",
       "bundled": true,
-      "homepage": "https://help.obsidian.md",
+      "homepage": "https://obsidian.md/cli",
       "missing": {
         "bins": [
-          "obsidian-cli"
+          "obsidian"
         ],
         "anyBins": [],
         "env": [],
@@ -662,7 +744,7 @@
     },
     {
       "name": "openai-whisper-api",
-      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
+      "description": "OpenAI Audio Transcriptions API via curl; gpt-4o-transcribe, mini, diarize, or whisper-1.",
       "emoji": "🌐",
       "eligible": false,
       "disabled": true,
@@ -711,7 +793,7 @@
     },
     {
       "name": "oracle",
-      "description": "Use oracle CLI to bundle prompts and files for second-model debugging, refactor, design, or review checks.",
+      "description": "Oracle CLI second-model review/debug/refactor/design with selected files, dry-run token checks, API or browser engine.",
       "emoji": "🧿",
       "eligible": true,
       "disabled": false,
@@ -779,6 +861,26 @@
         "os": [
           "darwin"
         ]
+      }
+    },
+    {
+      "name": "python-debugpy",
+      "description": "Debug Python with pdb, breakpoint(), post-mortem inspection, and debugpy remote attach.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
       }
     },
     {
@@ -857,7 +959,7 @@
     },
     {
       "name": "skill-creator",
-      "description": "Create, edit, improve, tidy, review, audit, or restructure AgentSkills and SKILL.md files.",
+      "description": "Create, edit, audit, tidy, validate, or restructure AgentSkills and SKILL.md files.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -877,7 +979,7 @@
     },
     {
       "name": "slack",
-      "description": "Use the Slack tool to react, pin/unpin, send, edit, delete messages, or fetch Slack member info.",
+      "description": "Slack tool actions: send/read/edit/delete messages, react, pin/unpin, list pins/reactions/emoji, member info.",
       "emoji": "💬",
       "eligible": false,
       "disabled": true,
@@ -940,6 +1042,27 @@
         "bins": [
           "sonos"
         ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "spike",
+      "description": "Run throwaway prototypes to validate feasibility, compare approaches, and report a verdict.",
+      "emoji": "🧪",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-bundled",
+      "bundled": true,
+      "missing": {
+        "bins": [],
         "anyBins": [],
         "env": [],
         "config": [],
@@ -1065,7 +1188,7 @@
     },
     {
       "name": "tmux",
-      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "description": "Control tmux sessions/panes for interactive CLIs: list, capture output, send keys, paste text, monitor prompts.",
       "emoji": "🧵",
       "eligible": true,
       "disabled": false,
@@ -1182,7 +1305,7 @@
     },
     {
       "name": "weather",
-      "description": "Get current weather, rain, temperature, and forecasts for locations or travel planning.",
+      "description": "Current weather and forecasts with wttr.in via curl for locations, rain, temperature, travel planning.",
       "emoji": "☔",
       "eligible": true,
       "disabled": false,
@@ -1204,7 +1327,7 @@
     },
     {
       "name": "xurl",
-      "description": "Use xurl for authenticated X API posts, replies, search, DMs, media upload, followers, or raw v2 calls.",
+      "description": "xurl CLI for authenticated X posts, replies, reads/search, DMs, media upload, followers, auth status, or raw v2 API calls.",
       "emoji": "🐦",
       "eligible": false,
       "disabled": true,

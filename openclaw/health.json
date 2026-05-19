@@ -1,28 +1,85 @@
 {
   "ok": true,
-  "ts": 1779078621583,
-  "durationMs": 772,
+  "ts": 1779165021487,
+  "durationMs": 792,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 7986,
-    "delayP99Ms": 23.8,
-    "delayMaxMs": 28.9,
-    "utilization": 0.02,
-    "cpuCoreRatio": 0.023
+    "intervalMs": 7273,
+    "delayP99Ms": 24.4,
+    "delayMaxMs": 25.8,
+    "utilization": 0.023,
+    "cpuCoreRatio": 0.025
   },
   "plugins": {
     "loaded": [
+      "alibaba",
+      "anthropic",
+      "arcee",
+      "azure-speech",
       "browser",
+      "byteplus",
       "canvas",
+      "cerebras",
+      "chutes",
+      "cloudflare-ai-gateway",
       "codex",
+      "comfy",
+      "copilot-proxy",
+      "deepgram",
+      "deepinfra",
+      "deepseek",
       "device-pair",
       "discord",
+      "document-extract",
+      "elevenlabs",
+      "fal",
       "file-transfer",
+      "fireworks",
+      "github-copilot",
+      "google",
+      "groq",
+      "huggingface",
+      "inworld",
+      "kilocode",
+      "kimi",
+      "litellm",
+      "lmstudio",
       "memory-core",
+      "microsoft",
+      "microsoft-foundry",
+      "minimax",
+      "mistral",
+      "moonshot",
+      "nvidia",
+      "ollama",
+      "openai",
+      "opencode",
+      "opencode-go",
+      "openrouter",
       "phone-control",
+      "qianfan",
+      "qwen",
+      "runway",
+      "senseaudio",
+      "sglang",
+      "stepfun",
+      "synthetic",
       "talk-voice",
-      "telegram"
+      "telegram",
+      "tencent",
+      "together",
+      "tts-local-cli",
+      "venice",
+      "vercel-ai-gateway",
+      "vllm",
+      "volcengine",
+      "voyage",
+      "vydra",
+      "web-readability",
+      "xai",
+      "xiaomi",
+      "zai"
     ],
     "errors": []
   },
@@ -36,15 +93,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1779076942182,
+      "lastStartAt": 1779163355289,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1779076946296,
-      "lastEventAt": 1779076946296,
-      "lastTransportActivityAt": 1779078603702,
+      "lastConnectedAt": 1779163359410,
+      "lastEventAt": 1779163359410,
+      "lastTransportActivityAt": 1779165001152,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -63,22 +120,22 @@
         "id": "1486337968208875581",
         "username": "OpenClaw agent_Ada001"
       },
-      "lastProbeAt": 1779078621223,
+      "lastProbeAt": 1779165021138,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1779076942182,
+          "lastStartAt": 1779163355289,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1779076946296,
-          "lastEventAt": 1779076946296,
-          "lastTransportActivityAt": 1779078603702,
+          "lastConnectedAt": 1779163359410,
+          "lastEventAt": 1779163359410,
+          "lastTransportActivityAt": 1779165001152,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -97,7 +154,7 @@
             "id": "1486337968208875581",
             "username": "OpenClaw agent_Ada001"
           },
-          "lastProbeAt": 1779078621223
+          "lastProbeAt": 1779165021138
         }
       }
     },
@@ -106,44 +163,44 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1779076942182,
+      "lastStartAt": 1779163355289,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1779078609336,
-      "lastEventAt": 1779078609336,
-      "lastTransportActivityAt": 1779078609336,
+      "lastConnectedAt": 1779164992947,
+      "lastEventAt": 1779164992947,
+      "lastTransportActivityAt": 1779164992947,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
       "mode": "polling",
       "allowUnmentionedGroups": false,
-      "lastProbeAt": 1779078621583,
+      "lastProbeAt": 1779165021487,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1779076942182,
+          "lastStartAt": 1779163355289,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1779078609336,
-          "lastEventAt": 1779078609336,
-          "lastTransportActivityAt": 1779078609336,
+          "lastConnectedAt": 1779164992947,
+          "lastEventAt": 1779164992947,
+          "lastTransportActivityAt": 1779164992947,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
-          "lastProbeAt": 1779078621583
+          "lastProbeAt": 1779165021487
         }
       }
     }
@@ -176,28 +233,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779077599416,
-            "age": 1021395
+            "updatedAt": 1779163994191,
+            "age": 1026503
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1778927043087,
-            "age": 151577724
+            "updatedAt": 1779097568354,
+            "age": 67452340
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778911004657,
-            "age": 167616154
+            "age": 254016037
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778878476813,
-            "age": 200143998
+            "age": 286543881
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704907,
-            "age": 260915904
+            "age": 347315787
           }
         ]
       }
@@ -237,7 +294,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 260915902
+            "age": 347315785
           }
         ]
       }
@@ -283,28 +340,28 @@
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779077599416,
-        "age": 1021395
+        "updatedAt": 1779163994191,
+        "age": 1026503
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1778927043087,
-        "age": 151577724
+        "updatedAt": 1779097568354,
+        "age": 67452340
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778911004657,
-        "age": 167616154
+        "age": 254016037
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778878476813,
-        "age": 200143998
+        "age": 286543881
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1778817704907,
-        "age": 260915904
+        "age": 347315787
       }
     ]
   }
