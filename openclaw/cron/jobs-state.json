@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "jobs": {
+    "caf22fda-2881-4c55-948b-47aafc8aec4c": {
+      "updatedAtMs": 1779787338877,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-05-27T05:20:00.000Z\"}}",
+      "state": {
+        "nextRunAtMs": 1779859200000
+      }
+    }
+  }
+}

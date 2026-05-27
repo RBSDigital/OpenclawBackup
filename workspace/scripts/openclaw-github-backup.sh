@@ -6,6 +6,27 @@ export OPENCLAW_CONFIG_PATH="${OPENCLAW_CONFIG_PATH:-$HOME/.openclaw/openclaw.js
 [ -x "$OPENCLAW_BIN" ] || OPENCLAW_BIN="$(command -v openclaw || true)"
 [ -x "$OPENCLAW_BIN" ] || { echo "ERROR: openclaw binary not found"; exit 127; }
 
+configure_openclaw_cli_gateway() {
+  [ -z "${OPENCLAW_GATEWAY_URL:-}" ] || return 0
+  [ -f "$OPENCLAW_CONFIG_PATH" ] || return 0
+
+  local port bind token addr
+  port="$(node -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(c.gateway?.port || 18789)' 2>/dev/null || true)"
+  bind="$(node -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(c.gateway?.bind || "loopback")' 2>/dev/null || true)"
+  token="[REDACTED_SECRET] -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(typeof c.gateway?.auth?.token =[REDACTED_SECRET] "string" ? c.gateway.auth.token : "")' 2>/dev/null || true)"
+  [ -n "$port" ] || port=18789
+
+  if [ "$bind" = "tailnet" ]; then
+    addr="$(ss -H -ltn "sport = :$port" 2>/dev/null | awk '{print $4}' | sed "s/.*\\[//;s/\\].*//;s/:$port$//" | grep -Ev '^(127\.|::1|0\.0\.0\.0|\*)$' | head -n 1 || true)"
+    if [ -n "$addr" ]; then
+      export OPENCLAW_GATEWAY_URL="ws://$addr:$port"
+      [ -n "${OPENCLAW_GATEWAY_TOKEN:[REDACTED_SECRET]" ] || [ -z "$token" ] || export OPENCLAW_GATEWAY_TOKEN="[REDACTED_SECRET]"
+    fi
+  fi
+}
+
+configure_openclaw_cli_gateway
+
 GOG_BIN="${GOG_BIN:-$(command -v gog || true)}"
 REPORT_EMAIL="${REPORT_EMAIL:-vrbs940054@gmail.com}"
 GOG_ACCOUNT="${GOG_ACCOUNT:-vrbs940054@gmail.com}"
@@ -33,6 +54,21 @@ fail(){
   log "ERROR: $why"
   send_mail "OpenClaw backup FAILED ($TS)" "Backup failed: $why" || true
   exit 1
+}
+
+WARNINGS=()
+
+capture_openclaw_json(){
+  local label="$1" output="$2"; shift 2
+  local err_file="${output%.json}.error.txt"
+  if "$OPENCLAW_BIN" "$@" > "$output" 2>"$err_file"; then
+    rm -f "$err_file"
+    return 0
+  fi
+  WARNINGS+=("$label failed; see ${err_file#$STAGING_DIR/}")
+  printf '{"ok":false,"error":"%s command failed; see sibling .error.txt"}\n' "$label" > "$output"
+  log "WARNING: $label failed; continuing backup with diagnostic artifact"
+  return 0
 }
 
 [ -n "$BACKUP_REPO_URL" ] || fail "BACKUP_REPO_URL is not set (expected private GitHub repo URL)"
@@ -78,11 +114,11 @@ cp -a ~/.openclaw/acpx/codex-home/config.toml "$STAGING_DIR/openclaw/acpx/" 2>/d
 cp -a ~/.openclaw/logs/config-health.json "$STAGING_DIR/openclaw/logs/" 2>/dev/null || true
 tail -n 200 ~/.openclaw/logs/config-audit.jsonl > "$STAGING_DIR/openclaw/logs/config-audit-tail.jsonl" 2>/dev/null || true
 
-"$OPENCLAW_BIN" cron list --json > "$STAGING_DIR/openclaw/cron-list.json" 2>>"$RUN_LOG" || fail "openclaw cron list failed"
-"$OPENCLAW_BIN" skills list --json > "$STAGING_DIR/openclaw/skills-list.json" 2>>"$RUN_LOG" || fail "openclaw skills list failed"
-"$OPENCLAW_BIN" plugins list --json > "$STAGING_DIR/openclaw/plugins-list.json" 2>>"$RUN_LOG" || fail "openclaw plugins list failed"
-"$OPENCLAW_BIN" config validate --json > "$STAGING_DIR/openclaw/config-validate.json" 2>>"$RUN_LOG" || fail "openclaw config validate failed"
-"$OPENCLAW_BIN" health --json > "$STAGING_DIR/openclaw/health.json" 2>>"$RUN_LOG" || fail "openclaw health failed"
+capture_openclaw_json "openclaw cron list" "$STAGING_DIR/openclaw/cron-list.json" cron list --json
+capture_openclaw_json "openclaw skills list" "$STAGING_DIR/openclaw/skills-list.json" skills list --json
+capture_openclaw_json "openclaw plugins list" "$STAGING_DIR/openclaw/plugins-list.json" plugins list --json
+capture_openclaw_json "openclaw config validate" "$STAGING_DIR/openclaw/config-validate.json" config validate --json
+capture_openclaw_json "openclaw health" "$STAGING_DIR/openclaw/health.json" health --json
 
 # Redact secrets in all text files, then fail closed if recognizable secrets remain.
 set +e
@@ -166,7 +202,11 @@ git config user.email "$GIT_AUTHOR_EMAIL" >>"$RUN_LOG" 2>&1 || fail "git config 
 git add -A || fail "git add failed"
 if git diff --cached --quiet; then
   log "No changes since last backup"
-  send_mail "OpenClaw backup OK ($TS)" "Backup completed: no changes." || true
+  if [ "${#WARNINGS[@]}" -gt 0 ]; then
+    send_mail "OpenClaw backup OK with warnings ($TS)" "Backup completed with warnings: $(printf '%s; ' "${WARNINGS[@]}")" || true
+  else
+    send_mail "OpenClaw backup OK ($TS)" "Backup completed: no changes." || true
+  fi
   exit 0
 fi
 
@@ -178,5 +218,10 @@ git push origin "$BACKUP_REPO_BRANCH" >>"$RUN_LOG" 2>&1 || fail "git push failed
 
 AFTER_HASH="$(git rev-parse --short HEAD)"
 ONE_LINE="Backup OK: commit $AFTER_HASH pushed to $BACKUP_REPO_BRANCH at $TS"
-send_mail "OpenClaw backup OK ($TS)" "$ONE_LINE" || fail "backup succeeded but email confirmation failed"
+if [ "${#WARNINGS[@]}" -gt 0 ]; then
+  ONE_LINE="$ONE_LINE; warnings: $(printf '%s; ' "${WARNINGS[@]}")"
+  send_mail "OpenClaw backup OK with warnings ($TS)" "$ONE_LINE" || fail "backup succeeded but email confirmation failed"
+else
+  send_mail "OpenClaw backup OK ($TS)" "$ONE_LINE" || fail "backup succeeded but email confirmation failed"
+fi
 log "$ONE_LINE"

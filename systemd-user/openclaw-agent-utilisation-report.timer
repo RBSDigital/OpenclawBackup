@@ -1,0 +1,10 @@
+[Unit]
+Description=Run OpenClaw agent utilisation and efficiency report daily at 05:00 UTC
+
+[Timer]
+OnCalendar=*-*-* 05:00:00 UTC
+Persistent=true
+Unit=openclaw-agent-utilisation-report.service
+
+[Install]
+WantedBy=timers.target

@@ -11,6 +11,27 @@ if [ -z "$OPENCLAW_BIN" ] || [ ! -x "$OPENCLAW_BIN" ]; then
   exit 127
 fi
 
+configure_openclaw_cli_gateway() {
+  [ -z "${OPENCLAW_GATEWAY_URL:-}" ] || return 0
+  [ -f "$OPENCLAW_CONFIG_PATH" ] || return 0
+
+  local port bind token addr
+  port="$(node -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(c.gateway?.port || 18789)' 2>/dev/null || true)"
+  bind="$(node -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(c.gateway?.bind || "loopback")' 2>/dev/null || true)"
+  token="[REDACTED_SECRET] -e 'const fs=require("fs"); const c=JSON.parse(fs.readFileSync(process.env.OPENCLAW_CONFIG_PATH,"utf8")); console.log(typeof c.gateway?.auth?.token =[REDACTED_SECRET] "string" ? c.gateway.auth.token : "")' 2>/dev/null || true)"
+  [ -n "$port" ] || port=18789
+
+  if [ "$bind" = "tailnet" ]; then
+    addr="$(ss -H -ltn "sport = :$port" 2>/dev/null | awk '{print $4}' | sed "s/.*\\[//;s/\\].*//;s/:$port$//" | grep -Ev '^(127\.|::1|0\.0\.0\.0|\*)$' | head -n 1 || true)"
+    if [ -n "$addr" ]; then
+      export OPENCLAW_GATEWAY_URL="ws://$addr:$port"
+      [ -n "${OPENCLAW_GATEWAY_TOKEN:[REDACTED_SECRET]" ] || [ -z "$token" ] || export OPENCLAW_GATEWAY_TOKEN="[REDACTED_SECRET]"
+    fi
+  fi
+}
+
+configure_openclaw_cli_gateway
+
 REPORT_EMAIL="${REPORT_EMAIL:-vrbs940054@gmail.com}"
 GOG_ACCOUNT="${GOG_ACCOUNT:-vrbs940054@gmail.com}"
 LOG_DIR="$HOME/.openclaw/logs"

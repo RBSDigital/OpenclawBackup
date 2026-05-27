@@ -1,7 +1,13 @@
 {
   "registry": {
-    "source": "persisted",
-    "diagnostics": []
+    "source": "derived",
+    "diagnostics": [
+      {
+        "level": "warn",
+        "code": "persisted-registry-stale-policy",
+        "message": "Persisted plugin registry policy does not match current config; using derived plugin index. Run `openclaw plugins registry --refresh` to update the persisted registry."
+      }
+    ]
   },
   "plugins": [
     {
@@ -21,6 +27,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -55,7 +62,7 @@
     {
       "id": "admin-http-rpc",
       "name": "@openclaw/admin-http-rpc",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
@@ -71,6 +78,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -105,7 +113,7 @@
     {
       "id": "alibaba",
       "name": "@openclaw/alibaba-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba",
@@ -121,6 +129,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -157,7 +166,7 @@
     {
       "id": "anthropic",
       "name": "@openclaw/anthropic-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic",
@@ -179,6 +188,7 @@
       "providerIds": [
         "anthropic"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -223,7 +233,7 @@
     {
       "id": "arcee",
       "name": "@openclaw/arcee-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/arcee/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/arcee",
@@ -241,6 +251,7 @@
       "providerIds": [
         "arcee"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -275,7 +286,7 @@
     {
       "id": "azure-speech",
       "name": "Azure Speech",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
@@ -292,6 +303,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "azure-speech",
         "azure"
@@ -329,7 +341,7 @@
     {
       "id": "bonjour",
       "name": "Bonjour Gateway Discovery",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
@@ -344,6 +356,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -386,7 +399,7 @@
     {
       "id": "browser",
       "name": "@openclaw/browser-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser",
@@ -402,6 +415,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -481,7 +495,7 @@
     {
       "id": "byteplus",
       "name": "@openclaw/byteplus-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus",
@@ -500,6 +514,7 @@
         "byteplus",
         "byteplus-plan"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -536,7 +551,7 @@
     {
       "id": "canvas",
       "name": "Canvas",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Experimental Canvas control and A2UI rendering surfaces for paired nodes.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
@@ -551,6 +566,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -629,7 +645,7 @@
     {
       "id": "cerebras",
       "name": "@openclaw/cerebras-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cerebras/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cerebras",
@@ -647,6 +663,7 @@
       "providerIds": [
         "cerebras"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -681,7 +698,7 @@
     {
       "id": "chutes",
       "name": "@openclaw/chutes-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/chutes/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/chutes",
@@ -699,6 +716,7 @@
       "providerIds": [
         "chutes"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -733,7 +751,7 @@
     {
       "id": "clickclack",
       "name": "@openclaw/clickclack",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack",
@@ -751,6 +769,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -800,7 +819,7 @@
     {
       "id": "cloudflare-ai-gateway",
       "name": "@openclaw/cloudflare-ai-gateway-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cloudflare-ai-gateway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cloudflare-ai-gateway",
@@ -818,6 +837,7 @@
       "providerIds": [
         "cloudflare-ai-gateway"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -852,7 +872,7 @@
     {
       "id": "comfy",
       "name": "@openclaw/comfy-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy",
@@ -870,6 +890,7 @@
       "providerIds": [
         "comfy"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -910,7 +931,7 @@
     {
       "id": "copilot-proxy",
       "name": "@openclaw/copilot-proxy",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy",
@@ -926,6 +947,7 @@
       "providerIds": [
         "copilot-proxy"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -960,7 +982,7 @@
     {
       "id": "deepgram",
       "name": "@openclaw/deepgram-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram",
@@ -976,6 +998,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [
         "deepgram"
@@ -1014,7 +1037,7 @@
     {
       "id": "deepinfra",
       "name": "@openclaw/deepinfra-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepinfra/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepinfra",
@@ -1030,6 +1053,7 @@
       "providerIds": [
         "deepinfra"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "deepinfra"
       ],
@@ -1074,7 +1098,7 @@
     {
       "id": "deepseek",
       "name": "@openclaw/deepseek-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepseek/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepseek",
@@ -1092,6 +1116,7 @@
       "providerIds": [
         "deepseek"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1140,6 +1165,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1176,7 +1202,7 @@
     {
       "id": "document-extract",
       "name": "Document Extraction",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Extract text and fallback page images from local document attachments.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
@@ -1191,6 +1217,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1233,7 +1260,7 @@
     {
       "id": "duckduckgo",
       "name": "@openclaw/duckduckgo-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo",
@@ -1247,6 +1274,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1283,7 +1311,7 @@
     {
       "id": "elevenlabs",
       "name": "@openclaw/elevenlabs-speech",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs",
@@ -1299,6 +1327,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "elevenlabs"
       ],
@@ -1339,7 +1368,7 @@
     {
       "id": "exa",
       "name": "@openclaw/exa-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/exa/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/exa",
@@ -1355,6 +1384,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1391,7 +1421,7 @@
     {
       "id": "fal",
       "name": "@openclaw/fal-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal",
@@ -1409,6 +1439,7 @@
       "providerIds": [
         "fal"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1449,7 +1480,7 @@
     {
       "id": "file-transfer",
       "name": "File Transfer",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
@@ -1464,6 +1495,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1486,19 +1518,18 @@
       "contracts": {},
       "dependencyStatus": {
         "hasDependencies": true,
-        "installed": false,
-        "requiredInstalled": false,
+        "installed": true,
+        "requiredInstalled": true,
         "optionalInstalled": true,
-        "missing": [
-          "minimatch"
-        ],
+        "missing": [],
         "missingOptional": [],
         "dependencies": [
           {
             "name": "minimatch",
             "spec": "10.2.5",
-            "installed": false,
-            "optional": false
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/minimatch"
           },
           {
             "name": "typebox",
@@ -1514,7 +1545,7 @@
     {
       "id": "firecrawl",
       "name": "@openclaw/firecrawl-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/firecrawl/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/firecrawl",
@@ -1530,6 +1561,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1576,7 +1608,7 @@
     {
       "id": "fireworks",
       "name": "@openclaw/fireworks-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks",
@@ -1594,6 +1626,7 @@
       "providerIds": [
         "fireworks"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1636,7 +1669,7 @@
     {
       "id": "github-copilot",
       "name": "@openclaw/github-copilot-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot",
@@ -1654,6 +1687,7 @@
       "providerIds": [
         "github-copilot"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1698,7 +1732,7 @@
     {
       "id": "google",
       "name": "@openclaw/google-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google",
@@ -1720,6 +1754,7 @@
         "google-gemini-cli",
         "google-vertex"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "google"
       ],
@@ -1785,7 +1820,7 @@
     {
       "id": "gradium",
       "name": "@openclaw/gradium-speech",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/gradium/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/gradium",
@@ -1801,6 +1836,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "gradium"
       ],
@@ -1837,7 +1873,7 @@
     {
       "id": "groq",
       "name": "@openclaw/groq-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/groq/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/groq",
@@ -1853,6 +1889,7 @@
       "providerIds": [
         "groq"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1889,7 +1926,7 @@
     {
       "id": "huggingface",
       "name": "@openclaw/huggingface-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface",
@@ -1907,6 +1944,7 @@
       "providerIds": [
         "huggingface"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1941,7 +1979,7 @@
     {
       "id": "imessage",
       "name": "@openclaw/imessage",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage",
@@ -1957,6 +1995,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -1991,7 +2030,7 @@
     {
       "id": "inworld",
       "name": "Inworld",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Inworld streaming text-to-speech (MP3, OGG_OPUS, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/inworld/index.js",
@@ -2008,6 +2047,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "inworld"
       ],
@@ -2044,7 +2084,7 @@
     {
       "id": "irc",
       "name": "@openclaw/irc",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc",
@@ -2062,6 +2102,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2104,7 +2145,7 @@
     {
       "id": "kilocode",
       "name": "@openclaw/kilocode-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kilocode/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kilocode",
@@ -2122,6 +2163,7 @@
       "providerIds": [
         "kilocode"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2156,7 +2198,7 @@
     {
       "id": "kimi",
       "name": "@openclaw/kimi-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kimi-coding/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kimi-coding",
@@ -2175,6 +2217,7 @@
         "kimi",
         "kimi-coding"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2217,7 +2260,7 @@
     {
       "id": "litellm",
       "name": "@openclaw/litellm-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm",
@@ -2235,6 +2278,7 @@
       "providerIds": [
         "litellm"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2271,7 +2315,7 @@
     {
       "id": "llm-task",
       "name": "LLM Task",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
@@ -2286,6 +2330,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2328,7 +2373,7 @@
     {
       "id": "lmstudio",
       "name": "@openclaw/lmstudio-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio",
@@ -2337,7 +2382,9 @@
       "compat": [
         "provider-auth-env-vars"
       ],
-      "syntheticAuthRefs": [],
+      "syntheticAuthRefs": [
+        "lmstudio"
+      ],
       "status": "loaded",
       "toolNames": [],
       "hookNames": [],
@@ -2346,6 +2393,7 @@
       "providerIds": [
         "lmstudio"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2390,7 +2438,7 @@
     {
       "id": "mattermost",
       "name": "@openclaw/mattermost",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost",
@@ -2408,6 +2456,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2457,7 +2506,7 @@
     {
       "id": "memory-core",
       "name": "@openclaw/memory-core",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "kind": "memory",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core/index.js",
@@ -2472,6 +2521,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2532,7 +2582,7 @@
     {
       "id": "memory-wiki",
       "name": "Memory Wiki",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
@@ -2547,6 +2597,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2605,7 +2656,7 @@
     {
       "id": "microsoft",
       "name": "@openclaw/microsoft-speech",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft",
@@ -2619,6 +2670,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "microsoft"
       ],
@@ -2663,7 +2715,7 @@
     {
       "id": "microsoft-foundry",
       "name": "@openclaw/microsoft-foundry",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry",
@@ -2681,6 +2733,7 @@
       "providerIds": [
         "microsoft-foundry"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2715,7 +2768,7 @@
     {
       "id": "migrate-claude",
       "name": "Claude Migration",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
@@ -2730,6 +2783,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2766,7 +2820,7 @@
     {
       "id": "migrate-hermes",
       "name": "Hermes Migration",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
@@ -2781,6 +2835,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -2825,7 +2880,7 @@
     {
       "id": "minimax",
       "name": "@openclaw/minimax-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax",
@@ -2844,6 +2899,7 @@
         "minimax",
         "minimax-portal"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "minimax"
       ],
@@ -2894,7 +2950,7 @@
     {
       "id": "mistral",
       "name": "@openclaw/mistral-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral",
@@ -2912,6 +2968,7 @@
       "providerIds": [
         "mistral"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [
         "mistral"
@@ -2952,7 +3009,7 @@
     {
       "id": "moonshot",
       "name": "@openclaw/moonshot-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot",
@@ -2970,6 +3027,7 @@
       "providerIds": [
         "moonshot"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3008,7 +3066,7 @@
     {
       "id": "nvidia",
       "name": "@openclaw/nvidia-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia",
@@ -3026,6 +3084,7 @@
       "providerIds": [
         "nvidia"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3060,7 +3119,7 @@
     {
       "id": "oc-path",
       "name": "OC Path",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
@@ -3077,6 +3136,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3143,7 +3203,7 @@
     {
       "id": "ollama",
       "name": "@openclaw/ollama-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama",
@@ -3163,6 +3223,7 @@
       "providerIds": [
         "ollama"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3216,7 +3277,7 @@
     {
       "id": "open-prose",
       "name": "OpenProse",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "OpenProse VM skill pack with a /prose slash command.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/open-prose/index.js",
@@ -3231,6 +3292,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3265,7 +3327,7 @@
     {
       "id": "openai",
       "name": "@openclaw/openai-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai",
@@ -3284,6 +3346,7 @@
         "openai",
         "openai-codex"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "openai"
       ],
@@ -3348,7 +3411,7 @@
     {
       "id": "opencode",
       "name": "@openclaw/opencode-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode",
@@ -3366,6 +3429,7 @@
       "providerIds": [
         "opencode"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3402,7 +3466,7 @@
     {
       "id": "opencode-go",
       "name": "@openclaw/opencode-go-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go",
@@ -3420,6 +3484,7 @@
       "providerIds": [
         "opencode-go"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3456,7 +3521,7 @@
     {
       "id": "openrouter",
       "name": "@openclaw/openrouter-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter",
@@ -3474,6 +3539,7 @@
       "providerIds": [
         "openrouter"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "openrouter"
       ],
@@ -3518,7 +3584,7 @@
     {
       "id": "perplexity",
       "name": "@openclaw/perplexity-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/perplexity/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/perplexity",
@@ -3534,6 +3600,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3584,6 +3651,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3620,7 +3688,7 @@
     {
       "id": "policy",
       "name": "Policy",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Adds policy-backed doctor checks for workspace conformance.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy/index.js",
@@ -3637,6 +3705,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3681,7 +3750,7 @@
     {
       "id": "qianfan",
       "name": "@openclaw/qianfan-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qianfan/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qianfan",
@@ -3697,6 +3766,7 @@
       "providerIds": [
         "qianfan"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3731,7 +3801,7 @@
     {
       "id": "qwen",
       "name": "@openclaw/qwen-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qwen/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qwen",
@@ -3752,6 +3822,7 @@
         "modelstudio",
         "dashscope"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3790,7 +3861,7 @@
     {
       "id": "runway",
       "name": "@openclaw/runway-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway",
@@ -3806,6 +3877,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3842,7 +3914,7 @@
     {
       "id": "searxng",
       "name": "@openclaw/searxng-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng",
@@ -3856,6 +3928,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3892,7 +3965,7 @@
     {
       "id": "senseaudio",
       "name": "@openclaw/senseaudio-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio",
@@ -3908,6 +3981,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3944,7 +4018,7 @@
     {
       "id": "sglang",
       "name": "@openclaw/sglang-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang",
@@ -3962,6 +4036,7 @@
       "providerIds": [
         "sglang"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -3996,7 +4071,7 @@
     {
       "id": "signal",
       "name": "@openclaw/signal",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal",
@@ -4012,6 +4087,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4054,7 +4130,7 @@
     {
       "id": "skill-workshop",
       "name": "Skill Workshop",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Captures repeatable workflows as workspace skills, with pending review, safe writes, and skill prompt refresh.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/skill-workshop/index.js",
@@ -4069,6 +4145,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4111,7 +4188,7 @@
     {
       "id": "stepfun",
       "name": "@openclaw/stepfun-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/stepfun/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/stepfun",
@@ -4128,6 +4205,7 @@
         "stepfun",
         "stepfun-plan"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4162,7 +4240,7 @@
     {
       "id": "synthetic",
       "name": "@openclaw/synthetic-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic",
@@ -4180,6 +4258,7 @@
       "providerIds": [
         "synthetic"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4228,6 +4307,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4264,7 +4344,7 @@
     {
       "id": "tavily",
       "name": "@openclaw/tavily-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily",
@@ -4280,6 +4360,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4324,7 +4405,7 @@
     {
       "id": "telegram",
       "name": "@openclaw/telegram",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram",
@@ -4342,6 +4423,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4412,7 +4494,7 @@
     {
       "id": "tencent",
       "name": "@openclaw/tencent-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent",
@@ -4430,6 +4512,7 @@
       "providerIds": [
         "tencent-tokenhub"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4478,6 +4561,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4512,7 +4596,7 @@
     {
       "id": "together",
       "name": "@openclaw/together-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together",
@@ -4530,6 +4614,7 @@
       "providerIds": [
         "together"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4566,7 +4651,7 @@
     {
       "id": "tokenjuice",
       "name": "tokenjuice",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Compacts exec and bash tool results with tokenjuice reducers.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tokenjuice/index.js",
@@ -4581,6 +4666,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4623,7 +4709,7 @@
     {
       "id": "tts-local-cli",
       "name": "@openclaw/tts-local-cli",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
@@ -4637,6 +4723,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "tts-local-cli",
         "cli"
@@ -4674,7 +4761,7 @@
     {
       "id": "venice",
       "name": "@openclaw/venice-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice",
@@ -4690,6 +4777,7 @@
       "providerIds": [
         "venice"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4724,7 +4812,7 @@
     {
       "id": "vercel-ai-gateway",
       "name": "@openclaw/vercel-ai-gateway-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway",
@@ -4742,6 +4830,7 @@
       "providerIds": [
         "vercel-ai-gateway"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4776,7 +4865,7 @@
     {
       "id": "vllm",
       "name": "@openclaw/vllm-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm",
@@ -4794,6 +4883,7 @@
       "providerIds": [
         "vllm"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4828,7 +4918,7 @@
     {
       "id": "volcengine",
       "name": "@openclaw/volcengine-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine",
@@ -4847,6 +4937,7 @@
         "volcengine",
         "volcengine-plan"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "volcengine"
       ],
@@ -4883,7 +4974,7 @@
     {
       "id": "voyage",
       "name": "@openclaw/voyage-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage",
@@ -4899,6 +4990,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -4935,7 +5027,7 @@
     {
       "id": "vydra",
       "name": "@openclaw/vydra-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra",
@@ -4953,6 +5045,7 @@
       "providerIds": [
         "vydra"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "vydra"
       ],
@@ -4993,7 +5086,7 @@
     {
       "id": "web-readability",
       "name": "Web Readability Extraction",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Extract readable article content from local HTML web fetch responses.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
@@ -5008,6 +5101,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -5057,7 +5151,7 @@
     {
       "id": "webhooks",
       "name": "Webhooks",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Authenticated inbound webhooks that bind external automation to OpenClaw TaskFlows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
@@ -5072,6 +5166,7 @@
       "channelIds": [],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -5114,7 +5209,7 @@
     {
       "id": "xai",
       "name": "@openclaw/xai-plugin",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai",
@@ -5134,6 +5229,7 @@
       "providerIds": [
         "xai"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "xai"
       ],
@@ -5195,7 +5291,7 @@
     {
       "id": "xiaomi",
       "name": "@openclaw/xiaomi-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi",
@@ -5213,6 +5309,7 @@
       "providerIds": [
         "xiaomi"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [
         "xiaomi"
       ],
@@ -5249,7 +5346,7 @@
     {
       "id": "zai",
       "name": "@openclaw/zai-provider",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai",
@@ -5265,6 +5362,7 @@
       "providerIds": [
         "zai"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -5301,7 +5399,7 @@
     {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "description": "Codex app-server harness and Codex-managed GPT model catalog.",
       "format": "openclaw",
       "source": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/dist/index.js",
@@ -5322,6 +5420,7 @@
       "providerIds": [
         "codex"
       ],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -5361,21 +5460,21 @@
             "spec": "0.75.4",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@earendil-works/pi-coding-agent"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/node_modules/@earendil-works/pi-coding-agent"
           },
           {
             "name": "@openai/codex",
             "spec": "0.132.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openai/codex"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/node_modules/@openai/codex"
           },
           {
             "name": "ajv",
             "spec": "8.20.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/ajv"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/node_modules/ajv"
           },
           {
             "name": "ws",
@@ -5389,7 +5488,7 @@
             "spec": "4.4.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/zod"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -5398,7 +5497,7 @@
     {
       "id": "discord",
       "name": "@openclaw/discord",
-      "version": "2026.5.20",
+      "version": "2026.5.22",
       "format": "openclaw",
       "source": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/dist/index.js",
       "rootDir": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord",
@@ -5416,6 +5515,7 @@
       ],
       "cliBackendIds": [],
       "providerIds": [],
+      "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
       "realtimeVoiceProviderIds": [],
@@ -5449,14 +5549,14 @@
             "spec": "0.19.2",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@discordjs/voice"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/node_modules/@discordjs/voice"
           },
           {
             "name": "discord-api-types",
             "spec": "0.38.47",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/discord-api-types"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/node_modules/discord-api-types"
           },
           {
             "name": "https-proxy-agent",
@@ -5470,21 +5570,21 @@
             "spec": "0.1.1",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/opusscript"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/node_modules/opusscript"
           },
           {
             "name": "typebox",
             "spec": "1.1.38",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/node_modules/typebox"
           },
           {
             "name": "undici",
             "spec": "8.3.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/undici"
+            "resolvedPath": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/node_modules/undici"
           },
           {
             "name": "ws",

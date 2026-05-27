@@ -4,12 +4,12 @@
     "openai-codex:default": {
       "type": "oauth",
       "provider": "openai-codex",
-      "expires": 1779940896225,
-      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
       "email": "vincentreynolds1@gmail.com",
-      "chatgptPlanType": "plus",
       "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_NPYnRbDs81ox6KT6P4dcaCg2bxSw0NSlWt2VPkPurjk.OLr1SO-TYnIgJjz1uSUWDnA0BUumYwA8108DP2RRrPQ"
+      "refresh": "rt_NPYnRbDs81ox6KT6P4dcaCg2bxSw0NSlWt2VPkPurjk.OLr1SO-TYnIgJjz1uSUWDnA0BUumYwA8108DP2RRrPQ",
+      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
+      "chatgptPlanType": "plus",
+      "expires": 1779940896225
     },
     "openai:default": {
       "type": "api_key",
@@ -19,12 +19,12 @@
     "openai-codex:vincentreynolds1@gmail.com": {
       "type": "oauth",
       "provider": "openai-codex",
-      "expires": 1779610775865,
       "email": "vincentreynolds1@gmail.com",
+      "access": "[DISCORD_BOT_TOKEN]",
+      "refresh": "rt_KosASzZ1udcJv1CUbuxJiDhfmVayOuViLMRbo4MRhzE.rRJuKdVFQq-2_5IPgmVI5Ewxp6uO5HAaj1SHhzlE9cY",
       "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
       "chatgptPlanType": "plus",
-      "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_NFkHJ24NFdovzR7uwcI7R6TtlsR6tIoYIo3w_iHonNs.U06q-MbZMmxKdxXpzZkvvPLMGC6dmTXvIlxnJ1xI7s0"
+      "expires": 1780476147791
     },
     "google:default": {
       "type": "api_key",

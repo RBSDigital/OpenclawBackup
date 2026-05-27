@@ -1,9 +1,46 @@
 {
-  "jobs": [],
-  "total": 0,
+  "jobs": [
+    {
+      "id": "caf22fda-2881-4c55-948b-47aafc8aec4c",
+      "agentId": "manager-bot",
+      "name": "Confirm OpenClaw maintenance/backup/utilisation report after timers",
+      "description": "One-shot follow-up for Vincent after the 2026-05-27 OpenClaw maintenance, backup, and utilisation timers.",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1779787338877,
+      "schedule": {
+        "kind": "at",
+        "at": "2026-05-27T05:20:00.000Z"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Follow up on Vincent's OpenClaw ops request. Check systemd user statuses and recent logs for openclaw-maintenance.service, openclaw-github-backup.service, and openclaw-agent-utilisation-report.service after the 2026-05-27 04:00/04:30/05:00 UTC timers. Confirm whether openclaw health --json and openclaw cron list --json work via the tailnet-bound gateway, whether backup completed or produced warning artifacts, and whether the utilisation report content is useful without reading full logs. Reply concisely in the direct Discord conversation with findings, blockers, and next action. Do not expose secrets.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "last",
+        "to": "user:1057573629275148369",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1779859200000
+      },
+      "updatedAtMs": 1779787338877,
+      "status": "idle"
+    }
+  ],
+  "total": 1,
   "offset": 0,
-  "limit": 50,
+  "limit": 1,
   "hasMore": false,
   "nextOffset": null,
-  "deliveryPreviews": {}
+  "deliveryPreviews": {
+    "caf22fda-2881-4c55-948b-47aafc8aec4c": {
+      "label": "announce -> last:user:1057573629275148369",
+      "detail": "last -> no route, will fail-closed: Channel is required when multiple channels are configured: discord, telegram. Pass --channel <channel> to choose one. Set delivery.channel explicitly or use a main session with a previous channel."
+    }
+  }
 }

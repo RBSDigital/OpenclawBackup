@@ -1,0 +1,10 @@
+[Unit]
+Description=OpenClaw agent utilisation and efficiency report
+After=network-online.target openclaw-github-backup.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=/home/vin/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+WorkingDirectory=/home/vin/.openclaw/workspace
+ExecStart=/usr/bin/env bash /home/vin/.openclaw/workspace/scripts/openclaw-agent-utilisation-report.sh

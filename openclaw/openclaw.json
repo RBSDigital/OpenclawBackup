@@ -50,6 +50,10 @@
       {
         "id": "modeler-bot",
         "workspace": "/home/vin/.openclaw/workspaces/modeler-bot"
+      },
+      {
+        "id": "security-bot",
+        "workspace": "/home/vin/.openclaw/workspaces/security-bot"
       }
     ]
   },
@@ -110,8 +114,8 @@
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.5.20",
-    "lastTouchedAt": "2026-05-22T04:02:43.828Z"
+    "lastTouchedVersion": "2026.5.22",
+    "lastTouchedAt": "2026-05-26T12:13:46.555Z"
   },
   "skills": {
     "entries": {
@@ -251,7 +255,8 @@
         "1504151368343228636",
         "1504151369261514856",
         "1504151371195220160",
-        "1505085743414902819"
+        "1505085743414902819",
+        "1507299212272996423"
       ],
       "guilds": {
         "1485914371766091809": {
@@ -285,6 +290,12 @@
               ]
             },
             "1505085743414902819": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1507299212272996423": {
               "requireMention": false,
               "users": [
                 "1057573629275148369"
@@ -353,6 +364,17 @@
         "peer": {
           "kind": "channel",
           "id": "1505085743414902819"
+        }
+      }
+    },
+    {
+      "agentId": "security-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1507299212272996423"
         }
       }
     }
