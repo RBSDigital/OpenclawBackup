@@ -1,0 +1,10 @@
+[Unit]
+Description=Run OpenClaw CI Manager report daily at 05:20 UTC
+
+[Timer]
+OnCalendar=*-*-* 05:20:00 UTC
+Persistent=true
+Unit=openclaw-ci-manager-report.service
+
+[Install]
+WantedBy=timers.target

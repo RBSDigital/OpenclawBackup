@@ -1,0 +1,10 @@
+[Unit]
+Description=OpenClaw CI Manager report
+After=network-online.target openclaw-agent-utilisation-report.service openclaw-github-backup.service openclaw-maintenance.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment=PATH=/home/vin/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+WorkingDirectory=/home/vin/.openclaw/workspace
+ExecStart=/usr/bin/env bash /home/vin/.openclaw/workspace/scripts/openclaw-ci-manager-report.sh

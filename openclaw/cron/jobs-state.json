@@ -2,10 +2,40 @@
   "version": 1,
   "jobs": {
     "caf22fda-2881-4c55-948b-47aafc8aec4c": {
-      "updatedAtMs": 1779787338877,
-      "scheduleIdentity": "{\"version\":1,\"enabled\":true,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-05-27T05:20:00.000Z\"}}",
+      "updatedAtMs": 1779859317720,
+      "scheduleIdentity": "{\"version\":1,\"enabled\":false,\"schedule\":{\"kind\":\"at\",\"at\":\"2026-05-27T05:20:00.000Z\"}}",
       "state": {
-        "nextRunAtMs": 1779859200000
+        "lastRunAtMs": 1779859200011,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 117709,
+        "lastError": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed",
+          "entries": [
+            {
+              "ts": 1779859317243,
+              "source": "tool",
+              "severity": "error",
+              "message": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed"
+            },
+            {
+              "ts": 1779859317719,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastDeliveryError": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "lastFailureNotificationDelivered": false,
+        "lastFailureNotificationDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryError": "⚠️ 🛠️ `systemctl --user status openclaw-github-backup.service --no-pager --lines=40 (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
       }
     }
   }

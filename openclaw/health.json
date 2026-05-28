@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "ts": 1779856227859,
-  "durationMs": 554,
+  "ts": 1779942628078,
+  "durationMs": 39,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 3486,
-    "delayP99Ms": 25.4,
-    "delayMaxMs": 25.5,
-    "utilization": 0.149,
-    "cpuCoreRatio": 0.151
+    "intervalMs": 6887,
+    "delayP99Ms": 24,
+    "delayMaxMs": 25.6,
+    "utilization": 0.015,
+    "cpuCoreRatio": 0.02
   },
   "plugins": {
     "loaded": [
@@ -93,15 +93,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1779854535204,
+      "lastStartAt": 1779940990122,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1779854611802,
-      "lastEventAt": 1779854611802,
-      "lastTransportActivityAt": 1779856204974,
+      "lastConnectedAt": 1779940996829,
+      "lastEventAt": 1779940996829,
+      "lastTransportActivityAt": 1779942598157,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -120,22 +120,22 @@
         "id": "1486337968208875581",
         "username": "OpenClaw agent_Ada001"
       },
-      "lastProbeAt": 1779856227841,
+      "lastProbeAt": null,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1779854535204,
+          "lastStartAt": 1779940990122,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1779854611802,
-          "lastEventAt": 1779854611802,
-          "lastTransportActivityAt": 1779856204974,
+          "lastConnectedAt": 1779940996829,
+          "lastEventAt": 1779940996829,
+          "lastTransportActivityAt": 1779942598157,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -154,7 +154,7 @@
             "id": "1486337968208875581",
             "username": "OpenClaw agent_Ada001"
           },
-          "lastProbeAt": 1779856227841
+          "lastProbeAt": null
         }
       }
     },
@@ -163,44 +163,44 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1779854535204,
+      "lastStartAt": 1779940990122,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1779856205428,
-      "lastEventAt": 1779856205428,
-      "lastTransportActivityAt": 1779856205428,
+      "lastConnectedAt": 1779942599727,
+      "lastEventAt": 1779942599727,
+      "lastTransportActivityAt": 1779942599727,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
       "mode": "polling",
       "allowUnmentionedGroups": false,
-      "lastProbeAt": 1779856227859,
+      "lastProbeAt": null,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1779854535204,
+          "lastStartAt": 1779940990122,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1779856205428,
-          "lastEventAt": 1779856205428,
-          "lastTransportActivityAt": 1779856205428,
+          "lastConnectedAt": 1779942599727,
+          "lastEventAt": 1779942599727,
+          "lastTransportActivityAt": 1779942599727,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
-          "lastProbeAt": 1779856227859
+          "lastProbeAt": null
         }
       }
     }
@@ -229,32 +229,32 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-        "count": 8,
+        "count": 12,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779855194202,
-            "age": 1033103
+            "updatedAt": 1779941543537,
+            "age": 1084501
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779854494046,
-            "age": 1733259
+            "updatedAt": 1779940919351,
+            "age": 1708687
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779854494046,
-            "age": 1733259
+            "updatedAt": 1779940919351,
+            "age": 1708687
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779854494046,
-            "age": 1733259
+            "updatedAt": 1779940919351,
+            "age": 1708687
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779786544396,
-            "age": 69682909
+            "updatedAt": 1779940919351,
+            "age": 1708687
           }
         ]
       }
@@ -272,8 +272,14 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/researcher-bot/sessions/sessions.json",
-        "count": 0,
-        "recent": []
+        "count": 1,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1779940919359,
+            "age": 1708679
+          }
+        ]
       }
     },
     {
@@ -294,7 +300,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 1038522396
+            "age": 1124923129
           }
         ]
       }
@@ -317,7 +323,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779508898217,
-            "age": 347329088
+            "age": 433729822
           }
         ]
       }
@@ -335,8 +341,14 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/modeler-bot/sessions/sessions.json",
-        "count": 0,
-        "recent": []
+        "count": 1,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1779940919362,
+            "age": 1708677
+          }
+        ]
       }
     },
     {
@@ -359,32 +371,32 @@
   ],
   "sessions": {
     "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-    "count": 8,
+    "count": 12,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779855194202,
-        "age": 1033103
+        "updatedAt": 1779941543537,
+        "age": 1084501
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779854494046,
-        "age": 1733259
+        "updatedAt": 1779940919351,
+        "age": 1708687
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779854494046,
-        "age": 1733259
+        "updatedAt": 1779940919351,
+        "age": 1708687
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779854494046,
-        "age": 1733259
+        "updatedAt": 1779940919351,
+        "age": 1708687
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779786544396,
-        "age": 69682909
+        "updatedAt": 1779940919351,
+        "age": 1708687
       }
     ]
   }

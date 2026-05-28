@@ -6,7 +6,7 @@
       "agentId": "manager-bot",
       "name": "Confirm OpenClaw maintenance/backup/utilisation report after timers",
       "description": "One-shot follow-up for Vincent after the 2026-05-27 OpenClaw maintenance, backup, and utilisation timers.",
-      "enabled": true,
+      "enabled": false,
       "deleteAfterRun": true,
       "createdAtMs": 1779787338877,
       "schedule": {
