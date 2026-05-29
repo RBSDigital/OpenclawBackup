@@ -57,7 +57,7 @@
     {
       "id": "admin-http-rpc",
       "name": "@openclaw/admin-http-rpc",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
@@ -109,7 +109,7 @@
     {
       "id": "alibaba",
       "name": "@openclaw/alibaba-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba",
@@ -163,7 +163,7 @@
     {
       "id": "anthropic",
       "name": "@openclaw/anthropic-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic",
@@ -231,7 +231,7 @@
     {
       "id": "arcee",
       "name": "@openclaw/arcee-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/arcee/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/arcee",
@@ -285,7 +285,7 @@
     {
       "id": "azure-speech",
       "name": "Azure Speech",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
@@ -341,7 +341,7 @@
     {
       "id": "bonjour",
       "name": "Bonjour Gateway Discovery",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
@@ -400,7 +400,7 @@
     {
       "id": "browser",
       "name": "@openclaw/browser-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser",
@@ -497,7 +497,7 @@
     {
       "id": "byteplus",
       "name": "@openclaw/byteplus-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus",
@@ -554,7 +554,7 @@
     {
       "id": "canvas",
       "name": "Canvas",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Experimental Canvas control and A2UI rendering surfaces for paired nodes.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
@@ -649,7 +649,7 @@
     {
       "id": "cerebras",
       "name": "@openclaw/cerebras-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cerebras/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cerebras",
@@ -703,7 +703,7 @@
     {
       "id": "chutes",
       "name": "@openclaw/chutes-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/chutes/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/chutes",
@@ -757,7 +757,7 @@
     {
       "id": "clickclack",
       "name": "@openclaw/clickclack",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack",
@@ -826,7 +826,7 @@
     {
       "id": "cloudflare-ai-gateway",
       "name": "@openclaw/cloudflare-ai-gateway-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cloudflare-ai-gateway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cloudflare-ai-gateway",
@@ -880,7 +880,7 @@
     {
       "id": "comfy",
       "name": "@openclaw/comfy-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy",
@@ -940,7 +940,7 @@
     {
       "id": "copilot-proxy",
       "name": "@openclaw/copilot-proxy",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy",
@@ -992,7 +992,7 @@
     {
       "id": "deepgram",
       "name": "@openclaw/deepgram-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram",
@@ -1048,13 +1048,15 @@
     {
       "id": "deepinfra",
       "name": "@openclaw/deepinfra-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepinfra/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepinfra",
       "origin": "bundled",
       "enabled": true,
-      "compat": [],
+      "compat": [
+        "provider-auth-env-vars"
+      ],
       "syntheticAuthRefs": [],
       "status": "loaded",
       "toolNames": [],
@@ -1110,7 +1112,7 @@
     {
       "id": "deepseek",
       "name": "@openclaw/deepseek-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepseek/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepseek",
@@ -1216,7 +1218,7 @@
     {
       "id": "document-extract",
       "name": "Document Extraction",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Extract text and fallback page images from local document attachments.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
@@ -1275,7 +1277,7 @@
     {
       "id": "duckduckgo",
       "name": "@openclaw/duckduckgo-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo",
@@ -1327,7 +1329,7 @@
     {
       "id": "elevenlabs",
       "name": "@openclaw/elevenlabs-speech",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs",
@@ -1385,7 +1387,7 @@
     {
       "id": "exa",
       "name": "@openclaw/exa-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/exa/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/exa",
@@ -1439,7 +1441,7 @@
     {
       "id": "fal",
       "name": "@openclaw/fal-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal",
@@ -1499,7 +1501,7 @@
     {
       "id": "file-transfer",
       "name": "File Transfer",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
@@ -1565,7 +1567,7 @@
     {
       "id": "firecrawl",
       "name": "@openclaw/firecrawl-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/firecrawl/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/firecrawl",
@@ -1629,7 +1631,7 @@
     {
       "id": "fireworks",
       "name": "@openclaw/fireworks-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks",
@@ -1691,7 +1693,7 @@
     {
       "id": "github-copilot",
       "name": "@openclaw/github-copilot-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot",
@@ -1755,7 +1757,7 @@
     {
       "id": "google",
       "name": "@openclaw/google-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google",
@@ -1851,7 +1853,7 @@
     {
       "id": "gradium",
       "name": "@openclaw/gradium-speech",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/gradium/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/gradium",
@@ -1905,7 +1907,7 @@
     {
       "id": "groq",
       "name": "@openclaw/groq-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/groq/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/groq",
@@ -1959,7 +1961,7 @@
     {
       "id": "huggingface",
       "name": "@openclaw/huggingface-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface",
@@ -2013,7 +2015,7 @@
     {
       "id": "imessage",
       "name": "@openclaw/imessage",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage",
@@ -2065,7 +2067,7 @@
     {
       "id": "inworld",
       "name": "Inworld",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Inworld streaming text-to-speech (MP3, OGG_OPUS, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/inworld/index.js",
@@ -2120,7 +2122,7 @@
     {
       "id": "irc",
       "name": "@openclaw/irc",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc",
@@ -2182,7 +2184,7 @@
     {
       "id": "kilocode",
       "name": "@openclaw/kilocode-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kilocode/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kilocode",
@@ -2236,7 +2238,7 @@
     {
       "id": "kimi",
       "name": "@openclaw/kimi-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kimi-coding/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/kimi-coding",
@@ -2299,7 +2301,7 @@
     {
       "id": "litellm",
       "name": "@openclaw/litellm-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm",
@@ -2355,7 +2357,7 @@
     {
       "id": "llm-task",
       "name": "LLM Task",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
@@ -2414,7 +2416,7 @@
     {
       "id": "lmstudio",
       "name": "@openclaw/lmstudio-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio",
@@ -2480,7 +2482,7 @@
     {
       "id": "mattermost",
       "name": "@openclaw/mattermost",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost",
@@ -2549,7 +2551,7 @@
     {
       "id": "memory-core",
       "name": "@openclaw/memory-core",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "kind": "memory",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core/index.js",
@@ -2626,7 +2628,7 @@
     {
       "id": "memory-wiki",
       "name": "Memory Wiki",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
@@ -2701,7 +2703,7 @@
     {
       "id": "microsoft",
       "name": "@openclaw/microsoft-speech",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft",
@@ -2761,7 +2763,7 @@
     {
       "id": "microsoft-foundry",
       "name": "@openclaw/microsoft-foundry",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry",
@@ -2815,7 +2817,7 @@
     {
       "id": "migrate-claude",
       "name": "Claude Migration",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
@@ -2868,7 +2870,7 @@
     {
       "id": "migrate-hermes",
       "name": "Hermes Migration",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
@@ -2929,7 +2931,7 @@
     {
       "id": "minimax",
       "name": "@openclaw/minimax-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax",
@@ -3000,7 +3002,7 @@
     {
       "id": "mistral",
       "name": "@openclaw/mistral-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral",
@@ -3060,7 +3062,7 @@
     {
       "id": "moonshot",
       "name": "@openclaw/moonshot-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot",
@@ -3118,7 +3120,7 @@
     {
       "id": "nvidia",
       "name": "@openclaw/nvidia-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia",
@@ -3172,7 +3174,7 @@
     {
       "id": "oc-path",
       "name": "OC Path",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
@@ -3257,7 +3259,7 @@
     {
       "id": "ollama",
       "name": "@openclaw/ollama-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama",
@@ -3332,7 +3334,7 @@
     {
       "id": "open-prose",
       "name": "OpenProse",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "OpenProse VM skill pack with a /prose slash command.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/open-prose/index.js",
@@ -3383,7 +3385,7 @@
     {
       "id": "openai",
       "name": "@openclaw/openai-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai",
@@ -3468,7 +3470,7 @@
     {
       "id": "opencode",
       "name": "@openclaw/opencode-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode",
@@ -3524,7 +3526,7 @@
     {
       "id": "opencode-go",
       "name": "@openclaw/opencode-go-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go",
@@ -3580,7 +3582,7 @@
     {
       "id": "openrouter",
       "name": "@openclaw/openrouter-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter",
@@ -3644,7 +3646,7 @@
     {
       "id": "perplexity",
       "name": "@openclaw/perplexity-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/perplexity/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/perplexity",
@@ -3750,7 +3752,7 @@
     {
       "id": "policy",
       "name": "Policy",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Adds policy-backed doctor checks for workspace conformance.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy/index.js",
@@ -3813,7 +3815,7 @@
     {
       "id": "qianfan",
       "name": "@openclaw/qianfan-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qianfan/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qianfan",
@@ -3865,7 +3867,7 @@
     {
       "id": "qwen",
       "name": "@openclaw/qwen-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qwen/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/qwen",
@@ -3926,7 +3928,7 @@
     {
       "id": "runway",
       "name": "@openclaw/runway-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway",
@@ -3980,7 +3982,7 @@
     {
       "id": "searxng",
       "name": "@openclaw/searxng-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng",
@@ -4032,7 +4034,7 @@
     {
       "id": "senseaudio",
       "name": "@openclaw/senseaudio-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio",
@@ -4086,7 +4088,7 @@
     {
       "id": "sglang",
       "name": "@openclaw/sglang-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang",
@@ -4140,7 +4142,7 @@
     {
       "id": "signal",
       "name": "@openclaw/signal",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal",
@@ -4200,7 +4202,7 @@
     {
       "id": "skill-workshop",
       "name": "Skill Workshop",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Captures repeatable workflows as workspace skills, with pending review, safe writes, and skill prompt refresh.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/skill-workshop/index.js",
@@ -4259,7 +4261,7 @@
     {
       "id": "stepfun",
       "name": "@openclaw/stepfun-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/stepfun/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/stepfun",
@@ -4312,7 +4314,7 @@
     {
       "id": "synthetic",
       "name": "@openclaw/synthetic-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic",
@@ -4418,7 +4420,7 @@
     {
       "id": "tavily",
       "name": "@openclaw/tavily-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily",
@@ -4480,7 +4482,7 @@
     {
       "id": "telegram",
       "name": "@openclaw/telegram",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram",
@@ -4570,7 +4572,7 @@
     {
       "id": "tencent",
       "name": "@openclaw/tencent-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent",
@@ -4674,7 +4676,7 @@
     {
       "id": "together",
       "name": "@openclaw/together-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together",
@@ -4730,7 +4732,7 @@
     {
       "id": "tokenjuice",
       "name": "tokenjuice",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Compacts exec and bash tool results with tokenjuice reducers.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tokenjuice/index.js",
@@ -4789,7 +4791,7 @@
     {
       "id": "tts-local-cli",
       "name": "@openclaw/tts-local-cli",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
@@ -4842,7 +4844,7 @@
     {
       "id": "venice",
       "name": "@openclaw/venice-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice",
@@ -4894,7 +4896,7 @@
     {
       "id": "vercel-ai-gateway",
       "name": "@openclaw/vercel-ai-gateway-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway",
@@ -4948,7 +4950,7 @@
     {
       "id": "vllm",
       "name": "@openclaw/vllm-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm",
@@ -5002,7 +5004,7 @@
     {
       "id": "volcengine",
       "name": "@openclaw/volcengine-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine",
@@ -5059,7 +5061,7 @@
     {
       "id": "voyage",
       "name": "@openclaw/voyage-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage",
@@ -5113,7 +5115,7 @@
     {
       "id": "vydra",
       "name": "@openclaw/vydra-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra",
@@ -5173,7 +5175,7 @@
     {
       "id": "web-readability",
       "name": "Web Readability Extraction",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Extract readable article content from local HTML web fetch responses.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
@@ -5239,7 +5241,7 @@
     {
       "id": "webhooks",
       "name": "Webhooks",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "description": "Authenticated inbound webhooks that bind external automation to OpenClaw TaskFlows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
@@ -5298,7 +5300,7 @@
     {
       "id": "xai",
       "name": "@openclaw/xai-plugin",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai",
@@ -5381,7 +5383,7 @@
     {
       "id": "xiaomi",
       "name": "@openclaw/xiaomi-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi",
@@ -5437,7 +5439,7 @@
     {
       "id": "zai",
       "name": "@openclaw/zai-provider",
-      "version": "2026.5.26",
+      "version": "2026.5.27",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai",
@@ -5491,8 +5493,8 @@
     {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.5.26",
-      "description": "Codex app-server harness and Codex-managed GPT model catalog.",
+      "version": "2026.5.27",
+      "description": "OpenClaw Codex app-server harness and model provider plugin with a Codex-managed GPT catalog.",
       "format": "openclaw",
       "source": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex/dist/index.js",
       "rootDir": "/home/vin/.openclaw/npm/node_modules/@openclaw/codex",
@@ -5589,8 +5591,9 @@
     },
     {
       "id": "discord",
-      "name": "@openclaw/discord",
-      "version": "2026.5.26",
+      "name": "Discord",
+      "version": "2026.5.27",
+      "description": "OpenClaw Discord channel plugin for channels, DMs, commands, and app events.",
       "format": "openclaw",
       "source": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord/dist/index.js",
       "rootDir": "/home/vin/.openclaw/npm/node_modules/@openclaw/discord",
