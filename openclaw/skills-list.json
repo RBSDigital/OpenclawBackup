@@ -332,6 +332,48 @@
       }
     },
     {
+      "name": "Excel / XLSX",
+      "description": "Create, inspect, and edit Microsoft Excel workbooks and XLSX files with reliable formulas, dates, types, formatting, recalculation, and template preservation. Use when (1) the task is about Excel, `.xlsx`, `.xlsm`, `.xls`, `.csv`, or `.tsv`; (2) formulas, formatting, workbook structure, or compatibility matter; (3) the file must stay reliable after edits.",
+      "emoji": "📗",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "homepage": "https://clawic.com/skills/excel-xlsx",
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "financial-analyst",
+      "description": "Financial analysis and research workflows for market research, equity research, comparable companies, precedent transactions, and DCF valuation. Use when asked to build or critique DCF models, comps/precedents tables, competitor or strategy analysis, market sizing, or to deliver analyst-ready outputs in Excel, PowerPoint, or Markdown from CSV/Excel/SQL/API/web data.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "gemini",
       "description": "Gemini CLI one-shot prompts, summaries, generation, skills, hooks, MCP, or Gemma routing.",
       "emoji": "✨",
@@ -864,6 +906,73 @@
       }
     },
     {
+      "name": "Playwright (Automation + MCP + Scraper)",
+      "description": "Browser automation via Playwright MCP. Navigate websites, click elements, fill forms, take screenshots, extract data, and debug real browser workflows. Use when (1) you need a real browser, not static fetch; (2) the task involves Playwright MCP, browser tools, Playwright tests, scripts, or JS-rendered pages; (3) the user wants navigation, forms, screenshots, PDFs, downloads, or browser-driven extraction turned into a reliable outcome.",
+      "emoji": "P",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "homepage": "https://clawic.com/skills/playwright",
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "playwright-mcp",
+      "description": "Browser automation via Playwright MCP server. Navigate websites, click elements, fill forms, extract data, take screenshots, and perform full browser automation workflows.",
+      "emoji": "🎭",
+      "eligible": false,
+      "disabled": true,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": false,
+      "userInvocable": true,
+      "commandVisible": false,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [
+          "playwright-mcp"
+        ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "Powerpoint / PPTX",
+      "description": "Create, inspect, and edit Microsoft PowerPoint presentations and PPTX decks with reliable layouts, templates, placeholders, notes, charts, and visual QA. Use when (1) the task is about PowerPoint or `.pptx`; (2) layouts, placeholders, notes, charts, comments, or template fidelity matter; (3) the deck must render cleanly after edits.",
+      "emoji": "📊",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "homepage": "https://clawic.com/skills/powerpoint-pptx",
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "python-debugpy",
       "description": "Debug Python with pdb, breakpoint(), post-mortem inspection, and debugpy remote attach.",
       "eligible": true,
@@ -906,6 +1015,26 @@
         "env": [
           "ELEVENLABS_API_KEY"
         ],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "self-improvement",
+      "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
         "config": [],
         "os": []
       }
@@ -959,7 +1088,7 @@
     },
     {
       "name": "skill-creator",
-      "description": "Create, edit, audit, tidy, validate, or restructure AgentSkills and SKILL.md files.",
+      "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -967,8 +1096,28 @@
       "modelVisible": true,
       "userInvocable": true,
       "commandVisible": true,
-      "source": "openclaw-bundled",
-      "bundled": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "skill-vetter",
+      "description": "Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
       "missing": {
         "bins": [],
         "anyBins": [],
@@ -1089,6 +1238,28 @@
           "spogo",
           "spotify_player"
         ],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "stock-analysis",
+      "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.",
+      "emoji": "📈",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "homepage": "https://finance.yahoo.com",
+      "missing": {
+        "bins": [],
+        "anyBins": [],
         "env": [],
         "config": [],
         "os": []
@@ -1342,6 +1513,27 @@
         "bins": [
           "xurl"
         ],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "youtube-watcher",
+      "description": "Fetch and read transcripts from YouTube videos. Use when you need to summarize a video, answer questions about its content, or extract information from it.",
+      "emoji": "📺",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
         "anyBins": [],
         "env": [],
         "config": [],
