@@ -239,7 +239,7 @@
     },
     {
       "name": "coding-agent",
-      "description": "Delegate coding work to Codex, Claude Code, OpenCode, or Pi as background workers; not simple edits or read-only code lookup.",
+      "description": "Delegate coding work to Codex, Claude Code, or OpenCode as background workers; not simple edits or read-only code lookup.",
       "emoji": "🧩",
       "eligible": false,
       "disabled": true,
@@ -255,8 +255,7 @@
         "anyBins": [
           "claude",
           "codex",
-          "opencode",
-          "pi"
+          "opencode"
         ],
         "env": [],
         "config": [
