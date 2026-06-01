@@ -1,0 +1,125 @@
+# 2.5 Human Resource Decisions Mind Map
+
+```mermaid
+mindmap
+  root((2.5 Human Resource Decisions))
+    Organisational structures
+      Organisation charts
+        Hierarchy
+        Roles
+        Reporting lines
+      Job roles
+        Directors
+        Managers
+        Team leaders
+        Operational staff
+        Support staff
+      Span of control
+        Wide
+        Narrow
+      Chain of command
+        Authority
+        Communication route
+      Flat structure
+        Few layers
+        Short chain
+        Wide span
+      Tall structure
+        Many layers
+        Long chain
+        Narrow span
+      Delayering
+        Cost reduction
+        Faster communication
+        Fewer promotions
+    Decision making
+      Centralisation
+        Consistency
+        Control
+        Economies of scale
+        Less local flexibility
+      Decentralisation
+        Local response
+        Customer service
+        Junior manager development
+        Harder consistency
+    Communication
+      Written
+        Emails
+        Letters
+        Reports
+      Oral
+        Face to face
+        Telephone
+      Barriers
+        Language
+        Noise
+        Overload
+        Emotion
+        Gaps
+        Inconsistency
+    Ways of working
+      Permanent
+      Temporary
+      Freelance
+      Full-time
+      Part-time
+      Zero-hour
+      Remote working
+        Lower premises cost
+        Flexibility
+        Monitoring difficulty
+        Isolation risk
+    Recruitment
+      Job analysis
+      Job description
+      Person specification
+      Internal recruitment
+        Quick
+        Cheap
+        Motivating
+        Limited pool
+      External recruitment
+        Fresh ideas
+        Larger pool
+        Slower
+        More expensive
+      Selection
+        CV
+        Application form
+        Shortlisting
+        Interview
+        Contract
+    Training
+      Formal
+      Informal
+      Self-learning
+      Ongoing
+      Appraisal
+      Technology retraining
+      Benefits
+        Quality
+        Productivity
+        Motivation
+        Flexibility
+        Retention
+    Motivation
+      Benefits
+        Productivity
+        Attendance
+        Staff retention
+        Industrial relations
+        Quality
+      Financial
+        Salary
+        Wage
+        Piece-rate
+        Commission
+        Bonus
+        Profit share
+        Fringe benefits
+      Non-financial
+        Job enlargement
+        Job enrichment
+        Autonomy
+```

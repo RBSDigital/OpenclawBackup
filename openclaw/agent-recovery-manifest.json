@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-06-01T10:31:11.939Z",
+  "snapshotPolicy": {
+    "privateMemoryFiles": "included in private redacted recovery snapshot",
+    "excludedReinstallableOrGeneratedDirs": [
+      ".git",
+      ".venv",
+      "__pycache__",
+      "node_modules",
+      ".local-tools",
+      "apt-cache",
+      "apt-extract",
+      "clamav-db",
+      "clamav-run",
+      "sandboxes"
+    ]
+  },
+  "configuredAgents": [
+    {
+      "id": "manager-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/manager-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/manager-bot",
+      "runtimeDirExists": true
+    },
+    {
+      "id": "researcher-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/researcher-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/researcher-bot",
+      "runtimeDirExists": true
+    },
+    {
+      "id": "ops-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/ops-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/ops-bot",
+      "runtimeDirExists": true
+    },
+    {
+      "id": "admin-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/admin-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/admin-bot",
+      "runtimeDirExists": true
+    },
+    {
+      "id": "modeler-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/modeler-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/modeler-bot",
+      "runtimeDirExists": true
+    },
+    {
+      "id": "security-bot",
+      "workspace": "/home/vin/.openclaw/workspaces/security-bot",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/security-bot",
+      "runtimeDirExists": false
+    }
+  ],
+  "workspaceDirs": [
+    "admin-bot",
+    "manager-bot",
+    "modeler-bot",
+    "ops-bot",
+    "researcher-bot",
+    "security-bot"
+  ],
+  "runtimeDirs": [
+    "admin-bot",
+    "main",
+    "manager-bot",
+    "modeler-bot",
+    "ops-bot",
+    "researcher-bot"
+  ],
+  "bindings": [
+    {
+      "agentId": "manager-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151367164498050"
+        }
+      }
+    },
+    {
+      "agentId": "researcher-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151368343228636"
+        }
+      }
+    },
+    {
+      "agentId": "ops-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151369261514856"
+        }
+      }
+    },
+    {
+      "agentId": "admin-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1504151371195220160"
+        }
+      }
+    },
+    {
+      "agentId": "modeler-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1505085743414902819"
+        }
+      }
+    },
+    {
+      "agentId": "security-bot",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1507299212272996423"
+        }
+      }
+    }
+  ],
+  "sharedAgentMemoryVault": {
+    "path": "/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault",
+    "exists": true
+  },
+  "qmd": {
+    "binaryPresent": true
+  }
+}

@@ -1,0 +1,77 @@
+# 1.4 Making the Business Effective Mind Map
+
+```mermaid
+mindmap
+  root((1.4 Making the Business Effective))
+    Liability
+      Unlimited liability
+        Sole traders
+        Partnerships
+        Personal assets at risk
+      Limited liability
+        Private limited companies
+        Shareholder protection
+        Separate legal identity
+    Ownership
+      Sole trader
+        Easy setup
+        Control
+        Keeps profits
+        Unlimited liability
+        Finance harder
+      Partnership
+        Shared skills
+        Shared investment
+        Agreement
+        Shared profits
+        Unlimited liability
+      Private limited company
+        Limited liability
+        Shares
+        Continuity
+        Administration
+        Less privacy
+    Franchising
+      Franchisor
+      Franchisee
+      Benefits
+        Tested format
+        Support
+        Easier finance
+        Brand awareness
+        Buying power
+      Drawbacks
+        Fees
+        Royalties
+        Restrictions
+        Franchisor failure
+        Lower reward
+    Location
+      Cost
+      Raw materials
+      Labour
+      Customers
+      Government assistance
+      Communications
+      Competition
+      Expansion
+    Marketing mix
+      Product
+      Price
+      Place
+      Promotion
+      Balance
+      Customer needs
+      Change over time
+    Business plan
+      Idea
+      Objectives
+      Finance
+      Market overview
+      Operations
+      Marketing mix
+      Cash-flow
+      Profit forecast
+      Raise finance
+      Measure performance
+```

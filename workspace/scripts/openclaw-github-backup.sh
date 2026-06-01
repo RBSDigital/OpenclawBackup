@@ -95,9 +95,27 @@ fi
 rm -rf "$STAGING_DIR"/*
 mkdir -p "$STAGING_DIR"
 
-# Collect critical files
-mkdir -p "$STAGING_DIR/workspace" "$STAGING_DIR/systemd-user" "$STAGING_DIR/openclaw" "$STAGING_DIR/openclaw/agents-main" "$STAGING_DIR/openclaw/acpx" "$STAGING_DIR/openclaw/logs"
+# Collect critical files. Agent workspaces intentionally include private MEMORY.md
+# files because this is a private, redacted recovery snapshot. Reinstallable
+# toolchains, caches, databases, and generated sandboxes are excluded.
+mkdir -p "$STAGING_DIR/workspace" "$STAGING_DIR/workspaces" "$STAGING_DIR/agent-memory-vault" "$STAGING_DIR/systemd-user" "$STAGING_DIR/openclaw" "$STAGING_DIR/openclaw/agents-main" "$STAGING_DIR/openclaw/acpx" "$STAGING_DIR/openclaw/logs"
 rsync -a --delete --exclude '.git' /home/vin/.openclaw/workspace/ "$STAGING_DIR/workspace/" >>"$RUN_LOG" 2>&1 || fail "rsync workspace failed"
+rsync -a --delete \
+  --max-size='20m' \
+  --exclude '.git/' \
+  --exclude '.venv/' \
+  --exclude '__pycache__/' \
+  --exclude 'node_modules/' \
+  --exclude '.local-tools/' \
+  --exclude 'apt-cache/' \
+  --exclude 'apt-extract/' \
+  --exclude 'clamav-db/' \
+  --exclude 'clamav-run/' \
+  --exclude 'sandboxes/' \
+  /home/vin/.openclaw/workspaces/ "$STAGING_DIR/workspaces/" >>"$RUN_LOG" 2>&1 || fail "rsync agent workspaces failed"
+rsync -a --delete \
+  /home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault/ \
+  "$STAGING_DIR/agent-memory-vault/" >>"$RUN_LOG" 2>&1 || fail "rsync shared Agent Memory Vault failed"
 cp -a ~/.config/systemd/user/openclaw* "$STAGING_DIR/systemd-user/" 2>/dev/null || true
 cp -a ~/.config/systemd/user/qmd-knowledgebase-index.* "$STAGING_DIR/systemd-user/" 2>/dev/null || true
 cp -a ~/.config/systemd/user/*.service.d "$STAGING_DIR/systemd-user/" 2>/dev/null || true
@@ -119,6 +137,53 @@ capture_openclaw_json "openclaw skills list" "$STAGING_DIR/openclaw/skills-list.
 capture_openclaw_json "openclaw plugins list" "$STAGING_DIR/openclaw/plugins-list.json" plugins list --json
 capture_openclaw_json "openclaw config validate" "$STAGING_DIR/openclaw/config-validate.json" config validate --json
 capture_openclaw_json "openclaw health" "$STAGING_DIR/openclaw/health.json" health --json
+
+OPENCLAW_CONFIG_PATH="$OPENCLAW_CONFIG_PATH" STAGING_DIR="$STAGING_DIR" node <<'NODE'
+const fs = require('fs');
+const path = require('path');
+
+const home = process.env.HOME;
+const configPath = process.env.OPENCLAW_CONFIG_PATH;
+const stagingDir = process.env.STAGING_DIR;
+const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+const configuredAgents = (config.agents?.list || []).map(agent => ({
+  id: agent.id,
+  workspace: agent.workspace || null,
+  workspaceExists: Boolean(agent.workspace && fs.existsSync(agent.workspace)),
+  runtimeDir: path.join(home, '.openclaw', 'agents', agent.id),
+  runtimeDirExists: fs.existsSync(path.join(home, '.openclaw', 'agents', agent.id)),
+}));
+const workspaceDirs = fs.existsSync(path.join(home, '.openclaw', 'workspaces'))
+  ? fs.readdirSync(path.join(home, '.openclaw', 'workspaces')).sort()
+  : [];
+const runtimeDirs = fs.existsSync(path.join(home, '.openclaw', 'agents'))
+  ? fs.readdirSync(path.join(home, '.openclaw', 'agents')).sort()
+  : [];
+const bindings = config.bindings || [];
+const manifest = {
+  generatedAt: new Date().toISOString(),
+  snapshotPolicy: {
+    privateMemoryFiles: 'included in private redacted recovery snapshot',
+    excludedReinstallableOrGeneratedDirs: [
+      '.git', '.venv', '__pycache__', 'node_modules', '.local-tools',
+      'apt-cache', 'apt-extract', 'clamav-db', 'clamav-run', 'sandboxes',
+    ],
+  },
+  configuredAgents,
+  workspaceDirs,
+  runtimeDirs,
+  bindings,
+  sharedAgentMemoryVault: {
+    path: '/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault',
+    exists: fs.existsSync('/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault'),
+  },
+  qmd: {
+    binaryPresent: ['/home/vin/.local/bin/qmd', '/home/vin/.npm-global/bin/qmd', '/usr/local/bin/qmd', '/usr/bin/qmd']
+      .some(p => fs.existsSync(p)),
+  },
+};
+fs.writeFileSync(path.join(stagingDir, 'openclaw', 'agent-recovery-manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+NODE
 
 # Redact secrets in all text files, then fail closed if recognizable secrets remain.
 set +e

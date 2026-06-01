@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="/home/vin/.openclaw/workspaces/modeler-bot/.local-tools"
+OFF="$ROOT/blender-official/lib:$ROOT/blender-official/lib/mesa:$ROOT/blender-official"
+APT="$ROOT/blender-apt/usr/lib/x86_64-linux-gnu:$ROOT/blender-apt/usr/lib:$ROOT/blender-apt/usr/lib/x86_64-linux-gnu/pulseaudio"
+export LD_LIBRARY_PATH="$OFF:$APT${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+exec "$ROOT/blender-official/blender" "$@"
+

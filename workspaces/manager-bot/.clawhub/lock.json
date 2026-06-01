@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "3.0.21",
+      "installedAt": 1780113309490
+    },
+    "skill-creator": {
+      "version": "0.1.0",
+      "installedAt": 1780113514964
+    },
+    "excel-xlsx": {
+      "version": "1.0.2",
+      "installedAt": 1780113558065
+    },
+    "powerpoint-pptx": {
+      "version": "1.0.1",
+      "installedAt": 1780113579927
+    },
+    "playwright-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1780113631609
+    },
+    "financial-analyst": {
+      "version": "1.0.0",
+      "installedAt": 1780113931736
+    },
+    "playwright": {
+      "version": "1.0.3",
+      "installedAt": 1780113940405
+    },
+    "stock-analysis": {
+      "version": "6.2.0",
+      "installedAt": 1780114028531
+    },
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1780114070526
+    },
+    "skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1780114334803
+    }
+  }
+}

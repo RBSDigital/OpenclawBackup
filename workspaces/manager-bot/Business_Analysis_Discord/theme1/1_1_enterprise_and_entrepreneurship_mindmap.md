@@ -1,0 +1,64 @@
+# 1.1 Enterprise and Entrepreneurship Mind Map
+
+```mermaid
+mindmap
+  root((1.1 Enterprise and Entrepreneurship))
+    Dynamic nature of business
+      Market change
+      Technology
+      Consumer wants
+      Obsolete products
+      Laws and economy
+    Sources of ideas
+      Original ideas
+      Adapt existing products
+      Business experience
+      Personal experience
+      Hobbies and interests
+      Observation
+    Good business ideas
+      Solve problems
+      Better or cheaper
+      Practical
+      Quick to market
+      Customer focused
+      Exploit trends
+    Risk
+      Failure
+      Lost investment
+      Personal liability
+      Low sales
+      Cash-flow pressure
+    Reducing risk
+      Plan
+      Research
+      Cautious growth
+      Careful finance
+      Avoid excess costs
+      Limited liability
+      Monitor and review
+    Rewards
+      Profit
+      Independence
+      Satisfaction
+      Growth
+      Customer feedback
+      Social objectives
+    Role of enterprise
+      Produce goods and services
+      Meet customer needs
+      Add value
+        Convenience
+        Branding
+        Design
+        Quality
+        USP
+    Entrepreneur qualities
+      Innovative
+      Risk taker
+      Hard working
+      Organised
+      Determined
+      Persuasive
+      Leader
+```

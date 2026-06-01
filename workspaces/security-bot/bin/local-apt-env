@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+SECURITY_HOME="$HOME/.openclaw/workspaces/security-bot"
+APT_ROOT="$SECURITY_HOME/apt-extract"
+export PATH="$SECURITY_HOME/bin:$SECURITY_HOME/.venv/bin:$APT_ROOT/usr/bin:$APT_ROOT/usr/sbin:$PATH"
+export LD_LIBRARY_PATH="$APT_ROOT/usr/lib/x86_64-linux-gnu:$APT_ROOT/usr/lib/x86_64-linux-gnu/blas:$APT_ROOT/lib/x86_64-linux-gnu:${LD_LIBRARY_PATH:-}"
+export NMAPDIR="$APT_ROOT/usr/share/nmap"
+exec "$@"

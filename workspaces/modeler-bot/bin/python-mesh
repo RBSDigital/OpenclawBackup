@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+exec "/home/vin/.openclaw/workspaces/modeler-bot/.venv/bin/python" "$@"
+

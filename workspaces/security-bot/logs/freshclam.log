@@ -1,0 +1,47 @@
+--------------------------------------
+Current working dir is /home/vin/.openclaw/workspaces/security-bot/clamav-db/
+Can't open freshclam.dat in /home/vin/.openclaw/workspaces/security-bot/clamav-db
+It probably doesn't exist yet. That's ok.
+Failed to load freshclam.dat; will create a new freshclam.dat
+Creating new freshclam.dat
+Saved freshclam.dat
+Current working dir is /home/vin/.openclaw/workspaces/security-bot/clamav-db/
+Querying current.cvd.clamav.net
+TTL: 1625
+fc_dns_query_update_info: Software version from DNS: 1.0.9
+Current working dir is /home/vin/.openclaw/workspaces/security-bot/clamav-db/
+check_for_new_database_version: No local copy of "daily" database.
+query_remote_database_version: daily.cvd version from DNS: 28008
+daily database available for download (remote version: 28008)
+Retrieving https://database.clamav.net/daily.cvd
+downloadFile: Download source:      https://database.clamav.net/daily.cvd
+downloadFile: Download destination: /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-ef2236e7b5bd0de914432200feff54f8.tmp
+updatedb: Running g_cb_download_complete callback...
+Loading signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-ef2236e7b5bd0de914432200feff54f8.tmp-daily.cvd
+Properly loaded 355458 signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-ef2236e7b5bd0de914432200feff54f8.tmp-daily.cvd
+daily.cvd updated (version: 28008, sigs: 355458, f-level: 90, builder: svc.clamav-publisher)
+fc_update_database: daily.cvd updated.
+Current working dir is /home/vin/.openclaw/workspaces/security-bot/clamav-db/
+check_for_new_database_version: No local copy of "main" database.
+query_remote_database_version: main.cvd version from DNS: 63
+main database available for download (remote version: 63)
+Retrieving https://database.clamav.net/main.cvd
+downloadFile: Download source:      https://database.clamav.net/main.cvd
+downloadFile: Download destination: /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-32a3ba7fec26b353f08f8922eaeb9885.tmp
+updatedb: Running g_cb_download_complete callback...
+Loading signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-32a3ba7fec26b353f08f8922eaeb9885.tmp-main.cvd
+Properly loaded 3287027 signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-32a3ba7fec26b353f08f8922eaeb9885.tmp-main.cvd
+main.cvd updated (version: 63, sigs: 3287027, f-level: 90, builder: tomjudge)
+fc_update_database: main.cvd updated.
+Current working dir is /home/vin/.openclaw/workspaces/security-bot/clamav-db/
+check_for_new_database_version: No local copy of "bytecode" database.
+query_remote_database_version: bytecode.cvd version from DNS: 339
+bytecode database available for download (remote version: 339)
+Retrieving https://database.clamav.net/bytecode.cvd
+downloadFile: Download source:      https://database.clamav.net/bytecode.cvd
+downloadFile: Download destination: /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-021b937eb2061073e3d74d0744050c43.tmp
+updatedb: Running g_cb_download_complete callback...
+Loading signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-021b937eb2061073e3d74d0744050c43.tmp-bytecode.cvd
+Properly loaded 80 signatures from /home/vin/.openclaw/workspaces/security-bot/clamav-db/tmp.216479065e/clamav-021b937eb2061073e3d74d0744050c43.tmp-bytecode.cvd
+bytecode.cvd updated (version: 339, sigs: 80, f-level: 90, builder: nrandolp)
+fc_update_database: bytecode.cvd updated.

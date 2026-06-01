@@ -1,0 +1,48 @@
+{
+  "lastRunAt": "2026-06-01T05:20:30.376Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-06-01T05:20:15Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-06-01T05:20:15Z.json",
+  "openFindings": [
+    {
+      "id": "ci-2026-06-01-001",
+      "severity": "P1",
+      "owner": "ops-bot",
+      "summary": "3 failed delivery queue item(s) exist.",
+      "firstSeenAt": "2026-06-01T05:20:30.376Z",
+      "lastSeenAt": "2026-06-01T05:20:30.376Z",
+      "status": "open",
+      "nextAction": "Inspect failed delivery targets and clear only after confirming no retry loop."
+    },
+    {
+      "id": "ci-2026-06-01-002",
+      "severity": "P2",
+      "owner": "modeler-bot",
+      "summary": "modeler-bot has no active heartbeat checklist items.",
+      "firstSeenAt": "2026-06-01T05:20:30.376Z",
+      "lastSeenAt": "2026-06-01T05:20:30.376Z",
+      "status": "open",
+      "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
+    },
+    {
+      "id": "ci-2026-06-01-003",
+      "severity": "P2",
+      "owner": "ops-bot",
+      "summary": "ops-bot memory is stale at 445h.",
+      "firstSeenAt": "2026-06-01T05:20:30.376Z",
+      "lastSeenAt": "2026-06-01T05:20:30.376Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-06-01-004",
+      "severity": "P2",
+      "owner": "security-bot",
+      "summary": "security-bot memory is stale at 237h.",
+      "firstSeenAt": "2026-06-01T05:20:30.376Z",
+      "lastSeenAt": "2026-06-01T05:20:30.376Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    }
+  ],
+  "quietFindings": []
+}

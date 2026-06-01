@@ -1,0 +1,17 @@
+Hi Vincent,
+
+Attached is the OpenClaw Gemini agent audit guide.
+
+Drive upload:
+https://drive.google.com/file/d/1lHGE8VG74GG_WxVoFnsfYDphUMCSi-sz/view?usp=drivesdk
+
+Summary:
+- The guide explains how to use a second model such as Gemini to audit current OpenClaw agent outputs for performance, integrity, correctness, evidence quality, safety, routing, and completion.
+- Gemini CLI is installed locally, but headless execution currently needs auth configuration before it can run audits.
+- OpenClaw currently lists six configured agents and recent session metadata is available for audit sampling.
+- Google Drive upload works. Direct Google Docs API operations are currently limited because the Docs API is disabled for the configured Google Cloud project.
+
+Note: I attached the markdown report directly because sharing the Drive file to this email address reported that no Google account is associated with it.
+
+Regards,
+manager-bot

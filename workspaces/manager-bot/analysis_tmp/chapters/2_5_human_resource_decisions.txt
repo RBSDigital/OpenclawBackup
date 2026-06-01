@@ -1,0 +1,1249 @@
+2.5 Human Resource Decisions 
+Topic overview 
+Although this is a separate topic, students need to relate these concepts to the contexts in which a large 
+or growing business will be operating. Students must now be aware of the national and international 
+business environment and how this might impact on a firm. Students must be aware of this topic’s 
+relationship with the other topics in this theme and how this might affect business decision-making. 
+ 
+Section Key Things to Learn 
+Organisational structures Different organisation structures and their use 
+Achieving effective communication 
+Different ways of working 
+Effective recruitment Different job roles and responsibilities 
+The recruitment process 
+Effective training and 
+development 
+Methods of training and development 
+Purposes of training and development 
+Motivation The importance of motivating employees 
+Methods of motivation: financial and non-financial 
+ 
+Organisational structures 
+As businesses grow in size and the number of employees increases, they will need an internal structure 
+to show the relationship between employees, managers, departments and locations. The chosen 
+structure will depend on the type of business and its characteristics. Factors such as cost, control and 
+communication will all influence the most suitable organisational structure for a particular business.  
+Organisation charts 
+The simplest way to show how a business is organised is to look at an organisation chart.  This shows 
+the management hierarchy in a business and works from top to bottom. Here is an example of an 
+organisational chart: 
+ 
+
+
+
+===== PDF PAGE 126 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 125  
+As can be seen, the business is arranged into different levels i.e. a hierarchy. Roles are identified and 
+lines of management and responsibility are clearly shown. The Managing Director is at the top of the 
+organisational structure and he/she has four people reporting directly to him i.e. the different directors. 
+The Marketing Director has the different marketing managers reporting into him/her and the sales 
+teams will then report into the marketing managers.  
+Key job roles and responsibilities 
+A large business will have employees at many different levels of the organisational hierarchy. With the 
+exception of those employees at the bottom of the structure, these employees will have various 
+management responsibilities including being in charge of the layer below them in the organisational 
+structure. There are many different roles that can be found in a business. The key roles are summarised 
+here: 
+• Directors – in a large company, a director will be in charge of a department of functional area, 
+for example the Finance Director. They will be part of the Board of Directors who manage the 
+company. The most senior director will be the Managing Director. 
+• Managers or senior managers – managers will be responsible for a significant part of the 
+business operation and will be in charge of the performance of a number of employees. 
+• Team leaders or supervisors – in a large business teams of workers will often have one person 
+who is more senior. As well as working as part of the team, they will have some responsibilities 
+in making sure that the team operates effectively. 
+• Operational staff – these are the employees who directly do the work, such as the 
+manufacturing or providing the service. 
+• Support staff – alongside the operational hierarchy of the business, there be some employees 
+who are called on to assist in any area of the organisation. They generally have specialist 
+knowledge or skills.  IT support staff are a good example, but this may include less specialist 
+roles, such as cleaning, catering and caretaking staff. 
+Span of control 
+One of the features of an organisation chart is it shows the span of control. Span of control is the 
+number of employees for whom a manager is directly responsible.  The two diagrams below illustrate 
+two different spans of control: 
+ 
+A span of control of 7 would be considered to be quite wide. Contrast this with a span of 3 below, which 
+would be considered narrow. 
+
+
+
+===== PDF PAGE 127 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 126  
+ 
+There is no ideal span of control as it will depend upon a number of factors such as: 
+• The experience and personality of the manager 
+• The type of business - if being a line manager requires a great deal of close supervision, then a 
+narrow span might be appropriate 
+• The skills and attitudes of the employees – if employees are highly motivated, highly skilled and 
+highly qualified, then adopting wide spans of control could be more suitable 
+A flat organisational structure will have a wider span of control, compared to a tall hierarchical 
+structure, which will have a narrow span of control. As there will be less layers of management in the 
+hierarchy, a wider span of control tends to save money for an organisation. There are also benefits, as 
+communication will be easier from the top to the bottom of the organisation, but there could be less 
+control in terms of managing the quality of work. 
+Chains of command 
+The chain of command in an organisation chart, shows the lines of authority within the business.  In the 
+example below, Sam is responsible for Eve, Chris and Brenda. Further down the chain, Brenda is 
+responsible for Sharon and Dawn. This means that Sam would directly communicate with his three 
+subordinates. Brenda would then pass on any relevant messages to her team, as she would be their line 
+manager. Any issues that Sharon and Dawn may have should be directly communicated to Brenda, 
+rather than these two members of staff communicating with Eve, Chris or even missing a layer and 
+going directly to Sam. If Sharon or Dawn, had a particular concern regarding Brenda however, they 
+could directly communicate with Sam, as he is ultimately in charge of everybody. 
+ 
+If a business has a wide span of control and very few layers in the hierarchy, there will be a short chain 
+of command and with a narrow span of control, there is a long chain of command. 
+
+
+
+===== PDF PAGE 128 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 127  
+Choice of organisational structure 
+There are various ways of arranging the business organisational structure. These are often summarised 
+as: 
+• Flat: the organisational structure has few layers from the top of the organisation to the bottom 
+of it, short chains of command and wide spans of control 
+• Hierarchical or tall: the organisational structure has many layers from the top of the 
+organisation to the bottom of it, long chains of command and narrow spans of control 
+ 
+In the diagram, the hierarchical or tall organisation has six layers and narrow spans of control. In 
+contrast, the flat organisation has four layers and wider spans of control. The choice of which is most 
+suitable will depend on the nature of the business and the situation in which it operates.  
+When a business grows, it becomes more difficult to control, co-ordinate and organise. Therefore in 
+some cases, it might be necessary to add in additional managerial positions into the hierarchy, creating 
+another layer in the organisation.  
+In reverse, if a business is decreasing in size or aiming just to reduce costs, it may well decide to take out 
+a layer of management. This process is known as delayering. Delayering may help to improve 
+communication within the business, although it will also reduce promotion opportunities, as a layer of 
+management has now been removed. This may impact on motivation levels, as well as the fact that staff 
+will be expected to take on more responsibility, which may increase the costs of the business through 
+increased levels of training. 
+Centralisation and decentralisation 
+One of the issues that a business needs to address is where decision-making power is in the 
+organisational structure. The key question is whether it is kept with senior management at the 
+headquarters or the top of the organisation (centralised) or whether it is delegated further down the 
+hierarchy, away from the centre and possibly in different locations (decentralised). 
+
+
+
+===== PDF PAGE 129 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 128  
+Most large businesses do use some decentralisation, especially if they operate from several locations or 
+have added new products or markets. The issue is really how much independence business units or 
+groups within a business should have when it comes to key decisions, especially those that might affect 
+the business as a whole. 
+Centralised structures 
+Businesses that have a centralised structure keep decision-making firmly at the top of the hierarchy, 
+amongst the most senior management.  
+Fast-food businesses use a predominantly centralised structure to ensure that control is maintained 
+over their many thousands of outlets.  The need to ensure consistency of customer experience and 
+quality at every location are the main reasons why centralisation is chosen. 
+The main advantages and disadvantages of centralisation are: 
+Advantages Disadvantages 
+ Easier to implement common policies and 
+practices for the business as a whole 
+ There are often more layers in the 
+organisation, which will increase costs  
+ Prevents other parts of the business from 
+becoming too independent 
+ Local or junior managers are likely to be 
+much closer to customer needs, therefore 
+the best decisions for the local area may 
+not be taken by the business 
+ Easier to co-ordinate and control from the 
+centre, for example with budgets, which 
+prevents overspending 
+ Lack of authority down the hierarchy may 
+reduce manager motivation 
+ Economies of scale and other savings are 
+easier to achieve; for example, all 
+purchasing may be done centrally, which 
+will mean cheaper unit costs due to bulk 
+purchasing 
+ Customer service does not benefit from 
+flexibility and speed in local decision-
+making 
+ Greater use of specialist staff, for example 
+in areas such as human resources, finance 
+and marketing 
+ 
+ Quicker decision-making (usually) and 
+easier to show strong leadership 
+ 
+Decentralised structures 
+In a decentralised structure, decision-making is spread out to include more junior managers in the 
+hierarchy, as well as individual business units, such as specific stores, or trading locations. 
+Good examples of businesses which use a decentralised structure include the major supermarket 
+chains. Each supermarket has a store manager who can make specific decisions about their particular 
+store, such as staffing levels. However, bigger decisions regarding store layout are made by head office. 
+In this instance, every store manager is responsible to a regional or area manager. Hotel chains are also 
+particularly keen on using decentralised structures, so that local hotel managers are empowered to 
+make on-the-spot decisions to handle customer problems or complaints.  
+The main advantages and disadvantages of using decentralisation are: 
+
+
+===== PDF PAGE 130 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 129  
+Advantages Disadvantages 
+ Decisions are made closer to the customer 
+and therefore are more likely to reflect 
+their specific needs 
+ Decision-making is not necessarily looking 
+to the long term future direction of the 
+business 
+ Better able to respond to local 
+circumstances 
+ More difficult to ensure consistent 
+practices and policies, customers might 
+prefer consistency from location to 
+location 
+ Improved level of customer service  May be some diseconomies of scale and 
+inefficiencies across the business, for 
+example staff may duplicate roles across 
+different sites 
+ Consistent with aiming for a flatter 
+hierarchy and organisational structure 
+ Nobody to provide quick and strong 
+leadership when needed, for example in a 
+crisis situation 
+ Good way of training and developing junior 
+management 
+ Harder to control costs, which means the 
+business may end up over-spending  
+ Should improve staff motivation  
+Centralised structures allow for easy communication, particularly from the top of the hierarchy 
+downwards. If there is a tall hierarchical structure with many layers, it is harder for employees to 
+communicate upwards than it is for managers to communicate downwards, which is explained in 
+further depth in the next section. 
+Decentralised organisations, particularly those on different sites, find that communication is more 
+difficult. If the locations are in different countries then oral communication can be particularly hard to 
+achieve, particularly if they are not in the same time zones. Electronic communication, such as emails, is 
+often most effective here, although there is a danger of email overload and that some emails will not be 
+read and therefore not actioned.  
+In large multi-location businesses, there may even be a communication department which has the 
+responsibility to make sure that communication methods used by the business are appropriate and 
+effective. 
+Effective communication  
+There is a strong link between the organisational structure and the effectiveness of the methods used 
+for internal communication within a business. These can be compared between flat and hierarchical 
+organisational structures, as well as centralised and decentralised organisational structures. 
+Consideration should also be given as to how communication works up and down the organisation. 
+There are two types of communication that are considered here: 
+Written communication: letters, memos, emails, reports.  
+These are likely to increase in quantity, as the size of the organisation increases. In a tall hierarchical 
+structure, written communication from top to bottom of a chain of command is likely to be slow. It is 
+also likely to be used greatly. Even email can produce a large quantity of communication in order to 
+keep layers of the organisation informed. Communication up the organisation is very difficult. The layers 
+
+
+===== PDF PAGE 131 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 130  
+act as a “filter” preventing messages getting to the higher levels. In a flat structure, communication is 
+therefore quicker and easier, due to less layers being in existence.  
+Mass communication techniques can also be effective, whatever type of organisational structure that is 
+in place, for example a letter sent from the managing director can be sent to all staff. This ensures that 
+the message sent is consistent.  
+Oral (verbal) communication: face to face, telephone.  
+Within tall, hierarchical organisations, verbal messages can get distorted or lost. Communication may be 
+slow, as there is no one to receive a message. This means that messages have to be left and may not be 
+received. With flat organisations, the personal contact can be motivating for subordinates and 
+informing for managers. Upwards communication is much easier in a flat organisation, due to there 
+being less layers in the hierarchy.  
+Barriers to communication 
+Different organisational structures will have strengths and potential weaknesses related to the use of 
+communication: 
+• Centralised structures allow for easy communication, particularly from the top of the hierarchy 
+downwards.  
+• Decentralised organisations, particularly those on different sites, find that communication is 
+more difficult.  
+• In large multi-location businesses, there may be a need for a communication department to 
+ensure that communication methods used by the business are appropriate and effective. 
+• If there is tall, hierarchical structure with many layers it is harder for employees to communicate 
+upwards, than it is for managers to communicate downwards, as previously mentioned. 
+Aiming to achieve effective communication is one thing – actually doing it is another. There are several 
+barriers to communication, including: 
+Barrier Explanation 
+Language The message might use vocabulary that is not understood by the receiver, for example 
+too much use of technical or financial jargon. In some cases, messages may be from 
+different countries and therefore be written in different languages. 
+Noise Various things stop a message from getting through or being heard, for example poor 
+connection, background noise, distractions, too many people speaking at once. This can 
+be the case in open plan offices, where large volumes of people work in one room to 
+encourage socialisation and openness. However, this can also create distractions and 
+lots of noise! 
+Overload Too much information can cause problems, for example slow down decision-making. 
+Employees will often get too many communications, some of which will be important, 
+some urgent and some not requiring any attention. E-mails have made the overload 
+situation worse for many workers, as sometimes a receiver may receive over 100 a day! 
+
+
+===== PDF PAGE 132 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 131  
+Barrier Explanation 
+Emotion The relationship between the sender and receiver of communication might adversely 
+affect the message. Emotions are difficult to read, particularly in emails, and as a result 
+the message could be ignored or misinterpreted. 
+Gaps Too many intermediaries, for example too many layers in the hierarchy through which a 
+message has to be passed, might prevent or distort the message. 
+Inconsistency If people receive conflicting or inconsistent messages, then they may ignore or block 
+them and therefore important actions may not take place. 
+The impact of insufficient or excessive communication 
+Two of the most common complaints about communication is that there is too little or too much! 
+Insufficient communication can often lead to poor motivation, as workers believe they are not 
+important parts of the organisation. This can also lead to failure to complete jobs, as employees are not 
+fully aware of the job’s requirements. Alternatively, employees complete the job, but not correctly as 
+they do not have all the required details in order to complete it successfully. 
+Equally too much communication can also lead to workers being ineffective or inefficient. Excessive 
+communication can mean unnecessary work acknowledging and responding to the communications. 
+This can slow down the worker’s output. It can also cause quality issues, if the communication keeps 
+changing the job requirements or contradicts other communications that have been received. 
+Motivation is best when communication is clear and sufficient.  
+Different ways of working 
+Nowadays, there are many different ways of working – in fact more than there has even been! These 
+should be considered from both the employee and employers point of views. In some cases, these will 
+match, whereas in others the interest of the business may not allow the employee to work in a 
+particular way, for example full-time versus part-time positions. Some of the more common types of 
+working arrangements are summarised below:  
+Permanent 
+contracts 
+These provide the most certainty for the employee, but are less flexible for the 
+business. Employees have to be given a contract which gives details of pay, 
+holiday, hours of work, notice requirements and codes of behaviour. All of these 
+must conform to employee law. As workers will be secure in their job, they may 
+be better motivated and productivity levels may rise. 
+Temporary 
+contracts 
+Temporary contracts are normally for a fixed period of time. This will be suitable 
+for businesses where they may have a particular contract with no guaranteed or 
+similar work to follow. It can also be used as a trial period for workers. From the 
+employee’s point of view, it does not offer job security and can therefore make it 
+difficult to get a mortgage to buy a house for example. 
+Freelance contracts These are similar to temporary workers, only normally the freelance employee is 
+hired on a daily basis or just for a specific job. This is very common in some 
+industries, such as the music performance industry where freelance musicians will 
+be employed for a particular concert or tour. This provides flexibility for the 
+
+
+===== PDF PAGE 133 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 132  
+business, but no guarantee that the chosen worker will be available and therefore 
+the business may not have sufficient workers to carry out a particular task. It also 
+provides no job security for the employee, who may seek to find more secure 
+work elsewhere. 
+Full-time contracts Workers will generally have to work 5 days a week and no more than 48 hours 
+(although many will work far less). Having full-time workers will give workers 
+consistency in the workplace, for example relationships with customers and will 
+provide the employees with a guaranteed wage that they should be able to live 
+on. 
+Part-time contracts Part-time workers have the same rights as full-time workers, although 
+entitlements such as holidays are reduced in line with the amount of part-time 
+hours worked. These provide a smaller amount of work for employees compared 
+to full-time, which the member of staff may prefer, particularly if they have other 
+commitments such as childcare. It will also give the business more flexibility to 
+increase the part-time hours of a worker, if the business becomes busier for a 
+period of time.  
+Flexible or zero- 
+hour contracts 
+This type of contract provides no guarantee of any hours. The worker may have to 
+be available for work, but is not guaranteed any. This gives employers maximum 
+flexibility and is much used in catering, farming and the health service. Some 
+employees like the flexibility, for example students and mothers with young 
+children, but for others it makes planning family income very difficult. 
+ 
+Technology and working from home - remote working 
+The widespread adoption of low-cost, easy-to-use information technology means that many 
+entrepreneurs now start and operate their businesses from home. Large businesses have also seen 
+advantages in allowing their employees to work at home, for either some or all of their hours.  
+Having employees as remote workers will have advantages and disadvantages. In some cases these will 
+be to the worker, in other cases to the business. This works best when it benefits both the business and 
+the employee and in these cases it should increase business efficiency. 
+  
+
+
+===== PDF PAGE 134 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 133  
+ 
+Advantages Disadvantages 
+ Cheap – the business does not need to 
+provide premises for the workers. 
+ Employees require greater self-discipline – it 
+is easy to get distracted! 
+ Very little travelling, although customers 
+and suppliers might still need to be 
+visited. 
+ Work is often interrupted, for example by 
+callers to the home or by family. 
+ Work can be combined with domestic 
+tasks and responsibilities, for example 
+child care.  This can mean significant cost 
+savings for the employee and can also 
+allow businesses to retain valued 
+workers. 
+ Work never goes away – it is difficult to 
+separate work from home life, which can 
+increase stress levels! 
+ Environmental benefits - lower carbon 
+footprint. 
+ Potentially lonely for the employee – this 
+may lead to a lack of motivation, as there is 
+no social interaction from colleagues. 
+ More flexible hours might be possible, as 
+workers may prefer to work early or late 
+to fit in with other commitments.  
+ More difficult for the business to monitor 
+and control work being undertaken. 
+ 
+Effective recruitment  
+Recruitment and selection is a process that involves: 
+• Identifying the need for a job 
+• Defining the requirements of the position and the job holder 
+• Advertising the position 
+• Choosing the most appropriate person for the job 
+Recruitment is a vitally important activity for a business of any size. Indeed, the success of any business 
+depends to a large extent on the quality of its staff.  Recruiting employees with the correct skills can add 
+value to a business and recruiting workers at a wage or salary that the business can afford, will reduce 
+costs.  Employees should therefore be carefully selected, managed and retained, just like any other 
+resource. 
+
+
+===== PDF PAGE 135 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 134  
+ 
+Job analysis 
+When a vacancy arises in an organisation, perhaps due to somebody leaving a position for a job in 
+another firm, the organisation will need to decide whether the job is still really required, before starting 
+the actual recruitment process itself. This stage is called the job analysis.  
+Many small businesses have only one worker and many large businesses do not replace workers if they 
+leave. If the business decides that there is a vacant position, the next stage of the job analysis process is 
+to decide what type of worker is needed. In order to help this process, the key documents of a job 
+description and a person specification will be produced.  
+Key documents 
+Job description 
+• A detailed explanation of the roles and responsibilities of the post advertised 
+• Most applicants will ask for this before applying for the job – they want to know what the job 
+will involve! Making sure this is sufficiently detailed, will make the recruitment process much 
+more efficient for the organisation, as it will help to prevent unsuitable candidates applying for 
+vacant positions  
+• Refers to the post available, rather than the specific type of person the organisation is looking 
+for 
+Person specification 
+• Sets out the kind of qualifications, skills, experience and personal attributes a successful 
+candidate should possess 
+• A vital tool in comparing and assessing the suitability of job applicants 
+• Refers to the person rather than the post 
+Internal and external recruitment 
+
+
+
+===== PDF PAGE 136 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 135  
+When looking for people to fill a vacancy that has arisen, the business may already have employees in 
+the organisation who would be suitable. This is known as internal recruitment. If there are no suitable 
+internal candidates, then the business will need applicants from outside of the firm. This is known as 
+external recruitment. Of course both internal and external recruitment can be used. This is often the 
+case for senior management appointments. 
+The most popular ways of recruiting externally are:   
+• Job centres – Government agencies to help the unemployed find jobs or get training 
+• Job advertisements - the most common form of external recruitment.  Where a business 
+chooses to advertise will depend on the cost of advertising and the coverage needed i.e. how far 
+away people will consider applying for the job 
+• Recruitment agency - provides employers with details of suitable candidates for a vacancy and 
+can sometimes be referred to as “head-hunters”.  They work for a fee and often specialise in 
+particular employment areas, for example nursing, financial services, teacher recruitment 
+• Personal recommendation - often referred to as “word of mouth” and can be a 
+recommendation from a colleague at work.  A full assessment of the candidate is still needed 
+however, but potentially it saves on advertising costs 
+• Websites – these include general sites such as Fish4Jobs and MonsterJobs. Most agencies and 
+major employers will also have their own websites with a specific link to current vacancies. In 
+addition, there will be vacancy websites related to particular professions. Examples include 
+farming, nursing and teaching 
+Internal versus external recruitment 
+The benefits and drawbacks of internal and external recruitment include the following: 
+  
+
+
+===== PDF PAGE 137 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 136  
+ 
+ Benefits Drawbacks 
+Internal 
+recruitment  
+ Cheaper and quicker to recruit and 
+fill the vacancy 
+ Limits the number of potential 
+applicants  
+ People already familiar with the 
+business and how it operates, 
+therefore productivity increases 
+quicker  
+ No new ideas can be introduced 
+from outside  
+ Provides opportunities for 
+promotion within the business, 
+which could lead to increased 
+employee motivation levels and 
+higher staff retention 
+ May cause resentment amongst 
+candidates not appointed  
+ Business already knows the 
+strengths and weaknesses of the 
+candidate, which results in less risk 
+in the recruitment process 
+ Creates another vacancy which 
+needs to be filled  
+External 
+recruitment  
+ Outside people bring in new ideas   Longer process  
+ Larger pool of workers from which 
+to find the best candidate  
+ More expensive process, due to 
+advertising and interviews 
+required  
+ People have a wider range of 
+experience  
+ Selection process may not be 
+effective enough to reveal the best 
+candidate  
+ 
+Application process 
+The most suitable methods of selecting new employees will very much depend on the type of job and 
+the sort of person that is required. Using the wrong method might mean recruiting an unsuitable 
+worker or missing the best candidate for the position. The business must also take into account the legal 
+restrictions on recruitment, such as laws banning most types of discrimination. 
+When recruiting externally, the business will almost certainly have to produce a job advertisement.  The 
+objectives of the advertisement are to: 
+• Inform the audience of potential candidates about the vacancy  
+• Provide enough information to both inform and interest possible applicants 
+• Help filter out unsuitable applicants 
+• Obtain the most number of suitably qualified applicants for the post advertised 
+The advertisement must not discriminate and should provide details of how to apply for the vacancy.  
+
+
+===== PDF PAGE 138 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 137  
+For many jobs, a business will ask applicants to provide a curriculum vitae (CV).  This is a document that 
+the applicant designs providing details such as:   
+Personal details Name, address, nationality, national insurance number 
+Educational history  Including examination results, schools/universities attended, 
+professional qualifications  
+Previous employment history  Names of employers, position held, main achievements, 
+remuneration package, reasons for leaving  
+Suitability and reasons for 
+applying for the job  
+A chance for applicants to “sell themselves” 
+Names of referees  Often is a recent employer or a person who knows the applicant well 
+and are ideally independent and therefore non-biased 
+Sometimes job applicants are asked to fill in a firm’s own application form.  This is different from a CV in 
+that the employer designs it and sends it to applicants, but it will still ask for much of the same 
+information.  It has the benefit over a CV in that a business is able to design the form to its exact needs 
+and ask specific questions that it feels are important to help it select the best candidate for the vacant 
+position. Increasingly application forms are completed online. 
+Once a business has received all the applications, they need to be analysed and the most appropriate 
+candidates identified. This process is known as short listing. The short listed applicants will then 
+normally be invited to the business for further selection tests or interviews. From this selection process, 
+the most suited candidate for the vacant position will be chosen and an offer letter will be sent to the 
+candidate. If this candidate agrees to take up the post, the new employee must be given an 
+employment contract once he/she has started work. This is an important legal document that describes 
+the obligations of the employee and employer to each other (terms and conditions), as well as the initial 
+remuneration package and a number of other important details.  
+Recruiting the best staff is one of the most important decisions that businesses make. They produce 
+many benefits for the business, as well as providing value for money. Some of the benefits to the 
+business are: 
+ Increase in output and productivity which makes a business more efficient, leading to lower 
+average unit costs and potentially higher profits. The new member of staff will enjoy his/her new 
+position and be motivated to work hard! 
+ Different ideas that increase the success in terms of new products or just new ways of doing 
+things 
+ Improvements in quality and customer service that means the business gains new customers or 
+repeat business from existing customers 
+ Increase in staff retention as the right person is appointed for the position in the first place. 
+Therefore, they are unlikely to leave because they have taken on the “wrong” job and therefore 
+do not like either the job itself, the business or both! 
+  
+
+
+===== PDF PAGE 139 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 138  
+Effective training and development 
+All businesses will need to train their staff. New staff will need to know how the business operates and 
+how to do their job well, whereas existing staff will need to be trained in new processes or on new 
+equipment. Some staff may require further training, so they can take on more advanced or difficult jobs 
+in the future.  
+Training can be defined as: 
+The process of increasing the knowledge and skills of the workforce to enable them to perform their 
+jobs effectively 
+Training costs can be significant in any business. Many employers are prepared to pay these costs 
+because they expect their business to benefit from employees' development and progress. 
+Methods of training  
+Training can take place in many different ways. These can be formal or informal and be organised 
+through self-learning programmes or external organisations, as well as being provided at the place of 
+work. In large organisations, training and development is part of the performance review process, which 
+will recommend what training is required and how it can be arranged for each individual in the 
+organisation. 
+Type of training Description 
+Formal This often takes place outside the workplace at colleges, training organisations or 
+other similar provider premises. Training outside of the place of work is otherwise 
+known as “off the job” training. 
+ This allows the employee to concentrate on the training provided and to 
+receive specialist training from expert providers.  
+ It can however, be more expensive than training provided “in house” or at the 
+place of work by other employees, as it means that for existing workers, they 
+will not be carrying out their normal work. 
+Informal This normally takes place at the workplace and is often based on observation or 
+being “shown how to do a particular job” by a colleague who already does the 
+same job. This is otherwise known as “on the job” training.  
+ This can be much cheaper than formal training, as it is provided by existing 
+employees and no specialist trainers have to be paid. 
+ It may result in the employee being trained by copying poor practice, rather 
+than learning from scratch the best way of doing a specific job. 
+Self-learning The widespread use of the internet means that training can often take place at 
+home, linked to online tests, to ensure that the training has been understood. 
+ Some self-motivated workers and some types of training work well through 
+this method. It can be cheaper, as travelling costs are reduced. 
+
+
+===== PDF PAGE 140 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 139  
+Type of training Description 
+ It is not suitable for all employees or all types of jobs. It is also reliant on the 
+employee carrying out the training independently. In this case, not all aspects 
+of the training may be understood and two way dialogue cannot be 
+established to clarify specific points. 
+Ongoing training As the pace of change is so rapid, businesses generally have a culture of 
+continuous learning for all their employees. The choice of training to be 
+undertaken may be management or employee driven.  
+Performance 
+reviews or 
+appraisal 
+Performance reviews are part of most big business operations and are normally 
+linked to a target setting and an annual review process. This is where an employee 
+usually has a meeting with his/her line manager to discuss the employee’s 
+performance over the last year. Based on this review, targets are set for the future 
+and training organised. This may be in the form of remedial or refresher training 
+where poor performance has been identified. Better performance may lead to 
+development training, so that the employee will be able to take on new or more 
+senior roles within the business in the future. 
+Choice of training method 
+There are many factors that will affect the method or methods of training that a business will use. These 
+include the type of job, for example, airline pilots would not start learning using on the job training, but 
+would need significant off the job training before actually being allowed to fly a plane! 
+Other factors a business would need to consider in their choice of training would be the firm’s budget 
+and time available, whether the business has the capability of delivering its own training, for example 
+trainers, rooms and equipment. Most importantly a firm would need to review carefully the needs of 
+the workers who need to be trained and put in place the most appropriate training package that suits 
+them!  
+Benefits of training and development 
+Effective training and development has the potential to provide a range of benefits for a business: 
+ Higher quality – workers know how to do the job and will make less mistakes 
+ Better levels of customer service are provided to customers – knowledge and skills of employees 
+will be increased 
+ Increased productivity – employees will know the best way of doing their work, increasing their 
+overall efficiency 
+ Improved motivation -  workers feel valued, so will work better and harder 
+ Less supervision is required, as workers are more motivated and loyal to the business 
+ More flexibility through better and new skills, which also allows use of new technology 
+ Easier to recruit and employee retention will be higher – staff are happy and want to work for a 
+business that cares; this reduces recruitment and selection costs which can be high and a very 
+time consuming process 
+ Easier to implement change in the business 
+ 
+
+
+===== PDF PAGE 141 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 140  
+It should be noted that training also benefits the employee. In some cases this will be the same benefit 
+as for the business, but not always. A well trained worker may be able to be promoted internally in a 
+business to a higher position in the organisational structure or gain a better job at another business. 
+Retraining to use new technology 
+As new technology is introduced into a business then employees will need training on how to use it. It is 
+generally cheaper to retain and retrain existing staff rather than replace them with new employees. As 
+well as management directing employees to training for new technology, their training needs can also 
+be identified as part of the appraisal or performance review process.  
+Methods of training for new technology can include formal training provided by the supplier of the new 
+technology. This is quite common for new ICT packages and equipment. There can also be cascade type 
+methods, where one employee is sent on a training course and then trains colleagues on their return. 
+All training will cost money, this might be a direct charge for a course or the cost might be included in 
+the purchase of the new technology equipment. There can also be indirect costs such as covering for 
+employee’s who are absent from work because they are being trained. 
+The benefits of the training are normally significant. By introducing new technology, there may be the 
+need for less employees, but it is important that all employees are able to use new technology 
+efficiently. Well trained staff will also ensure that quality is maintained or improved and this can lead to 
+products that are cheaper to produce and more competitively priced, as well as being of good quality.  
+Motivation 
+Having recruited the right workforce, a business needs to make sure they continue to work at the 
+highest possible standards for as long as possible. There are many ways of motivating a workforce so 
+that this happens. The success of the methods will depend on the type of the business and the 
+circumstances in which it is operating. 
+What is motivation? 
+Motivation is essentially about the commitment to doing something.  In the context of a business, 
+motivation can be said to relate to:  
+“the will to work” 
+However, motivation is about more than simply working hard or completing tasks. People in business 
+can find motivation from a variety of sources. 
+Motivation can come from the enjoyment of the work itself and/or from the desire to achieve certain 
+goals, for example earn more money or achieve promotion. It can also come from the sense of 
+satisfaction gained from completing a specific problem or achieving a successful outcome after a 
+difficult project. 
+Motivation is important as people’s behaviour is determined by what motivates them. The performance 
+of employees is a product of both their abilities, for example their skills and experience, and their 
+motivation levels.  A talented employee who feels de-motivated is unlikely to perform well at work, but 
+a motivated employee can often deliver far more than is expected from them! 
+Benefits of a well-motivated workforce 
+A well-motivated workforce can provide several advantages to a business: 
+
+
+===== PDF PAGE 142 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 141  
+ High productivity (amount produced per employee).  This can lead to lower average unit costs of 
+production, as the firm’s fixed costs will be spread across more units, and enables a firm to sell 
+its products at a lower price or benefit from receiving higher profit margins on each item sold 
+ Low levels of absenteeism as the employees are content with their working lives and will 
+therefore motivate themselves to attend work, even if they feel “under the weather!” 
+ High levels of staff retention and low levels of staff turnover (the number of employees leaving 
+the business).  This can lead to lower training and recruitment costs 
+ Improved industrial relations with trade unions. The relationship between staff and 
+management is strong 
+ Contented workers give the firm a good reputation as an employer, therefore making it easier to 
+recruit the best workers in the future 
+ Motivated employees are likely to improve product quality or the customer service associated 
+with a product, as they want to do the best job that they can, as they really care about the 
+quality of their work 
+Financial methods of motivation 
+There are many reasons why people work for a living, although money or other financial rewards play a 
+key role in motivating people in the workplace. 
+There are a wide variety of ways in which a business can offer money, or financial rewards, as part of 
+the pay package. In many cases, an employee may benefit from a mixture of these financial rewards 
+which can include: 
+• Salaries: fixed amounts paid each month for performing a role; these are common for most 
+managerial positions, for example an accountant, teacher 
+• Wage: pay based on time worked; very common in small businesses or in retail stores where 
+employees are paid by the hour 
+• Piece-rate pay: pay per item produced, for example used in fruit picking 
+• Commission: payment based on the value of sales achieved. This can sometimes be as a 
+percentage of sales. 
+• Bonus: extra pay or reward for reaching a target; can be for an individual, a team or a workforce 
+• Profit share: staff payments or bonuses are linked to the performance of the firm, may include 
+shares for the employees.   
+• Promotion: if an employee does well they will get promoted which will give them a higher salary 
+• Fringe benefits are benefits in kind that are not paid out directly in cash (or cash equivalents 
+such as shares). Examples of these include: company cars, travel and housing subsidies, holidays, 
+childcare provision, staff uniforms and staff discounts. The type of fringe benefits that are given 
+to employees would be appropriate to the size, nature and finances available within the firm. 
+Non-financial methods of motivation 
+An entrepreneur or small business owner is in a good position to be able to motivate his/her staff.  The 
+business owner is likely to know personally each member of staff and have a close understanding of 
+their skills, abilities and attitude at work.  
+Larger businesses will use similar methods providing they know their employees and have an 
+organisational structure that provides opportunities for non-financial motivation to take place.  
+Here are some non-financial ways in which business can keep staff motivated: 
+
+
+===== PDF PAGE 143 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 142  
+• Job enlargement – give staff a greater variety of tasks to perform (not necessarily more 
+challenging) which should make the work more interesting.  This often happens anyway in small 
+businesses where staff undertake a variety of tasks. This might take place through job rotation, 
+which also means staff can undertake more than one job. 
+• Job enrichment – this involves workers being given greater responsibility and a wider range of 
+more complex and challenging tasks. This should give a greater sense of achievement.  
+• Autonomy – employees are given more independence so that they are trusted to work on their 
+own and use their own initiative. 
+
+
+===== PDF PAGE 144 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 143  
+Glossary 
+ 
+Term Definition 
+Adding value How a business sells a product for more than it costs through the processes 
+they apply 
+Advertising Promotional method where a business pays to place an advert in a form of 
+media, such as a newspaper or television 
+Aesthetics The attractiveness of the design of a product 
+Aims and objectives The overall goals of a business or organisation identifying what the business is 
+trying to achieve 
+Application form A method of applying for a job where the required details are decided by the 
+business who is recruiting 
+Autonomy The independence a worker has within their job 
+Average rate of 
+return 
+The annual percentage profit that an investment makes compared to the cost of 
+the investment 
+Bar gate stock 
+control graph 
+A method of displaying data on stock levels, which allows stock control policy to 
+be decided, implemented and reviewed within a business 
+Batch production Method of production where groups or types of products are made at several 
+stages 
+Bonus An extra amount of financial pay received through achieving a business target  
+Branding What distinguishes a good or service from rivals 
+Break even Where total revenue is the same as total costs and no profit or loss is made 
+Buffer stock A quantity of stock kept in store to safeguard against unforeseen shortages or 
+demands 
+Business An organisation set up to meet customer demand and to make a profit for its 
+owners 
+Business 
+environment 
+The external factors such as the economy and the law that influence how a 
+business operates 
+Business plan A document produced by a new or existing business that shows what its 
+objectives are and how it will meet them 
+Capacity The maximum production output a business can achieve with its existing 
+resources 
+Capital The initial money that is needed to start a business that is normally linked to 
+purchases of machinery and premises 
+Cash-flow The money that flows into and out of a business 
+Cash-flow forecast The prediction of how much money will come into and out of a business over a 
+future time period 
+Cash inflow The money that comes into a business from sales and other sources 
+Cash outflow The money leaving a business that it spends on raw materials, labour and other 
+expenses 
+Centralised Where business decision making and implementation take place at and from 
+
+
+===== PDF PAGE 145 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 144  
+Term Definition 
+the business headquarters 
+Chain of command Part of the structure of a business organisation which shows who is in charge of 
+who 
+Closing balance The total cash-flow left at the end of a period 
+Commission The extra amount of pay workers receive as a percentage of their or the 
+business’s sales 
+Communication How messages are passed within a business or from a business to its customers 
+Competition Other businesses that produce the same or similar goods or services 
+Competitive 
+advantage 
+A business has a marketing mix which enables it to be more successful than its 
+competitors 
+Competitive 
+environment 
+The number and strength of other businesses in the same market 
+Competitive pricing Where the price of a product is decided by comparing it to its rivals 
+Consumer The person or business that use the good or service produced 
+Consumer income How much money consumers have to spend on their needs and wants 
+Consumer law Legal constraints that protect the consumer from unfair business practice 
+Consumer Rights Where consumers are protected by laws in terms of product quality, returning 
+goods, repairs and replacements, digital content and delivery 
+Consumer spending The level of spending that consumers undertake related to their income 
+Cost plus A pricing method where a business decides what price to charge based only on 
+the cost of its production and some extra to make a profit 
+Crowd funding Finance raised through internet appeals from a large number of small investors 
+Curriculum Vitae A document summarising the personal details, qualifications and experiences of 
+an individual. Often used to apply for a job 
+Customer 
+engagement 
+Communicating with customers in a positive way 
+Customer feedback Enquiries made after a sale to show how a good, a service or the sales process 
+could be improved 
+Customer loyalty Whether customers return to a  business on a regular basis to purchase more of 
+the same goods or other goods that they produce 
+Customer needs What an individual must have in order to survive 
+Customer satisfaction How happy the consumer is with the product or service they have purchased 
+Customer service How a business looks after its customers before, during and after they make a 
+purchase 
+Customers The people who purchase a product or service from a business (not always the 
+consumer) 
+Decentralised A business structure and its decision-making is spread out to include more 
+junior managers as well as individual business units or locations 
+Delayering A method of saving costs in an organisation by reducing the number of layers 
+Demographics Factors related to population, often used as a basis for segmentation 
+
+
+===== PDF PAGE 146 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 145  
+Term Definition 
+Design mix The use, appearance and cost of a product 
+Differentiation When a business makes its product different to those of its competitors 
+Digital 
+communication 
+Sending messages using mobile or internet technology 
+Digital technology Where businesses use computers in any way to improve their business 
+performance 
+Directors People appointed by the shareholders to run the company on a day-to-day basis 
+to make all the important decisions 
+Discrimination When an employer choses its workers based on a particular characteristic; many 
+of these are illegal, for example age, gender and race 
+Distribution How a product gets from the producer to the consumer 
+Dividend The share of the profit received by a shareholder 
+E-commerce Using the internet to promote and sell a good or service 
+Economic climate How a business is affected by economic variables such as interest rates or 
+inflation in a country or in other countries 
+Efficiency Measures of how much output is being produced per unit of input 
+Employees People who work within a business 
+Employment law Legal constraints that protect the employees of a business from unfair business 
+practice  
+Employment level The % employment rate in a country which will effect consumer spending and 
+the availability of employees 
+E-newsletter A regular publication sent electronically to customers with items of interest, 
+new products and promotions; used to maintain regular contact with customers 
+Enterprise A business that has the objective of making a profit 
+Entrepreneur An individual who takes a calculated risk in starting or running a business in 
+return for making a profit 
+Environmental 
+considerations 
+The business takes into account consumer and producer concerns about the 
+environment 
+E-tailer An electronic retailer i.e. sells goods using the internet 
+Ethical objectives Where businesses have as an aim what is morally right rather than necessarily 
+the most profitable option 
+Excessive 
+communication 
+When too much communication can lead to workers being ineffective or 
+inefficient because of unnecessary work acknowledging and responding to 
+communications 
+Exchange rate The amount of foreign currency that can be purchased with another currency 
+Exports Goods or services that are produced in this country and sold to other countries 
+Extension strategy Methods of prolonging the product life cycle to extend the life of a product 
+External finance Sources of money from outside of a business 
+External growth Growth which occurs by a merging with or taking over another business 
+External influence Factors that affect a business but they cannot control 
+
+
+===== PDF PAGE 147 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 146  
+Term Definition 
+External recruitment Where a business aims to finds new workers from outside of its current 
+workforce 
+Finance The money that is necessary to start and run a business  
+Financial data Information on the costs and revenues of businesses showing changes over time 
+and used as the basis for calculations and displaying to managers 
+Financial objectives Quantifiable targets for a business including profit, sales and costs 
+Fixed costs Business costs that do not vary with output 
+Fixed premises Where business premises are located in a building; the use has decreased with 
+the rise of the  internet increasing home or teleworking 
+Flat structure Where the organisational structure has few layers, short chains of command 
+and wide spans of control 
+Flexible hours Either the employee or the employer have some choice about the actual hours 
+worked 
+Flow production Method of production associated with making very large quantities of standard 
+products 
+Focus group In depth market research where discussions take place with a group of potential 
+of actual consumers 
+Formal training Specialist training for employees involving courses or off site provision 
+Franchise Where a business acquires the right to use the name and products of another 
+business 
+Franchisee The business which runs a franchise in a specific territory or area 
+Franchisor The seller of a right to operate a franchise 
+Freelance contracts Where an employee is available to be hired on a daily basis or just for a specific 
+job 
+Fringe benefit Methods of rewarding a worker that are not directly monetary 
+Full time working An employee who is employed for a whole weeks work 
+Function  A feature of product design which shows that the product can perform its 
+intended job 
+Gap in the market An opportunity for a business to provide a good or service that is not currently 
+available 
+Globalisation The increased integration of trade, finance and communications between 
+countries 
+Goods Products that businesses produce that have a physical presence 
+Gross profit The difference between revenue and cost of sales; calculated as:  
+gross profit = total revenue – cost of sales 
+Gross profit margin The percentage profit made on sales not taking into account the businesses 
+expenses; calculated as: gross profit/sales revenue x 100 
+Growth A business objective of increasing the amount or value of sales 
+Health and safety law Legal constraints that protect the employees of a business from unsafe  
+business practice 
+
+
+===== PDF PAGE 148 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 147  
+Term Definition 
+Hierarchical structure Where the of organisational structure has many layers, long chains of command 
+and narrow spans of control 
+Human resources How a business recruits and manages its workforce 
+Imports Goods or services that are produced in other countries and consumed in this 
+country 
+Inflation Where costs and prices in an economy are increasing  
+Informal training Where employees learn how to do a job at the workplace by observing other 
+employees 
+Innovation The introduction of a new product or features on a product 
+Inorganic growth Growth which occurs by merging with or taking over another business 
+Insolvency Where a business runs out of cash and is not able to obtain new finance 
+Interest rates The percentage cost of borrowing money or the reward for saving money 
+Internal finance Where a business obtains funds from its own sources such as retained profits 
+Internal growth Organic growth which takes place through a business selling more of its own 
+products 
+Internal recruitment Where a business aims to finds new workers from within its current workforce 
+Internet A means of connecting computer to computer to allow the transfer of 
+information around the world 
+Investment The purchase of new premises or machinery which can be used for growth, 
+replacement or mechanisation 
+Job analysis A business deciding whether it needs a worker and what type if required 
+Job description An explanation of the roles and responsibilities of a job 
+Job enrichment Giving  workers more responsibility or more complex and challenging tasks so 
+they have a sense of achievement 
+Job production Method of production where products are made individually 
+Job roles What the different types of jobs do in a business 
+Job rotation Where a worker moves from one job to another job over a period of time 
+Just-in-time Where inputs into the production process arrive on the production line just as 
+they are needed 
+Labour The workers who are needed directly or indirectly to provide the good or 
+service that a business produces 
+Lead time The time between ordering a good or service and receiving it 
+Legal structure What type of organisation a business chooses to be such as a partnership or 
+company 
+Limited liability The protection enjoyed by shareholders who can only lose the money they have 
+put into the company 
+Loan Source of finance for a business where they receive a fixed amount of money 
+for a specified time, which will need repayment with interest 
+Loan capital Sources of finance involving loans normally from banks or other financial 
+
+
+===== PDF PAGE 149 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 148  
+Term Definition 
+institutions 
+Local community A business stakeholder who will be affected by a business’s location in terms of 
+direct and indirect employment opportunities  
+Location The place where a firm decides to conduct its business 
+Logistics The management of the flow of goods, information and money along the supply 
+chain 
+Loss Where the costs of a business are greater than its income 
+Loss leader Where a business prices a good at less than its cost to encourage customers to 
+buy other goods at the same time 
+Management  How to successfully ensure that employees work effectively 
+Margin of safety The additional output that a business produces or expects to produce more 
+than its breakeven output 
+Market conditions The current situation in the economy and whether it is improving or worsening 
+Market data Quantitative information such as sales figures over time for the market of a 
+product or service 
+Market map A diagram representing different businesses in a market that are compared to 
+two variables, such as price and quality; it is used to identify a gap in the market 
+Market research Information from existing and potential consumers about their reaction to a 
+good or service 
+Market share The percentage of total sales a firm’s particular good or service has 
+Marketing Providing the goods and services that consumers require whilst making a profit 
+Marketing mix The ingredients needed to produce a marketing policy normally known as the 
+4Ps (product, price, place and promotion) 
+Market segments A way of dividing up the market into different groups of potential customers 
+Materials The inputs needed for the production of a good or service 
+Merger Where two businesses of equal size are joined together 
+Motivation The desire of an employee to do a job well 
+Multinational A business that produces goods in more than one country 
+Needs What an individual must have in order to survive 
+Net cash-flow The difference between the cash inflows and cash outflows for a business in a 
+time period 
+Net profit The total amount of money made from the trading activities of the business; 
+calculated as: net profit = gross profit - overheads/expenses 
+Net profit margin The percentage profit made after all costs and expenses have been deducted; 
+calculated as: net profit/sales revenue x 100 
+Non-financial 
+objectives 
+Business targets that involve areas such as improving quality and being more 
+ethical 
+Observation A method of market research where direct data is gathered from customer 
+actions 
+Obsolete When a type of product is no longer produced because it is not needed or has 
+
+
+===== PDF PAGE 150 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 149  
+Term Definition 
+been replaced 
+Opening balance The total cash-flow available at the start of a period 
+Operational staff Employees who directly do the work such as the manufacturing or providing the 
+service 
+Organic growth Growth which occurs as a business sells more of its own products 
+Organisational 
+structure 
+The way employees are arranged into a formal structure for control and 
+communication 
+Output The total quantity produced by a business, employee or machine over a given 
+period of time 
+Overdraft Source of finance for a business where it is allowed to take more money out of 
+its account than it has deposited 
+Overheads Costs or expenses that a business incurs 
+Partnership Where a business is started and owned by more than one person, who then 
+share the profits and the responsibilities 
+Part-time working Where an employee is employed for less than a whole weeks work 
+Payment system The use of digital technology by a business to pay its suppliers and employees 
+Performance review A process of staff development looking back at how well an employee is doing 
+their job; often linked to identifying future training needs and bonuses 
+Permanent contract A job where an employee will continue working for an indefinite period 
+Person specification The qualifications, skills, experience and personal attributes needed for a job 
+Personal savings The difference between an individual’s income and their spending 
+Place How a product or service is distributed to the customer 
+Post sales service Following up with a customer after they have made a purchase to check that 
+everything is “ok” 
+Pressure group A collection of individuals who have a common cause and campaign to achieve 
+it 
+Price The amount of money a customer would need in order to buy a good or service  
+Pricing strategy A policy that a business decides to calculate the price at which it chooses to sell 
+its new or existing products 
+Primary research First-hand information gathered by a business about existing and potential 
+consumers 
+Private limited 
+company 
+The most common kind of limited company in the UK, where shares can only be 
+sold to “family and friends” 
+Procurement The process of choosing a supplier 
+Product life cycle The stages in the life of a product from when it is first thought of until it is finally 
+removed from the market 
+Product range The amount of different types of goods or services that a business chooses to 
+produce 
+Product trial A free or reduced price product given as a sample with the hope that consumers 
+will continue to buy the product in the future 
+
+
+===== PDF PAGE 151 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 150  
+Term Definition 
+Production The process which involves taking inputs and transforming them into outputs 
+Productivity The amount of output per unit of input (labour, equipment, and capital) 
+Profit The difference between costs and revenue 
+Promotion Methods of making a consumer aware of a product and persuading them to buy 
+it, includes advertising, sales promotion and public relations 
+Promotion (human 
+resources) 
+Where an employee moves job to a more senior position 
+Public limited 
+company 
+The kind of limited company whose shares can be bought on a recognised stock 
+exchange 
+Public relations An approach to promoting a business focussed on producing a positive image 
+using media and other indirect methods 
+Qualitative data Results of research that is based on opinions, attitudes and beliefs  
+Quality Where a product is of a standard that meets a customer's requirements 
+Quality assurance Setting up processes in production to ensure that quality is achieved 
+Quality control Checking that the products produced by a business are of the required standard 
+at the end of the production process 
+Quantitative data Results of market research that is normally numerical  
+Questionnaire A method of gaining market research data through asking the opinions of actual 
+or potential customers 
+Raw materials The inputs needed for the production of a good or service 
+Recruitment A process a business undertakes to attract new or replacement workers 
+Reliability Whether a supplier will always deliver at the agreed time 
+Remote working Where employees can be working normally at home away from their business’s 
+location being linked through the internet 
+Remuneration The package of pay and other rewards provided to an employee 
+Research and 
+development 
+Costs that are required in getting a new product ready to launch into a market  
+Retailer The final part of the distribution process where the product is sold to the 
+customer 
+Retained profit A source of finance based on money that a business keeps back after paying 
+shareholders a dividend and giving owners their share of the profits 
+Retention How well a business keeps the staff that it employs 
+Revenue The income from sales; price x quantity sold 
+Reward What an entrepreneur receives, financial or non-financial, as the return for the 
+risks that are taken 
+Risk The possibility that a business may not be successful 
+Roles and 
+responsibilities 
+The details about a job and what it involves 
+Sales process A series of activities that are designed to engage customers and to complete a 
+sale 
+
+
+===== PDF PAGE 152 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 151  
+Term Definition 
+Sales promotion Point of sale methods that persuade customers to buy a product  
+Secondary research Information that has already been collected by other businesses or 
+organisations about existing and potential consumers 
+Segmentation A way of dividing up the market into different groups of potential customers 
+Self-learning A method of training and development where the employee works through a 
+guided programme of information and activities 
+Selling assets When a business sells its land, buildings, machinery or equipment that are no 
+longer needed to raise additional finance 
+Service Activities that are provided by a business for customers and that are not 
+tangible 
+Share capital The money raised by a business from the sale of shares 
+Share issue When a company raises finance through selling shares to new or existing 
+shareholders 
+Shareholder An owner of a company who receives a dividend as a return for their investment 
+Shares When an investor owns part of a private or public limited company 
+Social media Internet sites such as Facebook and Twitter that allow individuals to interact 
+through messages and updating 
+Social objectives Business objectives such as being ethical or environmentally friendly 
+Sole trader Where a business is started and owned by one person who keeps all the profits, 
+but holds all the responsibilities 
+Sources of finance Options that a business has if it needs additional finance to start, run or expand 
+its business 
+Span of control The number of employees who a manager directly controls 
+Special offers Temporary deals to encourage customers to try a new product or a relaunched 
+product 
+Sponsorship A type of public relations where a business aims to improve brand awareness 
+through making donations to individuals and organisations 
+Stakeholder An individual or group that is directly or indirectly affected by the actions of a 
+business 
+Stock market 
+flotation 
+When a company raises finance through selling shares to new or existing 
+shareholders 
+Supervisor An employee with responsibilities for the work produced by a number of 
+workers 
+Supplier A business that provides raw materials, components, finished goods or services 
+in exchange for payment 
+Supply chain All activities that are involved in getting a good or service to the customer 
+Support staff Employees who are called onto assist in any area of the organisation by 
+providing additional labour or specialist skills 
+Survey A method of market research where customers and potential customers are 
+asked their opinions 
+
+
+===== PDF PAGE 153 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 152  
+Term Definition 
+Survival A business objective where continuing in existence becomes the short term goal 
+Sustainability To ensure that production in an economy can continue at the same level in the 
+future 
+Takeover Where a business acquires another business 
+Target market Where customers are segmented to allow businesses to focus its marketing 
+policy on meeting their specific requirements 
+Target setting An employee process linked to performance reviews that sets goals and 
+identifies training needs 
+Tariff A tax on imports that increases their price and allows home businesses an 
+advantage 
+Taxation How the government collects money to fund its expenditure programme and 
+influence the economy 
+Team leader An employee with responsibilities for the work produced by a group of workers 
+Technology How businesses uses machines and devices to improve their operation 
+Temporary contract A job where a worker will be employed for a fixed period of time 
+Total costs All the costs of a business; calculated as:  
+total costs = fixed costs + variable costs 
+Trade bloc A group of countries that have free trade within their group and that may 
+restrict imports from countries outside of the trade bloc 
+Trade credit When a business orders and receives supplies, but pays for them at a later date 
+Training How employees learn to do a job 
+Unemployment Where people are able, available and willing to work at the going wage but 
+cannot find a job 
+Unique selling point What makes a business’s goods or services different from its competitors 
+Unit costs The average cost of making one unit or item 
+Unlimited liability If a business becomes  bankrupt, sole traders and partners are personally liable 
+for their business’s debts 
+Variable costs Business costs that change with output, such as raw materials 
+Venture capital A source of finance normally for small businesses with good growth prospects, 
+where the venture capitalist normally takes a stake in the business 
+Viral advertising Where an advert is spread through social media by people spreading the 
+message through forwarding to their friends and contacts 
+Wants What an individual would like, but does not need to survive

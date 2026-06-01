@@ -1,0 +1,885 @@
+1.3 - Putting a Business Idea Into Practice 
+Topic overview 
+In this topic students need to continue to relate the concepts to the contexts in which an enterprise and 
+an entrepreneur will be operating. They must be aware how business implementation can be affected 
+by the local and national business environment and how this might impact on a small business. Students 
+must be aware of this sections relationship with the other areas in this theme and how again, this may 
+impact on business decision-making. 
+ 
+Section Key things to learn 
+Business aims and 
+objectives 
+Defining business aims and business objectives 
+Financial aims for a start-up business 
+Non-financial aims for a start-up business 
+Differences in business aims and objectives between firms 
+Business revenues, costs 
+and profits 
+Understanding and calculating business revenue 
+Understanding and calculating business costs 
+Understanding and calculating business profit and loss 
+Interest 
+Break even concept and the margin of safety 
+Interpreting break even diagrams 
+Changes in break-even variables 
+Cash and cash-flow The importance of cash in a business 
+Cash versus profit 
+Interpreting cash-flow forecasts 
+Sources of business 
+finance 
+Short term finance options for small and start-up businesses 
+Long-term finance options for small and start-up businesses 
+ 
+Business aims and objectives 
+What motivates someone to become an entrepreneur?   
+For many people this will be money.  The chance to earn significant profits, buy a yacht, take numerous 
+holidays, buy designer goods and send the kids to the best private schools. 
+Money and personal wealth may well however, not be the real motivation. Evidence suggests that there 
+are many more reasons why someone wants to start a business.  
+Every business starts small.  However, if the entrepreneur takes some calculated risks, shows a lot of 
+determination and has some luck, a start-up business can become very large, profitable and valuable. 
+However, not every entrepreneur wants to build a big business and earn a fortune. 
+The objectives when starting a business can be broadly split into two categories: financial objectives 
+and non-financial objectives.  
+
+
+===== PDF PAGE 25 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 24  
+The purpose of business aims and objectives 
+Aims and objectives provide a direction for any business. Without clear objectives, a business may 
+provide goods and services that are not appropriate to why the business was set up. This may result in 
+the business not being successful. Having objectives just written down however, is not enough to 
+ensure business success. In order for objectives to be effective, they must be implemented and 
+monitored over time. Some of the benefits to a business of having clear objectives are as follows:  
+Reason  Explanation 
+Direction 
+ 
+Clear objectives will allow a business to decide on the direction it should take, 
+for example, whether it should expand or not, whether it should change its 
+target market or perhaps increase or decrease its range of goods or services. 
+Focus for employees It is important that all employees are aware of the business’s objectives and 
+that they are attempting to follow and meet them. If all employees are 
+working together in the same direction, this will increase efficiency. 
+Allows planning The overall firm’s strategy, what it plans to do in the future, will be in its 
+business plan. Having clear objectives will allow consistent planning for the 
+business as a whole and any departments within the business.  The plan will 
+be designed so that the business objectives can be met. 
+Measurement of 
+success 
+Having business objectives allows a business to measure its success. In other 
+words, through a business reviewing its objectives, it would be able to see if it 
+had achieved them or not or whether it was on the way to achieving them. 
+This means that the business can then correct or change its business strategy 
+if it is not working. A business might also need to change its business 
+objectives if they are proving impossible to meet or if they are being achieved 
+too easily.  
+ 
+The ability to measure success is much easier to carry out for financial 
+objectives, which are easily quantifiable, rather than non-financial objectives, 
+such as “being more ethical” or “increasing customer satisfaction”, which are 
+very difficult to measure. 
+Financial objectives 
+• Survival – over half of new businesses fail within five years and many new businesses do not 
+survive much beyond their launch. Often entrepreneurs discover that their business idea was 
+not as good as they originally thought and therefore the business cannot run profitably or it runs 
+out of cash. Changes in the business environment also may make it harder for a business to be 
+successful. The first priority of a business is therefore always to survive. 
+• Profit – making profit is the main objective for most businesses. This is the reward to the 
+entrepreneur for their hard work and the risks undertaken, often with their own money. Ideally, 
+the profit earned is sufficient to provide the entrepreneur with enough income to live on. Profits 
+may also be kept in the business to allow it to expand or develop further. Other objectives 
+businesses may have which are linked to profit maximisation are increasing revenue, the 
+amount made from sales, or decreasing costs. 
+• Another financial objective is financial security or personal wealth. Working for someone else 
+might mean the loss of a securely paid job, which means the entrepreneur would have no 
+
+
+===== PDF PAGE 26 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 25  
+financial security. Some entrepreneurs have a longer term objective.  They aim to build a 
+valuable business that can substantially increase their future wealth. They could be aiming to 
+build up the business and sell it, or make it so it will provide a substantial future income for 
+them, with no risk to them of being made redundant! 
+• Sales maximisation/market share – some businesses will be more concerned with increasing 
+their sales and therefore their market share. They may accept lower profits in the short term, in 
+order to increase sales.  
+Non-financial objectives 
+Although most businesses will be focussed on financial objectives, there are many other priorities that 
+will exist for new and small businesses. Providing a high quality service will be particularly important for 
+a new business. Looking after its customers and its employees would also be an objective for many 
+small businesses.  
+In many cases, non-financial objectives will link to or be consistent with financial objectives, but not 
+always as sometimes even for a small business quality might conflict with profit. Therefore when 
+businesses set and use objectives, they will prioritise the areas which are most important to their 
+organisation and the owners. 
+Here are some of the non-financial motives that are often quoted by entrepreneurs: 
+• Social objectives such as benefiting the environment 
+• More control over working life – want to choose what kind of work is done; the need for greater 
+independence is a major motivator 
+• A more flexible and convenient work schedule, including being able to work from or close to 
+home; this motive is an important reason behind the many home-based business start-ups 
+• Skills are being wasted and their potential is not being fulfilled 
+• Escaping an uninteresting job or career 
+• Pursuing an interest or hobby that they enjoy 
+• Want to be the boss, as they are fed up with being told what to do 
+• Want the feeling of personal satisfaction from building up a business 
+• Fed up with working in a business hierarchy or a bureaucratic organisation, where there are lots 
+of rules; people with entrepreneurial characteristics often feel stifled working with and for 
+others! 
+• Major change in personal circumstances for example redundancy, divorce, illness, bereavement 
+ 
+Different aims and objectives 
+Different businesses will have different aims and objectives. This is particularly the case with small 
+businesses, where every entrepreneur is likely to have different motives for starting up their own 
+business. For example: 
+Entrepreneur 1: has recently been made redundant from a large building firm. He would like to turn his 
+skills and experience into building maintenance in his local area. He wants varied work and enough 
+money to live off, but does not want to build up the business or travel far. 
+Entrepreneur 2: has a new business idea for a web application for finding places for a good night out. 
+The idea is proving very popular in the local trials. The entrepreneur wants to develop this application 
+and sell it all over the world in order to make a lot of profit.  
+
+
+===== PDF PAGE 27 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 26  
+Business objectives will also be affected by the external environment which firms operate within. A 
+small low cost hairdresser may have direct competition in one area, indirect competition from an 
+expensive hairdressing national brand in another area and no competition at all in a further area. The 
+objectives of such a small business will be different because of the situation it finds itself in.   
+ 
+Business revenues, costs and profits 
+In order for a business to calculate its profit (or loss) it needs to work out its total costs and total 
+revenue.  
+Costs are the spending that a business has to undertake in order to make goods and provide services. 
+Every business has costs, but they vary in terms of their type and amount. For a new business, 
+estimating what the likely costs are going to be is often very difficult.  
+Successful businesses place great importance on costs. In most cases they want to ensure they are kept 
+as low as possible. There are many reasons for this including: 
+• Increases in costs reduce the possible profits that the business can make 
+• They are the main cause of cash-flow problems in a small business 
+• They will change as the output or activity of a business changes 
+Costs can be divided into two types: fixed and variable  
+Fixed costs 
+Fixed costs do not change as output varies.  In other words, they are fixed even if output moves up or 
+down from period to period. 
+Examples of fixed costs include: 
+• Rent and council tax 
+• Salaries 
+• Marketing, for example advertising, market research 
+• Insurance 
+• Interest repayments 
+• Leased equipment charges 
+ 
+It is worth remembering that just because a cost is classified as “fixed”, it does not mean that the cost 
+will stay the same forever. A fixed cost can change over time. For example, the rent of an office or 
+shop may stay the same for 5 years.  However, the rent may change (up or down) when the rental 
+agreement is renegotiated when due. The important point about a cost, like rent, being “fixed” is that it 
+has to be paid, whatever the level of sales achieved. 
+ 
+Fixed costs are particularly important when it comes to calculating the break even output of a business.  
+The higher the level of fixed costs in a business, the higher the output needed to cover these costs and 
+break even.  
+
+
+===== PDF PAGE 28 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 27  
+Variable costs 
+Variable costs change when output changes. In other words the higher the output, the higher the 
+variable costs.  
+Variable costs tend to be those relating directly to the production or sale of a product.  Good examples 
+include: 
+• Raw materials and bought-in stocks and components 
+• Wages based on hours worked or amount produced 
+• Marketing costs based on sales  
+• Agent and other commissions 
+Total variable costs can be calculated by a simple formula:  
+Variable cost per unit x output 
+ 
+Total costs 
+The total costs of a business can be calculated by simply adding together the variable costs, at different 
+levels of output, to the firm’s fixed costs. The formula therefore is: 
+Total costs (TC) = total fixed costs (TFC) + total variable costs (TVC) 
+Example: 
+Graham’s van repair business is a small business that has the following costs and sales output for 
+March: 
+Variable costs per job £75 
+Garage rent and rates £500 
+Salaries £1,500 
+Advertising £100 
+Other fixed costs £400 
+Expected number of jobs for month 100 
+To calculate the total costs for the business, start with the variable costs. These equal £75 per unit x 100 
+jobs = £7,500 
+Fixed costs = £500 (garage rent and rates) + £1,500 (salaries) + £100 (advertising) + £400 (other fixed 
+costs) = £2,500 
+Therefore the total costs for Graham’s business equal £7,500 (total variable costs) + £2,500 (total fixed 
+costs) = £10,000  
+As output increases the total costs will not increase as fast. This is because the fixed costs will stay the 
+same. This means that a business may have lower average costs of production as it grows. 
+
+
+===== PDF PAGE 29 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 28  
+Revenue and Profit 
+Revenue 
+Revenue is the money the business receives from its sales. This can be represented simply using the 
+formula: 
+Revenue = selling price per unit x quantity sold 
+ 
+In practice, most businesses sell more than one different product and have more than one selling price, 
+which makes the calculation more complicated. However, the method remains the same. 
+In the above example, if Graham charges £100 for each job that he completes, his revenue will equal: 
+£100 (selling price per unit) x 100 (quantity sold) = £10,000. 
+Is Graham’s business making a profit?  
+Profit 
+Having calculated the total costs and the total revenue for a business, it can now work out its profit. 
+Profit is the financial return or reward that the owners of a business aim to achieve to reward them for 
+the risk that they take. It will measure the success of that investment. 
+Profit is also an important signal to other providers of finance to a business.  Banks, suppliers and other 
+lenders are more likely to provide finance to a business that can demonstrate that it makes a profit, or is 
+likely to do so in the near future, and that it can pay debts as they fall due. 
+Profit is also an important source of finance for a business.  Profits earned, which are kept in the 
+business and are not distributed to the owners via dividends or other payments, are known as retained 
+profits. Retained profits are an important source of finance for any business, but especially start-up or 
+small businesses.  The moment a product is sold for more than it cost to produce, then a profit is earned 
+which can be reinvested 
+Profit can be measured and calculated by the following formula:  
+PROFIT = TOTAL REVENUE - TOTAL COSTS 
+ 
+Here is an example which illustrates the formula in action: 
+  
+
+
+===== PDF PAGE 30 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 29  
+ 
+Sales Costs Profit or loss? 
+£100,000 £75,000 £25,000 profit 
+£100,000 £125,000 (£25,000) loss  
+Note: negative figures are shown in brackets 
+ Total sales greater than total costs = PROFIT 
+ Total sales less than total costs = LOSS 
+➢ Total sales = total costs = BREAK EVEN 
+ 
+Whatever the result, profit, loss or breaking even a business will always need to review its performance 
+and look at how it might be improved. Can costs be decreased? How? And by when? Can revenue be 
+increased? Should the price stay the same? Can more be sold? Is there a need for further investment to 
+decrease costs or increase revenue? 
+Interest  
+As well as the costs involved in running a business, a business owner may also have to pay interest, if 
+the business needed to borrow money in the form of a loan or mortgage when it was set up. The 
+business may also arrange an overdraft with the bank, which will also involve the payment of interest. 
+Interest will therefore form part of the firm’s total costs. The amount needed to be paid may vary if 
+interest rates change. This is however, dependent on the terms of the loan/mortgage/overdraft, which 
+would have been agreed with the bank and the business owner, when the specific source of finance was 
+first taken out.  
+The following formula can be used to calculate the interest rate on a loan as a percentage: 
+ 
+Interest on loans (%) = total repayment – borrowed amount  x  100 
+borrowed amount 
+ 
+Example: 
+If a new business start-up borrowed £50,000 but repaid £60,000 in total, the interest percentage would 
+be:   £60,000 - £50,000   x   100 =   20% 
+                 £50,000    
+  
+
+
+===== PDF PAGE 31 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 30  
+Break even  
+ 
+A business will calculate its break-even point in order for it to have an idea of how much it will need to 
+produce to survive. Break-even is the point where total revenue is equal to total costs, which means the 
+business is not making a profit or a loss. Through calculating break even, a business knows how many 
+units it will need to produce and sell in order to start making a profit.  
+This information can be represented on a break even diagram or graph and will show the potential 
+profit or loss that could be made at different levels of output, as revenue and costs change.  
+Break even diagram for Business A: 
+This break even diagram shows that fixed costs are drawn as a straight line, which is the case because 
+they do not change with output. The total cost line is also shown, instead of the variable cost line on its 
+own, as the total cost line takes into account both fixed and variable costs. The total cost line starts at 
+the same point as fixed costs, as even if the business is making no output, fixed costs still need to be 
+paid. At zero output however, variable costs are zero resulting in fixed costs and total costs being the 
+same value. The revenue line is lastly drawn, which starts at zero and goes up diagonally. This is because 
+as the business makes and sells more, it will gain more revenue.  
+In this example, Business A’s break-even point is 10,000 units, the point where total costs and total 
+revenue cross. This means that if the business manages to produce and sell this amount of output, it will 
+not be making a profit or a loss.   
+Margin of safety 
+Business A can also calculate the margin of safety from the break-even diagram. This is the difference 
+between its current level of output/sales and the break-even point. If Business A was currently selling or 
+producing 15,000 units, its margin of safety would be 15,000 (current level of output) – 10,000 (break-
+even point) = 5,000 units. Business A would want the margin of safety to be as high as possible, as this 
+shows how much output or sales could fall before it hits its break-even point and then after this, the 
+business would be making a loss. 
+Variable 
+costs 
+Margin of safety 
+Break even point 
+
+
+===== PDF PAGE 32 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 31  
+A reminder of the formula for margin of safety is shown here: 
+Margin of safety  = actual or budgeted sales – break even sales 
+Calculating profit and loss from the break-even chart 
+A business can determine the amount of predicted profit or loss level it expects to make at different 
+levels of output from the break-even diagram. As already discussed, profit is calculated by deducting 
+total costs from total revenue.  From reviewing the break-even diagram for Business B (on the next 
+page)  it can be seen, at an output level of 80 units, the business is making £160 revenue and its total 
+costs equate to £140. If we subtract the total costs from the total revenue the profit at this level of 
+output equals:  £160 - £140 = £20.  
+It is clear the business is making a profit at this level  of output, as the firm’s break-even point is 60 units 
+(the point where total revenue = total costs) and as the business is operating at 80 units, a higher 
+output level than the break-even point, then the business must be making a profit. 
+However, if the business is operating below the break-even point of 60 units, the business will be 
+making a loss. Looking again at the break even chart for Business B and assuming the business is 
+producing 20 units, the value of total costs at this level of output is £80 and the total revenue figure is 
+£40. Remember that profit = total revenue – total costs, so in this case, the business is making a loss as: 
+£40 - £80 = (£40). 
+This method of calculating profit/loss for a business can be applied to any level of output for a business 
+that has produced a break even diagram. However, the difficulty is that sometimes values are difficult to 
+read from the diagram and therefore if a business relied on this method only of calculating profit, 
+inaccurate figures may be calculated and therefore used in decision making. For example, looking again 
+at the break even chart for Business B, can the profit or loss be accurately worked out, purely from 
+reading the graph, if the firm was operating at an output level of 55 units? 
+Monthly break even chart for Business B: 
+ 
+0
+20
+40
+60
+80
+100
+120
+140
+160
+180
+0 10 20 30 40 50 60 70 80
+Costs / Revenues £
+Number of Units 
+Fixed costs Total Costs Sales Revenue
+Break even 
+point
+
+
+===== PDF PAGE 33 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 32  
+ 
+The impact of changes in revenue and costs on the break-even point 
+As well as calculating profit and loss and identifying the break-even point, the break-even diagram can 
+also be used to help business owners with decision making and “what if” scenarios. By changing one or 
+more variables in the break-even diagram, business owners, or business decision-makers, can then 
+assess the impact of this change on the break-even point. This will allow worst and best case situations 
+to be prepared for by the business. Some examples are included here to illustrate this further. 
+Example 1: Break even diagram to show the impact on the break-even point of an increase in selling 
+price 
+ 
+ 
+In the above situation, a business’s selling price has increased from £2 to £3. This has resulted in the 
+amount needed to be sold to break even (the break-even output) decreasing from 60 units to 30 units. 
+In this case, the business may then conduct some research to see if customers would be willing to pay 
+the increased selling price or whether demand would drop significantly, as even though the break point 
+has lowered, in this case it would take the business a significantly longer time to reach this point due to 
+a drop in demand. 
+  
+0
+50
+100
+150
+200
+250
+0 10 20 30 40 50 60 70 80
+Costs/revenue £s
+Number of units
+Revenue (1) Revenue (2) Fixed costs Total costs
+New break
+even point
+Original break 
+even point
+
+
+===== PDF PAGE 34 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 33  
+Example 2: Break even diagram to show the impact on the break-even point of an increase in fixed 
+costs 
+ 
+In this case, the fixed costs of the business have increased from £60 to £70. This has increased the total 
+costs which has resulted in the amount needed to be sold to break even (the break-even output) 
+increasing from 60 units to 70 units. In the case, if the business anticipates that its fixed costs are going 
+to rise, which would ultimately make it harder to break even and therefore become profitable, it may 
+look for different ways to become more efficient to lower costs, to overcome this change. 
+Calculating break even using the formula 
+Rather than drawing a break even diagram to calculate the break-even point each time, a quicker and 
+more efficient method of calculating break-even is to use the formulae. The break-even formulae are 
+shown in the box: 
+ 
+                 Break even output =           fixed cost 
+(sales price – variable cost) 
+This will give you the number of units the business needs to produce and sell to break even 
+ 
+                 Break-even point in costs/revenue = break-even point in units x sales price 
+This formula can be used to calculate the revenue (or costs!) at the breakeven level of output 
+ 
+ 
+Break even output using the formula 
+In order to calculate the break-even output using the formula, three variables are required. These are 
+fixed costs, sales price and variable cost per unit. 
+In example 2, the original fixed costs of the business were £60.  
+0
+20
+40
+60
+80
+100
+120
+140
+160
+0 10 20 30 40 50 60 70 80
+Costs/revenue £s
+Number of units
+Revenue Fixed costs (1) Fixed costs (2) Total costs (1) Total costs (2)
+New break
+even pointOriginal break 
+even point
+
+
+===== PDF PAGE 35 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 34  
+The current variable cost per unit is £1. Variable costs are not drawn directly onto the break-even chart. 
+However, this value can still be calculated if total costs and fixed costs are known and the formula here 
+is used: 
+Total variable costs = total costs – total fixed costs 
+ 
+From reviewing the chart, at an easy to read point, i.e. 10 units, the original total costs were £70 and 
+the original total fixed costs were £60. Total variable costs at this level of output therefore = £70 - £60 = 
+£10. 
+To calculate the variable cost per unit, the number of units just needs to be divided into this amount = 
+£10/10 = £1. 
+In order to calculate the sales price or the selling price per unit, a similar method can be applied. At an 
+easy to read point i.e. 10 units, the total sales revenue = £20. To calculate the sales price or selling price 
+per unit, the number of units just needs to be divided into this amount = £20/10 = £2. 
+We now have all the variables required to calculate the break-even output level using the formula as 
+shown: 
+Break even output =           fixed cost  =      £60    = 60 units 
+(sales price – variable cost)  £2 - £1 
+This being the same answer as obtained from the break-even chart. 
+           
+Break-even point in costs/revenue using the formula 
+We will use example 2 again to illustrate how to calculate the break-even point in costs/revenue. A 
+reminder of the formula is: 
+ 
+ 
+Break-even point in costs/revenue = break-even point in units x sales price 
+ 
+ 
+The original break-even point in units = 60 units x £2 (sales price) = £120. This again shows the same 
+value on the “y” axis for costs/revenue in £s as the break-even diagram, at the break-even point. 
+The benefit of using break even analysis to a business 
+ 
+ Break-even is a very useful business tool, as it can quickly illustrate what happens to a firm’s 
+profits at different output levels. This can help a business with decision-making about cost levels 
+and selling prices.  
+
+
+===== PDF PAGE 36 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 35  
+ A business could create a series of break-even diagrams to illustrate the impact on the break-
+even point if one of the variables on the graph changed. This is called “what if” analysis. 
+Break even does however have limitations: 
+ It assumes that the average price that goods sell at will stay the same.  
+ It gives the impression that just because products are produced that they will be sold at the 
+average price.  
+ It can become very complicated to a business which sells many different products. 
+ It assumes that variable costs are proportional to output, whereas they may get cheaper as 
+output rises or more expensive if workers have to be paid overtime.  
+ It may mean that the business focuses on breaking even rather than making a profit! 
+Cash and cash-flow 
+Cash-flow describes the movement of cash into and out of a business. It is not the same as profit. Many 
+profitable businesses fail because they do not have enough cash to pay their bills. This is because profit 
+is recorded straight after a sale, whereas cash is recorded when it is either spent or received by the 
+business. If a business offers trade credit to a customer for example, of 30 days, then the sale and 
+therefore profit is documented when the goods are taken by the customer, but the cash will not be 
+recorded until payment i.e. the cash is received 30 days later! 
+In business, cash is always on the move… 
+• Cash-flows into the bank account when customers pay for their sales, when a loan is received 
+from the bank, interest is received or when assets are sold 
+• Cash-flows out of the bank account when suppliers are paid, employee wages and salaries are 
+paid, interest is paid to the bank and so on… 
+You need to be able to distinguish between: 
+• Cash inflows: movements of cash into a business 
+• Cash outflows: movements of cash out of the business 
+The difference between the cash inflows and cash outflows during a specific period, for example a 
+week or a month is known as the “net cash-flow”. 
+Net cash-flow = cash inflows  – cash outflows for a given time period 
+The challenge for any business, particularly new businesses, is to manage its net cash-flow successfully, 
+so that the business does not run out of money. 
+Main types of cash inflow and outflow 
+The main types of cash-flow can be summarised as follows: 
+  
+
+
+===== PDF PAGE 37 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 36  
+ 
+Cash inflows Cash outflows 
+Cash sales Payment of overheads, wages and salaries 
+Receipts from trade customers Payment of suppliers, for example raw materials, inventories 
+Sale of spare assets Buying equipment 
+Investment of share capital Interest on bank loan or overdraft 
+Personal funds invested Payment of dividends 
+Receipt of bank loan Repayment of loans 
+Government grants Income tax, VAT and corporation tax 
+ 
+Why businesses suffer cash-flow problems 
+Start-up and small businesses are especially vulnerable to cash-flow problems. The reasons for this can 
+be divided into two types: 
+• not enough money coming into the business fast enough  
+• too much money going out of the business too quickly 
+In addition, if a business does have cash-flow problems then new businesses or businesses facing 
+financial difficulties will often not have reserves of retained profits to see them through until things 
+improve. If a business runs out of cash and is not able to obtain new finance, it will become insolvent. 
+If a business has a positive cash-flow it will build up cash reserves. This can be saved in case of future 
+problems or used for future investment. 
+The cash-flow forecast 
+The cash-flow forecast predicts the net cash-flows of the business over a future period. It can be used to 
+identify likely cash-flow problems and help avoid or solve them. 
+The forecast estimates what the cash inflows into the bank account and outflows out of the bank 
+account will be.   The result of the cash-flow forecast is also an estimate of the bank balance at the end 
+of each period covered (normally this is for each month). An example of a simple cash-flow forecast is 
+shown below: 
+  
+
+
+===== PDF PAGE 38 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 37  
+ 
+£'000  January February March April May June 
+Cash inflows  200 250 200 150 100 250 
+Cash outflows  250 300 300 100 250 150 
+Net cash-flow  
+(cash inflows – cash outflows) 
+(50) (50) (100) 50 (150) 100 
+Opening balance 
+(same figure as the closing 
+balance for the previous month) 
+250 200 150 50 100 (50) 
+Closing balance 
+(net cash-flow + opening balance) 
+200 150 50 100 (50) 50 
+As can be seen from the table, the closing balance becomes the opening balance for the next month. 
+This is then added to the net cash-flow for that month, which may be a positive (April) or negative 
+(May), in order to calculate the closing balance for that month. The closing balance each month might 
+be a surplus, which means the business has a positive cash balance at the end of the month, or a deficit, 
+which means that the business has a negative cash balance at the end of the month (often indicated by 
+brackets, as in May).  
+Looking at this cash-flow forecast a little more carefully, it shows that the business will start the period, 
+i.e. January, with a cash surplus or opening balance of £250,000. During the first three months, the net 
+cash-flow is negative, as it is predicted that there will be more cash outflows than inflows, which will 
+reduce the closing balance surplus to £50,000 in March. In April and June, the cash outflows are 
+estimated to reduce considerably making them less than the cash inflows, resulting in a surplus in the 
+closing balance in those two months.  In May again, the outflows are predicted to be higher than the 
+cash inflows. The opening balance, of £100, is not enough to cover this increase and therefore the 
+business is forecasted to go into a deficit of £50,000. 
+Businesses must carefully monitor when the business is forecast to experience a deficit, as this 
+highlights the business may run out of cash! 
+To recap the key formulae for cash-flow forecasts are: 
+Net cash-flow = cash inflows – cash outflows in a given period 
+Opening balance = closing balance of the previous period 
+Closing balance = opening balance + net cash-flow 
+Why the cash-flow forecast is so important 
+A business uses a cash-flow forecast to: 
+• Identify potential shortfalls in cash balances in advance – think of the cash-flow forecast as an 
+“early warning system”.  This is the most important reason for a cash-flow forecast and enables 
+the business to take action, so that it does not experience any cash-flow issues, which can 
+ultimately prevent the business from trading and becoming insolvent 
+
+
+===== PDF PAGE 39 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 38  
+• Makes sure that the business can afford to pay suppliers and employees - suppliers which do 
+not get paid will soon stop supplying the business; it is even worse if employees are not paid on 
+time, as in this case there would be no-one to either produce the goods or provide customers 
+with the level of service that they demand 
+• Spot problems with customer payments – preparing the forecast encourages the business to 
+look at how quickly customers are paying their debts. This is only an issue in some businesses 
+and not all. For example, most retailers take most of their sales in cash/credit cards at the point 
+of sale i.e. at the time of purchase 
+• Compare actual figures to forecast figures – this allows management to spot if there are any 
+potential issues and take appropriate action, for example if there are significant differences 
+between the forecasted figures and the actual figures, a business owner would need to arrange 
+appropriate sources of finance to cover any shortfalls in cash 
+• External stakeholders, such as banks, may require a regular forecast - certainly if the business 
+has a bank loan, the bank will want to look at the business cash-flow compared to its forecast at 
+regular intervals, to ensure that the business will continue to make its repayments  
+ 
+Main causes of cash-flow problems 
+A cash-flow problem arises when a business struggles to pay its debts as they become due. When cash-
+flow is consistently negative and the business uses up its cash balances, then the problem becomes 
+serious. The main causes of cash-flow problems are: 
+Factor Why it causes a cash-flow problem… 
+Low profits or 
+(worse) losses 
+There is a direct link between low profits or losses and cash-flow problems. 
+Remember, most loss-making businesses eventually run out of cash 
+Over-investment 
+in capacity 
+This happens when a business spends too much on machinery, equipment or 
+premises. Factory equipment, which is not being used, does not generate revenue, 
+so is often a waste of cash 
+Too much stock Holding too much inventory or stock ties up cash and there is an increased risk that 
+these inventories become obsolete i.e. cannot be sold and therefore cannot 
+generate any cash inflows 
+Allowing 
+customers too 
+much credit 
+Offering credit to customers, i.e. buy now and pay later, is a good way to build 
+customer loyalty and long-term revenue, but late payment is a common problem 
+and slow-paying customers put a strain on cash-flow 
+Overtrading This occurs where a business expands too quickly, putting pressure on short-term 
+finance.  For example, a retail chain might try to open too many stores too quickly, 
+before each starts to generate profits  
+Seasonal demand Predictable changes in seasonal demand create cash-flow problems, but because 
+they are expected, a business should be able to handle these in an appropriate way 
+ 
+  
+
+
+===== PDF PAGE 40 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 39  
+Sources of business finance 
+A start-up or existing small business will need finance. They will need it for various reasons, short term 
+and long term. There are different sources of finance available and the actual source chosen by a 
+business will depend on the amount and reason the finance is required, as well as the circumstances 
+and the type of legal status the business has. 
+The challenge of raising money 
+Often the hardest part of starting a business is raising the money to get going.  
+An entrepreneur might have a great business idea and clear plan for how to exploit a market 
+opportunity.  However, unless sufficient finance can be raised, the entrepreneur will struggle to make 
+the most of the opportunity. 
+Raising finance for a start-up requires careful planning.  The entrepreneur needs to decide: 
+• How much finance is required? Raising finance is hard work and expensive – a start-up business 
+should avoid having to go through the process too often! 
+• When and for how long the finance is needed?  A useful distinction can be made between long-
+term and short-term finance 
+• What security (if any) can be provided? This will affect the ability of the business to raise a bank 
+or other loan where the lender requires some security (or “collateral”) 
+• Whether the entrepreneur is prepared to give up some control (ownership) of the start-up in 
+return for investment 
+• Whether the cost of the finance, for example the interest charged, is justified 
+The finance needs of a start-up should also take account of these key areas: 
+• Set-up costs: the costs that are incurred before the business starts to trade 
+• Getting ready to produce: the fixed or long term assets that the business needs before it can 
+begin to trade, such as machinery, equipment, vehicles etc 
+• Working capital: money required for the day to day operation of the business. Money will be 
+needed by the business to buy the stocks required by the business, such as raw materials, and 
+allowance should be made for amounts that will be owed by customers once sales begin, if the 
+business chooses to offer its customers trade credit 
+• Growth and development: in the future the business may wish to grow and expand and 
+therefore will need to invest in extra capacity, for example in extra space to produce more 
+products  
+Finance to cover different periods 
+An important consideration when obtaining finance for a business is when and for how long the finance 
+is needed.   A useful distinction can be made between long-term and short-term sources of finance.  The 
+table summarises the main examples and uses of each category: 
+  
+
+
+===== PDF PAGE 41 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 40  
+ 
+Long-term Short-term 
+Finances the whole business over many years Finances day-to-day trading of the business; 
+repayable usually within a year 
+Examples: Examples: 
+ Personal savings 
+ Retained profits 
+ Share capital 
+ Venture capital 
+ Bank loans 
+ Crowd funding 
+ Bank overdraft 
+ Trade credit 
+ 
+ 
+Short-term sources of business finance: 
+Trade credit  
+This is used by many businesses as a short-term source of finance. Trade credit essentially means that a 
+firm’s suppliers will allow it to have the goods and pay for them at a later date.  
+ This can give time for the business to use the goods and sell its products before it pays the 
+suppliers, which will improve its cash-flow position.  
+ If the bills are not paid on time however, this can lead to the business getting a bad reputation 
+and losing future credit arrangements with the supplier.  
+ It can also be particularly difficult for new start-up businesses to negotiate trade credit with 
+suppliers, as there is a risk that the business will fail and suppliers may end up not getting paid! 
+Bank overdraft 
+Businesses of all sizes use bank overdrafts as a means of finance.  As a business gets bigger, it often 
+finds that its overdraft facility also needs to grow.  That is because an overdraft is essentially a short-
+term source of finance that is available to help fund the day-to-day payments required by a business. It 
+allows the business to withdraw funds from its account that are not there, up to an agreed maximum 
+limit, and is only used when the business requires additional, temporary amounts of money. 
+ The big advantage of a bank overdraft is its flexibility. If a business experiences a short-term 
+shortage of cash or an unexpected cost, then it can be paid by using some of the overdraft 
+facility.  Interest is only paid on the amount used. 
+ The main downside of an overdraft is that it is repayable to the bank at any time. A business may 
+have an overdraft facility of £100,000 i.e. it can owe the bank up to that amount, but the bank 
+may lower or even withdraw that facility at any time.  This happened to numerous businesses 
+with bank overdrafts during the credit crunch of 2007-8, many of whom were relying on their 
+overdraft to stay in business.  
+ The other drawback of an overdraft is that they usually have high levels of interest attached to 
+them, making them an expensive form of finance when they are used.  
+ 
+
+
+===== PDF PAGE 42 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 41  
+Long-term sources of business finance: 
+Personal savings 
+An entrepreneur will often invest personal cash balances into a start-up. This can be personal savings 
+from the bank or building society.  This can also be in the form of providing assets for the business, for 
+example using an own car, or it can be as simple as working for nothing! By using this source of finance, 
+the entrepreneur is providing a strong signal, to other potential investors and the bank, of his/her 
+commitment to the business venture.   
+ This is a cheap form of finance that is readily available.  
+ Investing personal savings maximises the control the entrepreneur keeps over the business.   
+ The amount that is available may be limited, resulting in this being used with other sources of 
+finance to fund the business. 
+Loans  
+These might be from friends and family or from financial institutions, such as a bank.  
+Friends and family: 
+Friends and family who are supportive of the business idea may be willing to provide money either 
+directly to the entrepreneur or into the business.   
+ This can be quick and cheap to arrange (certainly compared with a bank loan).  
+ The interest and repayment terms may be more flexible than a bank loan.   
+ However, borrowing in this way can add to the stress faced by an entrepreneur, particularly if 
+the business gets into difficulties, as it can cause disagreements. 
+ The amount available may be limited, resulting in this being combined with other sources of 
+finance. 
+Bank loan: 
+A bank loan is an amount of money borrowed for a set period with an agreed repayment schedule. The 
+repayment amount will depend on the size and duration of the loan and the rate of interest.  This is a 
+common source of finance that a small or new business would choose. However, bank loans tend to be 
+more readily available for well-established and growing businesses, rather than start-up businesses.  
+The reason for this is risk – banks prefer to loan to successful businesses, which makes them more likely 
+to be able to repay the loan and interest. 
+If a bank loan can be obtained then there are several advantages for a start-up or an established small 
+business: 
+ The business is guaranteed the money for a certain period - generally three to ten years (unless 
+it breaks the loan conditions). 
+ Loans can be matched to the lifetime of the equipment or other assets the loan is being used for 
+ While interest must be paid on the loan, there is no need to provide the bank with a share in the 
+business, so no control is lost. 
+ Interest rates may be fixed for the term, making it easier to forecast interest payments and 
+cash-flow. 
+ Repayments are made in instalments, resulting in the business having access to substantial 
+amounts of cash that does not need to be paid back all in one-go.  
+There are also some disadvantages of a bank loan: 
+
+
+===== PDF PAGE 43 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 42  
+ Time consuming - a new business would need to produce a detailed business plan to show to 
+the bank in order to secure the loan, which would take up time and resource; however it could 
+be argued in the long-run, that this careful planning would help the business to have a greater 
+chance of success in the future. 
+ Security - normally has to be given to the bank on some of the assets of the business.  The bank 
+will have control over these assets if the business fails. 
+ Lack of flexibility - a small business might take a loan out for £50,000 but finds it only needed 
+£30,000.  That means that interest is being paid on £20,000 of loan that it does not need. 
+ Interest – interest must be paid on the loan amount, which increases the costs of the business. 
+Venture capital 
+Venture capitalists often invest in small businesses.  Venture capital can be gained from professional 
+investors or companies who typically invest between £10,000 to £750,000.   
+Venture capitalists tend to have made their money by setting up and selling their own business – in 
+other words they have proven entrepreneurial expertise. The advantages and disadvantage of this 
+source of finance are: 
+ Venture capitalists often make their own skills, experience and contacts available to the firm. 
+ They have access to large amounts of funds. 
+ The venture capital company or investor will usually want a share of the business and of the 
+profits, which can result in some loss of control over the firm for the entrepreneur, which he/she 
+may not want to give up. 
+Obtaining venture capital is quite different from raising debt or a loan from a lender, such as a bank. 
+Lenders have a legal right to interest on a loan and repayment of the capital, irrespective of the success 
+or failure of the business. By contrast, venture capital is often invested in exchange for a stake in the 
+company where the return will be dependent on the growth and profitability of the business. 
+Not every business is suitable for investment by a venture capitalist.  Such investors prefer to invest in 
+small entrepreneurial businesses which are aiming (and have the potential) for sales and profit growth. 
+As a rough guide unless a business can offer the prospect of significant turnover growth within five 
+years, it is unlikely to be of interest to a venture capital firm. 
+Share capital 
+Small or new businesses that are set up as a private limited company can raise finance by selling shares 
+in the company.  There are many advantages to a business of raising finance through share issues: 
+ Large sums of money can be raised. 
+ Capital does not have to be repaid. 
+ There is no interest – dividend payments can be missed if profits are low. 
+There are however some disadvantages including: 
+ Possible loss of control if the original owners sell more than 50% of the total shares. 
+ Need to satisfy shareholders expectations of dividends and share price growth. 
+Retained profit 
+This is a very important source of finance for an existing small business, but is clearly not suitable for a 
+new business, as they are yet to build up reserves of profit! 
+
+
+===== PDF PAGE 44 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 43  
+The idea is simple.  When a business has worked out its profits, the owners or shareholders can decide 
+whether to take the profits for themselves or reinvest the profits back into in the business.   
+Retained profits have several major advantages: 
+ They are cheap, as no interest has to be paid on them. 
+ They are very flexible – the business owners have complete control over how they are 
+reinvested and what proportion is kept, rather than paid as dividends. 
+ They do not dilute or reduce the ownership of the organisation, so for companies there is no 
+increased risk of a takeover. 
+There are, however, also some disadvantages: 
+ If a business needs some temporary finance because it is facing difficulties, then it is unlikely to 
+have any profits that it can use. 
+ Growth may be slow if it is dependent on retained profits, as profits may not be high enough to 
+finance the growth quickly. 
+Crowdfunding 
+Crowdfunding is a recent way of small businesses or projects raising money from outside investors, 
+often through the internet or a crowd funding platform such as www.kickstarter.com or 
+www.crowdfunder.co.uk  
+A proposal is publicised and the aim is that a large number of small investors will be attracted from all 
+over the world. The investors will generally be in sympathy with the aims of the project or the cause for 
+which the funds are being raised. 
+There are some advantages to a business of using crowdfunding to secure finance: 
+ It provides cheap investment when other sources of external finance may not be available. 
+ If the project is interesting or newsworthy it might attract good publicity, which will help the 
+business in becoming successful. 
+ The business may create a web blog or use social media to keep investors informed, which might 
+provide ongoing finance. 
+ Investors may have experience or skills that they can offer the business. 
+There will however be drawbacks: 
+ Investors will need to be offered a return; this might be free use of the good or service 
+produced, or a share in the profits. Some schemes will also provide shares, which therefore 
+dilutes the control of the original owners of the business.  
+ There is a risk that there will be a limit to the amount of money investors are willing to use in 
+this way. 
+ 
+  
+
+
+===== PDF PAGE 45 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 44

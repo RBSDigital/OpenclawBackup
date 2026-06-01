@@ -1,0 +1,293 @@
+2.4 Making financial decisions 
+Topic overview 
+Although this is a separate topic, students need to relate these concepts to the contexts in which a large 
+or growing business will be operating. Students must now be aware of the national and international 
+business environment and how this might impact on a firm. Students must be aware of this topic’s 
+relationship with the other topics in this theme and how this might affect business decision-making. 
+ 
+Section Key Things to Learn 
+Business calculations Gross profit and net profit 
+Calculation and interpretation of financial data 
+Understanding business 
+performance 
+Using and interpreting quantitative data 
+Use and limitations of financial data 
+ 
+Business calculations 
+Every business and every entrepreneur needs an understanding of the financial performance of the 
+business they are involved in. There is a need to understand financial terms and also to be able 
+understand and interpret financial data. Businesses also need to be able to make financial calculations, 
+for example measuring the financial outcome of possible investment opportunities. 
+The basic financial terms were considered in Theme 1 in terms of costs, revenue and profit. In this 
+section, we will consider profit calculations in more detail. 
+Profit can be measured and calculated as gross profit and net profit. Gross profit is the amount the 
+business makes from its actual business operation. From gross profit the business has to then pay for its 
+expenses, which will leave it with its net profit. This is the figure that shows how well the business is 
+really doing.  
+The formula for gross profit and net profit are as follows: 
+GROSS PROFIT = SALES REVENUE - COST OF SALES 
+NET PROFIT = GROSS PROFIT - OTHER OPERATING COSTS AND INTEREST 
+ 
+Here are two examples which illustrate these formulae in action: 
+  
+
+
+===== PDF PAGE 119 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 118  
+ 
+ Sales Cost of Sales Gross profit Expenses 
+and interest 
+Net profit (or 
+loss) 
+Business A £100,000 £40,000 £60,000 £35,000 £25,000 
+(profit) 
+Business B £100,000 £70,000 £30,000 £40,000 £10,000 (loss) 
+ Total sales greater than total costs 
+Total costs greater than total sales 
+Total sales = total costs 
+= Net profit 
+= Loss 
+= Break-even 
+ 
+Whatever the result, profit, loss or breaking even a business will always need to review its performance 
+and look at how it might be improved. Can costs be decreased? If so, how… and by when? Can revenue 
+be increased? Should the price stay the same? Can more be sold? Is there a need for further investment 
+to decrease costs or increase revenue? 
+Profitability ratios 
+The accounts of a business can be used to tell us how much profit a business has made in a period.  But, 
+how can a business tell if that level of profit shows good business performance or not?  One way to 
+judge how “profitable” a business is to calculate profitability ratios.  There are two main profitability 
+ratios: 
+• Gross profit margin 
+• Net profit margin 
+Let’s look at how they are calculated and used. 
+Gross profit margin % 
+This ratio compares the gross profit earned in a period with the revenues of that period. It is calculated 
+using this formula: 
+ 
+The table shows some examples of this calculation: 
+Business A B C 
+ 
+Revenue £ 200,000 500,000 1,000,000 
+
+
+
+===== PDF PAGE 120 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 119  
+Cost of sales £ 100,000 300,000 750,000 
+Gross profit £ 100,000 200,000 250,000 
+ 
+Gross profit margin 50% 40% 25% 
+In the table, it can be seen that Business C makes the highest gross profit of £250,000.  However, this is 
+because it has a much higher revenue than Businesses A or B.  In terms of gross profit relative to 
+revenues, Business A has the highest gross profit margin of 50%, followed by Business B of 40%.   
+The gross profit margin shows that Business A makes a gross profit of £0.50 for each £1 of revenue.  
+That is twice the level of Business C, which only makes a gross profit of £0.25 for each £1 of revenue. 
+Why might the gross profit margin of these three businesses vary so much? Well, they might operate in 
+different industries? If they are in the same industry, then Business C might be less efficient than the 
+other two or its selling price might be much lower. A high gross profit margin will mean that the 
+business is providing high value added. Price of cups of tea and coffee at roadside cafes are good 
+examples of items with very high gross profit margins. 
+Net profit margin % 
+Net profit is what is left after all the costs, expenses and interest of a business have been taken from its 
+sales revenue.  The net profit margin compares the net profit earned in a period with the revenues of 
+that period. It is calculated using this formula: 
+ 
+    Net                     Net Profit 
+    Profit           =                               x 100 
+    Margin                Revenue 
+ 
+Look at the following example: 
+Monthly net profit for January 2016 £’000 
+Sales  400 
+Cost of sales 200 
+Gross profit  200 
+Other operating expenses/interest 150 
+NET PROFIT   50 
+ 
+Net profit margin 12.5% 
+ 
+In the profit statement above, the business has made a net profit of £50,000.  The net profit is 
+calculated by subtracting all the business expenses/overheads and interest, totalling £150,000, from the 
+
+
+===== PDF PAGE 121 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 120  
+gross profit of £200,000.  In the period, the business has made a net profit margin of 12.5%.  That 
+means that it has converted 12.5% or 12.5p of each pound of sales into net profit! 
+The net profit margin is the most significant out of the two profitability ratios, as it shows a business: 
+• How effectively a business turns its sales into profit 
+• How efficiently a business is run, in particular, is it keeping its operating costs as low as it can? 
+• Whether a business has been able to “add value” throughout the production process i.e. a 
+business with a high net profit margin must be doing something right! 
+On its own, the net profit margin is useful information.  However, it is even more useful if comparisons 
+can be made between: 
+• changes in net profit margin over time, for example month by month or comparing different 
+years 
+• net profit margins of competitors in the same market 
+ 
+Look at this example: 
+Example  Company A 
+£’000 
+Company B 
+£’000 
+Company C 
+£’000 
+Sales  150 250 500 
+Net profit  50 25 125 
+Net profit margin  33% 10% 25% 
+ 
+Looking at the financial information given in the example, it can be seen that: 
+• Company A makes a higher net profit than Company B, even though its sales are lower. It has a 
+higher net profit margin and is clearly controlling its expenses, overheads and cost of sales well 
+compared to the other two businesses. 
+ 
+Investment ratio – average rate of return (ARR) 
+A business will always be looking to improve its performance and its profitability. Most methods of 
+achieving these improvements will involve investment. An investment is where a sum of money, known 
+as capital, is spent today in order to get a benefit in the future. There are many different reasons for 
+investment. These include growth of the business, replacing worn out machinery or modernisation and 
+mechanisation.  
+In order to work out whether the investment is worth taking, there are various calculations a business 
+can make based on the cost of the project and the future returns it will provide. One of these is known 
+as the average rate of return. 
+Average rate of return (ARR) 
+Average rate of return is a simple method of calculating whether a project is worthwhile. It calculates 
+the annual average return for a project expressed as a percentage. This can be compared with other 
+projects on which the money could be spent or the interest it could earn if saved. It can also be 
+
+
+===== PDF PAGE 122 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 121  
+compared with the cost of borrowing money to fund the project, if the business does not have any 
+savings or retained profit that it can use. 
+The formula for the average rate of return or ARR is: 
+ 
+ARR (%) = Average annual profit (total profit from the investment ÷ number of years) x 100 
+        Initial cost of the investment  
+    
+ 
+For example a fast food business could expand to operate a delivery service. This would mean buying a 
+van for £30,000. The van would last 5 years and the business has calculated that it would make an extra 
+profit of £22,500 during the 5 years.  
+ARR (%) = (£22,500 ÷ 5) x 100 = £4,500 x 100 = 15% 
+         £30,000      £30,000       
+Depending on how reliable the firm’s profit estimates are, this would be quite a good return even if the 
+business has to borrow money to fund the investment. 
+ARR is often used to compare different projects to see which one has the highest return. The 
+percentage financial return is not, however, the only factor to be considered. In comparing projects 
+other factors such as risk, i.e. how likely the project is to succeed, must also be taken into account. The 
+initial cost is also relevant as if this is too much, however high the ARR is, the project may not be 
+affordable for the business. 
+Understanding business performance 
+As well as financial data, there are other sources of quantitative information that a business can find 
+and use to help it with effective and accurate decision making. This data can be displayed in tables, 
+graphs or charts.  
+ 
+Marketing is one particular area where quantitative business data is commonly found, for example 
+market research and sales data. Operations and human resources will also generate quantitative data in 
+areas such as productivity, costs and staff retention rates. It should also be remembered that the 
+business and its decisions are influenced by the external environment, market data (is the market 
+growing or declining) and information about the economy, such as whether the economy is booming, if 
+interest rates are set to rise etc. All this information will be invaluable to help the business with 
+effective decision making. 
+Data presentation and analysis 
+If a business gathers data first hand, through primary research, it will need to be presented in a way that 
+is easy to understand and interpret for the key decision makers of the business. This will involve 
+combining and presenting the data into a format that will enable easy analysis. This may also be the 
+case with regard to secondary data, dependent on the type of data that has been gathered. 
+Quantitative data is much easier to present compared to qualitative responses, which are often difficult 
+to combine and summarise. 
+
+
+===== PDF PAGE 123 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 122  
+There are many examples of data presentation which allow, for example, market research results to be 
+clearly seen.  These include tally charts, bar charts, pie charts, line charts, pictograms and tables of data. 
+In other cases, data can be combined in order to provide average scores to a particular question asked.  
+ 
+ 
+Use of computers has made presentation of data very easy and some programmes will allow data to be 
+recorded, totalled and displayed. In some cases this can be done automatically direct, for example, from 
+questionnaire responses.  
+Data analysis and interpretation is also undertaken by firms, from data presentation. This could mean 
+separating out responses for different groups of people, for example male and female. This can also be 
+displayed using data presentation techniques. For example the average price people are willing to pay 
+for a haircut may be £20, but the average for women is £30 and the average for men is £10. Therefore, 
+a new hairdressing business would not want to charge £20 to everyone and would have a separate price 
+list for men and women. 
+Market  and marketing data 
+One of the objectives of the business is often to increase market share. This is normally measured as the 
+sales of the business compared to the total market sales expressed as a percentage. Alongside this 
+objective, the market itself might be growing (or declining) so it is possible to have higher sales and a 
+lower market share if the market is growing faster than the sales of a business.  
+• Market information is generally available through secondary data for the industry concerned and 
+includes population information such as age distribution, income levels and employment and 
+unemployment information. 
+• Marketing data can be used to measure the effectiveness of the marketing strategy or marketing 
+plans of a business. If a business spends money on advertising, it will want to know whether the 
+awareness and the sales of the product increase. If they introduce a sales promotion has the 
+increase in sales made it worthwhile? 
+An example of sales of a business, Easy Store, compared to the total market is given in the table: 
+ 2013 2014 2015 2016 
+Easy Store sales £2m £3m £4m £3.5m 
+Total market sales £20m £24m £36m £28m 
+Easy Store  
+% market share 10% 12.5% 11.1% 12.5% 
+The data shows that:  
+• Market size has increased from 2013 to 2015. It then decreases between 2015 and 2016 
+• In 2014, Easy Store’s sales and market share had increased compared to 2013 
+
+
+
+===== PDF PAGE 124 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 123  
+• In 2015, Easy Store’s sales had again increased, but the market size had increased faster, 
+therefore its market share had decreased compared to the year before 
+• In 2016, Easy Store’s sales decreased, but because the market size had decreased faster than 
+Easy Store sales, its market share increased 
+Based on this information the business will consider what actions it should take. Often the market size is 
+changing through factors outside of the business’s control. Therefore a firm’s market share percentage 
+will better show how well the business is performing in relation to the external market conditions it 
+faces. If the total market size is falling, a business might decide to cut costs to maintain profit levels. It 
+also might change the nature of the products it sells or the price it charges for its products. 
+Limitations of financial information 
+As seen with the financial performance data considered earlier, care must be taken when interpreting 
+the data. For example, trying to compare the efficiency of businesses using sales figures will not be valid 
+unless there is reference to productivity i.e. the amount of work produced per employee or how high 
+the sales are of a business as a percentage of its costs.  
+There are many other limitations in using data, particularly financial data: 
+Accuracy – does the data represent the actual data that was collected? Are there any results included 
+that have been guessed or made up? 
+Representative – is this year’s financial data useful to compare with previous years? There may be new 
+products or new markets that have been targeted or new stores opened, which would show more sales, 
+but equally higher costs. Data for seasonal products will also need to be interpreted correctly as, for 
+example, ice cream sales always go up in the summer. 
+Out of date – all data is out of date – the question is by how much and is it still of use? Sales figures will 
+refer to last month, last quarter or even last year. Cost data will be similarly historic. Sometimes the 
+time, effort and cost of collecting and analysing the data too regularly may not be worthwhile, as it will 
+still not necessarily be an accurate guide as to present and future performance. 
+Qualitative data may be needed – Most data collected and analysed on a regular basis is quantitative. 
+This will be limiting however. Profits and sales figures may indicate that the launch of a new product has 
+been successful. However, it could be that the customers have tried the product once, but do not like 
+certain features of a new model or product and have no intention of buying it again or are only buying 
+the product because there is no alternative. The business can and therefore should support the 
+quantitative data with some in depth qualitative data. This can ask questions about attitudes and values 
+and the combined results will provide a much more reliable basis for management decisions. 
+It should be remembered that all data, marketing data, financial data, including ratios, operations data 
+and human resources data are only the tools for the decisions. They do not make the decisions – the 
+managers will do that. Managers will take into account the data and all the circumstances faced by the 
+business including internal and external factors and the most important stakeholder objectives when 
+making decisions, to ensure hopefully they are making the right ones! 
+  
+
+
+===== PDF PAGE 125 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 124

@@ -1,0 +1,46 @@
+{
+  "files": [
+    {
+      "id": "1SfmUQsHx3sordBXpm-3rZZftbPwUQ95t",
+      "mimeType": "text/markdown",
+      "modifiedTime": "2026-05-20T19:37:47.515Z",
+      "name": "README.md",
+      "parents": [
+        "1eMFMZADX17wqG8ZVuirpJpTxKlNHijUO"
+      ],
+      "size": "1153",
+      "webViewLink": "https://drive.google.com/file/d/1SfmUQsHx3sordBXpm-3rZZftbPwUQ95t/view?usp=drivesdk"
+    },
+    {
+      "id": "1_STsqI8Icszoy1RJR4NjA26gNDPse0ZU",
+      "mimeType": "application/vnd.google-apps.folder",
+      "modifiedTime": "2026-05-20T19:37:34.862Z",
+      "name": "theme2",
+      "parents": [
+        "1eMFMZADX17wqG8ZVuirpJpTxKlNHijUO"
+      ],
+      "webViewLink": "https://drive.google.com/drive/folders/1_STsqI8Icszoy1RJR4NjA26gNDPse0ZU"
+    },
+    {
+      "id": "17_n6YEgMRky8_-hJtBhUf2VHI_obIDBt",
+      "mimeType": "application/vnd.google-apps.folder",
+      "modifiedTime": "2026-05-20T19:37:34.171Z",
+      "name": "theme1",
+      "parents": [
+        "1eMFMZADX17wqG8ZVuirpJpTxKlNHijUO"
+      ],
+      "webViewLink": "https://drive.google.com/drive/folders/17_n6YEgMRky8_-hJtBhUf2VHI_obIDBt"
+    },
+    {
+      "id": "1lV864CDGyAltmTzkY99J2ybJjwPKMEKy",
+      "mimeType": "application/vnd.google-apps.folder",
+      "modifiedTime": "2026-05-20T19:37:33.391Z",
+      "name": "extracted_chapters",
+      "parents": [
+        "1eMFMZADX17wqG8ZVuirpJpTxKlNHijUO"
+      ],
+      "webViewLink": "https://drive.google.com/drive/folders/1lV864CDGyAltmTzkY99J2ybJjwPKMEKy"
+    }
+  ],
+  "nextPageToken": ""
+}

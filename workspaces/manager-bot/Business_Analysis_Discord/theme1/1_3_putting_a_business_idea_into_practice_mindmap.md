@@ -1,0 +1,85 @@
+# 1.3 Putting a Business Idea Into Practice Mind Map
+
+```mermaid
+mindmap
+  root((1.3 Putting a Business Idea Into Practice))
+    Aims and objectives
+      Direction
+      Focus
+      Planning
+      Measurement
+      Financial
+        Survival
+        Profit
+        Security
+        Sales
+        Market share
+      Non-financial
+        Independence
+        Flexibility
+        Social aims
+        Satisfaction
+        Interests
+    Revenue costs and profit
+      Revenue
+        Price times quantity
+      Fixed costs
+        Rent
+        Salaries
+        Insurance
+        Interest
+      Variable costs
+        Materials
+        Hourly wages
+        Commission
+      Total costs
+        Fixed plus variable
+      Profit
+        Revenue minus costs
+    Break-even
+      Revenue equals costs
+      Formula
+        Fixed costs divided by contribution
+      Margin of safety
+        Actual sales minus break-even sales
+      What-if analysis
+        Price changes
+        Fixed cost changes
+        Variable cost changes
+      Limitations
+        Assumptions
+        Many products
+        All output sold
+    Cash-flow
+      Inflows
+        Sales
+        Receipts
+        Loans
+        Share capital
+      Outflows
+        Wages
+        Suppliers
+        Equipment
+        Tax
+      Forecasts
+        Net cash-flow
+        Opening balance
+        Closing balance
+      Problems
+        Losses
+        Stock
+        Customer credit
+        Overtrading
+        Seasonal demand
+    Finance
+      Short-term
+        Trade credit
+        Overdraft
+      Long-term
+        Personal savings
+        Loans
+        Venture capital
+        Share capital
+        Retained profit
+        Crowdfunding
+```

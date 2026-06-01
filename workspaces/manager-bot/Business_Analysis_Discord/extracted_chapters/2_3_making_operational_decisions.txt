@@ -1,0 +1,644 @@
+2.3 Making Operational Decisions 
+Topic overview 
+Although this is a separate topic, students need to relate these concepts to the contexts in which a large 
+or growing business will be operating. Students must now be aware of the national and international 
+business environment and how this might impact on a firm. Students must be aware of this topic’s 
+relationship with the other topics in this theme and how this might affect business decision-making. 
+ 
+Section Key Things to Learn 
+Business operations Purpose of operations 
+Production processes (job, batch, flow) 
+Productivity 
+Technology and its impact 
+Working with suppliers Stock management 
+Procurement  
+Suppliers and logistics 
+Managing quality Quality control and quality assurance 
+Controlling costs through quality 
+The sales process The selling process 
+Customer service and its importance 
+ 
+Business operations 
+The purpose of business operations is to turn raw materials into goods and services. There are a variety 
+of methods that can be used including job, batch and flow production. There are many surrounding 
+issues that are involved in making the business operation as efficient as possible. These include ensuring 
+that supplies are reliable, quality is good and that the customer service involved in the operation is also 
+of a high standard. 
+Production processes: Job production 
+Job production is typically used by small businesses. It involves making one-off or a small number of 
+items. These are often made to the customer’s requirements, ranging from the simple, for example a 
+haircut, to the moderately difficult, for example a wedding cake and finally to something long and 
+complex, for example building a new bridge.   
+Job production often allows a business to make its good or service different to competitors, including 
+larger businesses, and is particularly common in the service sector. A made to measure clothes shop can 
+be successful, even though there are large multi-national clothes retailers that exist and cater for the 
+mass market. 
+The main advantages and disadvantages of using job production include: 
+  
+
+
+===== PDF PAGE 105 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 104  
+ 
+Advantages  Disadvantages  
+ Products are usually of high quality   Costs of producing one unit or job are 
+higher than producing a large number of 
+the same good or service 
+ Producer meets individual customer 
+requirements  
+ Labour intensive, as less suited to the use 
+of machinery 
+ Greater job satisfaction for employees, as 
+they are involved in all stages of production  
+ Requires skilled employees, who will 
+demand higher levels of pay and perhaps 
+require ongoing training  
+Production processes: Batch production 
+Batch production occurs when many similar items are produced together. Each batch of the product 
+goes through one stage of the production process before moving onto the next stage together as a 
+group.  The products will be similar but have some variation, for example different style, different size 
+or different colour. Good examples include: 
+• Furniture manufacture 
+• Baking / meal preparation 
+• Clothing production 
+The benefits and drawbacks of batch production include: 
+Advantages  Disadvantages  
+ Making in batches reduces unit costs, as 
+more than one unit is produced at a time, 
+meaning fixed costs are spread across 
+more units  
+ Time lost switching between batches, as 
+machinery may need to be reset resulting 
+in a reduction in efficiency 
+ Can still address specific customer needs 
+including size, weight, style. For example 
+car manufacturers can vary the colour, 
+engine size and extra features even within 
+the production of a batch of one model of 
+car being produced 
+ Need to keep stocks of raw materials, 
+which will impact on cash flow, as money is 
+tied up in stock and in work in progress i.e. 
+products that are moving through the 
+production process but are not yet finished 
+and therefore cannot be sold 
+ Use of specialist machinery and skills can 
+increase output and productivity, making 
+the process more efficient than job 
+production  
+ Potentially de-motivating for staff as tasks 
+are more repetitive compared to job 
+production; this can lower productivity 
+Production processes: Flow production 
+As a business grows the scale of its operations, it often needs to change its method of production to 
+allow it to produce more and increase its production capacity. 
+A small business might use job production to provide a personalised or distinctive product.  However, if 
+the product is intended for much larger, mass markets, then other methods of production may be 
+
+
+===== PDF PAGE 106 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 105  
+required in order for the product to be produced efficiently.  A key production method in these 
+circumstances is flow production. 
+Flow production involves a continuous movement of items through the production process.  Flow 
+production, also known as mass production, uses production lines to manufacture products. For 
+example, in a car manufacturing plant, doors, engines, bonnets and wheels are added to a chassis as it 
+moves along the assembly line.  This type of production is appropriate when firms are looking to 
+produce a high volume of similar items.  Some of the big manufacturing brand names, that have 
+consistently high demand, are most suited to this type of production, for example Heinz baked beans. 
+Flow production is capital intensive.  This means it uses a high proportion of machinery in relation to 
+workers. 
+The benefits and drawbacks of flow production include: 
+Advantages  Disadvantages  
+ Ideal for large-scale production of mass-
+market products  
+ Expensive to purchase machinery and to 
+set up  
+ Less use of labour; a business can more 
+easily operate 24 hours a day, 7 days a 
+week, reducing the average cost per unit, 
+as long as demand for the products in 
+question is there 
+ Production can be inflexible  
+ Workers used can specialise in one job or 
+one part of the production process, which 
+makes them more efficient 
+ Jobs can be repetitive and boring, lowering 
+the motivation of workers  
+ Can still create personalised products using 
+computer-programmed machinery 
+ Can involve considerable risk to a business; 
+it takes a lot of planning time to organise 
+the production process 
+Improving productivity 
+All businesses want their production operation to be as efficient as possible. In order to do this, they will 
+aim to maximise their productivity. 
+Productivity can be defined as the amount produced (output) for a given number of employees (input). 
+Clearly businesses want this to be as high as possible! 
+In order to improve productivity, businesses will invest in their employees through better recruitment, 
+training and motivation. They may also invest in better equipment. Although such investments will have 
+a short term cost, they will have the potential to save the business money in the long run. 
+It should be noted that improving productivity is NOT the same as increasing production. Productivity is 
+about efficiency and lowering the average cost of producing goods and services. Production is about 
+the total quantity produced. 
+There are many benefits of improving productivity. It allows the business to make more profits, as the 
+costs of producing a certain amount of goods will be reduced. This is because a firm’s fixed costs are 
+spread across more units. This would therefore enable a business to have more flexibility with its pricing 
+decisions and give it the opportunity to charge lower prices, because the average cost of making one 
+unit is lowered. This means the business will be more competitive. Alternatively, the business could 
+
+
+===== PDF PAGE 107 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 106  
+keep the selling price the same, but with an increase in productivity the business would be able to enjoy 
+an increased profit margin on each item sold.  
+Production technology 
+Computer based technology can have many uses in the production process. It can be used in design or 
+in the manufacturing process where it is often linked to the use of robots.  
+ 
+Some of its benefits are: 
+ 
+ It will increase the speed of production. 
+ It can reduce the average unit cost significantly compared to using labour. 
+ It allows the business to be flexible, as a computer can now be programmed to add in variations 
+to meet the customer’s requirements; this is often used in car production. This is a major 
+development, as traditionally in the past, machines were very difficult to change and adapt to 
+customer requirements.  
+ It can also increase the quality of goods, as human variation is removed. As a result, the business 
+should always be able to provide a consistent level of quality to its customers. 
+ Machines also do not need regular breaks like workers do!  
+ 
+There are however some drawbacks: 
+ 
+ The initial costs are very expensive. 
+ Machines can breakdown, resulting in a loss of production time. 
+ Machines will need some “downtime” or time for servicing to prevent breakdowns in the future; 
+during this time, production will be limited. 
+ There may be a waste of capacity if the machines output is not fully needed and therefore it is 
+idle for a period of time. 
+ 
+Overall, a business will need to balance the costs of the technology, with the savings and benefits it will 
+provide, when making any decisions about investing in technology. 
+Working with suppliers 
+The relationship a business has with its suppliers is absolutely critical in terms of its success. A supplier is 
+another business that supplies goods or services to a business to enable it to function and produce its 
+products. 
+If a firm’s suppliers produces poor quality raw materials and is unreliable with their deliveries, this will 
+affect the performance and reputation of the business. Managing stock in terms of ensuring the right 
+quantity is always available at the right time, at the right quality is therefore a very important role 
+within any business.  
+Stock control 
+The overall objective of stock control is to make sure that a business does not run out of stock, but also 
+to order stock in a way that the costs of holding stock is minimised. In order to help the stock control 
+process, businesses will often use bar gate stock control charts, although in today’s business world, 
+these are often computerised and linked to suppliers, so the process of stock control is automatic. 
+An example of a traditional bar gate stock control chart is shown below: 
+
+
+===== PDF PAGE 108 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 107  
+ 
+This bar gate stock graph shows how stock levels decrease over time as stock is used up, until a new 
+order arrives when the stock level increases again. 
+ 
+Looking at the example, in week zero the business was holding 800 units of stock. However,  by week 2 
+it had used 600 units, as the volume of stock held in week two reached the minimum level the business 
+overall wishes to hold of 200 units. This therefore shows that the business was using up stock at a 
+steady rate of 300 units per week. In week 2, delivery of 600 units arrives which brought the stock level 
+back up to the maximum stock level that the business wants to hold of 800 units. The maximum level of 
+800 units may be set at this limit due to a lack of space or alternatively the stock may have a short shelf 
+life and therefore there may be a danger that the stock may become out of date if more was held and 
+not used. 
+ 
+The new order which arrived in week 2, as already discussed, was triggered at the reorder level of 400 
+units. As a new order and delivery of that order takes just under a week to arrive, a new order must be 
+placed at 400 units, otherwise the business would end up using some of its buffer stock that it is holding 
+“just in case” there is a problem with some stock in the delivery i.e. poor quality or a delivery is late. 
+Alternatively, if the business experienced a rush of orders then the buffer stock is there for the business 
+to use to ensure that all orders are met successfully and customer service is kept high, due to orders 
+being produced and delivered by the business on time! 
+The key parts of the bar gate stock graph are therefore: 
+Maximum level 
+This shows the maximum level of stock a business can or wants to hold.  
+• Example from graph: 800 units. 
+Re-order level 
+
+
+
+===== PDF PAGE 109 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 108  
+This is a trigger point; when stock falls to this level, the next supplier order should be placed.  
+• Example from graph: 400 units 
+Lead time 
+This is the time it takes between placing the order and receiving the stock 
+• Example from graph: just under a week 
+Minimum stock level or Buffer Sock 
+This amount of stock is held “just in case” of unexpected orders; this helps to ensure that such orders 
+can be met and other orders can be met in case of any delays in deliveries from suppliers. It is the 
+minimum amount of stock the business would want to hold; the firm would not want its stock levels to 
+fall below this level, as it may run out and therefore may not be able to satisfy customer orders. 
+• Example from graph: 200 units. 
+ 
+Factors affecting when and how much stock to reorder 
+There are many factors that a business would need to consider when deciding how much stock to order 
+or reorder, to ensure the business can run as efficiently as possible without running out of stock. These 
+are: 
+Lead-time from the supplier 
+• How long it takes for the supplier to deliver the order 
+• Longer lead times may require a higher re-order level, for example supplies that are being 
+shipped from the Far East may take as long as 8 weeks to arrive into the UK 
+Implications of running out of stock altogether i.e. the risk of stock-outs 
+• If stock-outs are very damaging to the firm’s reputation and will impact heavily on future 
+orders, then businesses should set a higher re-order level and quantity, plus increase the 
+amount of buffer stock it holds 
+Demand for the product 
+• Higher or growing demand normally means higher re-order levels, to ensure that demand 
+and orders can be fully met 
+Managing stock 
+All businesses will set itself a target stock level of finished goods that it should achieve. This is calculated 
+to satisfy the demand expected by the marketing department plans and based on what the production 
+department thinks it can produce.  If the stock level falls below this level, then the firm’s productivity 
+level has fallen since the output per worker has not met the planned requirements.  
+Modern manufacturing firms use sophisticated production software to plan production for each period 
+of time, which includes ordering the correct stock. The planned output levels will in turn determine how 
+many raw materials are kept in stock, to ensure orders can always be met. Stock management also 
+
+
+===== PDF PAGE 110 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 109  
+apply to services, for example the level of staffing that is available to meet expected or unexpected 
+demand in a supermarket at the checkout. 
+Just in time (JIT) stock control 
+Just in time is a method of stock control that applies to raw materials, work in progress and finished 
+products. If a business applies this technique then it will minimise the amount of all stock held. 
+The successful operation of just in time requires a carefully planned scheduling and flow of resources 
+through the production process. Supplies are delivered right to the production line only when they are 
+needed. For example, a car manufacturing plant might receive exactly the right number and type of 
+tyres for one day’s production and the supplier would be expected to deliver them to the correct 
+loading bay on the production line within a very narrow time slot. 
+The main advantages and disadvantages of JIT can be summarised as follows: 
+Advantages of JIT Disadvantages of JIT 
+ Lower stock holding means a reduction in 
+storage space, which saves rent and 
+insurance costs  
+ There is little room for mistakes, as 
+minimal stock is kept for re-working faulty 
+products 
+ As stock is only obtained when it is needed, 
+less money is tied up in stock and is 
+therefore available for other purposes 
+ Production is very reliant on suppliers and 
+if stock is not delivered on time, the whole 
+production schedule can be delayed  
+ There is less likelihood of stock perishing, 
+becoming obsolete or out of date  
+ There are no spare finished products or 
+spare stock available to meet unexpected 
+orders, because all products are made to 
+meet actual orders. This can lead to lower 
+levels of customer service 
+ Avoids the build-up of unsold finished 
+products that can occur with sudden 
+changes in demand  
+ No economies of scale possible from bulk 
+purchasing and single deliveries 
+Successful operation of JIT requires a good relationship with suppliers. To ensure deliveries can be made 
+relatively easily and on time, suppliers are normally located relatively close to their customers i.e. the 
+business that operates JIT. Overall, if demand is consistent or easy to predict, then JIT is likely to be 
+successful.  
+Procurement  
+Procurement is the process by which suppliers are chosen. This will include deciding what is needed and 
+how it is ordered, as well as the process of receiving and managing the goods arrival. Having the right 
+suppliers is essential if the business is to succeed. A failure in procurement can lead to a failure of the 
+business. 
+Procurement is not just the process of choosing a supplier. It is the whole process of managing the 
+ordering and receipt of the goods or services ordered. The details of this process are considered below: 
+Relationship with suppliers 
+There are many factors that will influence the choice of supplier(s) in a business. When making this 
+important choice, business managers will need to think about many different issues and prioritise the 
+
+
+===== PDF PAGE 111 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 110  
+most important to their specific business needs. A brief explanation of the possible factors that a 
+business may consider when making supplier decisions is provided in the table: 
+Factor Explanation 
+Cost If a supplier’s prices are cheap, then the business can decrease its selling price and 
+potentially make more sales. It could also just make more profit, as the difference 
+between its unit cost and the selling price will increase. It is possible that by going for 
+the cheaper suppliers however, that quality will suffer and customer satisfaction will 
+also decrease, leading to a loss of long term sales. 
+Alternatively, if the costs are high, possibly because of high quality, then profit will be 
+less. In some cases, the business may be able to increase its selling prices and “pass on” 
+the higher costs to its customers. 
+Quality High quality suppliers will mean that customer satisfaction will be high, so it is more 
+likely they will make repeat purchases and remain loyal. As already discussed, it may 
+mean that costs are likely to be more and profit less. 
+Delivery  Cost of transporting the supplies may be important in choosing a local supplier. It is no 
+good buying cheaper supplies if the delivery costs are very expensive. 
+Speed of delivery will be important in some industries. If the goods are likely to perish 
+or deteriorate over time, such as fresh fruit and vegetables or flowers, then the speed 
+of delivery is critical. 
+Reliable delivery is essential if a business has a short turn-around time for delivering its 
+product to its customers or if it uses JIT. The business will want a supplier that can 
+deliver, so it does not run out of stock.  
+Availability For a supplier to be of use it must be able to supply the business with goods of the 
+quality required at the time that they are needed. In some cases, a supplier may be 
+able to source suppliers from elsewhere if needed at short notice, dependent if they 
+have spare capacity i.e. room in their production schedule to fit another order in. In 
+this case however, quality checks would need to be performed, to ensure quality 
+standards are maintained. 
+Trust 
+ 
+Some suppliers will have too many orders at certain times than it is able to cope with. 
+For a long term supply relationship to work, then a regular, loyal business will expect to 
+have priority over occasional customers. This will mean that supplies will always be 
+available when required. 
+A business may also use the following additional criteria to base its supplier choice on: 
+• Industry: in some industries it is essential that prices are set as low as possible, as profits are 
+small and quality is less of a priority. This applies in industries which are very competitive. 
+• Cash flow/finance: some businesses may not have the cash flow to pay suppliers which might 
+have good quality and fairly priced goods, but which require immediate cash payment for them. 
+Some suppliers offer credit to the purchasing business which might be a very important factor, 
+as it allows a business to buy the stock, but pay for it at a later date, ideally after the business 
+has had the opportunity to sell it. 
+• Customer expectations: some customers may be less worried about price compared to quality. 
+This will mean that suppliers chosen must maintain quality, even if the price is increased. An 
+expensive restaurant cannot choose low quality low cost ingredients, as otherwise its reputation 
+would suffer and it would lose customers. 
+
+
+===== PDF PAGE 112 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 111  
+Logistics 
+Logistics is part of the procurement process. Logistics is the part of the supply chain that plans, 
+implements and controls the distribution and storage of goods and services from the supplier until it 
+arrives at the customer. Logistics is often seen as the transportation of raw materials and finished 
+goods, but as with procurement it is a process not just a single activity. 
+Logistics starts with suppliers and ends with the customer and can be illustrated as a flow of goods and 
+information in one direction with money flowing in reverse. An example of a chain of logistics is 
+illustrated below: 
+  
+Managing the logistics process is vital for a business to be successful. There are many consequences of 
+failure in this distribution process and the key factors are summarised in the table: 
+Factor Explanation 
+Reputation If the supply chain breaks or slows, this can mean that products are delayed 
+reaching the retailer, which may then be out of stock of some items. This will affect 
+sales now and also potentially in the long term, particularly if this becomes a 
+persistent problem and the business gains a reputation for being unreliable. 
+In manufacturing, on time delivery can be even more critical, as a missing part 
+might hold up the whole production process.  
+Suppliers who cannot deliver effective logistics will gain a poor reputation and are 
+unlikely to get repeat contracts. 
+Cost There are many options in the logistics process. Which method or methods of 
+transport should be used? Should the raw materials be bought directly from the 
+producer – or through an intermediary, such as a retailer? Clearly expected timings 
+must be met, but if the cost of the logistics is too high then competitors will have 
+lower costs and therefore potentially cheaper prices. 
+Customer 
+satisfaction 
+If the products arrive with the customer at the time and in the condition expected, 
+given the price paid, then the customer will be happy. If the customer is happy, 
+then he/she may be prepared to tell others and order again. With the use of digital 
+technology today, customers increasingly receive communication updating them 
+on the status of any order, which helps to manage their expectations in terms of 
+delivery status and exact timings. 
+
+
+
+===== PDF PAGE 113 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 112  
+Managing quality 
+If a business is to be successful it must have satisfied customers. In order for customers to be satisfied, 
+they must have received a good or service that matches their expectations of quality, taking into 
+account the price they have paid.  
+A good definition of quality is: 
+“Quality is about meeting the needs and expectations of customers” 
+Customers want quality that is appropriate to the price that they are prepared to pay and the level of 
+competition in the market.  
+Key aspects of quality for the customer include: 
+• Good design – looks and style 
+• Good functionality – it does the job well 
+• Reliable – acceptable level of breakdowns or failure 
+• Consistency 
+• Durable – lasts as long as it should 
+• Good after sales service 
+• Value for money 
+“Value for money” is especially important, because in most markets there is room for products of 
+different overall levels of quality and the customer must be satisfied that the price fairly reflects the 
+quality.  
+Some goods and services are marketed as “basic”, having none of the extra features and benefits of 
+more expensive alternatives. Good examples would be budget airlines and low cost supermarkets. Even 
+though they may be “low quality” in terms of style or features, these products can still give good value 
+for money given their expected level of quality. 
+For the firm, good design is also fundamental, so that the product can be produced efficiently, reliably 
+and at the lowest possible cost. 
+However, it is important to remember that: 
+• Quality is often a matter of personal opinion and what is an acceptable level of quality will vary 
+from one individual to another 
+• Not all aspects of quality can be measured. A firm’s name or reputation can be a very important 
+indicator of quality, even though it is hard to measure. 
+• Quality standards are always changing as improved technology, better materials, different 
+manufacturing techniques and new competitors come to light 
+Consequences of poor quality can be very damaging for a business. There will however, be costs to the 
+businesses in providing and ensuring quality that is consistently in line with customer expectations.  
+Approaches to managing quality 
+Achieving high quality does not happen by accident. The production process must be properly managed 
+to achieve quality standards. Quality management is concerned with controlling activities with the aim 
+
+
+===== PDF PAGE 114 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 113  
+of ensuring that goods and services are fit for their purpose and meet their specifications. There are two 
+main methods of managing quality in a business: 
+Quality control 
+Historically quality control was the main method used to ensure quality standards. This was particularly 
+used in manufacturing and was based on checking a sample or all goods at the end of the production 
+process, to see whether they met the required standard. If they did not, they were rejected and then 
+scrapped or the faults were corrected. This does protect the standard of goods to some extent, but it is 
+an expensive and wasteful method. Employees may be careless, as they know work will be corrected.  
+The alternative method of quality assurance puts the customer first and seeks to ensure that they 
+receive the quality of goods or service that is in line with their expectations.  
+Quality assurance 
+Quality assurance aims to develop a quality culture throughout the firm using approaches such as total 
+quality management (TQM). Every employee and each part of the production process has a target of 
+“right first time” or zero defects. Business can gain an award (ISO9001) to show that they are effective 
+in quality management. 
+In quality assurance there is more emphasis on employee responsibility to get things right, rather than 
+checking by inspectors.  
+The process starts from receiving raw materials which are checked for quality, before they are used, and 
+continues throughout the production process. This method even includes the administration of the 
+business. It may also involve meetings of management and staff, called quality circles, where 
+improvements to quality are suggested and management then make a decision as to whether to 
+implement the ideas generated. 
+Advantages of quality assurance are: 
+ Costs are reduced because there is less wastage and re-working of faulty products, as the 
+product is checked at every stage 
+ It can help improve worker motivation, as workers have more ownership and recognition for 
+their work 
+ It can help break down “us and them” barriers between workers and managers, as it eliminates 
+the feeling of being checked up on, as staff are empowered to make decisions about quality 
+ With all staff responsible for quality, this can help the firm gain marketing advantages arising 
+from its consistent level of quality 
+Benefits of managing quality 
+Maintaining and managing quality standards can benefit a business in a number of ways: 
+ Customer loyalty – customers return, make repeat purchases and recommend the good or 
+service to others, increasing sales further 
+ Strong brand image and reputation for quality, attracting new customers 
+ As the good or service is seen as being of good quality, it may command a higher price 
+ Fewer returns, product recalls and replacements, leading to reduced costs and increased 
+efficiency 
+ The attraction and retention of good staff, who want to work for a business that provides quality 
+goods and services 
+
+
+===== PDF PAGE 115 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 114  
+ Developing initiatives and changing the way a business operates, through implementing quality 
+assurance methods, will help to lower inspection costs, as quality is the responsibility of 
+everyone in the organisation and is embedded throughout the organisation 
+These points can each help give the business a competitive advantage and support the marketing of a 
+business. Customers are likely to choose to buy from businesses with a good quality reputation, even if 
+they are more expensive. However, firms have to work hard to maintain and improve their reputation 
+for quality, which can easily be damaged by a news story about a quality failure.  
+Drawbacks/costs to a business of poor quality 
+Poor quality will result in additional costs for a business: 
+ Lost customers – it is very difficult and expensive to attract new customers, if old customers are 
+lost 
+ Legal action might be taken against the business, if its goods or services are not of the required 
+standard 
+ Cost of reworking or remaking products that are faulty or not up to the required standard 
+ Costs of replacements or refunds 
+Whichever method of improving or maintaining quality a business chooses to adopt, it will have a cost. 
+A business would have to balance these costs against the benefits, to ensure the quality method chosen 
+is appropriate to the business needs. These include: 
+• Costs of inspection and checking for quality control 
+• Cost of training for implementing quality assurance; this may involve a change in working 
+practices in the organisation and therefore will require a significant investment in training for all 
+staff, to ensure that quality standards are consistently met by the business 
+• Cost of time for quality circle meetings and implementing initiatives that arise from such 
+meetings 
+The sales process and customer service 
+Sales is the final part of the distribution process and is extremely important, as this is how the business 
+generates revenue. Customer service can be defined as the methods used by a business to look after its 
+current and futures customers. If a business wants customers to return and to gain and maintain a good 
+reputation, it will need to provide good customer service.  
+Sales process 
+This can be broken down into stages, from attracting a customer’s attention, through to concluding the 
+sale. Although this is normally seen as being operated by a sales person, the same process also applies 
+to telephone sales and e-sales where the “selling” is undertaken through a website. In order for the 
+process to be successful, there are certain key factors that must be addressed: 
+Product knowledge – sales people must have strong knowledge about the good or service they are 
+selling. If they do not then the customer will not have confidence in what they are buying and if they 
+make false statements then consumer protection law might apply. 
+Customer engagement – once a potential customer shows an interest in a product then the sales 
+process must engage them in providing information about what it is they are interested in and showing 
+them how purchasing the item will benefit them. This process might well start with establishing what 
+exactly the customer is looking for, so options can be presented. 
+
+
+===== PDF PAGE 116 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 115  
+Speed and efficiency of service – consumers are busy people. They do not expect to wait too long to be 
+engaged in a sales conversation, unless the product is in very high demand. In many cases there will be 
+competitors, which could be easier or faster to purchase from. Amazon have set, as a priority, a high 
+speed selling process. 
+Concluding the sale – there must be appropriate methods for agreeing on the sale. This might be 
+signing a contract or clicking an online button linked to a credit card payment. In a shop, there may be 
+different payment options that are acceptable – and some that are not. These must meet the business 
+and customer requirements. 
+Post-sales service – a good sales process will follow up a purchase to see if everything is “OK” and 
+determine how things could be improved. As well as the customer feeling their opinion is valued, it 
+means the business can improve its selling process.  
+Response to customer feedback – having gathered feedback from customers then the business should 
+learn from it and make changes if appropriate. However, changes may not be appropriate in some 
+cases, as all customers would like their purchases to be cheaper! Nevertheless, changes could be made 
+to the product and how it is promoted, as well as to the selling process.  
+The benefits of getting the sales process right are partly immediate, as more sales are made. Some retail 
+businesses set targets for their managers that every person who visits the store should leave having 
+bought something. Many tourist destinations, including airport duty free shops, will direct all visitors 
+through the shopping area to encourage unplanned sales. Benefits are also long term, satisfied 
+customers will come again and they will tell their friends which will generate sales. Dis-satisfied 
+customers however, will tell far more people, which may damage a firm’s reputation in the longer term. 
+Therefore, getting the sales process right is absolutely critical, particularly when a business is operating 
+in a hugely competitive market where lots of substitute products exist. 
+The importance of customer service 
+Customer service can now be applied to the selling process. The following are usually considered to be 
+essential in achieving happy customers: 
+ The good or service must meet customer needs and wants i.e. it must be of the expected 
+quality. It should also be reliable and safe. Delivery is increasingly important as more shopping 
+takes place on line and facilities such as free delivery, choosing time slots and click and collect 
+are all valued by customers. 
+ Product information is also important. The legal requirements must be met, for example in 
+terms of product description in food and clothing. Customers expect goods and services to be 
+accurately described. This is especially important for online sales. Product information can also 
+include product reviews. 
+ Sales and promotional activities need to create a positive experience for the customer. The 
+attitudes of employees who engage with customers should be positive and professional. 
+ Pre and post-sales service provided should be positive and appropriate, for example user 
+training, helplines and servicing. Customers often need reassurance after they have bought 
+something that they have made the right choice or they may need help in using a product 
+properly. Employees will need to be well trained, not just in terms of product knowledge, but 
+also how and when they communicate with customers. Follow up communication can also 
+provide valuable market research information as well as reassuring the customer about their 
+purchase. 
+Benefits of good customer service 
+
+
+===== PDF PAGE 117 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 116  
+The potential benefits to the firm from providing a consistently high level of customer service include: 
+ Increased sales – satisfied customers are also more likely to try out other goods/services 
+produced or provided by the same business  
+ Customer loyalty – more likely to be a source of repeat business and to recommend the 
+business to friends and family, creating new customers 
+ Enhanced public image – this helps build a brand and provides protection if there is a slip-up in 
+customer service 
+ More effective workforce – satisfied customers help create a positive working environment. 
+Employees who deliver good customer service receive their customers’ appreciation, rather than 
+complaints, and are further motivated to offer good customer service 
+ Cheaper costs – good customer service will reduce the number of complaints and refunds, which 
+will save the business costs in providing expensive customer service departments 
+Dangers in providing poor customer service  
+Recent research has highlighted the dangers to a business of providing poor customer service i.e. the 
+cost of customer dissatisfaction: 
+ As satisfaction levels drop, loyalty drops faster: there is a significant drop in loyalty between 
+customers who say they are “very satisfied” and “somewhat satisfied” - sometimes as much as 
+50%. A dangerous policy in many organisations is to ignore this fact and to just try and improve 
+their combined score, rather than trying to increase the number of “very satisfied” customers. 
+ Problems drive customers away: there is typically a 25% drop in loyalty amongst customers who 
+experience a problem. In revenue terms, this can be the equivalent of losing some, or all, of the 
+revenue from one in every four customers who have experienced a problem. 
+ More customers have problems than you think: research shows that as many as 50% of an 
+organisation’s customers may actually be experiencing problems at any one time. Only 5% of 
+those experiencing a problem may complain to the firm’s complaints or customer services 
+department.  Therefore, as many as 95% of customers who experience a problem may say 
+nothing to the business at all! 
+ Unhappy customers spread the word: research confirms that on average customers tell twice as 
+many people about a bad experience than they do about a good one. This means, depending on 
+the industry, between 5 and 10 people are told about a bad experience. Today, negative word-
+of-mouth happens much quicker and to a much greater scale, due to use of the internet and the 
+power of social networks. 
+Effective customer service and response pays: research also confirms the importance of effectively 
+responding to customers when they do complain. Customers can be very demanding but, with an 
+effective response, it is still possible to obtain a more loyal customer afterwards, than you had before 
+they experienced the problem! 
+  
+
+
+===== PDF PAGE 118 =====
+Edexcel GCSE Business (9-1) Course Companion 
+© Tutor2u (www.tutor2u.net) 2017                                                                                                   P a g e  | 117

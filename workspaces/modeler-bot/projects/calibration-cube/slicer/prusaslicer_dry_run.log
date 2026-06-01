@@ -1,0 +1,10 @@
+10 => Processing triangulated mesh
+20 => Generating perimeters
+30 => Preparing infill
+45 => Making infill
+65 => Searching support spots
+69 => Alert if supports needed
+89 => Calculating overhanging perimeters
+88 => Generating skirt and brim
+90 => Exporting G-code to /home/vin/.openclaw/workspaces/modeler-bot/projects/calibration-cube/slicer/calibration_cube_version_0.1.0_neptune_pla_draft.gcode
+Slicing result exported to /home/vin/.openclaw/workspaces/modeler-bot/projects/calibration-cube/slicer/calibration_cube_version_0.1.0_neptune_pla_draft.gcode

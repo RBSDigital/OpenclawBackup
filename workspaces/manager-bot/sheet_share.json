@@ -1,0 +1,9 @@
+{
+  "link": "https://docs.google.com/spreadsheets/d/1A4I-uJ5l0uJ6Q-DqJWxuL9ZREum_ucukrEpXObLi3Xg/edit?usp=drivesdk",
+  "permission": {
+    "id": "anyoneWithLink",
+    "role": "reader",
+    "type": "anyone"
+  },
+  "permissionId": "anyoneWithLink"
+}
