@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "ts": 1780201827472,
-  "durationMs": 58,
+  "ts": 1780288228665,
+  "durationMs": 32,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 1326,
-    "delayP99Ms": 22,
-    "delayMaxMs": 22.1,
-    "utilization": 0.063,
-    "cpuCoreRatio": 0.032
+    "intervalMs": 7805,
+    "delayP99Ms": 23.9,
+    "delayMaxMs": 27.4,
+    "utilization": 0.013,
+    "cpuCoreRatio": 0.015
   },
   "plugins": {
     "loaded": [
@@ -28,16 +28,16 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1780200144952,
+      "lastStartAt": 1780286512527,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1780200149504,
-      "lastEventAt": 1780200850858,
-      "lastTransportActivityAt": 1780201796657,
-      "lastInboundAt": 1780200850858,
+      "lastConnectedAt": 1780286517223,
+      "lastEventAt": 1780286517223,
+      "lastTransportActivityAt": 1780288212766,
+      "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
@@ -62,16 +62,16 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1780200144952,
+          "lastStartAt": 1780286512527,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1780200149504,
-          "lastEventAt": 1780200850858,
-          "lastTransportActivityAt": 1780201796657,
-          "lastInboundAt": 1780200850858,
+          "lastConnectedAt": 1780286517223,
+          "lastEventAt": 1780286517223,
+          "lastTransportActivityAt": 1780288212766,
+          "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
@@ -98,15 +98,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1780200144952,
+      "lastStartAt": 1780286512527,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1780201813727,
-      "lastEventAt": 1780201813727,
-      "lastTransportActivityAt": 1780201813727,
+      "lastConnectedAt": 1780288211976,
+      "lastEventAt": 1780288211976,
+      "lastTransportActivityAt": 1780288211976,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -120,15 +120,15 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1780200144952,
+          "lastStartAt": 1780286512527,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1780201813727,
-          "lastEventAt": 1780201813727,
-          "lastTransportActivityAt": 1780201813727,
+          "lastConnectedAt": 1780288211976,
+          "lastEventAt": 1780288211976,
+          "lastTransportActivityAt": 1780288211976,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -168,28 +168,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1780200860723,
-            "age": 966691
+            "updatedAt": 1780287162879,
+            "age": 1065754
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1780200090799,
-            "age": 1736615
+            "age": 88137834
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1780113692711,
-            "age": 88134703
+            "age": 174535922
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1780113692711,
-            "age": 88134703
+            "age": 174535922
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919351,
-            "age": 260908063
+            "age": 347309282
           }
         ]
       }
@@ -212,7 +212,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919359,
-            "age": 260908055
+            "age": 347309274
           }
         ]
       }
@@ -235,7 +235,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 1384122505
+            "age": 1470523724
           }
         ]
       }
@@ -258,7 +258,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779508898217,
-            "age": 692929197
+            "age": 779330416
           }
         ]
       }
@@ -281,7 +281,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919362,
-            "age": 260908052
+            "age": 347309271
           }
         ]
       }
@@ -310,28 +310,28 @@
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1780200860723,
-        "age": 966691
+        "updatedAt": 1780287162879,
+        "age": 1065754
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1780200090799,
-        "age": 1736615
+        "age": 88137834
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1780113692711,
-        "age": 88134703
+        "age": 174535922
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1780113692711,
-        "age": 88134703
+        "age": 174535922
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1779940919351,
-        "age": 260908063
+        "age": 347309282
       }
     ]
   }
