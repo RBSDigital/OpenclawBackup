@@ -37,3 +37,15 @@ Command failures and integration errors.
 **Resolution**: Used `channel="discord"` with `target="channel:<discord-channel-id>"`.
 
 **Lesson**: For Discord reads in this runtime, select the backend with `channel` and encode the destination in `target`.
+
+---
+
+## 2026-06-01 - Interrupted generated backup checkout blocks rerun
+
+**Context**: A validation run of `openclaw-github-backup.service` was stopped during its push after the expanded workspace snapshot included oversized reinstallable binaries. The next run failed because the generated backup checkout still had local changes and `git pull --rebase` refuses to proceed with an unclean worktree.
+
+**Impact**: The first clean rerun stopped before staging a corrected snapshot.
+
+**Resolution**: Preserved the interrupted generated checkout under a timestamped directory, added a 20 MB workspace-file cap, and allowed the service to clone a clean workdir.
+
+**Lesson**: Recovery-focused backup expansion should exclude reinstallable large artifacts before the first push. After interrupting a generated backup checkout, preserve it and reclone before validation.
