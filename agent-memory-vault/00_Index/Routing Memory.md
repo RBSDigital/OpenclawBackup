@@ -18,3 +18,7 @@ See [[../Decisions/2026-05-30 Agent Skill Assignment]].
 ## Memory Vault Decision
 
 See [[../Decisions/2026-05-30 Agent Memory Vault Setup]].
+
+## Cost Policy Decision
+
+See [[../Decisions/2026-06-02 API Token Cost Policy]].

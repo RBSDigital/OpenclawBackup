@@ -2,35 +2,35 @@
   "entries": {
     "/home/vin/.openclaw/openclaw.json": {
       "lastKnownGood": {
-        "hash": "c9b4b4e9b82ccaf7644a470199b46ccaddd4ad106dc134d7348f6d01bfe4a66c",
-        "bytes": 7964,
-        "mtimeMs": 1780200124236.9832,
-        "ctimeMs": 1780200124242.9832,
+        "hash": "84fb348260f15719ebf49819c2143f2f61a45f908bebf16980db482eadf77845",
+        "bytes": 8230,
+        "mtimeMs": 1780379839895.2068,
+        "ctimeMs": 1780379839901.2065,
         "dev": "2049",
-        "ino": "1609520",
+        "ino": "1609546",
         "mode": 384,
         "nlink": 1,
         "uid": 1001,
         "gid": 1001,
         "hasMeta": true,
         "gatewayMode": "local",
-        "observedAt": "2026-06-02T04:02:11.062Z"
+        "observedAt": "2026-06-03T04:01:57.285Z"
       },
       "lastObservedSuspiciousSignature": null,
       "lastPromotedGood": {
-        "hash": "c9b4b4e9b82ccaf7644a470199b46ccaddd4ad106dc134d7348f6d01bfe4a66c",
-        "bytes": 7964,
-        "mtimeMs": 1780200124236.9832,
-        "ctimeMs": 1780200124242.9832,
+        "hash": "84fb348260f15719ebf49819c2143f2f61a45f908bebf16980db482eadf77845",
+        "bytes": 8230,
+        "mtimeMs": 1780379839895.2068,
+        "ctimeMs": 1780379839901.2065,
         "dev": "2049",
-        "ino": "1609520",
+        "ino": "1609546",
         "mode": 33152,
         "nlink": 1,
         "uid": 1001,
         "gid": 1001,
         "hasMeta": true,
         "gatewayMode": "local",
-        "observedAt": "2026-06-02T04:01:58.540Z"
+        "observedAt": "2026-06-03T04:01:44.809Z"
       }
     }
   }

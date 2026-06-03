@@ -87,6 +87,8 @@ For this workspace, `#manager-hq` is the intake and coordination lane. Specialis
 
 Use `ROUTING.md` for the handoff and status templates.
 
+Use `COST_POLICY.md` for token-cost discipline: deterministic tools first, bounded context, one owner per routed task, quiet heartbeats unless there is signal, and high-reasoning calls only when the task truly needs them.
+
 ## Shared Agent Memory Vault
 
 Use `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault` as the shared sanitized durable memory layer for cross-agent recall.
