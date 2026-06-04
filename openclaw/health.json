@@ -1,20 +1,87 @@
 {
   "ok": true,
-  "ts": 1780461031621,
-  "durationMs": 28,
+  "ts": 1780547435132,
+  "durationMs": 23,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 8316,
-    "delayP99Ms": 23.9,
-    "delayMaxMs": 25.5,
-    "utilization": 0.011,
-    "cpuCoreRatio": 0.014
+    "intervalMs": 12685,
+    "delayP99Ms": 23.8,
+    "delayMaxMs": 25.9,
+    "utilization": 0.016,
+    "cpuCoreRatio": 0.018
   },
   "plugins": {
     "loaded": [
+      "alibaba",
+      "anthropic",
+      "arcee",
+      "azure-speech",
+      "browser",
+      "byteplus",
+      "canvas",
+      "cerebras",
+      "chutes",
+      "cloudflare-ai-gateway",
       "codex",
-      "openai"
+      "comfy",
+      "copilot-proxy",
+      "deepgram",
+      "deepinfra",
+      "deepseek",
+      "device-pair",
+      "discord",
+      "document-extract",
+      "elevenlabs",
+      "fal",
+      "file-transfer",
+      "fireworks",
+      "github-copilot",
+      "gmi",
+      "google",
+      "groq",
+      "huggingface",
+      "inworld",
+      "kilocode",
+      "kimi",
+      "litellm",
+      "lmstudio",
+      "memory-core",
+      "microsoft",
+      "microsoft-foundry",
+      "minimax",
+      "mistral",
+      "moonshot",
+      "novita",
+      "nvidia",
+      "ollama",
+      "openai",
+      "opencode",
+      "opencode-go",
+      "openrouter",
+      "phone-control",
+      "qianfan",
+      "qwen",
+      "runway",
+      "senseaudio",
+      "sglang",
+      "stepfun",
+      "synthetic",
+      "talk-voice",
+      "telegram",
+      "tencent",
+      "together",
+      "tts-local-cli",
+      "venice",
+      "vercel-ai-gateway",
+      "vllm",
+      "volcengine",
+      "voyage",
+      "vydra",
+      "web-readability",
+      "xai",
+      "xiaomi",
+      "zai"
     ],
     "errors": []
   },
@@ -28,15 +95,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1780459304061,
+      "lastStartAt": 1780545772988,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1780459308523,
-      "lastEventAt": 1780459308523,
-      "lastTransportActivityAt": 1780460999757,
+      "lastConnectedAt": 1780545777815,
+      "lastEventAt": 1780545777815,
+      "lastTransportActivityAt": 1780547394330,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -62,15 +129,15 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1780459304061,
+          "lastStartAt": 1780545772988,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1780459308523,
-          "lastEventAt": 1780459308523,
-          "lastTransportActivityAt": 1780460999757,
+          "lastConnectedAt": 1780545777815,
+          "lastEventAt": 1780545777815,
+          "lastTransportActivityAt": 1780547394330,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -98,15 +165,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1780459304062,
+      "lastStartAt": 1780545772988,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1780461002118,
-      "lastEventAt": 1780461002118,
-      "lastTransportActivityAt": 1780461002118,
+      "lastConnectedAt": 1780547411715,
+      "lastEventAt": 1780547411715,
+      "lastTransportActivityAt": 1780547411715,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -120,15 +187,15 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1780459304062,
+          "lastStartAt": 1780545772988,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1780461002118,
-          "lastEventAt": 1780461002118,
-          "lastTransportActivityAt": 1780461002118,
+          "lastConnectedAt": 1780547411715,
+          "lastEventAt": 1780547411715,
+          "lastTransportActivityAt": 1780547411715,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -164,32 +231,32 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-        "count": 12,
+        "count": 14,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1780459969370,
-            "age": 1062222
+            "updatedAt": 1780546557976,
+            "age": 877133
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1780545689952,
+            "age": 1745157
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1780488787003,
+            "age": 58648106
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1780488754684,
+            "age": 58680425
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1780459272620,
-            "age": 1758972
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1780459272620,
-            "age": 1758972
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1780113692711,
-            "age": 347338881
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1779940919351,
-            "age": 520112241
+            "age": 88162489
           }
         ]
       }
@@ -212,7 +279,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919359,
-            "age": 520112233
+            "age": 606515750
           }
         ]
       }
@@ -235,7 +302,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 1643326684
+            "age": 1729730200
           }
         ]
       }
@@ -258,7 +325,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1780345085541,
-            "age": 115946052
+            "age": 202349568
           }
         ]
       }
@@ -281,7 +348,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919362,
-            "age": 520112231
+            "age": 606515747
           }
         ]
       }
@@ -306,32 +373,32 @@
   ],
   "sessions": {
     "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-    "count": 12,
+    "count": 14,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1780459969370,
-        "age": 1062222
+        "updatedAt": 1780546557976,
+        "age": 877133
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1780545689952,
+        "age": 1745157
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1780488787003,
+        "age": 58648106
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1780488754684,
+        "age": 58680425
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1780459272620,
-        "age": 1758972
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1780459272620,
-        "age": 1758972
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1780113692711,
-        "age": 347338881
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1779940919351,
-        "age": 520112241
+        "age": 88162489
       }
     ]
   }

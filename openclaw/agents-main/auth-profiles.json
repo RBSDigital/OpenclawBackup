@@ -1,30 +1,10 @@
 {
   "version": 1,
   "profiles": {
-    "openai-codex:default": {
-      "type": "oauth",
-      "provider": "openai-codex",
-      "email": "vincentreynolds1@gmail.com",
-      "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_NPYnRbDs81ox6KT6P4dcaCg2bxSw0NSlWt2VPkPurjk.OLr1SO-TYnIgJjz1uSUWDnA0BUumYwA8108DP2RRrPQ",
-      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
-      "chatgptPlanType": "plus",
-      "expires": 1779940896225
-    },
     "openai:default": {
       "type": "api_key",
       "provider": "openai",
       "key": "[REDACTED_SECRET]"
-    },
-    "openai-codex:vincentreynolds1@gmail.com": {
-      "type": "oauth",
-      "provider": "openai-codex",
-      "email": "vincentreynolds1@gmail.com",
-      "access": "[DISCORD_BOT_TOKEN]",
-      "refresh": "rt_KosASzZ1udcJv1CUbuxJiDhfmVayOuViLMRbo4MRhzE.rRJuKdVFQq-2_5IPgmVI5Ewxp6uO5HAaj1SHhzlE9cY",
-      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
-      "chatgptPlanType": "plus",
-      "expires": 1780476147791
     },
     "google:default": {
       "type": "api_key",
@@ -35,6 +15,26 @@
       "type": "api_key",
       "provider": "ollama",
       "key": "[REDACTED_SECRET]"
+    },
+    "openai:chatgpt-default": {
+      "type": "oauth",
+      "provider": "openai",
+      "email": "vincentreynolds1@gmail.com",
+      "access": "[DISCORD_BOT_TOKEN]",
+      "refresh": "rt_NPYnRbDs81ox6KT6P4dcaCg2bxSw0NSlWt2VPkPurjk.OLr1SO-TYnIgJjz1uSUWDnA0BUumYwA8108DP2RRrPQ",
+      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
+      "chatgptPlanType": "plus",
+      "expires": 1779940896225
+    },
+    "openai:vincentreynolds1@gmail.com": {
+      "type": "oauth",
+      "provider": "openai",
+      "email": "vincentreynolds1@gmail.com",
+      "access": "[DISCORD_BOT_TOKEN]",
+      "refresh": "rt_KosASzZ1udcJv1CUbuxJiDhfmVayOuViLMRbo4MRhzE.rRJuKdVFQq-2_5IPgmVI5Ewxp6uO5HAaj1SHhzlE9cY",
+      "accountId": "872aeff1-8760-44a4-85c6-9931fd34a2ce",
+      "chatgptPlanType": "plus",
+      "expires": 1780476147791
     }
   }
 }

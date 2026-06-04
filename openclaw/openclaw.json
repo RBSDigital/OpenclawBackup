@@ -1,13 +1,13 @@
 {
   "auth": {
     "profiles": {
-      "openai-codex:vincentreynolds1@gmail.com": {
-        "provider": "openai-codex",
-        "mode": "oauth"
-      },
       "openai:default": {
         "provider": "openai",
         "mode": "api_key"
+      },
+      "openai:vincentreynolds1@gmail.com": {
+        "provider": "openai",
+        "mode": "oauth"
       }
     }
   },
@@ -113,14 +113,14 @@
     "profile": "coding"
   },
   "wizard": {
-    "lastRunAt": "2026-05-30T04:01:43.341Z",
-    "lastRunVersion": "2026.5.27",
+    "lastRunAt": "2026-06-04T04:01:48.845Z",
+    "lastRunVersion": "2026.6.1",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.5.28",
-    "lastTouchedAt": "2026-06-02T05:57:19.891Z"
+    "lastTouchedVersion": "2026.6.1",
+    "lastTouchedAt": "2026-06-04T04:02:35.411Z"
   },
   "skills": {
     "entries": {
