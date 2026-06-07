@@ -6,7 +6,7 @@ StartLimitBurst=5
 StartLimitIntervalSec=60
 
 [Service]
-ExecStart=/usr/bin/node /home/vin/.npm-global/lib/node_modules/openclaw/dist/index.js gateway --port 28789
+ExecStart=/usr/bin/node /home/vin/.npm-global/lib/node_modules/openclaw/dist/index.js gateway --port 18789
 Restart=always
 RestartSec=5
 RestartPreventExitStatus=78
@@ -17,7 +17,7 @@ KillMode=control-group
 Environment=HOME=/home/vin
 Environment=TMPDIR=/tmp
 Environment=PATH=/usr/bin:/home/vin/.local/bin:/home/vin/.npm-global/bin:/home/vin/bin:/home/vin/.nix-profile/bin:/usr/local/bin:/bin
-Environment=OPENCLAW_GATEWAY_PORT=28789
+Environment=OPENCLAW_GATEWAY_PORT=18789
 Environment=OPENCLAW_SYSTEMD_UNIT=openclaw-gateway.service
 Environment="OPENCLAW_WINDOWS_TASK_NAME=OpenClaw Gateway"
 Environment=OPENCLAW_SERVICE_MARKER=openclaw

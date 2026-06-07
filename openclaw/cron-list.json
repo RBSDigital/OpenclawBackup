@@ -1,9 +1,67 @@
 {
-  "jobs": [],
-  "total": 0,
+  "jobs": [
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage to decide whether the current default model still fits the workload or needs escalation.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "updatedAtMs": 1780769071867,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and nearby routing work. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nIf you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1780855200000,
+        "lastRunAtMs": 1780768800009,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 271858,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed",
+          "entries": [
+            {
+              "ts": 1780769068770,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "status": "ok"
+    }
+  ],
+  "total": 1,
   "offset": 0,
-  "limit": 50,
+  "limit": 1,
   "hasMore": false,
   "nextOffset": null,
-  "deliveryPreviews": {}
+  "deliveryPreviews": {
+    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    }
+  }
 }
