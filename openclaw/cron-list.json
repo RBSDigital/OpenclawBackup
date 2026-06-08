@@ -6,7 +6,7 @@
       "description": "Daily review of recent OpenClaw usage to decide whether the current default model still fits the workload or needs escalation.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1780769071867,
+      "updatedAtMs": 1780855509536,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -27,23 +27,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1780855200000,
-        "lastRunAtMs": 1780768800009,
+        "nextRunAtMs": 1780941600000,
+        "lastRunAtMs": 1780855200014,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 271858,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed",
-          "entries": [
-            {
-              "ts": 1780769068770,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ `jq 'to_entries | map({key: [REDACTED_SECRET], updatedAt: .value.updatedA…ome/vin/.openclaw/agents/security-bot/sessions/sessions.json (in ~/.openclaw/workspaces/manager-bot)` failed",
+        "lastDurationMs": 309522,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",

@@ -1,35 +1,35 @@
 {
-  "lastRunAt": "2026-06-06T05:20:32.961Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-06-06T05:20:15Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-06-06T05:20:15Z.json",
+  "lastRunAt": "2026-06-07T05:20:33.884Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-06-07T05:20:15Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-06-07T05:20:15Z.json",
   "openFindings": [
     {
-      "id": "ci-2026-06-06-001",
+      "id": "ci-2026-06-07-001",
       "severity": "P2",
       "owner": "modeler-bot",
       "summary": "modeler-bot has no active heartbeat checklist items.",
-      "firstSeenAt": "2026-06-06T05:20:32.961Z",
-      "lastSeenAt": "2026-06-06T05:20:32.961Z",
+      "firstSeenAt": "2026-06-07T05:20:33.884Z",
+      "lastSeenAt": "2026-06-07T05:20:33.884Z",
       "status": "open",
       "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
     },
     {
-      "id": "ci-2026-06-06-002",
+      "id": "ci-2026-06-07-002",
       "severity": "P2",
       "owner": "ops-bot",
-      "summary": "ops-bot memory is stale at 565h.",
-      "firstSeenAt": "2026-06-06T05:20:32.961Z",
-      "lastSeenAt": "2026-06-06T05:20:32.961Z",
+      "summary": "ops-bot memory is stale at 589h.",
+      "firstSeenAt": "2026-06-07T05:20:33.884Z",
+      "lastSeenAt": "2026-06-07T05:20:33.884Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     },
     {
-      "id": "ci-2026-06-06-003",
+      "id": "ci-2026-06-07-003",
       "severity": "P2",
       "owner": "security-bot",
-      "summary": "security-bot memory is stale at 357h.",
-      "firstSeenAt": "2026-06-06T05:20:32.961Z",
-      "lastSeenAt": "2026-06-06T05:20:32.961Z",
+      "summary": "security-bot memory is stale at 381h.",
+      "firstSeenAt": "2026-06-07T05:20:33.884Z",
+      "lastSeenAt": "2026-06-07T05:20:33.884Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     }
