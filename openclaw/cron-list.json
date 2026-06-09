@@ -6,7 +6,7 @@
       "description": "Daily review of recent OpenClaw usage to decide whether the current default model still fits the workload or needs escalation.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1780855509536,
+      "updatedAtMs": 1780941932705,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -27,11 +27,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1780941600000,
-        "lastRunAtMs": 1780855200014,
+        "nextRunAtMs": 1781028000000,
+        "lastRunAtMs": 1780941600011,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 309522,
+        "lastDurationMs": 332694,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
