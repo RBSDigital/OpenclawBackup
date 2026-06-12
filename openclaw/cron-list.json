@@ -6,7 +6,7 @@
       "description": "Daily review of recent OpenClaw usage to decide whether the current default model still fits the workload or needs escalation.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1781114521338,
+      "updatedAtMs": 1781201064736,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -27,16 +27,28 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1781200800000,
-        "lastRunAtMs": 1781114400011,
+        "nextRunAtMs": 1781287200000,
+        "lastRunAtMs": 1781200800012,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 121327,
+        "lastDurationMs": 264724,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ `jq 'keys' ~/.openclaw/agents/manager-bot/sessions/d91155cd-c35f-4627-b567-2aa317bac21e.json (in ~/.openclaw/workspaces/manager-bot)` failed",
+          "entries": [
+            {
+              "ts": 1781201063549,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ `jq 'keys' ~/.openclaw/agents/manager-bot/sessions/d91155cd-c35f-4627-b567-2aa317bac21e.json (in ~/.openclaw/workspaces/manager-bot)` failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ `jq 'keys' ~/.openclaw/agents/manager-bot/sessions/d91155cd-c35f-4627-b567-2aa317bac21e.json (in ~/.openclaw/workspaces/manager-bot)` failed"
       },
       "status": "ok"
     }
