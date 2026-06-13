@@ -44,6 +44,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 - Path: `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault`
 - Purpose: shared sanitized durable memory for cross-agent recall.
 - Manager responsibility: maintain `00_Index/`, routing memory, promotion rules, and periodic inbox triage.
+- Retrieval status: the live vault is indexed with `qmd` as collection `ada_kt_vault`; re-run `qmd collection add /home/vin/ObsidianVaults/AdaKTVault --name ada_kt_vault --mask '**/*.md'` and `qmd embed` if the index is missing or stale.
 - Obsidian status: Markdown vault is usable now; OpenClaw `obsidian` skill requires the official `obsidian` CLI binary on `PATH`.
 
 ## Discord Connector

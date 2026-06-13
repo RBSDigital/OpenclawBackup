@@ -1,5 +1,12 @@
 # Manager-Bot Memory
 
+## Obsidian Vault Retrieval
+
+- The shared agent memory vault lives at `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault`.
+- The practical retrieval layer for that vault is `qmd`, not the disabled OpenClaw `obsidian` plugin.
+- Re-create the `ada_kt_vault` collection with `qmd collection add /home/vin/ObsidianVaults/AdaKTVault --name ada_kt_vault --mask '**/*.md'` if search comes back empty or the collection disappears.
+- Re-run `qmd embed` after collection changes so semantic search stays healthy.
+
 ## Reusable Discord Research Tasking Template
 
 Vincent wants a comprehensive template for tasking research work to Discord agents, especially `researcher-bot` through `#research-lab` or routed via `#manager-hq`.
