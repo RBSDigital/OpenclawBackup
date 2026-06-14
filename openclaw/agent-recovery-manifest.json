@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T04:30:36.381Z",
+  "generatedAt": "2026-06-14T04:30:38.112Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
@@ -56,7 +56,7 @@
       "workspace": "/home/vin/.openclaw/workspaces/security-bot",
       "workspaceExists": true,
       "runtimeDir": "/home/vin/.openclaw/agents/security-bot",
-      "runtimeDirExists": false
+      "runtimeDirExists": true
     }
   ],
   "workspaceDirs": [
@@ -73,7 +73,8 @@
     "manager-bot",
     "modeler-bot",
     "ops-bot",
-    "researcher-bot"
+    "researcher-bot",
+    "security-bot"
   ],
   "bindings": [
     {

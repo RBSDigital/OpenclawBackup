@@ -1,15 +1,15 @@
 {
   "ok": true,
-  "ts": 1781325036263,
-  "durationMs": 27,
+  "ts": 1781411437998,
+  "durationMs": 25,
   "eventLoop": {
     "degraded": false,
     "reasons": [],
-    "intervalMs": 14448,
-    "delayP99Ms": 25,
-    "delayMaxMs": 42.3,
-    "utilization": 0.042,
-    "cpuCoreRatio": 0.053
+    "intervalMs": 14257,
+    "delayP99Ms": 24.5,
+    "delayMaxMs": 60.3,
+    "utilization": 0.019,
+    "cpuCoreRatio": 0.022
   },
   "plugins": {
     "loaded": [
@@ -95,15 +95,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1781323354695,
+      "lastStartAt": 1781409727443,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1781323359511,
-      "lastEventAt": 1781323359511,
-      "lastTransportActivityAt": 1781325016657,
+      "lastConnectedAt": 1781409731768,
+      "lastEventAt": 1781409731768,
+      "lastTransportActivityAt": 1781411434931,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -129,15 +129,15 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1781323354695,
+          "lastStartAt": 1781409727443,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1781323359511,
-          "lastEventAt": 1781323359511,
-          "lastTransportActivityAt": 1781325016657,
+          "lastConnectedAt": 1781409731768,
+          "lastEventAt": 1781409731768,
+          "lastTransportActivityAt": 1781411434931,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -165,15 +165,15 @@
       "enabled": true,
       "configured": true,
       "running": true,
-      "lastStartAt": 1781323354696,
+      "lastStartAt": 1781409727444,
       "lastStopAt": null,
       "lastError": null,
       "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1781325023806,
-      "lastEventAt": 1781325023806,
-      "lastTransportActivityAt": 1781325023806,
+      "lastConnectedAt": 1781411426113,
+      "lastEventAt": 1781411426113,
+      "lastTransportActivityAt": 1781411426113,
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
@@ -187,15 +187,15 @@
           "enabled": true,
           "configured": true,
           "running": true,
-          "lastStartAt": 1781323354696,
+          "lastStartAt": 1781409727444,
           "lastStopAt": null,
           "lastError": null,
           "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1781325023806,
-          "lastEventAt": 1781325023806,
-          "lastTransportActivityAt": 1781325023806,
+          "lastConnectedAt": 1781411426113,
+          "lastEventAt": 1781411426113,
+          "lastTransportActivityAt": 1781411426113,
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
@@ -215,7 +215,7 @@
     "discord": "Discord",
     "telegram": "Telegram"
   },
-  "heartbeatSeconds": 1800,
+  "heartbeatSeconds": 7200,
   "defaultAgentId": "manager-bot",
   "agents": [
     {
@@ -223,40 +223,40 @@
       "isDefault": true,
       "heartbeat": {
         "enabled": true,
-        "every": "30m",
-        "everyMs": 1800000,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-        "count": 15,
+        "count": 16,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1781323951650,
-            "age": 1084586
+            "updatedAt": 1781406755686,
+            "age": 4682287
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781377955807,
+            "age": 33482166
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781373600441,
+            "age": 37837532
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781343800512,
+            "age": 67637461
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781323413226,
-            "age": 1623010
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1781294791858,
-            "age": 30244378
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1781287411136,
-            "age": 37625100
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1781287208298,
-            "age": 37827938
+            "age": 88024747
           }
         ]
       }
@@ -265,21 +265,26 @@
       "agentId": "researcher-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": false,
-        "every": "disabled",
-        "everyMs": null,
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/researcher-bot/sessions/sessions.json",
-        "count": 1,
+        "count": 2,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781404515219,
+            "age": 6922754
+          },
+          {
+            "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919359,
-            "age": 1384116877
+            "age": 1470518614
           }
         ]
       }
@@ -288,21 +293,26 @@
       "agentId": "ops-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": false,
-        "every": "disabled",
-        "everyMs": null,
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/ops-bot/sessions/sessions.json",
-        "count": 1,
+        "count": 2,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781405245858,
+            "age": 6192115
+          },
+          {
+            "key": "[REDACTED_SECRET]",
             "updatedAt": 1778817704909,
-            "age": 2507331327
+            "age": 2593733064
           }
         ]
       }
@@ -311,21 +321,31 @@
       "agentId": "admin-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": false,
-        "every": "disabled",
-        "everyMs": null,
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/admin-bot/sessions/sessions.json",
-        "count": 1,
+        "count": 3,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1781323409037,
-            "age": 1627199
+            "updatedAt": 1781406052114,
+            "age": 5385859
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781384514565,
+            "age": 26923408
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781384458038,
+            "age": 26979935
           }
         ]
       }
@@ -334,9 +354,9 @@
       "agentId": "modeler-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": false,
-        "every": "disabled",
-        "everyMs": null,
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
@@ -348,7 +368,7 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1779940919362,
-            "age": 1384116874
+            "age": 1470518611
           }
         ]
       }
@@ -357,48 +377,54 @@
       "agentId": "security-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": false,
-        "every": "disabled",
-        "everyMs": null,
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
         "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/security-bot/sessions/sessions.json",
-        "count": 0,
-        "recent": []
+        "count": 1,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781410956731,
+            "age": 481242
+          }
+        ]
       }
     }
   ],
   "sessions": {
     "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-    "count": 15,
+    "count": 16,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1781323951650,
-        "age": 1084586
+        "updatedAt": 1781406755686,
+        "age": 4682287
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1781377955807,
+        "age": 33482166
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1781373600441,
+        "age": 37837532
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1781343800512,
+        "age": 67637461
       },
       {
         "key": "[REDACTED_SECRET]",
         "updatedAt": 1781323413226,
-        "age": 1623010
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1781294791858,
-        "age": 30244378
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1781287411136,
-        "age": 37625100
-      },
-      {
-        "key": "[REDACTED_SECRET]",
-        "updatedAt": 1781287208298,
-        "age": 37827938
+        "age": 88024747
       }
     ]
   }
