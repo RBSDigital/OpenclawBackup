@@ -50,6 +50,12 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+## Self-Improvement
+
+- Use `.learnings/LEARNINGS.md`, `.learnings/ERRORS.md`, and `.learnings/FEATURE_REQUESTS.md` for recurring corrections, failures, and missing capabilities.
+- Review `SELF_IMPROVEMENT_ROUTINE.md` when you need the autonomous triage loop or promotion checklist.
+- Log first, then decide whether an item belongs in `AGENTS.md`, `TOOLS.md`, `SOUL.md`, or `MEMORY.md`.
+
 ## Red Lines
 
 - Don't exfiltrate private data. Ever.
@@ -186,6 +192,8 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - **Calendar** - Upcoming events in next 24-48h?
 - **Mentions** - Twitter/social notifications?
 - **Weather** - Relevant if your human might go out?
+- Keep each active specialist lane on at least one lightweight heartbeat checklist item so proactive checks do not go stale.
+- If a lane's memory looks stale, fold a short memory-review step into the next heartbeat instead of waiting for a separate pass.
 
 **Track your checks** in `memory/heartbeat-state.json`:
 

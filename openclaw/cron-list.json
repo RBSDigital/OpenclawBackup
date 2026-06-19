@@ -1,12 +1,53 @@
 {
   "jobs": [
     {
+      "id": "afba8207-7095-4d61-bbe9-9241dabbb2c8",
+      "name": "Self-improvement review loop",
+      "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
+      "enabled": true,
+      "createdAtMs": 1781808727972,
+      "updatedAtMs": 1781827614379,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */6 * * *",
+        "tz": "UTC",
+        "staggerMs": 300000
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the workspace self-improvement logs for the last day and identify repeated failures, corrections, and feature requests.\n\nTasks:\n- summarize new items since the last review\n- cluster repeated issues by pattern\n- suggest the smallest durable fix for each repeated pattern\n- identify anything that should be promoted to AGENTS.md, TOOLS.md, SOUL.md, or MEMORY.md\n- if a low-risk item is repeated and non-sensitive, auto-promote the minimal durable edit instead of only suggesting it\n\nAutopromotion policy:\n- safe to auto-promote: documentation, wording, checklists, routing hints, tooling notes, and other non-sensitive workflow clarifications\n- do not auto-promote: anything involving secrets, credentials, permissions, external actions, safety policy changes, or user-private content\n- if uncertain, stage the suggestion and explain why it was not auto-applied\n\nConstraints:\n- do not expose secrets or raw transcripts\n- prefer short bullet points\n- keep the output actionable\n\nUse the self-improvement routine in `SELF_IMPROVEMENT_ROUTINE.md` as the operating guide.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1781849094831,
+        "lastRunAtMs": 1781827494839,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 119540,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "status": "ok"
+    },
+    {
       "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
       "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage to decide whether the current default model still fits the workload or needs escalation.",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1781719453387,
+      "updatedAtMs": 1781808543676,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -17,7 +58,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and nearby routing work. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nIf you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
         "timeoutSeconds": 600
       },
       "delivery": {
@@ -27,11 +68,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1781805600000,
-        "lastRunAtMs": 1781719200023,
+        "nextRunAtMs": 1781892000000,
+        "lastRunAtMs": 1781805600021,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 253364,
+        "lastDurationMs": 214137,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -41,12 +82,16 @@
       "status": "ok"
     }
   ],
-  "total": 1,
+  "total": 2,
   "offset": 0,
-  "limit": 1,
+  "limit": 2,
   "hasMore": false,
   "nextOffset": null,
   "deliveryPreviews": {
+    "afba8207-7095-4d61-bbe9-9241dabbb2c8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
     "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
