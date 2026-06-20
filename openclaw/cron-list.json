@@ -1,12 +1,48 @@
 {
   "jobs": [
     {
+      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
+      "name": "autonomous-self-improvement-heartbeat",
+      "enabled": true,
+      "createdAtMs": 1781865938330,
+      "updatedAtMs": 1781909158299,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 21600000,
+        "anchorMs": 1781865931200
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
+        "timeoutSeconds": 1800,
+        "lightContext": true
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1781930731217,
+        "lastRunAtMs": 1781909131217,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 27082,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "status": "ok"
+    },
+    {
       "id": "afba8207-7095-4d61-bbe9-9241dabbb2c8",
       "name": "Self-improvement review loop",
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1781827614379,
+      "updatedAtMs": 1781913966587,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,11 +64,11 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1781849094831,
-        "lastRunAtMs": 1781827494839,
+        "nextRunAtMs": 1781935494831,
+        "lastRunAtMs": 1781913894840,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 119540,
+        "lastDurationMs": 71747,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -47,7 +83,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1781808543676,
+      "updatedAtMs": 1781892082548,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -68,11 +104,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1781892000000,
-        "lastRunAtMs": 1781805600021,
+        "nextRunAtMs": 1781978400000,
+        "lastRunAtMs": 1781892000016,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 214137,
+        "lastDurationMs": 82532,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -82,12 +118,16 @@
       "status": "ok"
     }
   ],
-  "total": 2,
+  "total": 3,
   "offset": 0,
-  "limit": 2,
+  "limit": 3,
   "hasMore": false,
   "nextOffset": null,
   "deliveryPreviews": {
+    "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
     "afba8207-7095-4d61-bbe9-9241dabbb2c8": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"

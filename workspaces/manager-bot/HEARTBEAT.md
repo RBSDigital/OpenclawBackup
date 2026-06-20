@@ -12,7 +12,9 @@ When heartbeats are enabled, use them to keep the multi-agent setup tidy:
 - Review open Discord tasks across `#manager-hq`, `#research-lab`, `#ops-center`, `#admin-desk`, `#modeling-studio`, and `#security-lab`.
 - Summarize owner, status, blocker, and next action for active work.
 - Check whether specialist work is being executed in the right lane.
+- Keep at least one lightweight checklist item for each active specialist lane; if a lane is intentionally idle, note that explicitly.
 - Nudge stale routed tasks only when there is a real blocker or user-visible delay.
+- If a lane's memory looks stale, fold a short memory-review step into the next heartbeat instead of waiting for a separate pass.
 - Keep private memory isolated from shared Discord channels.
 - Triage `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault/Inbox` periodically and promote sanitized durable notes into the right vault folder.
 - Review recent `memory/YYYY-MM-DD.md` files periodically and decide whether anything belongs in private `MEMORY.md` or the shared Agent Memory Vault.
