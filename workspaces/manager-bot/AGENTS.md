@@ -92,6 +92,7 @@ For this workspace, `#manager-hq` is the intake and coordination lane. Specialis
 - Defensive cybersecurity/authorized scanning/SAST/SCA/IaC/threat intel/IR/GRC → `#security-lab` / `security-bot`
 
 Use `ROUTING.md` for the handoff and status templates.
+If a cross-agent send is blocked by visibility or spawn policy, keep the handoff in the owning lane and record the blocker in the status update instead of retrying blind sends.
 
 Use `COST_POLICY.md` for token-cost discipline: deterministic tools first, bounded context, one owner per routed task, quiet heartbeats unless there is signal, and high-reasoning calls only when the task truly needs them.
 
