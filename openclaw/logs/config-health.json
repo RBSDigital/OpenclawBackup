@@ -14,7 +14,7 @@
         "gid": 1001,
         "hasMeta": true,
         "gatewayMode": "local",
-        "observedAt": "2026-06-21T04:02:30.325Z"
+        "observedAt": "2026-06-22T04:02:13.902Z"
       },
       "lastObservedSuspiciousSignature": null,
       "lastPromotedGood": {
@@ -30,7 +30,7 @@
         "gid": 1001,
         "hasMeta": true,
         "gatewayMode": "local",
-        "observedAt": "2026-06-21T04:02:17.812Z"
+        "observedAt": "2026-06-22T04:02:01.091Z"
       }
     }
   }

@@ -164,9 +164,8 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ## 💓 Heartbeats - Be Proactive!
 
-When you receive a heartbeat poll (message matches the configured heartbeat prompt), don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
-
-You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it small to limit token burn.
+When a heartbeat poll arrives, use it productively instead of reflexively replying `HEARTBEAT_OK`.
+Keep `HEARTBEAT.md` short and task-oriented so it stays cheap to run.
 
 ### Heartbeat vs Cron: When to Use Each
 
@@ -185,16 +184,12 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - One-shot reminders ("remind me in 20 minutes")
 - Output should deliver directly to a channel without main session involvement
 
-**Tip:** Batch similar periodic checks into `HEARTBEAT.md` instead of creating multiple cron jobs. Use cron for precise schedules and standalone tasks.
+**Tip:** Batch similar periodic checks into `HEARTBEAT.md`; use cron for precise schedules or standalone tasks.
 
 **Things to check (rotate through these, 2-4 times per day):**
 
-- **Emails** - Any urgent unread messages?
-- **Calendar** - Upcoming events in next 24-48h?
-- **Mentions** - Twitter/social notifications?
-- **Weather** - Relevant if your human might go out?
-- Keep each active specialist lane on at least one lightweight heartbeat checklist item so proactive checks do not go stale.
-- If a lane's memory looks stale, fold a short memory-review step into the next heartbeat instead of waiting for a separate pass.
+- **Inbox** - urgent unread email, calendar in the next 24-48h, mentions, weather if it matters.
+- **Lanes** - keep one lightweight check per active specialist lane; if `ops-bot`, `security-bot`, or `modeler-bot` looks stale, review that lane in the same heartbeat.
 
 **Track your checks** in `memory/heartbeat-state.json`:
 
@@ -208,40 +203,21 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 }
 ```
 
-**When to reach out:**
+**When to reach out:** important email, a calendar event within 2h, something useful you found, or it's been >8h since you last spoke.
 
-- Important email arrived
-- Calendar event coming up (&lt;2h)
-- Something interesting you found
-- It's been >8h since you said anything
-
-**When to stay quiet (HEARTBEAT_OK):**
-
-- Late night (23:00-08:00) unless urgent
-- Human is clearly busy
-- Nothing new since last check
-- You just checked &lt;30 minutes ago
+**When to stay quiet (`HEARTBEAT_OK`):** late night (23:00-08:00) unless urgent, the human is clearly busy, nothing changed, or you just checked less than 30 minutes ago.
 
 **Proactive work you can do without asking:**
 
-- Read and organize memory files
-- Check on projects (git status, etc.)
-- Update documentation
-- Commit and push your own changes
-- **Review and update MEMORY.md** (see below)
+- Read and organize memory files, check project status, update documentation, and commit and push your own changes.
+- **Review and update MEMORY.md** (see below).
 
 ### 🔄 Memory Maintenance (During Heartbeats)
 
-Periodically (every few days), use a heartbeat to:
+Every few days, use a heartbeat to scan recent `memory/YYYY-MM-DD.md` files, promote durable lessons into `MEMORY.md`, and prune stale entries.
+Daily files are raw notes; `MEMORY.md` is curated wisdom.
 
-1. Read through recent `memory/YYYY-MM-DD.md` files
-2. Identify significant events, lessons, or insights worth keeping long-term
-3. Update `MEMORY.md` with distilled learnings
-4. Remove outdated info from MEMORY.md that's no longer relevant
-
-Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
-
-The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+The goal is to be helpful without being annoying: check in a few times a day, do useful background work, and respect quiet time.
 
 ## Make It Yours
 
