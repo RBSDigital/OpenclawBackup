@@ -1,45 +1,45 @@
 {
-  "lastRunAt": "2026-06-24T05:20:33.782Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-06-24T05:20:15Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-06-24T05:20:15Z.json",
+  "lastRunAt": "2026-06-25T05:20:30.787Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-06-25T05:20:15Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-06-25T05:20:15Z.json",
   "openFindings": [
     {
-      "id": "ci-2026-06-24-001",
+      "id": "ci-2026-06-25-001",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "Cross-agent handoff is blocked by session visibility or spawn policy.",
-      "firstSeenAt": "2026-06-24T05:20:33.782Z",
-      "lastSeenAt": "2026-06-24T05:20:33.782Z",
+      "firstSeenAt": "2026-06-25T05:20:30.787Z",
+      "lastSeenAt": "2026-06-25T05:20:30.787Z",
       "status": "open",
       "nextAction": "Preview the least-privilege config change or document direct-channel handoff as the operating pattern."
     },
     {
-      "id": "ci-2026-06-24-002",
+      "id": "ci-2026-06-25-002",
       "severity": "P2",
       "owner": "modeler-bot",
       "summary": "modeler-bot has no active heartbeat checklist items.",
-      "firstSeenAt": "2026-06-24T05:20:33.782Z",
-      "lastSeenAt": "2026-06-24T05:20:33.782Z",
+      "firstSeenAt": "2026-06-25T05:20:30.787Z",
+      "lastSeenAt": "2026-06-25T05:20:30.787Z",
       "status": "open",
       "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
     },
     {
-      "id": "ci-2026-06-24-003",
+      "id": "ci-2026-06-25-003",
       "severity": "P2",
       "owner": "ops-bot",
-      "summary": "ops-bot memory is stale at 997h.",
-      "firstSeenAt": "2026-06-24T05:20:33.782Z",
-      "lastSeenAt": "2026-06-24T05:20:33.782Z",
+      "summary": "ops-bot memory is stale at 1021h.",
+      "firstSeenAt": "2026-06-25T05:20:30.787Z",
+      "lastSeenAt": "2026-06-25T05:20:30.787Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     },
     {
-      "id": "ci-2026-06-24-004",
+      "id": "ci-2026-06-25-004",
       "severity": "P2",
       "owner": "security-bot",
-      "summary": "security-bot memory is stale at 789h.",
-      "firstSeenAt": "2026-06-24T05:20:33.782Z",
-      "lastSeenAt": "2026-06-24T05:20:33.782Z",
+      "summary": "security-bot memory is stale at 813h.",
+      "firstSeenAt": "2026-06-25T05:20:30.787Z",
+      "lastSeenAt": "2026-06-25T05:20:30.787Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     }
