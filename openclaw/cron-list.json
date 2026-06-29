@@ -5,7 +5,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1782600367806,
+      "updatedAtMs": 1782686766949,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -24,11 +24,11 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1782621931476,
-        "lastRunAtMs": 1782600331476,
+        "nextRunAtMs": 1782708331506,
+        "lastRunAtMs": 1782686731506,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 36330,
+        "lastDurationMs": 35443,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
@@ -42,7 +42,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1782605146071,
+      "updatedAtMs": 1782691557361,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -64,11 +64,11 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1782626694831,
-        "lastRunAtMs": 1782605094841,
+        "nextRunAtMs": 1782713094831,
+        "lastRunAtMs": 1782691494841,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 51230,
+        "lastDurationMs": 62520,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -83,7 +83,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1782583287165,
+      "updatedAtMs": 1782669672820,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -104,11 +104,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1782669600000,
-        "lastRunAtMs": 1782583200013,
+        "nextRunAtMs": 1782756000000,
+        "lastRunAtMs": 1782669600010,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 87152,
+        "lastDurationMs": 72810,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
