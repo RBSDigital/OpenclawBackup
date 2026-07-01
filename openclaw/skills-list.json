@@ -207,8 +207,8 @@
       "modelVisible": true,
       "userInvocable": true,
       "commandVisible": true,
-      "source": "openclaw-bundled",
-      "bundled": true,
+      "source": "openclaw-extra",
+      "bundled": false,
       "missing": {
         "bins": [],
         "anyBins": [],
@@ -219,7 +219,7 @@
     },
     {
       "name": "clawhub",
-      "description": "Search, install, update, sync, or publish agent skills with the ClawHub CLI and registry.",
+      "description": "Search ClawHub for skills when a requested capability is not already available; install, verify, update, publish, or sync skills.",
       "eligible": true,
       "disabled": false,
       "blockedByAllowlist": false,
@@ -296,8 +296,8 @@
       "modelVisible": false,
       "userInvocable": true,
       "commandVisible": false,
-      "source": "openclaw-bundled",
-      "bundled": true,
+      "source": "openclaw-extra",
+      "bundled": false,
       "missing": {
         "bins": [],
         "anyBins": [],
@@ -1126,29 +1126,6 @@
       }
     },
     {
-      "name": "slack",
-      "description": "Slack tool actions: send/read/edit/delete messages, react, pin/unpin, list pins/reactions/emoji, member info.",
-      "emoji": "💬",
-      "eligible": false,
-      "disabled": true,
-      "blockedByAllowlist": false,
-      "blockedByAgentFilter": false,
-      "modelVisible": false,
-      "userInvocable": true,
-      "commandVisible": false,
-      "source": "openclaw-bundled",
-      "bundled": true,
-      "missing": {
-        "bins": [],
-        "anyBins": [],
-        "env": [],
-        "config": [
-          "channels.slack"
-        ],
-        "os": []
-      }
-    },
-    {
       "name": "songsee",
       "description": "Generate spectrograms and feature-panel visualizations from audio with the songsee CLI.",
       "emoji": "🌊",
@@ -1419,53 +1396,6 @@
       "missing": {
         "bins": [
           "ffmpeg"
-        ],
-        "anyBins": [],
-        "env": [],
-        "config": [],
-        "os": []
-      }
-    },
-    {
-      "name": "voice-call",
-      "description": "Start voice calls via the OpenClaw voice-call plugin.",
-      "emoji": "📞",
-      "eligible": false,
-      "disabled": true,
-      "blockedByAllowlist": false,
-      "blockedByAgentFilter": false,
-      "modelVisible": false,
-      "userInvocable": true,
-      "commandVisible": false,
-      "source": "openclaw-bundled",
-      "bundled": true,
-      "missing": {
-        "bins": [],
-        "anyBins": [],
-        "env": [],
-        "config": [
-          "plugins.entries.voice-call.enabled"
-        ],
-        "os": []
-      }
-    },
-    {
-      "name": "wacli",
-      "description": "Send third-party WhatsApp messages or sync/search WhatsApp history via wacli, not normal active chats.",
-      "emoji": "📱",
-      "eligible": false,
-      "disabled": true,
-      "blockedByAllowlist": false,
-      "blockedByAgentFilter": false,
-      "modelVisible": false,
-      "userInvocable": true,
-      "commandVisible": false,
-      "source": "openclaw-bundled",
-      "bundled": true,
-      "homepage": "https://wacli.sh",
-      "missing": {
-        "bins": [
-          "wacli"
         ],
         "anyBins": [],
         "env": [],

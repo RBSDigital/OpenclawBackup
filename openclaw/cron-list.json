@@ -5,7 +5,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1782773168995,
+      "updatedAtMs": 1782859567261,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -24,15 +24,27 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1782794731542,
-        "lastRunAtMs": 1782773131542,
+        "nextRunAtMs": 1782881131576,
+        "lastRunAtMs": 1782859531576,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 37453,
+        "lastDurationMs": 35685,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ `search \"last review|reviewed|heartbeat|2026-06|2026-07\" in .learnings (in ~/.openclaw/workspaces/manager-bot)` failed",
+          "entries": [
+            {
+              "ts": 1782859567179,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ `search \"last review|reviewed|heartbeat|2026-06|2026-07\" in .learnings (in ~/.openclaw/workspaces/manager-bot)` failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ `search \"last review|reviewed|heartbeat|2026-06|2026-07\" in .learnings (in ~/.openclaw/workspaces/manager-bot)` failed"
       },
       "status": "ok"
     },
@@ -42,7 +54,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1782777973671,
+      "updatedAtMs": 1782864319218,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -64,11 +76,11 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1782799494831,
-        "lastRunAtMs": 1782777894841,
+        "nextRunAtMs": 1782885894831,
+        "lastRunAtMs": 1782864294838,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 78830,
+        "lastDurationMs": 24380,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -83,7 +95,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1782756091565,
+      "updatedAtMs": 1782842490389,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -104,11 +116,11 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1782842400000,
-        "lastRunAtMs": 1782756000016,
+        "nextRunAtMs": 1782928800000,
+        "lastRunAtMs": 1782842400011,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 91549,
+        "lastDurationMs": 90378,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",

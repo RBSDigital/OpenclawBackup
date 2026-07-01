@@ -1,13 +1,7 @@
 {
   "registry": {
-    "source": "derived",
-    "diagnostics": [
-      {
-        "level": "warn",
-        "code": "persisted-registry-stale-policy",
-        "message": "Persisted plugin registry policy does not match current config; using derived plugin index. Run `openclaw plugins registry --refresh` to update the persisted registry."
-      }
-    ]
+    "source": "persisted",
+    "diagnostics": []
   },
   "plugins": [
     {
@@ -62,7 +56,7 @@
     {
       "id": "admin-http-rpc",
       "name": "@openclaw/admin-http-rpc",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
@@ -118,7 +112,7 @@
     {
       "id": "alibaba",
       "name": "@openclaw/alibaba-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba",
@@ -174,7 +168,7 @@
     {
       "id": "anthropic",
       "name": "@openclaw/anthropic-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic",
@@ -236,7 +230,7 @@
     {
       "id": "azure-speech",
       "name": "Azure Speech",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
@@ -295,7 +289,7 @@
     {
       "id": "bonjour",
       "name": "Bonjour Gateway Discovery",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
@@ -353,7 +347,7 @@
     {
       "id": "browser",
       "name": "@openclaw/browser-plugin",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser",
@@ -454,7 +448,7 @@
     {
       "id": "byteplus",
       "name": "@openclaw/byteplus-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/byteplus",
@@ -513,7 +507,7 @@
     {
       "id": "canvas",
       "name": "Canvas",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Experimental Canvas control and A2UI rendering surfaces for paired nodes.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
@@ -610,77 +604,9 @@
       }
     },
     {
-      "id": "clickclack",
-      "name": "@openclaw/clickclack",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clickclack",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [
-        "channel-env-vars"
-      ],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [
-        "clickclack"
-      ],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "ws",
-            "spec": "8.21.0",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/ws"
-          },
-          {
-            "name": "zod",
-            "spec": "4.4.3",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/zod"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "codex-supervisor",
       "name": "Codex Supervisor",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Supervise Codex app-server sessions from OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/codex-supervisor/index.js",
@@ -768,7 +694,7 @@
     {
       "id": "cohere",
       "name": "Cohere",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "OpenClaw Cohere provider plugin.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cohere/index.js",
@@ -820,7 +746,7 @@
     {
       "id": "comfy",
       "name": "@openclaw/comfy-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/comfy",
@@ -888,7 +814,7 @@
     {
       "id": "copilot-proxy",
       "name": "@openclaw/copilot-proxy",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy",
@@ -939,7 +865,7 @@
     {
       "id": "deepgram",
       "name": "@openclaw/deepgram-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram",
@@ -1051,7 +977,7 @@
     {
       "id": "document-extract",
       "name": "Document Extraction",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Extract text and fallback page images from local document attachments.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
@@ -1114,7 +1040,7 @@
     {
       "id": "duckduckgo",
       "name": "@openclaw/duckduckgo-plugin",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/duckduckgo",
@@ -1170,7 +1096,7 @@
     {
       "id": "elevenlabs",
       "name": "@openclaw/elevenlabs-speech",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs",
@@ -1236,7 +1162,7 @@
     {
       "id": "fal",
       "name": "@openclaw/fal-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal",
@@ -1304,7 +1230,7 @@
     {
       "id": "file-transfer",
       "name": "File Transfer",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
@@ -1375,60 +1301,9 @@
       }
     },
     {
-      "id": "fireworks",
-      "name": "@openclaw/fireworks-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fireworks",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "fireworks"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "github-copilot",
       "name": "@openclaw/github-copilot-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot",
@@ -1494,7 +1369,7 @@
     {
       "id": "google",
       "name": "@openclaw/google-plugin",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google",
@@ -1606,7 +1481,7 @@
     {
       "id": "huggingface",
       "name": "@openclaw/huggingface-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface",
@@ -1657,7 +1532,7 @@
     {
       "id": "imessage",
       "name": "@openclaw/imessage",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imessage",
@@ -1706,70 +1581,9 @@
       }
     },
     {
-      "id": "irc",
-      "name": "@openclaw/irc",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/irc",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [
-        "channel-env-vars"
-      ],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [
-        "irc"
-      ],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "zod",
-            "spec": "4.4.3",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/zod"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "litellm",
       "name": "@openclaw/litellm-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm",
@@ -1827,7 +1641,7 @@
     {
       "id": "llm-task",
       "name": "LLM Task",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
@@ -1890,7 +1704,7 @@
     {
       "id": "lmstudio",
       "name": "@openclaw/lmstudio-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio",
@@ -1948,77 +1762,9 @@
       }
     },
     {
-      "id": "mattermost",
-      "name": "@openclaw/mattermost",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mattermost",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [
-        "channel-env-vars"
-      ],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [
-        "mattermost"
-      ],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "ws",
-            "spec": "8.21.0",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/ws"
-          },
-          {
-            "name": "zod",
-            "spec": "4.4.3",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/zod"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "memory-core",
       "name": "@openclaw/memory-core",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "kind": "memory",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core/index.js",
@@ -2098,7 +1844,7 @@
     {
       "id": "memory-wiki",
       "name": "Memory Wiki",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
@@ -2181,7 +1927,7 @@
     {
       "id": "microsoft",
       "name": "@openclaw/microsoft-speech",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft",
@@ -2245,7 +1991,7 @@
     {
       "id": "microsoft-foundry",
       "name": "@openclaw/microsoft-foundry",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry",
@@ -2303,7 +2049,7 @@
     {
       "id": "migrate-claude",
       "name": "Claude Migration",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
@@ -2360,7 +2106,7 @@
     {
       "id": "migrate-hermes",
       "name": "Hermes Migration",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
@@ -2425,7 +2171,7 @@
     {
       "id": "minimax",
       "name": "@openclaw/minimax-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax",
@@ -2517,7 +2263,7 @@
     {
       "id": "mistral",
       "name": "@openclaw/mistral-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/mistral",
@@ -2583,72 +2329,9 @@
       }
     },
     {
-      "id": "moonshot",
-      "name": "@openclaw/moonshot-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/moonshot",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "moonshot"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [
-        "moonshot"
-      ],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [
-        "kimi"
-      ],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "contracts": {
-        "mediaUnderstandingProviders": [
-          "moonshot"
-        ],
-        "webSearchProviders": [
-          "kimi"
-        ]
-      },
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "novita",
       "name": "@openclaw/novita-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/novita/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/novita",
@@ -2701,7 +2384,7 @@
     {
       "id": "nvidia",
       "name": "@openclaw/nvidia-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia",
@@ -2752,7 +2435,7 @@
     {
       "id": "oc-path",
       "name": "OC Path",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
@@ -2836,7 +2519,7 @@
     {
       "id": "ollama",
       "name": "@openclaw/ollama-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama",
@@ -2910,7 +2593,7 @@
     {
       "id": "open-prose",
       "name": "OpenProse",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "OpenProse VM skill pack with a /prose slash command.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/open-prose/index.js",
@@ -2960,7 +2643,7 @@
     {
       "id": "openai",
       "name": "@openclaw/openai-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai",
@@ -3056,7 +2739,7 @@
     {
       "id": "opencode",
       "name": "@openclaw/opencode-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode",
@@ -3114,7 +2797,7 @@
     {
       "id": "opencode-go",
       "name": "@openclaw/opencode-go-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go",
@@ -3172,7 +2855,7 @@
     {
       "id": "openrouter",
       "name": "@openclaw/openrouter-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter",
@@ -3301,7 +2984,7 @@
     {
       "id": "policy",
       "name": "Policy",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Adds policy-backed doctor checks for workspace conformance.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy/index.js",
@@ -3363,7 +3046,7 @@
     {
       "id": "runway",
       "name": "@openclaw/runway-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway",
@@ -3417,65 +3100,9 @@
       }
     },
     {
-      "id": "searxng",
-      "name": "@openclaw/searxng-plugin",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/searxng",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [
-        "searxng"
-      ],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "contracts": {
-        "webSearchProviders": [
-          "searxng"
-        ]
-      },
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "senseaudio",
       "name": "@openclaw/senseaudio-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio",
@@ -3531,7 +3158,7 @@
     {
       "id": "sglang",
       "name": "@openclaw/sglang-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang",
@@ -3580,130 +3207,9 @@
       }
     },
     {
-      "id": "signal",
-      "name": "@openclaw/signal",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/signal",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [
-        "signal"
-      ],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "ws",
-            "spec": "8.21.0",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/ws"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
-      "id": "sms",
-      "name": "SMS",
-      "version": "2026.6.10",
-      "description": "Twilio SMS channel plugin for OpenClaw text messages.",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sms/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sms",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [
-        "channel-env-vars"
-      ],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [
-        "sms"
-      ],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "zod",
-            "spec": "4.4.3",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/zod"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "synthetic",
       "name": "@openclaw/synthetic-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/synthetic",
@@ -3803,77 +3309,9 @@
       }
     },
     {
-      "id": "tavily",
-      "name": "@openclaw/tavily-plugin",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tavily",
-      "origin": "bundled",
-      "enabled": false,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "disabled",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [
-        "tavily"
-      ],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "contracts": {
-        "webSearchProviders": [
-          "tavily"
-        ],
-        "tools": [
-          "tavily_search",
-          "tavily_extract"
-        ]
-      },
-      "dependencyStatus": {
-        "hasDependencies": true,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [
-          {
-            "name": "typebox",
-            "spec": "1.1.39",
-            "installed": true,
-            "optional": false,
-            "resolvedPath": "/home/vin/.npm-global/lib/node_modules/openclaw/node_modules/typebox"
-          }
-        ],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "telegram",
       "name": "@openclaw/telegram",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram",
@@ -3960,57 +3398,6 @@
       }
     },
     {
-      "id": "tencent",
-      "name": "@openclaw/tencent-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tencent",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "tencent-tokenhub"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "thread-ownership",
       "name": "Thread Ownership",
       "description": "Prevents multiple agents from responding in the same Slack thread. Uses HTTP calls to the slack-forwarder ownership API.",
@@ -4062,7 +3449,7 @@
     {
       "id": "together",
       "name": "@openclaw/together-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together",
@@ -4120,7 +3507,7 @@
     {
       "id": "tts-local-cli",
       "name": "@openclaw/tts-local-cli",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
@@ -4176,111 +3563,9 @@
       }
     },
     {
-      "id": "venice",
-      "name": "@openclaw/venice-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/venice",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "venice"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
-      "id": "vercel-ai-gateway",
-      "name": "@openclaw/vercel-ai-gateway-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vercel-ai-gateway",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "vercel-ai-gateway"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "vllm",
       "name": "@openclaw/vllm-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm",
@@ -4331,7 +3616,7 @@
     {
       "id": "volcengine",
       "name": "@openclaw/volcengine-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/volcengine",
@@ -4390,7 +3675,7 @@
     {
       "id": "voyage",
       "name": "@openclaw/voyage-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/voyage",
@@ -4446,7 +3731,7 @@
     {
       "id": "vydra",
       "name": "@openclaw/vydra-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vydra",
@@ -4514,7 +3799,7 @@
     {
       "id": "web-readability",
       "name": "Web Readability Extraction",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Extract readable article content from local HTML web fetch responses.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
@@ -4584,7 +3869,7 @@
     {
       "id": "webhooks",
       "name": "Webhooks",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Authenticated inbound webhooks that bind external automation to OpenClaw TaskFlows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
@@ -4642,7 +3927,7 @@
     {
       "id": "workboard",
       "name": "Workboard",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "Dashboard workboard for agent-owned issues and sessions.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/workboard/index.js",
@@ -4742,7 +4027,7 @@
     {
       "id": "xai",
       "name": "@openclaw/xai-plugin",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai",
@@ -4839,7 +4124,7 @@
     {
       "id": "xiaomi",
       "name": "@openclaw/xiaomi-provider",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xiaomi",
@@ -4898,71 +4183,13 @@
       }
     },
     {
-      "id": "zai",
-      "name": "@openclaw/zai-provider",
-      "version": "2026.6.10",
-      "format": "openclaw",
-      "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai/index.js",
-      "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/zai",
-      "origin": "bundled",
-      "enabled": true,
-      "compat": [],
-      "syntheticAuthRefs": [],
-      "status": "loaded",
-      "toolNames": [],
-      "hookNames": [],
-      "channelIds": [],
-      "cliBackendIds": [],
-      "providerIds": [
-        "zai"
-      ],
-      "embeddingProviderIds": [],
-      "speechProviderIds": [],
-      "realtimeTranscriptionProviderIds": [],
-      "realtimeVoiceProviderIds": [],
-      "mediaUnderstandingProviderIds": [
-        "zai"
-      ],
-      "transcriptSourceProviderIds": [],
-      "imageGenerationProviderIds": [],
-      "videoGenerationProviderIds": [],
-      "musicGenerationProviderIds": [],
-      "webFetchProviderIds": [],
-      "webSearchProviderIds": [],
-      "migrationProviderIds": [],
-      "memoryEmbeddingProviderIds": [],
-      "agentHarnessIds": [],
-      "cliCommands": [],
-      "services": [],
-      "gatewayDiscoveryServiceIds": [],
-      "commands": [],
-      "httpRoutes": 0,
-      "hookCount": 0,
-      "configSchema": false,
-      "contracts": {
-        "mediaUnderstandingProviders": [
-          "zai"
-        ]
-      },
-      "dependencyStatus": {
-        "hasDependencies": false,
-        "installed": true,
-        "requiredInstalled": true,
-        "optionalInstalled": true,
-        "missing": [],
-        "missingOptional": [],
-        "dependencies": [],
-        "optionalDependencies": []
-      }
-    },
-    {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "OpenClaw Codex app-server harness and model provider plugin with a Codex-managed GPT catalog.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex",
       "origin": "global",
       "enabled": true,
       "compat": [
@@ -5032,28 +4259,28 @@
             "spec": "0.139.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/@openai/codex"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex/node_modules/@openai/codex"
           },
           {
             "name": "typebox",
             "spec": "1.1.39",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex/node_modules/typebox"
           },
           {
             "name": "ws",
             "spec": "8.21.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex/node_modules/ws"
           },
           {
             "name": "zod",
             "spec": "4.4.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/zod"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__openclaw-codex-2026.6.11-openclaw-codex-2026.6.11--f9c66713f5/node_modules/@openclaw/codex/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -5062,11 +4289,11 @@
     {
       "id": "discord",
       "name": "Discord",
-      "version": "2026.6.10",
+      "version": "2026.6.11",
       "description": "OpenClaw Discord channel plugin for channels, DMs, commands, and app events.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord",
       "origin": "global",
       "enabled": true,
       "compat": [
@@ -5122,42 +4349,42 @@
             "spec": "0.19.2",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/@discordjs/voice"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/@discordjs/voice"
           },
           {
             "name": "discord-api-types",
             "spec": "0.38.48",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/discord-api-types"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/discord-api-types"
           },
           {
             "name": "libopus-wasm",
             "spec": "0.2.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/libopus-wasm"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/libopus-wasm"
           },
           {
             "name": "typebox",
             "spec": "1.1.39",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/typebox"
           },
           {
             "name": "undici",
             "spec": "8.5.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/undici"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/undici"
           },
           {
             "name": "ws",
             "spec": "8.21.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945/node_modules/@openclaw/discord/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__openclaw-discord-2026.6.11-openclaw-discord-2026.6-5cf9747754/node_modules/@openclaw/discord/node_modules/ws"
           }
         ],
         "optionalDependencies": []
