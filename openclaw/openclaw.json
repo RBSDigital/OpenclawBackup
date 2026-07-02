@@ -71,7 +71,11 @@
     "bind": "loopback",
     "auth": {
       "mode": "token",
-      "token": "[REDACTED_SECRET]"
+      "token": {
+        "source": "file",
+        "provider": "secretsfile",
+        "id": "/OPENCLAW_GATEWAY_TOKEN"
+      }
     },
     "tailscale": {
       "mode": "off",
@@ -123,7 +127,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.6.11",
-    "lastTouchedAt": "2026-07-01T04:02:23.947Z"
+    "lastTouchedAt": "2026-07-01T07:32:03.500Z"
   },
   "skills": {
     "entries": {
@@ -254,11 +258,19 @@
           "requireMention": true
         }
       },
-      "botToken": "[TELEGRAM_BOT_TOKEN]"
+      "botToken": {
+        "source": "file",
+        "provider": "secretsfile",
+        "id": "/TELEGRAM_BOT_TOKEN"
+      }
     },
     "discord": {
       "enabled": true,
-      "token": "[REDACTED_SECRET]",
+      "token": {
+        "source": "file",
+        "provider": "secretsfile",
+        "id": "/DISCORD_BOT_TOKEN"
+      },
       "groupPolicy": "allowlist",
       "allowFrom": [
         "1057573629275148369",
@@ -389,5 +401,14 @@
         }
       }
     }
-  ]
+  ],
+  "secrets": {
+    "providers": {
+      "secretsfile": {
+        "source": "file",
+        "path": "/home/vin/.openclaw/private-secrets.json",
+        "mode": "json"
+      }
+    }
+  }
 }

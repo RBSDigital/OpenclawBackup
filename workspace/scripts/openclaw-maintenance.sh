@@ -57,6 +57,52 @@ send_report() {
 suggestions_common=$'- Check gateway logs: openclaw logs --follow\n- Run diagnostics: openclaw doctor\n- Verify service: systemctl --user status openclaw-gateway.service'
 HEALTH_TIMEOUT_SECONDS="${HEALTH_TIMEOUT_SECONDS:-180}"
 HEALTH_RETRY_SECONDS="${HEALTH_RETRY_SECONDS:-10}"
+SECURITY_AUDIT_SUMMARY=""
+SECURITY_AUDIT_CRITICAL=0
+
+security_audit() {
+  local security_out secrets_out parsed
+
+  if ! security_out="$("$OPENCLAW_BIN" security audit --deep --json 2>&1)"; then
+    printf 'security audit command failed during maintenance\n%s\n' "$security_out"
+    return 1
+  fi
+
+  if ! secrets_out="$("$OPENCLAW_BIN" secrets audit --json 2>&1)"; then
+    printf 'secrets audit command failed during maintenance\n%s\n' "$secrets_out"
+    return 1
+  fi
+
+  parsed="$(SECURITY_OUT="$security_out" SECRETS_OUT="$secrets_out" node <<'NODE'
+const sec = JSON.parse(process.env.SECURITY_OUT || '{}');
+const secrets = JSON.parse(process.env.SECRETS_OUT || '{}');
+const secSummary = sec.summary || {};
+const secFindings = Array.isArray(sec.findings) ? sec.findings : [];
+const secretSummary = secrets.summary || {};
+const secretFindings = Array.isArray(secrets.findings) ? secrets.findings : [];
+const lines = [];
+lines.push(`Security audit: critical=${secSummary.critical ?? 0} warn=${secSummary.warn ?? 0} info=${secSummary.info ?? 0}`);
+if (secFindings.length) {
+  lines.push(`Security findings: ${secFindings.slice(0, 4).map((f) => `${f.title} (${f.severity})`).join('; ')}${secFindings.length > 4 ? '; ...' : ''}`);
+}
+lines.push(`Secrets audit: plaintext=${secretSummary.plaintextCount ?? 0} unresolved=${secretSummary.unresolvedRefCount ?? 0} shadowed=${secretSummary.shadowedRefCount ?? 0} legacy=${secretSummary.legacyResidueCount ?? 0}`);
+if (secretFindings.length) {
+  lines.push(`Secret findings: ${secretFindings.slice(0, 4).map((f) => `${f.code} in ${f.file}`).join('; ')}${secretFindings.length > 4 ? '; ...' : ''}`);
+}
+console.log(String(secSummary.critical ?? 0));
+console.log(lines.join('\n'));
+NODE
+)"
+
+  SECURITY_AUDIT_CRITICAL="$(printf '%s\n' "$parsed" | sed -n '1p')"
+  SECURITY_AUDIT_SUMMARY="$(printf '%s\n' "$parsed" | sed -n '2,$p')"
+
+  if [ "${SECURITY_AUDIT_CRITICAL:-0}" -gt 0 ]; then
+    return 1
+  fi
+
+  printf '%s\n' "$SECURITY_AUDIT_SUMMARY"
+}
 
 health_gate() {
   local phase="$1"
@@ -228,7 +274,14 @@ if ! HEALTH_OUT="$(wait_for_health_gate "post-update" 2>&1)"; then
   log "Recovery reinstall succeeded and health gate passed."
 fi
 
+if ! SECURITY_AUDIT_SUMMARY="$(security_audit 2>&1)"; then
+  MSG="⚠️ OpenClaw maintenance failed at SECURITY AUDIT step (UTC $TS).\n\nSecurity audit output:\n$SECURITY_AUDIT_SUMMARY\n\nSuggested fixes:\n$suggestions_common\n- Review the security findings and remediate plaintext secrets or insecure flags\n- Re-run the daily maintenance script after the security issues are addressed"
+  send_report "$MSG"
+  exit 6
+fi
+
 MSG="✅ OpenClaw daily maintenance complete (UTC $TS).\n\nUpdated: core package + gateway + installed plugins/skills sync (via openclaw update).\nChannel: $UPDATE_CHANNEL\nVersion: before=$BEFORE_VER -> target=$UPDATE_TARGET -> after=$AFTER_VER\nActions: $UPDATE_ACTIONS\nGateway restart: success\nUpdate status: $STATUS_LINE\nLog: $RUN_LOG"
+MSG="$MSG\n\nSecurity audit:\n$SECURITY_AUDIT_SUMMARY"
 
 send_report "$MSG"
 log "Maintenance complete"
