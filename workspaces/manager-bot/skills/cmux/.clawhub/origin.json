@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "cmux",
+  "ownerHandle": "cnwangjie",
+  "installedVersion": "1.0.0",
+  "installedAt": 1783542165581,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "00dcecddd038ff961ccbf119c1db022108706f4cb89aaace928d4bdddeb2f8f3",
+    "integrity": "sha256-ANzs3dA4/5Ycy/EZwdsCIQhwb0y4mqrOko1L3d6y+PM="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "71da4836d6b6c6a430032e8716ece39f33ec03cca80b36c909b04348973b9746"
+  }
+}

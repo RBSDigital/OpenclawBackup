@@ -40,6 +40,110 @@
     "skill-vetter": {
       "version": "1.0.0",
       "installedAt": 1780114334803
+    },
+    "cmux": {
+      "version": "1.0.0",
+      "installedAt": 1783542165581,
+      "registry": "https://clawhub.ai",
+      "ownerHandle": "cnwangjie",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "00dcecddd038ff961ccbf119c1db022108706f4cb89aaace928d4bdddeb2f8f3",
+        "integrity": "sha256-ANzs3dA4/5Ycy/EZwdsCIQhwb0y4mqrOko1L3d6y+PM="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "71da4836d6b6c6a430032e8716ece39f33ec03cca80b36c909b04348973b9746"
+      },
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/cmux/card?ownerHandle=cnwangjie&version=1.0.0",
+          "sha256": "cc8bc2b9b787231750fae4e7ea83eda4cbabde8002e46e7c271d80e99148961e",
+          "size": 2185,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "3c411b6102eea08c6c106479bff28cdb50bd83511f072c0d4c06eb2a7d1d40c9",
+          "bundleFingerprints": [
+            "bd8acb2f08094071f870b71d20dd0b186a6fdef4e02ae12a4fc91ac44c3cdbaf"
+          ],
+          "files": [
+            {
+              "path": "SKILL.md",
+              "size": 3757,
+              "sha256": "71da4836d6b6c6a430032e8716ece39f33ec03cca80b36c909b04348973b9746",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "scripts/cmux_client.py",
+              "size": 1248,
+              "sha256": "1ee72aead9b7a11656526cea646fdceb47ff01f62997edef67a4a3692c0c4ed3",
+              "contentType": "text/plain"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "This skill is a disclosed cmux control helper, but users should supervise actions that type into terminal panes or close workspaces.",
+          "model": "gpt-5.5",
+          "checkedAt": 1779935356455,
+          "signals": {
+            "staticScan": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "reasonCodes": [],
+              "summary": "No suspicious patterns detected.",
+              "engineVersion": "v2.4.5",
+              "checkedAt": 1777525993284
+            },
+            "virusTotal": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "verdict": null,
+              "analysis": null,
+              "source": "engines",
+              "scanner": null,
+              "engineStats": {
+                "harmless": 0,
+                "malicious": 0,
+                "suspicious": 0,
+                "undetected": 64
+              },
+              "checkedAt": 1780086013043
+            },
+            "skillSpector": {
+              "status": "clean",
+              "rawStatus": "clean",
+              "score": 13,
+              "severity": "LOW",
+              "recommendation": "SAFE",
+              "issueCount": 1,
+              "scannerVersion": "2.0.0",
+              "summary": null,
+              "error": null,
+              "checkedAt": 1779935326244
+            },
+            "dependencyRegistry": null
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
     }
   }
 }
