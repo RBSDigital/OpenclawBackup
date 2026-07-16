@@ -1,5 +1,0 @@
-openclaw: Node.js >=22.22.3 <23, >=24.15.0 <25, or >=25.9.0 is required (current: v22.22.2).
-If you use nvm, run:
-  nvm install 24
-  nvm use 24
-  nvm alias default 24

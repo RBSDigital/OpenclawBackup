@@ -1,1 +1,1 @@
-{"ok":false,"error":"openclaw config validate command failed; see sibling .error.txt"}
+{"valid":true,"path":"/home/vin/.openclaw/openclaw.json","warnings":[]}
