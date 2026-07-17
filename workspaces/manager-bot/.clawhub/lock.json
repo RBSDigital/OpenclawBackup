@@ -144,6 +144,18 @@
           "status": "unsigned"
         }
       }
+    },
+    "composio": {
+      "version": "1.0.0",
+      "installedAt": 1784197214817
+    },
+    "url2md": {
+      "version": "2.1.2",
+      "installedAt": 1784197214895
+    },
+    "browser-control": {
+      "version": "1.0.3",
+      "installedAt": 1784197214934
     }
   }
 }

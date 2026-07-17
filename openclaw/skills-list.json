@@ -173,6 +173,26 @@
       }
     },
     {
+      "name": "browser-control",
+      "description": "Remote browser access for login, 2FA, captcha, and manual verification. Protected by Google OAuth - only the configured email can access. Use when you need the user to log into a website, complete 2FA/MFA, solve a captcha, or do any manual browser action.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "camsnap",
       "description": "Capture frames or clips from RTSP/ONVIF cameras.",
       "emoji": "📸",
@@ -934,9 +954,7 @@
       "source": "openclaw-workspace",
       "bundled": false,
       "missing": {
-        "bins": [
-          "playwright-mcp"
-        ],
+        "bins": [],
         "anyBins": [],
         "env": [],
         "config": [],
@@ -1369,6 +1387,26 @@
           "TRELLO_API_KEY",
           "TRELLO_TOKEN"
         ],
+        "config": [],
+        "os": []
+      }
+    },
+    {
+      "name": "url2md",
+      "description": "Convert web pages to Markdown format. Use when the user needs to: (1) Extract readable content from a URL and convert it to Markdown, (2) Batch convert multiple URLs to Markdown files, (3) Save web page content as .md for documentation, archiving, or note-taking. Works with any HTTP/HTTPS URL that returns HTML content. Also use when OpenClaw's web_fetch tool is insufficient and a script-based or bulk conversion approach is preferred.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
         "config": [],
         "os": []
       }

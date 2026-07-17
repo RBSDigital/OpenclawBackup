@@ -162,6 +162,11 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 - **Discord links:** Wrap multiple links in `<>` to suppress embeds: `<https://example.com>`
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
 
+## Ops Recovery
+
+- If gateway health checks are flaky during ops runs, keep collecting diagnostics and let safe backup/report flows continue instead of aborting the whole run on a single transient health failure.
+- After `1006 abnormal closure` or repeated crash states, inspect gateway/systemd logs before spending more retries on the same health gate.
+
 ## 💓 Heartbeats - Be Proactive!
 
 When a heartbeat poll arrives, use it productively instead of reflexively replying `HEARTBEAT_OK`.

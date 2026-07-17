@@ -1,1 +1,471 @@
-{"ok":false,"error":"openclaw health command failed; see sibling .error.txt"}
+{
+  "ok": true,
+  "ts": 1784262634111,
+  "durationMs": 33,
+  "eventLoop": {
+    "degraded": false,
+    "reasons": [],
+    "intervalMs": 9781,
+    "delayP99Ms": 25,
+    "delayMaxMs": 145.9,
+    "utilization": 0.061,
+    "cpuCoreRatio": 0.078
+  },
+  "plugins": {
+    "loaded": [
+      "alibaba",
+      "anthropic",
+      "azure-speech",
+      "browser",
+      "byteplus",
+      "canvas",
+      "clawrouter",
+      "codex",
+      "cohere",
+      "comfy",
+      "copilot-proxy",
+      "deepgram",
+      "device-pair",
+      "discord",
+      "document-extract",
+      "elevenlabs",
+      "fal",
+      "file-transfer",
+      "github-copilot",
+      "google",
+      "huggingface",
+      "litellm",
+      "lmstudio",
+      "memory-core",
+      "meta",
+      "microsoft",
+      "microsoft-foundry",
+      "minimax",
+      "mistral",
+      "novita",
+      "nvidia",
+      "ollama",
+      "openai",
+      "opencode",
+      "opencode-go",
+      "openrouter",
+      "phone-control",
+      "runway",
+      "senseaudio",
+      "sglang",
+      "synthetic",
+      "talk-voice",
+      "telegram",
+      "together",
+      "tts-local-cli",
+      "vllm",
+      "volcengine",
+      "voyage",
+      "vydra",
+      "web-readability",
+      "xai",
+      "xiaomi"
+    ],
+    "errors": []
+  },
+  "configReload": {
+    "hotReloadStatus": "active"
+  },
+  "modelPricing": {
+    "state": "ok",
+    "sources": []
+  },
+  "channels": {
+    "discord": {
+      "accountId": "default",
+      "enabled": true,
+      "configured": true,
+      "running": true,
+      "lastStartAt": 1784260926804,
+      "lastStopAt": null,
+      "lastError": null,
+      "connected": true,
+      "restartPending": false,
+      "reconnectAttempts": 0,
+      "lastConnectedAt": 1784260931707,
+      "lastEventAt": 1784260931707,
+      "lastTransportActivityAt": 1784262609367,
+      "lastInboundAt": null,
+      "lastOutboundAt": null,
+      "tokenSource": "config",
+      "tokenStatus": "available",
+      "lastDisconnect": null,
+      "application": {
+        "id": "1486337968208875581",
+        "flags": 8953856,
+        "intents": {
+          "presence": "limited",
+          "guildMembers": "limited",
+          "messageContent": "limited"
+        }
+      },
+      "bot": {
+        "id": "1486337968208875581",
+        "username": "OpenClaw agent_Ada001"
+      },
+      "lastProbeAt": null,
+      "accounts": {
+        "default": {
+          "accountId": "default",
+          "enabled": true,
+          "configured": true,
+          "running": true,
+          "lastStartAt": 1784260926804,
+          "lastStopAt": null,
+          "lastError": null,
+          "connected": true,
+          "restartPending": false,
+          "reconnectAttempts": 0,
+          "lastConnectedAt": 1784260931707,
+          "lastEventAt": 1784260931707,
+          "lastTransportActivityAt": 1784262609367,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "tokenSource": "config",
+          "tokenStatus": "available",
+          "lastDisconnect": null,
+          "application": {
+            "id": "1486337968208875581",
+            "flags": 8953856,
+            "intents": {
+              "presence": "limited",
+              "guildMembers": "limited",
+              "messageContent": "limited"
+            }
+          },
+          "bot": {
+            "id": "1486337968208875581",
+            "username": "OpenClaw agent_Ada001"
+          },
+          "lastProbeAt": null
+        }
+      }
+    },
+    "telegram": {
+      "accountId": "default",
+      "enabled": true,
+      "configured": true,
+      "running": true,
+      "lastStartAt": 1784260926805,
+      "lastStopAt": null,
+      "lastError": null,
+      "connected": true,
+      "restartPending": false,
+      "reconnectAttempts": 0,
+      "lastConnectedAt": 1784262624889,
+      "lastEventAt": 1784262624889,
+      "lastTransportActivityAt": 1784262624889,
+      "lastInboundAt": null,
+      "lastOutboundAt": null,
+      "tokenSource": "config",
+      "tokenStatus": "available",
+      "mode": "polling",
+      "allowUnmentionedGroups": false,
+      "lastProbeAt": null,
+      "accounts": {
+        "default": {
+          "accountId": "default",
+          "enabled": true,
+          "configured": true,
+          "running": true,
+          "lastStartAt": 1784260926805,
+          "lastStopAt": null,
+          "lastError": null,
+          "connected": true,
+          "restartPending": false,
+          "reconnectAttempts": 0,
+          "lastConnectedAt": 1784262624889,
+          "lastEventAt": 1784262624889,
+          "lastTransportActivityAt": 1784262624889,
+          "lastInboundAt": null,
+          "lastOutboundAt": null,
+          "tokenSource": "config",
+          "tokenStatus": "available",
+          "mode": "polling",
+          "allowUnmentionedGroups": false,
+          "lastProbeAt": null
+        }
+      }
+    }
+  },
+  "channelOrder": [
+    "discord",
+    "telegram"
+  ],
+  "channelLabels": {
+    "discord": "Discord",
+    "telegram": "Telegram"
+  },
+  "heartbeatSeconds": 7200,
+  "defaultAgentId": "manager-bot",
+  "agents": [
+    {
+      "agentId": "manager-bot",
+      "isDefault": true,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
+        "count": 13,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784260392687,
+            "age": 2241387
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784257961430,
+            "age": 4672644
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784246845800,
+            "age": 15788274
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784246694939,
+            "age": 15939135
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784224800280,
+            "age": 37833794
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "researcher-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/researcher-bot/sessions/sessions.json",
+        "count": 7,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784255693552,
+            "age": 6940522
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784119360995,
+            "age": 143273079
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781764763703,
+            "age": 2497870371
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781764650643,
+            "age": 2497983431
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781764610344,
+            "age": 2498023730
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "ops-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/ops-bot/sessions/sessions.json",
+        "count": 4,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784256430345,
+            "age": 6203729
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784119360964,
+            "age": 143273110
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782010100171,
+            "age": 2252533903
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781916502008,
+            "age": 2346132069
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "admin-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/admin-bot/sessions/sessions.json",
+        "count": 5,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784257229966,
+            "age": 5404111
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784119347791,
+            "age": 143286286
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782939664054,
+            "age": 1322970023
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782889288142,
+            "age": 1373345935
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782025368036,
+            "age": 2237266041
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "modeler-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/modeler-bot/sessions/sessions.json",
+        "count": 1,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784119360914,
+            "age": 143273164
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "security-bot",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "2h",
+        "everyMs": 7200000,
+        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/security-bot/sessions/sessions.json",
+        "count": 3,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1784262156233,
+            "age": 477845
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782037432244,
+            "age": 2225201834
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1782037391055,
+            "age": 2225243023
+          }
+        ]
+      }
+    }
+  ],
+  "sessions": {
+    "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
+    "count": 13,
+    "recent": [
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1784260392687,
+        "age": 2241387
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1784257961430,
+        "age": 4672644
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1784246845800,
+        "age": 15788274
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1784246694939,
+        "age": 15939135
+      },
+      {
+        "key": "[REDACTED_SECRET]",
+        "updatedAt": 1784224800280,
+        "age": 37833794
+      }
+    ]
+  },
+  "deliveryQueues": {
+    "failed": [
+      {
+        "queueName": "outbound",
+        "count": 68,
+        "oldestFailedAt": 1780545773827
+      }
+    ]
+  }
+}
