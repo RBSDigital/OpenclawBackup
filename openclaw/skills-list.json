@@ -570,6 +570,26 @@
       }
     },
     {
+      "name": "herdr-terminal-duplex",
+      "description": "Use Herdr to inspect, drive, and duplex with terminal panes/sessions from the assistant.",
+      "eligible": true,
+      "disabled": false,
+      "blockedByAllowlist": false,
+      "blockedByAgentFilter": false,
+      "modelVisible": true,
+      "userInvocable": true,
+      "commandVisible": true,
+      "source": "openclaw-workspace",
+      "bundled": false,
+      "missing": {
+        "bins": [],
+        "anyBins": [],
+        "env": [],
+        "config": [],
+        "os": []
+      }
+    },
+    {
       "name": "himalaya",
       "description": "Himalaya CLI for IMAP/SMTP mail: list, read, search, compose, reply, forward, copy, move, delete.",
       "emoji": "📧",
@@ -753,20 +773,18 @@
       "name": "obsidian",
       "description": "Work with Obsidian vaults using the official obsidian CLI: read/search/create/edit notes, tasks, links, properties, plugins.",
       "emoji": "💎",
-      "eligible": false,
-      "disabled": true,
+      "eligible": true,
+      "disabled": false,
       "blockedByAllowlist": false,
       "blockedByAgentFilter": false,
-      "modelVisible": false,
+      "modelVisible": true,
       "userInvocable": true,
-      "commandVisible": false,
+      "commandVisible": true,
       "source": "openclaw-bundled",
       "bundled": true,
       "homepage": "https://obsidian.md/cli",
       "missing": {
-        "bins": [
-          "obsidian"
-        ],
+        "bins": [],
         "anyBins": [],
         "env": [],
         "config": [],
