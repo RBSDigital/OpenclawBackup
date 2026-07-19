@@ -1,13 +1,7 @@
 {
   "registry": {
-    "source": "derived",
-    "diagnostics": [
-      {
-        "level": "warn",
-        "code": "persisted-registry-stale-policy",
-        "message": "Persisted plugin registry policy does not match current config; using derived plugin index. Run `openclaw plugins registry --refresh` to update the persisted registry."
-      }
-    ]
+    "source": "persisted",
+    "diagnostics": []
   },
   "plugins": [
     {
