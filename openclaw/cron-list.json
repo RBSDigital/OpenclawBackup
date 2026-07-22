@@ -6,7 +6,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1784592370583,
+      "updatedAtMs": 1784678779880,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,31 +28,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1784613894831,
-        "lastRunAtMs": 1784592294839,
+        "nextRunAtMs": 1784700294831,
+        "lastRunAtMs": 1784678694839,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 75744,
+        "lastDurationMs": 85041,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `search \"^(#|##|###|- )\" in memory/2026-07-21.md (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1784592369469,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `search \"^(#|##|###|- )\" in memory/2026-07-21.md (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `search \"^(#|##|###|- )\" in memory/2026-07-21.md (in ~/.openclaw/workspaces/manager-bot)`"
+        "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1784613894831,
-      "lastRunAtMs": 1784592294839,
+      "nextRunAtMs": 1784700294831,
+      "lastRunAtMs": 1784678694839,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -64,7 +52,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1784606050372,
+      "updatedAtMs": 1784692465795,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -83,30 +71,18 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1784627592717,
-        "lastRunAtMs": 1784605992717,
+        "nextRunAtMs": 1784713992757,
+        "lastRunAtMs": 1784692392757,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 57655,
+        "lastDurationMs": 73038,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|since\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1784606050243,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|since\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|since\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`"
+        "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1784627592717,
-      "lastRunAtMs": 1784605992717,
+      "nextRunAtMs": 1784713992757,
+      "lastRunAtMs": 1784692392757,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -118,7 +94,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1784570498683,
+      "updatedAtMs": 1784656897876,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -139,19 +115,19 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1784656800000,
-        "lastRunAtMs": 1784570400019,
+        "nextRunAtMs": 1784743200000,
+        "lastRunAtMs": 1784656800028,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 98664,
+        "lastDurationMs": 97848,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1784656800000,
-      "lastRunAtMs": 1784570400019,
+      "nextRunAtMs": 1784743200000,
+      "lastRunAtMs": 1784656800028,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
