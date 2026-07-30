@@ -6,7 +6,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1785283570273,
+      "updatedAtMs": 1785369972300,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,106 +28,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1785305094831,
-        "lastRunAtMs": 1785283494840,
+        "nextRunAtMs": 1785391494831,
+        "lastRunAtMs": 1785369894838,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 75433,
+        "lastDurationMs": 77462,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1785305094831,
-      "lastRunAtMs": 1785283494840,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
-      "name": "autonomous-self-improvement-heartbeat",
-      "enabled": true,
-      "createdAtMs": 1781865938330,
-      "updatedAtMs": 1785298933777,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 21600000,
-        "anchorMs": 1781865931200
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
-        "timeoutSeconds": 1800,
-        "lightContext": true
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "state": {
-        "nextRunAtMs": 1785320483331,
-        "lastRunAtMs": 1785298883331,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 50446,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "nextRunAtMs": 1785320483331,
-      "lastRunAtMs": 1785298883331,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "updatedAtMs": 1785261694862,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1785348000000,
-        "lastRunAtMs": 1785261600016,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 94846,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "nextRunAtMs": 1785348000000,
-      "lastRunAtMs": 1785261600016,
+      "nextRunAtMs": 1785391494831,
+      "lastRunAtMs": 1785369894838,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -227,6 +140,105 @@
       "lastDeliveryStatus": "delivered",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "status": "ok"
+    },
+    {
+      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
+      "name": "autonomous-self-improvement-heartbeat",
+      "enabled": true,
+      "createdAtMs": 1781865938330,
+      "updatedAtMs": 1785385319683,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 21600000,
+        "anchorMs": 1781865931200
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
+        "timeoutSeconds": 1800,
+        "lightContext": true
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1785406883355,
+        "lastRunAtMs": 1785385283355,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 36328,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|2026-07-30|2026-07-29\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`",
+          "entries": [
+            {
+              "ts": 1785385319457,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|2026-07-30|2026-07-29\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `search \"review|heartbeat|last review|2026-07-30|2026-07-29\" in .learnings (in ~/.openclaw/workspaces/manager-bot)`"
+      },
+      "nextRunAtMs": 1785406883355,
+      "lastRunAtMs": 1785385283355,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "updatedAtMs": 1785348084119,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1785434400000,
+        "lastRunAtMs": 1785348000012,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 84107,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1785434400000,
+      "lastRunAtMs": 1785348000012,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
     }
   ],
   "total": 4,
@@ -239,15 +251,15 @@
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
+    "c8da1b69-7b66-4483-8472-52284f11067b": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
     "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5": {
       "label": "not requested",
       "detail": "not requested"
     },
     "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
-      "label": "announce -> discord:channel:1504151367164498050",
-      "detail": "explicit"
-    },
-    "c8da1b69-7b66-4483-8472-52284f11067b": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     }
