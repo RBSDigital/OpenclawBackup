@@ -6,7 +6,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1785542749801,
+      "updatedAtMs": 1785629172302,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,31 +28,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1785564294831,
-        "lastRunAtMs": 1785542694838,
+        "nextRunAtMs": 1785650694831,
+        "lastRunAtMs": 1785629094838,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 54963,
+        "lastDurationMs": 77464,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `check git status → view git history (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1785542749222,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `check git status → view git history (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `check git status → view git history (in ~/.openclaw/workspaces/manager-bot)`"
+        "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1785564294831,
-      "lastRunAtMs": 1785542694838,
+      "nextRunAtMs": 1785650694831,
+      "lastRunAtMs": 1785629094838,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -64,7 +52,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1785558120700,
+      "updatedAtMs": 1785644529487,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -83,18 +71,18 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1785579683417,
-        "lastRunAtMs": 1785558083417,
+        "nextRunAtMs": 1785666083449,
+        "lastRunAtMs": 1785644483449,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 37283,
+        "lastDurationMs": 46038,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1785579683417,
-      "lastRunAtMs": 1785558083417,
+      "nextRunAtMs": 1785666083449,
+      "lastRunAtMs": 1785644483449,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -106,7 +94,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1785520882409,
+      "updatedAtMs": 1785607272750,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -127,19 +115,19 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1785607200000,
-        "lastRunAtMs": 1785520800010,
+        "nextRunAtMs": 1785693600000,
+        "lastRunAtMs": 1785607200013,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 82399,
+        "lastDurationMs": 72737,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1785607200000,
-      "lastRunAtMs": 1785520800010,
+      "nextRunAtMs": 1785693600000,
+      "lastRunAtMs": 1785607200013,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
