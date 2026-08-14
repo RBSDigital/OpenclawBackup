@@ -7,12 +7,33 @@ from urllib.error import URLError, HTTPError
 
 BASE = 'https://it.jobserve.com'
 HEADERS = {'User-Agent': 'Mozilla/5.0 (compatible; OpenClaw research bot; +https://openclaw.ai)'}
-TARGETS = ['Business Analyst', 'Product Manager', 'Product Owner', 'Delivery Manager']
+TARGETS = [
+    'Digital Business Analyst',
+    'System Analyst',
+    'Business Analyst',
+    'Product Manager',
+    'Product Owner',
+    'Delivery Manager',
+    'AI Agentic Analyst',
+    'Agentic Engineer',
+    'Solution Architect',
+]
 OUT_CSV = 'contract_analysis_jobserve.csv'
 OUT_JSON = 'contract_analysis_jobserve.json'
 
 TAG_RE = re.compile(r'<[^>]+>')
 SPACE_RE = re.compile(r'\s+')
+TITLE_ALIASES = {
+    'Digital Business Analyst': ['digital business analyst'],
+    'System Analyst': ['system analyst', 'systems analyst'],
+    'Business Analyst': ['business analyst'],
+    'Product Manager': ['product manager', 'technical product manager', 'agentic ai product manager'],
+    'Product Owner': ['product owner'],
+    'Delivery Manager': ['delivery manager', 'agile delivery manager'],
+    'AI Agentic Analyst': ['ai agentic analyst', 'agentic analyst', 'agentic ai analyst'],
+    'Agentic Engineer': ['agentic engineer', 'agentic ai engineer', 'ai agentic engineer'],
+    'Solution Architect': ['solution architect', 'solutions architect', 'enterprise solution architect'],
+}
 
 
 def clean(s):
@@ -22,6 +43,30 @@ def clean(s):
     s = re.sub(r'(?i)</\s*(p|li|div|h\d|tr)\s*>', ' ', s)
     s = TAG_RE.sub(' ', s)
     return SPACE_RE.sub(' ', html.unescape(s)).strip()
+
+
+def parse_posted_age(posted):
+    if not posted:
+        return None
+    text = posted.strip().lower()
+    if text == 'today':
+        return 0
+    if text == 'yesterday':
+        return 1
+    m = re.match(r'(\d+)\s+days?\s+ago', text)
+    if m:
+        return int(m.group(1))
+    for fmt in ('%a, %d %b %Y', '%d %b %Y', '%d %B %Y'):
+        try:
+            dt = datetime.strptime(posted.strip(), fmt)
+            return (datetime.now(timezone.utc).date() - dt.date()).days
+        except ValueError:
+            pass
+    return None
+
+
+def title_aliases(target):
+    return TITLE_ALIASES.get(target, [target.lower()])
 
 
 def fetch(url, tries=3):

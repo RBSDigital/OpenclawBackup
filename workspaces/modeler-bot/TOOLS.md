@@ -60,6 +60,17 @@ Toolchain status after 2026-05-16 unblock:
 
 Full local file-generation validation can use `bin/blender`, `bin/python-mesh`, and `bin/admesh`.
 
+## Structurizr
+
+Verified on 2026-08-14:
+
+- `structurizr` and `structurizr-cli` are not installed on the host PATH.
+- `java` is not installed on the host PATH.
+- `docker` is installed, but this user cannot access the Docker daemon socket directly.
+- A temporary local workaround works: portable Temurin 17 plus the official `structurizr-cli` ZIP release can validate a DSL workspace and export Mermaid diagrams.
+- Confirmed CLI version: `structurizr-cli 2025.11.09`.
+- Confirmed export formats that worked in this workspace: Mermaid (`.mmd`).
+
 ## Smoke Test
 
 Completed 2026-05-16:

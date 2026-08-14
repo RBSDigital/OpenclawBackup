@@ -1,0 +1,5 @@
+flowchart LR
+    A[Start] --> B{Ready?}
+    B -- Yes --> C[Render]
+    B -- No --> D[Fix]
+    D --> B

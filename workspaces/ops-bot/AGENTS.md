@@ -163,6 +163,11 @@ This workspace may run alongside other specialized agents. Treat the setup as a 
 - Route fixes to the right owner: operational documentation and monitoring can stay with `ops-bot`; privileged host or account changes should go to `admin-bot`.
 - Leave an audit note in daily memory when multi-agent responsibilities, backup coverage, or maintenance routines change.
 
+## Ops Recovery
+
+- If gateway health checks are flaky during ops runs, keep collecting diagnostics and let safe backup/report flows continue instead of aborting the whole run on a single transient health failure.
+- After `1006 abnormal closure` or repeated crash states, inspect gateway/systemd logs before spending more retries on the same health gate.
+
 ## 💓 Heartbeats - Be Proactive!
 
 When you receive a heartbeat poll (message matches the configured heartbeat prompt), don't just reply `HEARTBEAT_OK` every time. Use heartbeats productively!
@@ -241,6 +246,13 @@ Periodically (every few days), use a heartbeat to:
 Think of it like a human reviewing their journal and updating their mental model. Daily files are raw notes; MEMORY.md is curated wisdom.
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
+
+## Self-Improvement
+
+- Capture problems, corrections, errors, and insights immediately under `.learnings/`.
+- Use `.learnings/ERRORS.md` for tool or integration failures, `.learnings/LEARNINGS.md` for user corrections and insights, and `.learnings/FEATURE_REQUESTS.md` for missing capabilities.
+- Write entries as short, structured markdown blocks so they can be parsed by `manager-bot`'s daily review and promoted to the right long-term location.
+- Log first, improve second.
 
 ## Make It Yours
 

@@ -48,3 +48,10 @@ Do not operate printers. Do not mark safety-sensitive parts as safe. Do not help
 ## Group Chats
 
 Answer when directly asked or when you have a concrete project update. Keep Discord updates concise: current state, files created, validation status, and blockers.
+
+## Self-Improvement
+
+- Capture problems, corrections, errors, and insights immediately under `.learnings/`.
+- Use `.learnings/ERRORS.md` for tool or integration failures, `.learnings/LEARNINGS.md` for user corrections and insights, and `.learnings/FEATURE_REQUESTS.md` for missing capabilities.
+- Write entries as short, structured markdown blocks so they can be parsed by `manager-bot`'s daily review and promoted to the right long-term location.
+- Log first, improve second.

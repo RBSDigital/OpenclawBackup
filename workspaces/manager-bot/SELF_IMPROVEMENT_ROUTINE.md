@@ -43,7 +43,7 @@ This workspace uses a lightweight autonomous review loop:
 Use this prompt for the autonomous review run:
 
 ```text
-Review recent `.learnings` entries and identify repeated failures, corrections, and feature requests.
+Review recent `.learnings` entries across all agent workspaces (found under `~/.openclaw/workspaces/*/.learnings/`) and identify repeated failures, corrections, and feature requests.
 
 Tasks:
 - summarize new items since the last review

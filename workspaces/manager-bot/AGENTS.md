@@ -53,8 +53,9 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 ## Self-Improvement
 
 - Use `.learnings/LEARNINGS.md`, `.learnings/ERRORS.md`, and `.learnings/FEATURE_REQUESTS.md` for recurring corrections, failures, and missing capabilities.
-- Review `SELF_IMPROVEMENT_ROUTINE.md` when you need the autonomous triage loop or promotion checklist.
+- Review `SELF_IMPROVEMENT_ROUTINE.md` when you need the autonomous triage loop or promotion checklist. The review loop aggregates `.learnings/` entries from all specialist agent workspaces.
 - Log first, then decide whether an item belongs in `AGENTS.md`, `TOOLS.md`, `SOUL.md`, or `MEMORY.md`.
+- If a review finds no new `.learnings` entries, report that briefly and stop instead of restating old patterns.
 
 ## Red Lines
 
@@ -194,7 +195,8 @@ Keep `HEARTBEAT.md` short and task-oriented so it stays cheap to run.
 **Things to check (rotate through these, 2-4 times per day):**
 
 - **Inbox** - urgent unread email, calendar in the next 24-48h, mentions, weather if it matters.
-- **Lanes** - keep one lightweight check per active specialist lane; if `ops-bot`, `security-bot`, or `modeler-bot` looks stale, review that lane in the same heartbeat.
+- **Lanes** - keep one lightweight check per active specialist lane; if `ops-bot`, `security-bot`, `modeler-bot`, or `medication_agent` looks stale, review that lane in the same heartbeat.
+- If a specialist lane has zero heartbeat items, seed one minimal lane-specific check instead of leaving it empty.
 
 **Track your checks** in `memory/heartbeat-state.json`:
 

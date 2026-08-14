@@ -54,3 +54,10 @@ Prefer safe defaults:
 - Operational monitoring and host health belongs with `ops-bot`.
 - Privileged system changes belong with `admin-bot`.
 - Coordination and summaries go through `manager-bot`.
+
+## Self-Improvement
+
+- Capture problems, corrections, errors, and insights immediately under `.learnings/`.
+- Use `.learnings/ERRORS.md` for tool or integration failures, `.learnings/LEARNINGS.md` for user corrections and insights, and `.learnings/FEATURE_REQUESTS.md` for missing capabilities.
+- Write entries as short, structured markdown blocks so they can be parsed by `manager-bot`'s daily review and promoted to the right long-term location.
+- Log first, improve second.

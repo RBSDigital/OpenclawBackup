@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T04:30:48.265Z",
+  "generatedAt": "2026-08-14T14:40:40.827Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
@@ -57,11 +57,19 @@
       "workspaceExists": true,
       "runtimeDir": "/home/vin/.openclaw/agents/security-bot",
       "runtimeDirExists": true
+    },
+    {
+      "id": "medication_agent",
+      "workspace": "/home/vin/.openclaw/workspaces/medication_agent",
+      "workspaceExists": true,
+      "runtimeDir": "/home/vin/.openclaw/agents/medication_agent",
+      "runtimeDirExists": true
     }
   ],
   "workspaceDirs": [
     "admin-bot",
     "manager-bot",
+    "medication_agent",
     "modeler-bot",
     "ops-bot",
     "researcher-bot",
@@ -71,6 +79,7 @@
     "admin-bot",
     "main",
     "manager-bot",
+    "medication_agent",
     "modeler-bot",
     "ops-bot",
     "researcher-bot",
@@ -140,6 +149,17 @@
         "peer": {
           "kind": "channel",
           "id": "1507299212272996423"
+        }
+      }
+    },
+    {
+      "agentId": "medication_agent",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1537422220391874590"
         }
       }
     }

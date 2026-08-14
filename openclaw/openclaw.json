@@ -62,6 +62,12 @@
       {
         "id": "security-bot",
         "workspace": "/home/vin/.openclaw/workspaces/security-bot"
+      },
+      {
+        "id": "medication_agent",
+        "name": "medication_agent",
+        "workspace": "/home/vin/.openclaw/workspaces/medication_agent",
+        "agentDir": "/home/vin/.openclaw/agents/medication_agent"
       }
     ]
   },
@@ -117,7 +123,22 @@
     "dmScope": "per-channel-peer"
   },
   "tools": {
-    "profile": "coding"
+    "profile": "coding",
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "manager-bot",
+        "researcher-bot",
+        "ops-bot",
+        "admin-bot",
+        "modeler-bot",
+        "security-bot",
+        "medication_agent"
+      ]
+    }
   },
   "wizard": {
     "lastRunAt": "2026-06-04T04:01:48.845Z",
@@ -127,7 +148,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
-    "lastTouchedAt": "2026-08-04T04:02:41.919Z"
+    "lastTouchedAt": "2026-08-14T04:02:55.563Z"
   },
   "skills": {
     "entries": {
@@ -247,6 +268,33 @@
       },
       "playwright-mcp": {
         "enabled": false
+      },
+      "structurizr": {
+        "enabled": true
+      },
+      "mermaid": {
+        "enabled": true
+      },
+      "plantuml": {
+        "enabled": true
+      },
+      "graphviz": {
+        "enabled": true
+      },
+      "spectral": {
+        "enabled": true
+      },
+      "schemacrawler": {
+        "enabled": true
+      },
+      "pandoc": {
+        "enabled": true
+      },
+      "jira": {
+        "enabled": true
+      },
+      "adr-tools": {
+        "enabled": true
       }
     },
     "workshop": {
@@ -282,7 +330,8 @@
         "1504151369261514856",
         "1504151371195220160",
         "1505085743414902819",
-        "1507299212272996423"
+        "1507299212272996423",
+        "1537422220391874590"
       ],
       "guilds": {
         "1485914371766091809": {
@@ -322,6 +371,12 @@
               ]
             },
             "1507299212272996423": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
+            },
+            "1537422220391874590": {
               "requireMention": false,
               "users": [
                 "1057573629275148369"
@@ -401,6 +456,17 @@
         "peer": {
           "kind": "channel",
           "id": "1507299212272996423"
+        }
+      }
+    },
+    {
+      "agentId": "medication_agent",
+      "match": {
+        "channel": "discord",
+        "guildId": "1485914371766091809",
+        "peer": {
+          "kind": "channel",
+          "id": "1537422220391874590"
         }
       }
     }

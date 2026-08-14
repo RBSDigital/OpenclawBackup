@@ -29,6 +29,7 @@ Do not store:
 - `Security/` - security-bot: defensive security procedures, scope rules, report patterns.
 - `Modeling/` - modeler-bot: 3D-print workflows, toolchain notes, artifact conventions.
 - `Admin/` - admin-bot: audited admin runbooks only, no credentials.
+- `Medication/` - medication_agent: medication tracking, reminder setups, tracking schedules, and verification notes.
 - `Decisions/` - cross-agent decisions and architecture choices.
 - `Sources/` - reusable source notes and verification references.
 - `Inbox/` - temporary landing zone for notes that still need triage.

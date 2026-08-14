@@ -208,7 +208,10 @@ redacted=0
 for dp,_,files in os.walk(root):
     for f in files:
         p=os.path.join(dp,f)
-        if os.path.getsize(p)>2_000_000: continue
+        try:
+            if os.path.getsize(p)>2_000_000: continue
+        except (FileNotFoundError, OSError):
+            continue
         ext=os.path.splitext(f)[1].lower()
         if ext and ext not in text_ext: continue
         try:
@@ -237,7 +240,10 @@ findings=[]
 for dp,_,files in os.walk(root):
     for f in files:
         p=os.path.join(dp,f)
-        if os.path.getsize(p)>2_000_000: continue
+        try:
+            if os.path.getsize(p)>2_000_000: continue
+        except (FileNotFoundError, OSError):
+            continue
         try:
             s=open(p,encoding='utf-8',errors='ignore').read()
         except Exception:

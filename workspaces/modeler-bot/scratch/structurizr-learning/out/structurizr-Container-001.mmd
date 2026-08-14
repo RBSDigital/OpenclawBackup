@@ -1,0 +1,21 @@
+graph LR
+  linkStyle default fill:#ffffff
+
+  subgraph diagram ["Container View: Sample System"]
+    style diagram fill:#ffffff,stroke:#ffffff
+
+    subgraph 2 ["Sample System"]
+      style 2 fill:#ffffff,stroke:#444444,color:#444444
+
+      3["<div style='font-weight: bold'>Web App</div><div style='font-size: 70%; margin-top: 0px'>[Container: React]</div><div style='font-size: 80%; margin-top:10px'>Serves the UI</div>"]
+      style 3 fill:#ffffff,stroke:#444444,color:#444444
+      4["<div style='font-weight: bold'>API</div><div style='font-size: 70%; margin-top: 0px'>[Container: Node.js]</div><div style='font-size: 80%; margin-top:10px'>Provides business logic</div>"]
+      style 4 fill:#ffffff,stroke:#444444,color:#444444
+      5["<div style='font-weight: bold'>Database</div><div style='font-size: 70%; margin-top: 0px'>[Container: PostgreSQL]</div><div style='font-size: 80%; margin-top:10px'>Stores data</div>"]
+      style 5 fill:#ffffff,stroke:#444444,color:#444444
+    end
+
+    3-. "<div>Calls</div><div style='font-size: 70%'></div>" .->4
+    4-. "<div>Reads from and writes to</div><div style='font-size: 70%'></div>" .->5
+
+  end

@@ -1,0 +1,4 @@
+Exporting workspace from test_workspace.dsl
+ - exporting with MermaidDiagramExporter
+ - writing /home/vin/.openclaw/workspaces/manager-bot/test_artefacts/structurizr-SystemContext.mmd
+ - finished
