@@ -1,13 +1,7 @@
 {
   "registry": {
-    "source": "derived",
-    "diagnostics": [
-      {
-        "level": "warn",
-        "code": "persisted-registry-stale-source",
-        "message": "Persisted plugin registry points at missing plugin files; using derived plugin index. Run `openclaw plugins registry --refresh` to update the persisted registry."
-      }
-    ]
+    "source": "persisted",
+    "diagnostics": []
   },
   "plugins": [
     {
@@ -4383,6 +4377,113 @@
         "missing": [],
         "missingOptional": [],
         "dependencies": [],
+        "optionalDependencies": []
+      }
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "version": "2026.7.1-1",
+      "description": "OpenClaw Codex app-server harness and model provider plugin with a Codex-managed GPT catalog.",
+      "format": "openclaw",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex",
+      "origin": "global",
+      "enabled": true,
+      "compat": [
+        "activation-agent-harness-hint"
+      ],
+      "syntheticAuthRefs": [
+        "codex"
+      ],
+      "status": "loaded",
+      "toolNames": [],
+      "hookNames": [],
+      "channelIds": [],
+      "cliBackendIds": [],
+      "providerIds": [
+        "codex"
+      ],
+      "embeddingProviderIds": [],
+      "speechProviderIds": [],
+      "realtimeTranscriptionProviderIds": [],
+      "realtimeVoiceProviderIds": [],
+      "mediaUnderstandingProviderIds": [
+        "codex"
+      ],
+      "transcriptSourceProviderIds": [],
+      "imageGenerationProviderIds": [],
+      "videoGenerationProviderIds": [],
+      "musicGenerationProviderIds": [],
+      "webFetchProviderIds": [],
+      "webSearchProviderIds": [
+        "codex"
+      ],
+      "migrationProviderIds": [
+        "codex"
+      ],
+      "memoryEmbeddingProviderIds": [],
+      "agentHarnessIds": [],
+      "cliCommands": [],
+      "services": [],
+      "gatewayDiscoveryServiceIds": [],
+      "commands": [
+        "codex"
+      ],
+      "httpRoutes": 0,
+      "hookCount": 0,
+      "configSchema": false,
+      "contracts": {
+        "mediaUnderstandingProviders": [
+          "codex"
+        ],
+        "webSearchProviders": [
+          "codex"
+        ],
+        "migrationProviders": [
+          "codex"
+        ],
+        "tools": [
+          "codex_threads"
+        ]
+      },
+      "dependencyStatus": {
+        "hasDependencies": true,
+        "installed": true,
+        "requiredInstalled": true,
+        "optionalInstalled": true,
+        "missing": [],
+        "missingOptional": [],
+        "dependencies": [
+          {
+            "name": "@openai/codex",
+            "spec": "0.144.3",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/@openai/codex"
+          },
+          {
+            "name": "typebox",
+            "spec": "1.3.3",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/typebox"
+          },
+          {
+            "name": "ws",
+            "spec": "8.21.0",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/ws"
+          },
+          {
+            "name": "zod",
+            "spec": "4.4.3",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4/node_modules/@openclaw/codex/node_modules/zod"
+          }
+        ],
         "optionalDependencies": []
       }
     },
