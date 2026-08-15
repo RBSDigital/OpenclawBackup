@@ -52,6 +52,12 @@ Add whatever helps you do your job. This is your cheat sheet.
 - When multiple messaging backends are configured, read a Discord lane with `channel="discord"` and `target="channel:<discord-channel-id>"`.
 - Do not pass the Discord ID through `channelId`; the connector expects the encoded `target`.
 
+## Structurizr
+
+- If `structurizr-cli` is not on `PATH`, use a portable Java 17 runtime plus the official CLI ZIP.
+- Prefer `validate -workspace workspace.dsl` followed by `export -workspace workspace.dsl -format mermaid -output out` for local verification.
+- Docker-based validation may fail when the current user cannot reach `unix:///var/run/docker.sock`.
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)
