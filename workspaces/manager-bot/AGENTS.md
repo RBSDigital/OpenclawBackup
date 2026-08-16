@@ -165,6 +165,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ## Ops Recovery
 
+- Treat transient staging, redaction-scan, or health-gate failures as diagnostics first if the surrounding backup/report flow can safely continue.
 - If gateway health checks are flaky during ops runs, keep collecting diagnostics and let safe backup/report flows continue instead of aborting the whole run on a single transient health failure.
 - After `1006 abnormal closure` or repeated crash states, inspect gateway/systemd logs before spending more retries on the same health gate.
 

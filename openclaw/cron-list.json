@@ -6,7 +6,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1786752412850,
+      "updatedAtMs": 1786838798529,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,19 +28,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1786773894831,
-        "lastRunAtMs": 1786752294857,
+        "nextRunAtMs": 1786860294831,
+        "lastRunAtMs": 1786838694845,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 117993,
+        "lastDurationMs": 103684,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1786773894831,
-      "lastRunAtMs": 1786752294857,
+      "nextRunAtMs": 1786860294831,
+      "lastRunAtMs": 1786838694845,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -52,7 +52,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1786767766185,
+      "updatedAtMs": 1786854166968,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -71,30 +71,18 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1786789283956,
-        "lastRunAtMs": 1786767683956,
+        "nextRunAtMs": 1786875684023,
+        "lastRunAtMs": 1786854084023,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 82229,
+        "lastDurationMs": 82945,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `search \"structurizr|portable Java 17|Mermaid export|docker.sock|portable-runtime\" in ~/.openclaw/workspaces/modeler-bot/MEMORY.md (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1786767765963,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `search \"structurizr|portable Java 17|Mermaid export|docker.sock|portable-runtime\" in ~/.openclaw/workspaces/modeler-bot/MEMORY.md (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `search \"structurizr|portable Java 17|Mermaid export|docker.sock|portable-runtime\" in ~/.openclaw/workspaces/modeler-bot/MEMORY.md (in ~/.openclaw/workspaces/manager-bot)`"
+        "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1786789283956,
-      "lastRunAtMs": 1786767683956,
+      "nextRunAtMs": 1786875684023,
+      "lastRunAtMs": 1786854084023,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -106,7 +94,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1786730656046,
+      "updatedAtMs": 1786816908046,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -127,19 +115,19 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1786816800000,
-        "lastRunAtMs": 1786730400042,
+        "nextRunAtMs": 1786903200000,
+        "lastRunAtMs": 1786816800023,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 256004,
+        "lastDurationMs": 108023,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1786816800000,
-      "lastRunAtMs": 1786730400042,
+      "nextRunAtMs": 1786903200000,
+      "lastRunAtMs": 1786816800023,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
