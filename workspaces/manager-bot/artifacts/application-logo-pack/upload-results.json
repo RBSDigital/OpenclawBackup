@@ -1,0 +1,218 @@
+[
+  {
+    "file": "adobe_analytics.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1sla1E4UZfr9CcxuijiZO8ECid9b0GvsV\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"adobe_analytics.png\",\n    \"size\": \"1039\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1sla1E4UZfr9CcxuijiZO8ECid9b0GvsV/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "adobe_dam.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1rHubN5OSY0Q6ZiYTCyBIm3bqaqre1rev\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"adobe_dam.png\",\n    \"size\": \"1039\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1rHubN5OSY0Q6ZiYTCyBIm3bqaqre1rev/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "adobe_experience_manager.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1TBalFfUjU31eRHJsaGYU4XyW4owvzWD0\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"adobe_experience_manager.png\",\n    \"size\": \"1039\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1TBalFfUjU31eRHJsaGYU4XyW4owvzWD0/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "algolia.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1kG5oO7eEWetYRnIZGEvM2JemR0-zEFRl\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"algolia.png\",\n    \"size\": \"1753\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1kG5oO7eEWetYRnIZGEvM2JemR0-zEFRl/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "amasty.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1LUkUPJeHLtBSDGKRJW20YMPP9skzMbo3\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"amasty.png\",\n    \"size\": \"1586\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1LUkUPJeHLtBSDGKRJW20YMPP9skzMbo3/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "azure_data_factory.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1GCoGROzUuGdHC9HMEYTfSg0RLI0hhbEH\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"azure_data_factory.png\",\n    \"size\": \"335\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1GCoGROzUuGdHC9HMEYTfSg0RLI0hhbEH/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "azure_integration_services.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1lAKq0Zcj22hAX0VX7DkPPLFATorXj6eA\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"azure_integration_services.png\",\n    \"size\": \"335\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1lAKq0Zcj22hAX0VX7DkPPLFATorXj6eA/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "bulksms.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1d8rqcGxMSMkoJv6uxK2BSqSmbDpB6ZSG\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"bulksms.png\",\n    \"size\": \"2486\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1d8rqcGxMSMkoJv6uxK2BSqSmbDpB6ZSG/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "contentsquare.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1C2jbpjLrqKqAqUse7mOxnOTIkF2MXJ_T\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"contentsquare.png\",\n    \"size\": \"2480\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1C2jbpjLrqKqAqUse7mOxnOTIkF2MXJ_T/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "edp.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1R1yS5rLA-VkPGC1QanwDFsYSHzG57Cqs\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"edp.png\",\n    \"size\": \"3282\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1R1yS5rLA-VkPGC1QanwDFsYSHzG57Cqs/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "google_analytics.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1MRqGCOVejUAwVnMbL8mZmS4OBh_wZsvZ\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"google_analytics.png\",\n    \"size\": \"671\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1MRqGCOVejUAwVnMbL8mZmS4OBh_wZsvZ/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "heroku_platform.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1Aj6PWNqk1rmFFzOZF3GefqE_rgnLPts-\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"heroku_platform.png\",\n    \"size\": \"88\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1Aj6PWNqk1rmFFzOZF3GefqE_rgnLPts-/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "hootsuite.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1kl2jvlBR0XGhyHNHK3nfG2YEHyrdGSVW\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"hootsuite.png\",\n    \"size\": \"2166\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1kl2jvlBR0XGhyHNHK3nfG2YEHyrdGSVW/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "hubspot_crm.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1KYJ67l0q41n-2YLogsZvLUlBRpX2G7L1\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"hubspot_crm.png\",\n    \"size\": \"2008\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1KYJ67l0q41n-2YLogsZvLUlBRpX2G7L1/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "magento.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1o-0v3rueDknq2A5JAz7671GbXfsmAdIU\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"magento.png\",\n    \"size\": \"1039\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1o-0v3rueDknq2A5JAz7671GbXfsmAdIU/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "mapbox.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1_P3QJyQrc2Ham2IaaSsTCKidGYvTtmY9\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"mapbox.png\",\n    \"size\": \"1085\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1_P3QJyQrc2Ham2IaaSsTCKidGYvTtmY9/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "microsoft_fabric.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1tDrBhVsVyJye_vQ_HTKLvNP5U26Zr7Vt\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"microsoft_fabric.png\",\n    \"size\": \"335\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1tDrBhVsVyJye_vQ_HTKLvNP5U26Zr7Vt/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "myglo.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"16N0ujlbgeuZqnGh5rZ-kYBw7eCkCYuFZ\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"myglo.png\",\n    \"size\": \"1561\",\n    \"webViewLink\": \"https://drive.google.com/file/d/16N0ujlbgeuZqnGh5rZ-kYBw7eCkCYuFZ/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "myvuse.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1JmsZnhRlb5eXvXV13AZK0JmVSoyUoKCm\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"myvuse.png\",\n    \"size\": \"3962\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1JmsZnhRlb5eXvXV13AZK0JmVSoyUoKCm/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "onetrust.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1GNPm2Bhs-K59jPC8CTN5F_3OAE-EUA-B\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"onetrust.png\",\n    \"size\": \"1815\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1GNPm2Bhs-K59jPC8CTN5F_3OAE-EUA-B/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "open_loyalty.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1ZBKV859cMauPHFYYChqQX-S3weDK9o7J\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"open_loyalty.png\",\n    \"size\": \"1252\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1ZBKV859cMauPHFYYChqQX-S3weDK9o7J/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "qualtrics.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1ktCJqdIUvLGUb-d-QNZa09oSbq5SwS4h\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"qualtrics.png\",\n    \"size\": \"3367\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1ktCJqdIUvLGUb-d-QNZa09oSbq5SwS4h/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "recharge.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1apPvmMdc_tvxYwPqYrP_22kUlc8s1MkK\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"recharge.png\",\n    \"size\": \"739\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1apPvmMdc_tvxYwPqYrP_22kUlc8s1MkK/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "salesforce_community_cloud.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1HNRtg2AucXIQLEIcsyGrnbQ4ukrLm-EO\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"salesforce_community_cloud.png\",\n    \"size\": \"2356\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1HNRtg2AucXIQLEIcsyGrnbQ4ukrLm-EO/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "salesforce_marketing_cloud.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1n1kM_cUzQnVcJNQapSCeSK-n0lGOxx9n\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"salesforce_marketing_cloud.png\",\n    \"size\": \"2356\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1n1kM_cUzQnVcJNQapSCeSK-n0lGOxx9n/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "salesforce_sales_cloud.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1dgARyxZ3RvhUbNezwiweQO4M-sSeR0ni\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"salesforce_sales_cloud.png\",\n    \"size\": \"2356\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1dgARyxZ3RvhUbNezwiweQO4M-sSeR0ni/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "salesforce_service_cloud.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1KMKqTl3luhq5blZtgTkK1pKgWtELnwh2\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"salesforce_service_cloud.png\",\n    \"size\": \"2356\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1KMKqTl3luhq5blZtgTkK1pKgWtELnwh2/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "shopify.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1J5OhIvDdUjoF-iBC0uqIUZdzWEtn75FG\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"shopify.png\",\n    \"size\": \"2984\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1J5OhIvDdUjoF-iBC0uqIUZdzWEtn75FG/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "talkwalker.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1RuAgoNYZaJ4LoprovMudRW4w4Fa9dD5-\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"talkwalker.png\",\n    \"size\": \"1399\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1RuAgoNYZaJ4LoprovMudRW4w4Fa9dD5-/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "ucc.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1ZXdK3FvBDyfHd0C-nzcvSzLJFdfVBcf2\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"ucc.png\",\n    \"size\": \"1735\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1ZXdK3FvBDyfHd0C-nzcvSzLJFdfVBcf2/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "vodafone.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1-NCKopGsmCkNAKk-hzcB8nY8TAbNJ8JO\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"vodafone.png\",\n    \"size\": \"1903\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1-NCKopGsmCkNAKk-hzcB8nY8TAbNJ8JO/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "worldpay.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1caPT6rK_cx0VTkmPq_1oVXmUlzybjXaM\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"worldpay.png\",\n    \"size\": \"997\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1caPT6rK_cx0VTkmPq_1oVXmUlzybjXaM/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "yoti.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1hiEydafa8XfVyHaBXDyK_L2lAS87gddt\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"yoti.png\",\n    \"size\": \"1617\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1hiEydafa8XfVyHaBXDyK_L2lAS87gddt/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "yotpo.png",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1ASaHlzbl3nhVl-qKdQLX5XpZ29SrxgnP\",\n    \"mimeType\": \"image/png\",\n    \"name\": \"yotpo.png\",\n    \"size\": \"1904\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1ASaHlzbl3nhVl-qKdQLX5XpZ29SrxgnP/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "manifest.json",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1gy6Hm6-ZEbpRfa9ySRbFgrGBTgBwDr3H\",\n    \"mimeType\": \"application/json\",\n    \"name\": \"manifest.json\",\n    \"size\": \"10660\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1gy6Hm6-ZEbpRfa9ySRbFgrGBTgBwDr3H/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  },
+  {
+    "file": "manifest.csv",
+    "returncode": 0,
+    "stdout": "{\n  \"file\": {\n    \"id\": \"1i9M0iLOtBPAd01YPYrd4Gb4GRR1e3N6G\",\n    \"mimeType\": \"text/csv\",\n    \"name\": \"manifest.csv\",\n    \"size\": \"6226\",\n    \"webViewLink\": \"https://drive.google.com/file/d/1i9M0iLOtBPAd01YPYrd4Gb4GRR1e3N6G/view?usp=drivesdk\"\n  }\n}",
+    "stderr": ""
+  }
+]

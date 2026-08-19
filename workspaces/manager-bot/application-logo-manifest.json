@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Google Analytics",
+    "fileName": "google-analytics",
+    "url": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg"
+  },
+  {
+    "name": "Adobe Analytics",
+    "fileName": "adobe-analytics",
+    "url": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg"
+  },
+  {
+    "name": "OneTrust",
+    "fileName": "onetrust",
+    "url": "https://www.onetrust.com/content/dam/onetrust/brand/elements/image/digital/logo/OT-website-logo.svg"
+  },
+  {
+    "name": "Contentsquare",
+    "fileName": "contentsquare",
+    "url": "https://contentsquare.com/"
+  },
+  {
+    "name": "Qualtrics",
+    "fileName": "qualtrics",
+    "url": "https://www.qualtrics.com/"
+  },
+  {
+    "name": "Algolia",
+    "fileName": "algolia",
+    "url": "https://www.algolia.com/algolia-logo-pack.zip"
+  },
+  {
+    "name": "Adobe Experience Manager",
+    "fileName": "adobe-experience-manager",
+    "url": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg"
+  },
+  {
+    "name": "Adobe Digital Asset Management",
+    "fileName": "adobe-dam",
+    "url": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg"
+  },
+  {
+    "name": "Hootsuite",
+    "fileName": "hootsuite",
+    "url": "https://www.hootsuite.com/images/svg/hootsuite-full-logo.svg"
+  },
+  {
+    "name": "Talkwalker",
+    "fileName": "talkwalker",
+    "url": "https://www.talkwalker.com/images/talkwalker-logo.svg"
+  },
+  {
+    "name": "Magento",
+    "fileName": "magento",
+    "url": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg"
+  },
+  {
+    "name": "Shopify",
+    "fileName": "shopify",
+    "url": "https://cdn.shopify.com/static/brand-assets/shopify-brand-assets.zip"
+  },
+  {
+    "name": "WorldPay",
+    "fileName": "worldpay",
+    "url": "https://images.ctfassets.net/zhwqbd2ar3b8/2obr6xTTdIrdoozySUaYeI/16c603e384954db8f0df2baeba1093c1/wpisnowgp-main-red.svg"
+  },
+  {
+    "name": "Recharge",
+    "fileName": "recharge",
+    "url": "https://getrecharge.com/wp-content/themes/getrecharge/assets/img/brand/logos/recharge-mark.svg"
+  },
+  {
+    "name": "Amasty",
+    "fileName": "amasty",
+    "url": "https://amasty.com/about.html"
+  },
+  {
+    "name": "Yotpo",
+    "fileName": "yotpo",
+    "url": "https://www.yotpo.com/wp-content/themes/yotpo/images/general/yotpo-logo-v3.svg"
+  },
+  {
+    "name": "Yoti",
+    "fileName": "yoti",
+    "url": "https://www.yoti.com/"
+  },
+  {
+    "name": "Mapbox",
+    "fileName": "mapbox",
+    "url": "https://www.mapbox.com/"
+  },
+  {
+    "name": "Open Loyalty",
+    "fileName": "open-loyalty",
+    "url": "https://cdn.prod.website-files.com/6364d8cb4443c41b196eab02/674983c1a0519cab0a26963b_Logo-OL-dark.svg"
+  },
+  {
+    "name": "myGlo",
+    "fileName": "myglo",
+    "url": "https://www.myglo.com/cy/pub/media/loyalty/myglo-logo-white.svg"
+  },
+  {
+    "name": "myVuse",
+    "fileName": "myvuse",
+    "url": "https://www.vuse.com/en-gb/pages/vaping-done-right"
+  },
+  {
+    "name": "Azure Integration Services",
+    "fileName": "azure-integration-services",
+    "url": "https://azure.microsoft.com/en-us/solutions/integration-services"
+  },
+  {
+    "name": "Salesforce Service Cloud",
+    "fileName": "salesforce-service-cloud",
+    "url": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024"
+  },
+  {
+    "name": "Salesforce Sales Cloud",
+    "fileName": "salesforce-sales-cloud",
+    "url": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024"
+  },
+  {
+    "name": "Salesforce Marketing Cloud",
+    "fileName": "salesforce-marketing-cloud",
+    "url": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024"
+  },
+  {
+    "name": "Salesforce Community Cloud",
+    "fileName": "salesforce-community-cloud",
+    "url": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024"
+  },
+  {
+    "name": "HubSpot CRM",
+    "fileName": "hubspot-crm",
+    "url": "https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg"
+  },
+  {
+    "name": "BulkSMS",
+    "fileName": "bulksms",
+    "url": "https://www.bulksms.com/"
+  },
+  {
+    "name": "Vodafone",
+    "fileName": "vodafone",
+    "url": "https://static.vscdn.net/images/careers/demo/eightfolddemo-vodafone2/favicon"
+  },
+  {
+    "name": "Heroku Platform",
+    "fileName": "heroku-platform",
+    "url": "https://www.heroku.com/wp-content/uploads/2025/01/Heroku-Logo-Light-RGB.png"
+  },
+  {
+    "name": "Azure Data Factory",
+    "fileName": "azure-data-factory",
+    "url": "https://azure.microsoft.com/en-us/products/data-factory"
+  },
+  {
+    "name": "Microsoft Fabric",
+    "fileName": "microsoft-fabric",
+    "url": "https://azure.microsoft.com/en-us/products"
+  }
+]

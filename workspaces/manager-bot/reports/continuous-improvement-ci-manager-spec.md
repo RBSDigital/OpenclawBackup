@@ -51,6 +51,7 @@ Discovery inputs:
 - `/home/vin/.openclaw/cron/jobs-state.json`, if present
 - OpenClaw CLI checks: `openclaw health --json`, `openclaw config validate --json`, `openclaw cron list --json`, `openclaw agents bindings`
 - delivery queue failures under `/home/vin/.openclaw/delivery-queue/failed`
+- Compare the current configured agent list against the previous run so newly added bots are included in the report immediately.
 
 Pattern matching requirements:
 
@@ -96,6 +97,7 @@ Network and channels:
 Agent management and workflow:
 
 - Configured agents and Discord bindings.
+- Newly added bots since the prior run, including any non-standard agent names that need to be folded into the active-agent summary.
 - Missing or stale `SOUL.md`, `TOOLS.md`, `HEARTBEAT.md`, routing notes, or daily memory.
 - Sessions with `abortedLastRun`, high token pressure, or repeated compactions.
 - Cross-agent visibility or spawn restrictions that block manager handoffs.
@@ -124,7 +126,7 @@ Infrastructure utilisation
 - Backup/maintenance:
 
 Agent and workflow health
-- Active agents:
+- Active agents: list current configured agents and call out any newly added bots.
 - Routing/bindings:
 - Stale tasks:
 - Handoff blockers:

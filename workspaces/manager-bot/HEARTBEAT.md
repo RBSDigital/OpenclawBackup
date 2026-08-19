@@ -8,7 +8,7 @@
 
 - Follow `COST_POLICY.md`: batch checks, use cheap deterministic tools first, and stay quiet unless there is signal.
 - Review open Discord tasks across `#manager-hq`, `#research-lab`, `#ops-center`, `#admin-desk`, `#modeling-studio`, and `#security-lab`, then summarize owner, status, blocker, and next action.
-- Check routing and keep one lightweight lane check per active specialist lane; note intentionally idle lanes and fold any stale-memory review for `ops-bot`, `security-bot`, or `modeler-bot` into the same heartbeat so the lane never goes empty.
+- Check routing and keep one lightweight lane check per active specialist lane; note intentionally idle lanes and fold any stale-memory review for `ops-bot`, `security-bot`, `modeler-bot`, or `medication_agent` into the same heartbeat so the lane never goes empty. Also compare the current agent inventory against the prior pass so any newly added bot is picked up immediately.
 - Keep private memory isolated from shared Discord channels, triage `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault/Inbox`, and review recent `memory/YYYY-MM-DD.md` files for anything that belongs in private `MEMORY.md` or the shared Agent Memory Vault.
 
 ## Cost Discipline

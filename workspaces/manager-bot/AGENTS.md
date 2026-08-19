@@ -196,7 +196,7 @@ Keep `HEARTBEAT.md` short and task-oriented so it stays cheap to run.
 **Things to check (rotate through these, 2-4 times per day):**
 
 - **Inbox** - urgent unread email, calendar in the next 24-48h, mentions, weather if it matters.
-- **Lanes** - keep one lightweight check per active specialist lane; if `ops-bot`, `security-bot`, `modeler-bot`, or `medication_agent` looks stale, review that lane in the same heartbeat.
+- **Lanes** - keep one lightweight check per active specialist lane; if `ops-bot`, `security-bot`, `modeler-bot`, or `medication_agent` looks stale, review that lane in the same heartbeat. Also check whether a new bot was added since the last pass and include it in the same review list.
 - If a specialist lane has zero heartbeat items, seed one minimal lane-specific check instead of leaving it empty.
 
 **Track your checks** in `memory/heartbeat-state.json`:

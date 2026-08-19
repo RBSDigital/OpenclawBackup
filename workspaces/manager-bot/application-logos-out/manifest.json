@@ -1,0 +1,197 @@
+{
+  "results": [
+    {
+      "name": "Google Analytics",
+      "pageUrl": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/google-analytics.png"
+    },
+    {
+      "name": "Adobe Analytics",
+      "pageUrl": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/adobe-analytics.png"
+    },
+    {
+      "name": "OneTrust",
+      "pageUrl": "https://www.onetrust.com/content/dam/onetrust/brand/elements/image/digital/logo/OT-website-logo.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/onetrust.png"
+    },
+    {
+      "name": "Contentsquare",
+      "pageUrl": "https://contentsquare.com/",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/contentsquare.png"
+    },
+    {
+      "name": "Qualtrics",
+      "pageUrl": "https://www.qualtrics.com/",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/qualtrics.png"
+    },
+    {
+      "name": "Algolia",
+      "pageUrl": "https://www.algolia.com/algolia-logo-pack.zip",
+      "chosen": "algolia-logo-pack/PNG/Algolia-mark-blue.png",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/algolia.png"
+    },
+    {
+      "name": "Adobe Experience Manager",
+      "pageUrl": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/adobe-experience-manager.png"
+    },
+    {
+      "name": "Adobe Digital Asset Management",
+      "pageUrl": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/adobe-dam.png"
+    },
+    {
+      "name": "Hootsuite",
+      "pageUrl": "https://www.hootsuite.com/images/svg/hootsuite-full-logo.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/hootsuite.png"
+    },
+    {
+      "name": "Talkwalker",
+      "pageUrl": "https://www.talkwalker.com/images/talkwalker-logo.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/talkwalker.png"
+    },
+    {
+      "name": "Magento",
+      "pageUrl": "https://main--cc--adobecom.aem.live/cc-shared/assets/img/product-icons/svg/adobe-corp-logo-2024.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/magento.png"
+    },
+    {
+      "name": "Shopify",
+      "pageUrl": "https://cdn.shopify.com/static/brand-assets/shopify-brand-assets.zip",
+      "chosen": "shopify-brand-assets/01-logo/png/logo-mono-black.png",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/shopify.png"
+    },
+    {
+      "name": "WorldPay",
+      "pageUrl": "https://images.ctfassets.net/zhwqbd2ar3b8/2obr6xTTdIrdoozySUaYeI/16c603e384954db8f0df2baeba1093c1/wpisnowgp-main-red.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/worldpay.png"
+    },
+    {
+      "name": "Recharge",
+      "pageUrl": "https://getrecharge.com/wp-content/themes/getrecharge/assets/img/brand/logos/recharge-mark.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/recharge.png"
+    },
+    {
+      "name": "Amasty",
+      "pageUrl": "https://amasty.com/about.html",
+      "chosen": "fallback-badge",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/amasty.png"
+    },
+    {
+      "name": "Yotpo",
+      "pageUrl": "https://www.yotpo.com/wp-content/themes/yotpo/images/general/yotpo-logo-v3.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/yotpo.png"
+    },
+    {
+      "name": "Yoti",
+      "pageUrl": "https://www.yoti.com/",
+      "chosen": "https://cdn.aws.yoti.com/wp-content/uploads/yoti-logo.png",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/yoti.png"
+    },
+    {
+      "name": "Mapbox",
+      "pageUrl": "https://www.mapbox.com/",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/mapbox.png"
+    },
+    {
+      "name": "Open Loyalty",
+      "pageUrl": "https://cdn.prod.website-files.com/6364d8cb4443c41b196eab02/674983c1a0519cab0a26963b_Logo-OL-dark.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/open-loyalty.png"
+    },
+    {
+      "name": "myGlo",
+      "pageUrl": "https://www.myglo.com/cy/pub/media/loyalty/myglo-logo-white.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/myglo.png"
+    },
+    {
+      "name": "myVuse",
+      "pageUrl": "https://www.vuse.com/en-gb/pages/vaping-done-right",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/myvuse.png"
+    },
+    {
+      "name": "Azure Integration Services",
+      "pageUrl": "https://azure.microsoft.com/en-us/solutions/integration-services",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/azure-integration-services.png"
+    },
+    {
+      "name": "Salesforce Service Cloud",
+      "pageUrl": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/salesforce-service-cloud.png"
+    },
+    {
+      "name": "Salesforce Sales Cloud",
+      "pageUrl": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/salesforce-sales-cloud.png"
+    },
+    {
+      "name": "Salesforce Marketing Cloud",
+      "pageUrl": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/salesforce-marketing-cloud.png"
+    },
+    {
+      "name": "Salesforce Community Cloud",
+      "pageUrl": "https://wp.sfdcdigital.com/en-us/wp-content/uploads/sites/4/2024/11/logo-salesforce.svg?w=1024",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/salesforce-community-cloud.png"
+    },
+    {
+      "name": "HubSpot CRM",
+      "pageUrl": "https://www.hubspot.com/hubfs/HubSpot_Logos/HSLogo_color.svg",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/hubspot-crm.png"
+    },
+    {
+      "name": "BulkSMS",
+      "pageUrl": "https://www.bulksms.com/",
+      "chosen": "https://www.bulksms.com/images/bulksms-logo.png",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/bulksms.png"
+    },
+    {
+      "name": "Vodafone",
+      "pageUrl": "https://static.vscdn.net/images/careers/demo/eightfolddemo-vodafone2/favicon",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/vodafone.png"
+    },
+    {
+      "name": "Heroku Platform",
+      "pageUrl": "https://www.heroku.com/wp-content/uploads/2025/01/Heroku-Logo-Light-RGB.png",
+      "chosen": "direct-file",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/heroku-platform.png"
+    },
+    {
+      "name": "Azure Data Factory",
+      "pageUrl": "https://azure.microsoft.com/en-us/products/data-factory",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/azure-data-factory.png"
+    },
+    {
+      "name": "Microsoft Fabric",
+      "pageUrl": "https://azure.microsoft.com/en-us/products",
+      "chosen": "inline-svg",
+      "outPath": "/home/vin/.openclaw/workspaces/manager-bot/application-logos-out/microsoft-fabric.png"
+    }
+  ],
+  "failures": []
+}

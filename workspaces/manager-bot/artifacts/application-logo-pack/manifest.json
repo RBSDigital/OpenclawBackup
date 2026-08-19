@@ -1,0 +1,308 @@
+[
+  {
+    "name": "Google Analytics",
+    "slug": "google_analytics",
+    "source_page": "https://developers.google.com/analytics",
+    "logo_url": "https://www.gstatic.com/analytics-suite/header/suite/v2/ic_analytics.svg",
+    "output_file": "artifacts/application-logo-pack/google_analytics.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Adobe Analytics",
+    "slug": "adobe_analytics",
+    "source_page": "https://business.adobe.com/products/analytics/adobe-analytics.html",
+    "logo_url": "https://business.adobe.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/adobe_analytics.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "OneTrust",
+    "slug": "onetrust",
+    "source_page": "https://www.onetrust.com/",
+    "logo_url": "https://www.onetrust.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/onetrust.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Contentsquare",
+    "slug": "contentsquare",
+    "source_page": "https://contentsquare.com/",
+    "logo_url": "https://images.ctfassets.net/gwbpo1m641r7/2uZ6T6ihYpDJB3vvvT8yRZ/4fe9a3d8932440f6d5287f77bb29cc0e/1200px-Specsavers_logo.svg.png?w=128&q=85&fit=scale&fm=avif",
+    "output_file": "artifacts/application-logo-pack/contentsquare.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Qualtrics",
+    "slug": "qualtrics",
+    "source_page": "https://www.qualtrics.com/",
+    "logo_url": "https://www.qualtrics.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/qualtrics.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Algolia",
+    "slug": "algolia",
+    "source_page": "https://www.algolia.com/",
+    "logo_url": "https://www.algolia.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/algolia.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Adobe Experience Manager",
+    "slug": "adobe_experience_manager",
+    "source_page": "https://business.adobe.com/products/experience-manager/adobe-experience-manager.html",
+    "logo_url": "https://business.adobe.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/adobe_experience_manager.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Adobe Digital Asset Management",
+    "slug": "adobe_dam",
+    "source_page": "https://business.adobe.com/products/experience-manager/digital-asset-management.html",
+    "logo_url": "https://business.adobe.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/adobe_dam.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Hootsuite",
+    "slug": "hootsuite",
+    "source_page": "https://www.hootsuite.com/",
+    "logo_url": "https://www.hootsuite.com/images/favicon-hs.ico",
+    "output_file": "artifacts/application-logo-pack/hootsuite.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Talkwalker",
+    "slug": "talkwalker",
+    "source_page": "https://www.talkwalker.com/",
+    "logo_url": "https://www.talkwalker.com/images/favicon-tw.ico",
+    "output_file": "artifacts/application-logo-pack/talkwalker.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Magento",
+    "slug": "magento",
+    "source_page": "https://business.adobe.com/products/magento/open-source.html",
+    "logo_url": "https://business.adobe.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/magento.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "source_page": "https://www.shopify.com/",
+    "logo_url": "https://www.shopify.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/shopify.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "WorldPay",
+    "slug": "worldpay",
+    "source_page": "https://www.worldpay.com/",
+    "logo_url": "https://www.worldpay.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/worldpay.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Recharge",
+    "slug": "recharge",
+    "source_page": "https://rechargepayments.com/",
+    "logo_url": "https://getrecharge.com/wp-content/themes/getrecharge/assets/img/blocks/front/logos/verticals/meal-kits/icon-meals.svg",
+    "output_file": "artifacts/application-logo-pack/recharge.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Amasty",
+    "slug": "amasty",
+    "source_page": "https://amasty.com/",
+    "logo_url": "https://cdn.amasty.com/media/favicon/stores/1/amasty_logo.png",
+    "output_file": "artifacts/application-logo-pack/amasty.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Yotpo",
+    "slug": "yotpo",
+    "source_page": "https://www.yotpo.com/",
+    "logo_url": "https://www.yotpo.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/yotpo.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Yoti",
+    "slug": "yoti",
+    "source_page": "https://www.yoti.com/",
+    "logo_url": "https://cdn.aws.yoti.com/wp-content/uploads/yoti-logo.png",
+    "output_file": "artifacts/application-logo-pack/yoti.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Mapbox",
+    "slug": "mapbox",
+    "source_page": "https://www.mapbox.com/",
+    "logo_url": "https://cdn.prod.website-files.com/6050a76fa6a633d5d54ae714/6a01fee83b6bda3892d7c7a7_build-with-mapbox-2026-logo.svg",
+    "output_file": "artifacts/application-logo-pack/mapbox.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Open Loyalty",
+    "slug": "open_loyalty",
+    "source_page": "https://www.openloyalty.io/",
+    "logo_url": "https://cdn.prod.website-files.com/6364d8cb4443c41b196eab02/69f8dc260ddb651cf81e2cc6_limang-logo-gray.svg",
+    "output_file": "artifacts/application-logo-pack/open_loyalty.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "UCC",
+    "slug": "ucc",
+    "source_page": "https://www.gov.uk/get-information-about-a-company",
+    "logo_url": "https://www.gov.uk/assets/frontend/favicon-24f9fbe064118d58937932e73edafd1d50cb60f7bd84f52308382a309bc2d655.ico",
+    "output_file": "artifacts/application-logo-pack/ucc.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "myGlo",
+    "slug": "myglo",
+    "source_page": "https://www.myglo.com/",
+    "logo_url": "https://www.myglo.com/content/dam/myglo/favicons/icon-192x192.png",
+    "output_file": "artifacts/application-logo-pack/myglo.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "myVuse",
+    "slug": "myvuse",
+    "source_page": "https://www.vuse.com/",
+    "logo_url": "https://gb.vuse.com/cdn/shop/files/favicon-48.png?crop=center&height=32&v=1769030490&width=32",
+    "output_file": "artifacts/application-logo-pack/myvuse.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Azure Integration Services",
+    "slug": "azure_integration_services",
+    "source_page": "https://azure.microsoft.com/en-us/products/integration-services/",
+    "logo_url": "https://azure.microsoft.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/azure_integration_services.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Salesforce Service Cloud",
+    "slug": "salesforce_service_cloud",
+    "source_page": "https://www.salesforce.com/products/service-cloud/overview/",
+    "logo_url": "https://www.salesforce.com/etc/designs/sfdc-www/en_us/favicon.ico?bc=OTH",
+    "output_file": "artifacts/application-logo-pack/salesforce_service_cloud.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Salesforce Sales Cloud",
+    "slug": "salesforce_sales_cloud",
+    "source_page": "https://www.salesforce.com/products/sales-cloud/overview/",
+    "logo_url": "https://www.salesforce.com/etc/designs/sfdc-www/en_us/favicon.ico?bc=OTH",
+    "output_file": "artifacts/application-logo-pack/salesforce_sales_cloud.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Salesforce Marketing Cloud",
+    "slug": "salesforce_marketing_cloud",
+    "source_page": "https://www.salesforce.com/products/marketing-cloud/overview/",
+    "logo_url": "https://www.salesforce.com/etc/designs/sfdc-www/en_us/favicon.ico?bc=OTH",
+    "output_file": "artifacts/application-logo-pack/salesforce_marketing_cloud.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Salesforce Community Cloud",
+    "slug": "salesforce_community_cloud",
+    "source_page": "https://www.salesforce.com/products/community-cloud/overview/",
+    "logo_url": "https://www.salesforce.com/etc/designs/sfdc-www/en_us/favicon.ico?bc=OTH",
+    "output_file": "artifacts/application-logo-pack/salesforce_community_cloud.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "HubSpot CRM",
+    "slug": "hubspot_crm",
+    "source_page": "https://www.hubspot.com/products/crm",
+    "logo_url": "https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png",
+    "output_file": "artifacts/application-logo-pack/hubspot_crm.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "BulkSMS",
+    "slug": "bulksms",
+    "source_page": "https://www.bulksms.com/",
+    "logo_url": "https://www.bulksms.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/bulksms.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Vodafone",
+    "slug": "vodafone",
+    "source_page": "https://www.vodafone.com/news",
+    "logo_url": "https://www.vodafone.com/~/media/Images/V/vodafone/universal/logos/og-logo.jpg",
+    "output_file": "artifacts/application-logo-pack/vodafone.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Heroku Platform",
+    "slug": "heroku_platform",
+    "source_page": "https://www.heroku.com/",
+    "logo_url": "https://www.heroku.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/heroku_platform.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Azure Data Factory",
+    "slug": "azure_data_factory",
+    "source_page": "https://azure.microsoft.com/en-us/products/data-factory/",
+    "logo_url": "https://azure.microsoft.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/azure_data_factory.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "Microsoft Fabric",
+    "slug": "microsoft_fabric",
+    "source_page": "https://www.microsoft.com/en-us/microsoft-fabric",
+    "logo_url": "https://www.microsoft.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/microsoft_fabric.png",
+    "status": "ok",
+    "note": ""
+  },
+  {
+    "name": "EDP",
+    "slug": "edp",
+    "source_page": "https://www.abinitio.com/en/",
+    "logo_url": "https://www.abinitio.com/favicon.ico",
+    "output_file": "artifacts/application-logo-pack/edp.png",
+    "status": "ok",
+    "note": ""
+  }
+]
