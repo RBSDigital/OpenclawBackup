@@ -6,7 +6,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1787184338431,
+      "updatedAtMs": 1787270783208,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -28,212 +28,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1787205894831,
-        "lastRunAtMs": 1787184294844,
+        "nextRunAtMs": 1787292294831,
+        "lastRunAtMs": 1787270694844,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 43587,
+        "lastDurationMs": 88364,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787205894831,
-      "lastRunAtMs": 1787184294844,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "c8da1b69-7b66-4483-8472-52284f11067b",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "jobserve-contract-analysis-5day-tue-thu-utc",
-      "description": "Recurs JobServe contract analysis with a 5-day recency filter and updates the shared Google Sheet.",
-      "enabled": true,
-      "createdAtMs": 1784712235871,
-      "updatedAtMs": 1787044080191,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 9 * * 2,4",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the JobServe contract analysis workflow with these criteria:\n- Source: https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50\n- Titles: Digital Business Analyst, System Analyst, Business Analyst, Product Manager, Product Owner, Delivery Manager, AI Agentic Analyst, Agentic Engineer, Solution Architect\n- Must be Contract roles\n- Must explicitly include OUTSIDE IR35 or Outside IR35 in the advert\n- Additional filter: Date Posted within the last 5 days\n- Keep the output deduped and title-specific\n- Update the shared Google Sheet in folder Contract_Analysis_WebScrape with the latest results and a date-stamped title if a new sheet is created\n- If a title has fewer than 10 qualifying roles, record the shortfall clearly in a summary tab or note\n- Post a concise completion note with counts and any gaps",
-        "thinking": "medium",
-        "timeoutSeconds": 5400,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1787216400000,
-        "lastRunAtMs": 1787043600032,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 480159,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `run -d) → fetch https://it.jobserve.com/ → fetch https://it.jobserve.com/ -> search \"job|href|Outside IR35|Contract|Posted\" (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1787044080083,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `run -d) → fetch https://it.jobserve.com/ → fetch https://it.jobserve.com/ -> search \"job|href|Outside IR35|Contract|Posted\" (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `run -d) → fetch https://it.jobserve.com/ → fetch https://it.jobserve.com/ -> search \"job|href|Outside IR35|Contract|Posted\" (in ~/.openclaw/workspaces/manager-bot)`"
-      },
-      "nextRunAtMs": 1787216400000,
-      "lastRunAtMs": 1787043600032,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
-      "name": "autonomous-self-improvement-heartbeat",
-      "enabled": true,
-      "createdAtMs": 1781865938330,
-      "updatedAtMs": 1787199788774,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 21600000,
-        "anchorMs": 1781865931200
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
-        "timeoutSeconds": 1800,
-        "lightContext": true
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "state": {
-        "nextRunAtMs": 1787221284301,
-        "lastRunAtMs": 1787199684301,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 104473,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `run for d → run do printf → run for f → run do printf → search \"^## [\" in $f → run done → run done (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1787199788559,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `run for d → run do printf → run for f → run do printf → search \"^## [\" in $f → run done → run done (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `run for d → run do printf → run for f → run do printf → search \"^## [\" in $f → run done → run done (in ~/.openclaw/workspaces/manager-bot)`"
-      },
-      "nextRunAtMs": 1787221284301,
-      "lastRunAtMs": 1787199684301,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "updatedAtMs": 1787162587604,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1787248800000,
-        "lastRunAtMs": 1787162400048,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 187556,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "nextRunAtMs": 1787248800000,
-      "lastRunAtMs": 1787162400048,
+      "nextRunAtMs": 1787292294831,
+      "lastRunAtMs": 1787270694844,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -377,6 +184,187 @@
       },
       "nextRunAtMs": 1787302800000,
       "status": "idle"
+    },
+    {
+      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
+      "name": "autonomous-self-improvement-heartbeat",
+      "enabled": true,
+      "createdAtMs": 1781865938330,
+      "updatedAtMs": 1787286161561,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 21600000,
+        "anchorMs": 1781865931200
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
+        "timeoutSeconds": 1800,
+        "lightContext": true
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1787307684367,
+        "lastRunAtMs": 1787286084367,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 77194,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ Bash failed: `check git status (in ~/.openclaw/workspaces/manager-bot)`",
+          "entries": [
+            {
+              "ts": 1787286161317,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ Bash failed: `check git status (in ~/.openclaw/workspaces/manager-bot)`"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `check git status (in ~/.openclaw/workspaces/manager-bot)`"
+      },
+      "nextRunAtMs": 1787307684367,
+      "lastRunAtMs": 1787286084367,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "updatedAtMs": 1787248909404,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1787335200000,
+        "lastRunAtMs": 1787248800028,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 109376,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1787335200000,
+      "lastRunAtMs": 1787248800028,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "c8da1b69-7b66-4483-8472-52284f11067b",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "jobserve-contract-analysis-5day-tue-thu-utc",
+      "description": "Recurs JobServe contract analysis with a 5-day recency filter and updates the shared Google Sheet.",
+      "enabled": true,
+      "createdAtMs": 1784712235871,
+      "updatedAtMs": 1787216564572,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 2,4",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the JobServe contract analysis workflow with these criteria:\n- Source: https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50\n- Titles: Digital Business Analyst, System Analyst, Business Analyst, Product Manager, Product Owner, Delivery Manager, AI Agentic Analyst, Agentic Engineer, Solution Architect\n- Must be Contract roles\n- Must explicitly include OUTSIDE IR35 or Outside IR35 in the advert\n- Additional filter: Date Posted within the last 5 days\n- Keep the output deduped and title-specific\n- Update the shared Google Sheet in folder Contract_Analysis_WebScrape with the latest results and a date-stamped title if a new sheet is created\n- If a title has fewer than 10 qualifying roles, record the shortfall clearly in a summary tab or note\n- Post a concise completion note with counts and any gaps",
+        "thinking": "medium",
+        "timeoutSeconds": 5400,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1787648400000,
+        "lastRunAtMs": 1787216400024,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 164548,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1787648400000,
+      "lastRunAtMs": 1787216400024,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
     },
     {
       "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
@@ -868,8 +856,12 @@
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
-    "c8da1b69-7b66-4483-8472-52284f11067b": {
-      "label": "announce -> discord:channel:1504151367164498050",
+    "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "fefe1740-ddfb-42c0-9b27-f547824a33c8": {
+      "label": "announce -> discord:channel:1537422220391874590",
       "detail": "explicit"
     },
     "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5": {
@@ -880,12 +872,8 @@
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
-    "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4": {
-      "label": "announce -> discord:channel:1537422220391874590",
-      "detail": "explicit"
-    },
-    "fefe1740-ddfb-42c0-9b27-f547824a33c8": {
-      "label": "announce -> discord:channel:1537422220391874590",
+    "c8da1b69-7b66-4483-8472-52284f11067b": {
+      "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
     "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
