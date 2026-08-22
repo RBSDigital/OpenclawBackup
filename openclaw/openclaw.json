@@ -148,7 +148,7 @@
   },
   "meta": {
     "lastTouchedVersion": "2026.7.1-2",
-    "lastTouchedAt": "2026-08-21T04:02:23.877Z"
+    "lastTouchedAt": "2026-08-22T04:02:46.211Z"
   },
   "skills": {
     "entries": {
@@ -477,6 +477,16 @@
         "source": "file",
         "path": "/home/vin/.openclaw/private-secrets.json",
         "mode": "json"
+      }
+    }
+  },
+  "hooks": {
+    "internal": {
+      "enabled": true,
+      "entries": {
+        "self-improvement": {
+          "enabled": true
+        }
       }
     }
   }

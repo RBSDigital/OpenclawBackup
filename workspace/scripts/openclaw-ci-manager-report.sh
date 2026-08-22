@@ -236,19 +236,40 @@ MAINTENANCE_TAIL="$([ -n "$LATEST_MAINTENANCE" ] && tail -n 12 "$LATEST_MAINTENA
 BACKUP_TAIL="$([ -n "$LATEST_BACKUP" ] && tail -n 12 "$LATEST_BACKUP" 2>/dev/null || true)"
 BINDINGS="$(capture "openclaw agents bindings" "$OPENCLAW_BIN" agents bindings || true)"
 
-DELIVERY_JSON="$(node <<'NODE'
-const fs = require('fs');
-const path = require('path');
-const dir = path.join(process.env.HOME, '.openclaw/delivery-queue/failed');
-const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter(f => f.endsWith('.json')).map(f => path.join(dir, f)) : [];
-const rows = files.map(file => {
-  let j = {};
-  try { j = JSON.parse(fs.readFileSync(file, 'utf8')); } catch {}
-  return { file, enqueuedAt: j.enqueuedAt || null, lastError: j.lastError || null, to: j.to || null, channel: j.channel || null };
-});
-rows.sort((a, b) => Number(a.enqueuedAt || 0) - Number(b.enqueuedAt || 0));
-console.log(JSON.stringify({ failedCount: rows.length, oldestFailed: rows[0] || null, files: rows.slice(0, 10) }));
-NODE
+DELIVERY_JSON="$(python3 - <<'PY'
+import sqlite3, json, os
+db_path = os.path.expanduser('~/.openclaw/state/openclaw.sqlite')
+res = {"failedCount": 0, "oldestFailed": None, "files": []}
+if os.path.exists(db_path):
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+        cursor.execute("SELECT id, enqueued_at, last_error, target, channel FROM delivery_queue_entries WHERE status='failed' ORDER BY enqueued_at ASC")
+        rows = cursor.fetchall()
+        failed_count = len(rows)
+        files = []
+        for r in rows[:10]:
+            files.append({
+                "file": f"db_entry:{r[0]}",
+                "enqueuedAt": r[1],
+                "lastError": r[2],
+                "to": r[3],
+                "channel": r[4]
+            })
+        oldest = None
+        if rows:
+            oldest = {
+                "file": f"db_entry:{rows[0][0]}",
+                "enqueuedAt": rows[0][1],
+                "lastError": rows[0][2],
+                "to": rows[0][3],
+                "channel": rows[0][4]
+            }
+        res = {"failedCount": failed_count, "oldestFailed": oldest, "files": files}
+    except Exception as e:
+        pass
+print(json.dumps(res))
+PY
 )"
 
 set +e

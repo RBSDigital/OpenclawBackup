@@ -127,6 +127,12 @@ Be helpful without being annoying: check in a few times a day, do useful backgro
 - Write entries as short, structured markdown blocks so they can be parsed by `manager-bot`'s daily review and promoted to the right long-term location.
 - Log first, improve second.
 
+## Medication Reminders
+
+- Treat `REMINDER_SCHEDULE.md` as the source of truth for the medication lane.
+- Before posting any reminder, verify that every medication on the list has a concrete next trigger date in the manifest.
+- If a medication is missing a date or the manifest looks stale, repair the manifest first instead of reconstructing the schedule from channel search or partial chat history.
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
