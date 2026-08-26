@@ -1,5 +1,12 @@
 [
   [
+    "Requested Job Title",
+    "Matching roles found",
+    "Target roles requested",
+    "Shortfall",
+    "Notes"
+  ],
+  [
     "Digital Business Analyst",
     0,
     10,
@@ -15,24 +22,24 @@
   ],
   [
     "Business Analyst",
-    3,
+    0,
     10,
-    7,
-    "Only 3 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    10,
+    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Product Manager",
-    3,
+    0,
     10,
-    7,
-    "Only 3 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    10,
+    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Product Owner",
-    2,
+    0,
     10,
-    8,
-    "Only 2 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    10,
+    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Delivery Manager",
@@ -57,9 +64,16 @@
   ],
   [
     "Solution Architect",
-    5,
+    0,
     10,
-    5,
-    "Only 5 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    10,
+    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+  ],
+  [
+    "Source",
+    "https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50",
+    "",
+    "",
+    "Filtered to Contract results with OUTSIDE IR35 in advert/snippet and posting age <= 5 days."
   ]
 ]
