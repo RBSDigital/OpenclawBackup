@@ -5,7 +5,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1787784456442,
+      "updatedAtMs": 1787870905570,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -24,18 +24,18 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1787805931228,
-        "lastRunAtMs": 1787784331228,
+        "nextRunAtMs": 1787892331290,
+        "lastRunAtMs": 1787870731290,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 125214,
+        "lastDurationMs": 174280,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787805931228,
-      "lastRunAtMs": 1787784331228,
+      "nextRunAtMs": 1787892331290,
+      "lastRunAtMs": 1787870731290,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -47,7 +47,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1787789158619,
+      "updatedAtMs": 1787875565628,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -69,113 +69,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1787810694831,
-        "lastRunAtMs": 1787789094843,
+        "nextRunAtMs": 1787897094831,
+        "lastRunAtMs": 1787875494847,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 63776,
-        "lastDelivered": true,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `search \"2026-08-2[67]\" in ~/.openclaw/workspaces/*/.learnings/*.md (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1787789157977,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `search \"2026-08-2[67]\" in ~/.openclaw/workspaces/*/.learnings/*.md (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `search \"2026-08-2[67]\" in ~/.openclaw/workspaces/*/.learnings/*.md (in ~/.openclaw/workspaces/manager-bot)`"
-      },
-      "nextRunAtMs": 1787810694831,
-      "lastRunAtMs": 1787789094843,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "c8da1b69-7b66-4483-8472-52284f11067b",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "jobserve-contract-analysis-5day-tue-thu-utc",
-      "description": "Recurs JobServe contract analysis with a 5-day recency filter and updates the shared Google Sheet.",
-      "enabled": true,
-      "createdAtMs": 1784712235871,
-      "updatedAtMs": 1787648523129,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 9 * * 2,4",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the JobServe contract analysis workflow with these criteria:\n- Source: https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50\n- Titles: Digital Business Analyst, System Analyst, Business Analyst, Product Manager, Product Owner, Delivery Manager, AI Agentic Analyst, Agentic Engineer, Solution Architect\n- Must be Contract roles\n- Must explicitly include OUTSIDE IR35 or Outside IR35 in the advert\n- Additional filter: Date Posted within the last 5 days\n- Keep the output deduped and title-specific\n- Update the shared Google Sheet in folder Contract_Analysis_WebScrape with the latest results and a date-stamped title if a new sheet is created\n- If a title has fewer than 10 qualifying roles, record the shortfall clearly in a summary tab or note\n- Post a concise completion note with counts and any gaps",
-        "thinking": "medium",
-        "timeoutSeconds": 5400,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1787821200000,
-        "lastRunAtMs": 1787648400029,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 123100,
+        "lastDurationMs": 70781,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787821200000,
-      "lastRunAtMs": 1787648400029,
+      "nextRunAtMs": 1787897094831,
+      "lastRunAtMs": 1787875494847,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -188,7 +94,7 @@
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1787767320402,
+      "updatedAtMs": 1787853751854,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -209,19 +115,19 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1787853600000,
-        "lastRunAtMs": 1787767200030,
+        "nextRunAtMs": 1787940000000,
+        "lastRunAtMs": 1787853600040,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 120372,
+        "lastDurationMs": 151814,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787853600000,
-      "lastRunAtMs": 1787767200030,
+      "nextRunAtMs": 1787940000000,
+      "lastRunAtMs": 1787853600040,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -425,6 +331,100 @@
       },
       "nextRunAtMs": 1787994000000,
       "status": "idle"
+    },
+    {
+      "id": "c8da1b69-7b66-4483-8472-52284f11067b",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "jobserve-contract-analysis-5day-tue-thu-utc",
+      "description": "Recurs JobServe contract analysis with a 5-day recency filter and updates the shared Google Sheet.",
+      "enabled": true,
+      "createdAtMs": 1784712235871,
+      "updatedAtMs": 1787821858097,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 2,4",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the JobServe contract analysis workflow with these criteria:\n- Source: https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50\n- Titles: Digital Business Analyst, System Analyst, Business Analyst, Product Manager, Product Owner, Delivery Manager, AI Agentic Analyst, Agentic Engineer, Solution Architect\n- Must be Contract roles\n- Must explicitly include OUTSIDE IR35 or Outside IR35 in the advert\n- Additional filter: Date Posted within the last 5 days\n- Keep the output deduped and title-specific\n- Update the shared Google Sheet in folder Contract_Analysis_WebScrape with the latest results and a date-stamped title if a new sheet is created\n- If a title has fewer than 10 qualifying roles, record the shortfall clearly in a summary tab or note\n- Post a concise completion note with counts and any gaps",
+        "thinking": "medium",
+        "timeoutSeconds": 5400,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1788253200000,
+        "lastRunAtMs": 1787821200039,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 658058,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "⚠️ 🛠️ Bash failed: `fetch https://www.jobserve.com/scripts/JobSearchAsync.min.js?v=LIVE_20260817.1 -> run jobsearch.asmx -c 2 | sed -n '1,220p' (+4 steps) (in ~/.openclaw/workspaces/manager-bot)`",
+          "entries": [
+            {
+              "ts": 1787821858000,
+              "source": "tool",
+              "severity": "warn",
+              "message": "⚠️ 🛠️ Bash failed: `fetch https://www.jobserve.com/scripts/JobSearchAsync.min.js?v=LIVE_20260817.1 -> run jobsearch.asmx -c 2 | sed -n '1,220p' (+4 steps) (in ~/.openclaw/workspaces/manager-bot)`"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `fetch https://www.jobserve.com/scripts/JobSearchAsync.min.js?v=LIVE_20260817.1 -> run jobsearch.asmx -c 2 | sed -n '1,220p' (+4 steps) (in ~/.openclaw/workspaces/manager-bot)`"
+      },
+      "nextRunAtMs": 1788253200000,
+      "lastRunAtMs": 1787821200039,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
     },
     {
       "id": "1997b259-13c0-4b0a-9f24-9756f484aa86",
@@ -900,10 +900,6 @@
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
-    "c8da1b69-7b66-4483-8472-52284f11067b": {
-      "label": "announce -> discord:channel:1504151367164498050",
-      "detail": "explicit"
-    },
     "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
@@ -923,6 +919,10 @@
     "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
       "label": "not requested",
       "detail": "not requested"
+    },
+    "c8da1b69-7b66-4483-8472-52284f11067b": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
     },
     "1997b259-13c0-4b0a-9f24-9756f484aa86": {
       "label": "not requested",
