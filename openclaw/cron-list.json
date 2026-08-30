@@ -5,7 +5,7 @@
       "name": "autonomous-self-improvement-heartbeat",
       "enabled": true,
       "createdAtMs": 1781865938330,
-      "updatedAtMs": 1787957256420,
+      "updatedAtMs": 1788043650531,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "every",
@@ -24,18 +24,18 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1787978731353,
-        "lastRunAtMs": 1787957131353,
+        "nextRunAtMs": 1788065131429,
+        "lastRunAtMs": 1788043531429,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 125067,
+        "lastDurationMs": 119102,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787978731353,
-      "lastRunAtMs": 1787957131353,
+      "nextRunAtMs": 1788065131429,
+      "lastRunAtMs": 1788043531429,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -47,7 +47,7 @@
       "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
       "enabled": true,
       "createdAtMs": 1781808727972,
-      "updatedAtMs": 1787961940220,
+      "updatedAtMs": 1788048386505,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -69,31 +69,19 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1787983494831,
-        "lastRunAtMs": 1787961894844,
+        "nextRunAtMs": 1788069894831,
+        "lastRunAtMs": 1788048294847,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 45376,
+        "lastDurationMs": 91658,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "⚠️ 🛠️ Bash failed: `view git history (in ~/.openclaw/workspaces/manager-bot)`",
-          "entries": [
-            {
-              "ts": 1787961939386,
-              "source": "tool",
-              "severity": "warn",
-              "message": "⚠️ 🛠️ Bash failed: `view git history (in ~/.openclaw/workspaces/manager-bot)`"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ 🛠️ Bash failed: `view git history (in ~/.openclaw/workspaces/manager-bot)`"
+        "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1787983494831,
-      "lastRunAtMs": 1787961894844,
+      "nextRunAtMs": 1788069894831,
+      "lastRunAtMs": 1788048294847,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -101,210 +89,12 @@
       "status": "ok"
     },
     {
-      "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "Medication reorder - indapamide",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786527192208,
-      "updatedAtMs": 1786527394937,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Prepare a medication order request now for Indapamide 1.5mg modified-release tablets. Allow 2 days postage. First prescribed 7 July 2026; 56 tablets at one daily."
-      },
-      "state": {
-        "nextRunAtMs": 1787994000000
-      },
-      "nextRunAtMs": 1787994000000,
-      "status": "idle"
-    },
-    {
-      "id": "5d9c6a2a-7310-41c3-8012-dd661c6a9df6",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "medication_agent - mounjaro",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786528580077,
-      "updatedAtMs": 1786528580077,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Send the medication reminder for Mounjaro KwikPen 5mg/0.6ml. Keep it concise and include that it is 2 pre-filled pens, one injection per week, one pen per month, with 2 days postage allowed.",
-        "thinking": "low",
-        "timeoutSeconds": 120,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1537036715728965673",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1787994000000
-      },
-      "nextRunAtMs": 1787994000000,
-      "status": "idle"
-    },
-    {
-      "id": "8934a1fb-fe05-4842-afbf-ffa406f9acb8",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "medication_agent - indapamide",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786528566974,
-      "updatedAtMs": 1786528566974,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Send the medication reminder for Indapamide 1.5mg modified-release tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
-        "thinking": "low",
-        "timeoutSeconds": 120,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1537036715728965673",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1787994000000
-      },
-      "nextRunAtMs": 1787994000000,
-      "status": "idle"
-    },
-    {
-      "id": "b536f78b-8759-44a3-9626-47a59f4a8eaf",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "Medication reorder - mounjaro",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786527197661,
-      "updatedAtMs": 1786527400704,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Prepare a medication order request now for Mounjaro KwikPen 5mg/0.6ml. Allow 2 days postage. First prescribed 7 July 2026; 2 pre-filled pens, one injection per week, one pen per month."
-      },
-      "state": {
-        "nextRunAtMs": 1787994000000
-      },
-      "nextRunAtMs": 1787994000000,
-      "status": "idle"
-    },
-    {
       "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
       "name": "Daily model utilisation and effectiveness check",
       "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
       "enabled": true,
       "createdAtMs": 1780747512840,
-      "updatedAtMs": 1787940148390,
+      "updatedAtMs": 1788026499231,
       "agentId": "manager-bot",
       "schedule": {
         "kind": "cron",
@@ -325,19 +115,19 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1788026400000,
-        "lastRunAtMs": 1787940000023,
+        "nextRunAtMs": 1788112800000,
+        "lastRunAtMs": 1788026400029,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 148367,
+        "lastDurationMs": 99202,
         "lastDelivered": true,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "nextRunAtMs": 1788026400000,
-      "lastRunAtMs": 1787940000023,
+      "nextRunAtMs": 1788112800000,
+      "lastRunAtMs": 1788026400029,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -799,6 +589,268 @@
       "status": "error"
     },
     {
+      "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527192208,
+      "updatedAtMs": 1787994000072,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Indapamide 1.5mg modified-release tablets. Allow 2 days postage. First prescribed 7 July 2026; 56 tablets at one daily."
+      },
+      "state": {
+        "nextRunAtMs": 1792832400032,
+        "lastRunAtMs": 1787994000032,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 40,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1792832400032,
+      "lastRunAtMs": 1787994000032,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "b536f78b-8759-44a3-9626-47a59f4a8eaf",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527197661,
+      "updatedAtMs": 1787994000072,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Mounjaro KwikPen 5mg/0.6ml. Allow 2 days postage. First prescribed 7 July 2026; 2 pre-filled pens, one injection per week, one pen per month."
+      },
+      "state": {
+        "nextRunAtMs": 1792832400052,
+        "lastRunAtMs": 1787994000052,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 20,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1792832400052,
+      "lastRunAtMs": 1787994000052,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "8934a1fb-fe05-4842-afbf-ffa406f9acb8",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528566974,
+      "updatedAtMs": 1787994019505,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Indapamide 1.5mg modified-release tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792832400055,
+        "lastRunAtMs": 1787994000055,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19450,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1792832400055,
+      "lastRunAtMs": 1787994000055,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "5d9c6a2a-7310-41c3-8012-dd661c6a9df6",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528580077,
+      "updatedAtMs": 1787994000630,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Mounjaro KwikPen 5mg/0.6ml. Keep it concise and include that it is 2 pre-filled pens, one injection per week, one pen per month, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792832400066,
+        "lastRunAtMs": 1787994000066,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 564,
+        "lastError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDiagnostics": {
+          "summary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+          "entries": [
+            {
+              "ts": 1787994000630,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry."
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      },
+      "nextRunAtMs": 1792832400066,
+      "lastRunAtMs": 1787994000066,
+      "lastRunStatus": "error",
+      "lastRunError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+      "lastDeliveryStatus": "unknown",
+      "lastFailureNotificationDeliveryStatus": "unknown",
+      "status": "error"
+    },
+    {
       "id": "47cd58e7-4bce-4f48-abfd-160280e7e5d1",
       "owner": {
         "agentId": "manager-bot",
@@ -912,22 +964,6 @@
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
-    "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "5d9c6a2a-7310-41c3-8012-dd661c6a9df6": {
-      "label": "announce -> discord:channel:1537036715728965673",
-      "detail": "explicit"
-    },
-    "8934a1fb-fe05-4842-afbf-ffa406f9acb8": {
-      "label": "announce -> discord:channel:1537036715728965673",
-      "detail": "explicit"
-    },
-    "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
     "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
@@ -954,6 +990,22 @@
     },
     "fefe1740-ddfb-42c0-9b27-f547824a33c8": {
       "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "8934a1fb-fe05-4842-afbf-ffa406f9acb8": {
+      "label": "announce -> discord:channel:1537036715728965673",
+      "detail": "explicit"
+    },
+    "5d9c6a2a-7310-41c3-8012-dd661c6a9df6": {
+      "label": "announce -> discord:channel:1537036715728965673",
       "detail": "explicit"
     },
     "47cd58e7-4bce-4f48-abfd-160280e7e5d1": {
