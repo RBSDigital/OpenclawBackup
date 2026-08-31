@@ -1,0 +1,5 @@
+[openclaw] Could not start the CLI.
+[openclaw] Reason: cron.list returned an invalid inventory page
+[openclaw] Debug: set OPENCLAW_DEBUG=1 to include the stack trace.
+[openclaw] Try: openclaw doctor
+[openclaw] Help: openclaw --help
