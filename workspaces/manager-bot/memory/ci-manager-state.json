@@ -1,55 +1,65 @@
 {
-  "lastRunAt": "2026-08-30T05:20:56.497Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-08-30T05:20:30Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-08-30T05:20:30Z.json",
+  "lastRunAt": "2026-08-31T05:20:55.263Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-08-31T05:20:30Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-08-31T05:20:30Z.json",
   "openFindings": [
     {
-      "id": "ci-2026-08-30-001",
+      "id": "ci-2026-08-31-001",
+      "severity": "P0",
+      "owner": "admin-bot",
+      "summary": "OpenClaw config validation failed.",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
+      "status": "open",
+      "nextAction": "Preview config repair before applying changes."
+    },
+    {
+      "id": "ci-2026-08-31-002",
+      "severity": "P1",
+      "owner": "ops-bot",
+      "summary": "OpenClaw cron list failed.",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
+      "status": "open",
+      "nextAction": "Verify scheduler access and gateway auth path."
+    },
+    {
+      "id": "ci-2026-08-31-003",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "1 failed delivery queue item(s) exist.",
-      "firstSeenAt": "2026-08-30T05:20:56.496Z",
-      "lastSeenAt": "2026-08-30T05:20:56.496Z",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
       "status": "open",
       "nextAction": "Inspect failed delivery targets and clear only after confirming no retry loop."
     },
     {
-      "id": "ci-2026-08-30-002",
-      "severity": "P1",
-      "owner": "ops-bot",
-      "summary": "Cross-agent handoff is blocked by session visibility or spawn policy.",
-      "firstSeenAt": "2026-08-30T05:20:56.497Z",
-      "lastSeenAt": "2026-08-30T05:20:56.497Z",
-      "status": "open",
-      "nextAction": "Preview the least-privilege config change or document direct-channel handoff as the operating pattern."
-    },
-    {
-      "id": "ci-2026-08-30-003",
+      "id": "ci-2026-08-31-004",
       "severity": "P2",
       "owner": "modeler-bot",
       "summary": "modeler-bot has no active heartbeat checklist items.",
-      "firstSeenAt": "2026-08-30T05:20:56.497Z",
-      "lastSeenAt": "2026-08-30T05:20:56.497Z",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
       "status": "open",
       "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
     },
     {
-      "id": "ci-2026-08-30-004",
+      "id": "ci-2026-08-31-005",
       "severity": "P2",
       "owner": "ops-bot",
-      "summary": "ops-bot memory is stale at 2605h.",
-      "firstSeenAt": "2026-08-30T05:20:56.497Z",
-      "lastSeenAt": "2026-08-30T05:20:56.497Z",
+      "summary": "ops-bot memory is stale at 2629h.",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     },
     {
-      "id": "ci-2026-08-30-005",
+      "id": "ci-2026-08-31-006",
       "severity": "P2",
       "owner": "security-bot",
-      "summary": "security-bot memory is stale at 2397h.",
-      "firstSeenAt": "2026-08-30T05:20:56.497Z",
-      "lastSeenAt": "2026-08-30T05:20:56.497Z",
+      "summary": "security-bot memory is stale at 2421h.",
+      "firstSeenAt": "2026-08-31T05:20:55.263Z",
+      "lastSeenAt": "2026-08-31T05:20:55.263Z",
       "status": "open",
       "nextAction": "Review recent work and capture durable lessons."
     }
