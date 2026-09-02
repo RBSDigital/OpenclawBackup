@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T04:30:51.024Z",
+  "generatedAt": "2026-09-02T04:30:51.870Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
@@ -15,57 +15,7 @@
       "sandboxes"
     ]
   },
-  "configuredAgents": [
-    {
-      "id": "manager-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/manager-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/manager-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "researcher-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/researcher-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/researcher-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "ops-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/ops-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/ops-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "admin-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/admin-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/admin-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "modeler-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/modeler-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/modeler-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "security-bot",
-      "workspace": "/home/vin/.openclaw/workspaces/security-bot",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/security-bot",
-      "runtimeDirExists": true
-    },
-    {
-      "id": "medication_agent",
-      "workspace": "/home/vin/.openclaw/workspaces/medication_agent",
-      "workspaceExists": true,
-      "runtimeDir": "/home/vin/.openclaw/agents/medication_agent",
-      "runtimeDirExists": true
-    }
-  ],
+  "configuredAgents": [],
   "workspaceDirs": [
     "admin-bot",
     "manager-bot",

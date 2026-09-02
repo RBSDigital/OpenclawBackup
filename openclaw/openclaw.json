@@ -36,40 +36,42 @@
       },
       "heartbeat": {
         "every": "2h"
+      },
+      "modelPolicy": {
+        "allow": [
+          "openai/gpt-5.5",
+          "openai/gpt-5.4-mini",
+          "openai/gpt-5.4-nano",
+          "openai/o4-mini"
+        ]
       }
     },
-    "list": [
-      {
-        "id": "manager-bot",
+    "entries": {
+      "manager-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/manager-bot"
       },
-      {
-        "id": "researcher-bot",
+      "researcher-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/researcher-bot"
       },
-      {
-        "id": "ops-bot",
+      "ops-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/ops-bot"
       },
-      {
-        "id": "admin-bot",
+      "admin-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/admin-bot"
       },
-      {
-        "id": "modeler-bot",
+      "modeler-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/modeler-bot"
       },
-      {
-        "id": "security-bot",
+      "security-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/security-bot"
       },
-      {
-        "id": "medication_agent",
+      "medication_agent": {
         "name": "medication_agent",
         "workspace": "/home/vin/.openclaw/workspaces/medication_agent",
         "agentDir": "/home/vin/.openclaw/agents/medication_agent"
       }
-    ]
+    },
+    "ownership": "explicit"
   },
   "gateway": {
     "port": 18789,
@@ -84,23 +86,21 @@
       }
     },
     "tailscale": {
-      "mode": "off",
-      "resetOnExit": false
-    },
-    "controlUi": {
-      "allowInsecureAuth": true
+      "mode": "off"
     },
     "nodes": {
-      "denyCommands": [
-        "camera.snap",
-        "camera.clip",
-        "screen.record",
-        "contacts.add",
-        "calendar.add",
-        "reminders.add",
-        "sms.send",
-        "sms.search"
-      ]
+      "commands": {
+        "deny": [
+          "camera.snap",
+          "camera.clip",
+          "screen.record",
+          "contacts.add",
+          "calendar.add",
+          "reminders.add",
+          "sms.send",
+          "sms.search"
+        ]
+      }
     }
   },
   "plugins": {
@@ -141,14 +141,16 @@
     }
   },
   "wizard": {
-    "lastRunAt": "2026-06-04T04:01:48.845Z",
-    "lastRunVersion": "2026.6.1",
+    "lastRunAt": "2026-09-02T04:03:07.501Z",
+    "lastRunVersion": "2026.8.2",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.7.1-2",
-    "lastTouchedAt": "2026-08-30T04:03:30.287Z"
+    "lastTouchedVersion": "2026.8.2",
+    "migrations": {
+      "modelPolicyAllowlist": true
+    }
   },
   "skills": {
     "entries": {
