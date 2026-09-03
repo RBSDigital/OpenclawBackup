@@ -37,6 +37,9 @@
       "heartbeat": {
         "every": "2h"
       },
+      "systemAgent": {
+        "agentId": "manager-bot"
+      },
       "modelPolicy": {
         "allow": [
           "openai/gpt-5.5",
@@ -391,10 +394,22 @@
   },
   "messages": {
     "groupChat": {
-      "visibleReplies": "message_tool"
+      "visibleReplies": "automatic"
     }
   },
   "bindings": [
+    {
+      "agentId": "manager-bot",
+      "match": {
+        "channel": "telegram"
+      }
+    },
+    {
+      "agentId": "manager-bot",
+      "match": {
+        "channel": "discord"
+      }
+    },
     {
       "agentId": "manager-bot",
       "match": {

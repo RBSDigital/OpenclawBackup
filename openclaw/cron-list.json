@@ -1,1 +1,1602 @@
-{"ok":false,"error":"openclaw cron list command failed; see sibling .error.txt"}
+{
+  "jobs": [
+    {
+      "id": "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5",
+      "name": "autonomous-self-improvement-heartbeat",
+      "enabled": true,
+      "createdAtMs": 1781865938330,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 21600000,
+        "anchorMs": 1781865931200
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the autonomous self-improvement routine.\n\nTasks:\n- Review recent `.learnings` entries for repeated failures, corrections, and feature requests.\n- Summarize new items since the last review.\n- Identify the smallest durable fix for any repeated pattern.\n- Auto-promote only low-risk, non-sensitive fixes into the right durable file when confidence is high.\n- If there is no new signal, say so briefly and stop.\n\nUse the workspace guidance in `SELF_IMPROVEMENT_ROUTINE.md` and the current heartbeat guidance. Keep the output short and actionable.",
+        "timeoutSeconds": 1800,
+        "lightContext": true
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1788410731244,
+        "lastRunAtMs": 1788389131244,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 46836,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": false
+      },
+      "updatedAtMs": 1788389178080,
+      "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
+      "nextRunAtMs": 1788410731244,
+      "lastRunAtMs": 1788389131244,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "afba8207-7095-4d61-bbe9-9241dabbb2c8",
+      "name": "Self-improvement review loop",
+      "description": "Frequent autonomous review of learnings, errors, and feature requests with low-risk promotion.",
+      "enabled": true,
+      "createdAtMs": 1781808727972,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */6 * * *",
+        "tz": "UTC",
+        "staggerMs": 300000
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the workspace self-improvement logs for the last day and identify repeated failures, corrections, and feature requests.\n\nTasks:\n- summarize new items since the last review\n- cluster repeated issues by pattern\n- suggest the smallest durable fix for each repeated pattern\n- identify anything that should be promoted to AGENTS.md, TOOLS.md, SOUL.md, or MEMORY.md\n- if a low-risk item is repeated and non-sensitive, auto-promote the minimal durable edit instead of only suggesting it\n\nAutopromotion policy:\n- safe to auto-promote: documentation, wording, checklists, routing hints, tooling notes, and other non-sensitive workflow clarifications\n- do not auto-promote: anything involving secrets, credentials, permissions, external actions, safety policy changes, or user-private content\n- if uncertain, stage the suggestion and explain why it was not auto-applied\n\nConstraints:\n- do not expose secrets or raw transcripts\n- prefer short bullet points\n- keep the output actionable\n\nUse the self-improvement routine in `SELF_IMPROVEMENT_ROUTINE.md` as the operating guide.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "accountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1788415494831,
+        "lastRunAtMs": 1788393894851,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 55838,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1788393950689,
+      "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
+      "nextRunAtMs": 1788415494831,
+      "lastRunAtMs": 1788393894851,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "f6c08cbb-d120-476f-99dd-1240e182c1bc",
+      "declarationKey": "heartbeat:researcher-bot",
+      "displayName": "Heartbeat (researcher-bot)",
+      "agentId": "researcher-bot",
+      "name": "heartbeat-researcher-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808106,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 2073407
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416845786,
+        "lastRunAtMs": 1788409645786,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 10996,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788409656782,
+      "configRevision": "sha256:-MBMbMQtHsxRcSPQH2op2c-sNMr95nskMiqZREb_lYw",
+      "nextRunAtMs": 1788416845786,
+      "lastRunAtMs": 1788409645786,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "1d938b1e-144b-4c50-afd6-c2cc96f4d581",
+      "declarationKey": "heartbeat:ops-bot",
+      "displayName": "Heartbeat (ops-bot)",
+      "agentId": "ops-bot",
+      "name": "heartbeat-ops-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808115,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 2781341
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416858701,
+        "lastRunAtMs": 1788409658701,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 11077,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788409669778,
+      "configRevision": "sha256:AX1HDQ_YCJaacSIbYe_5Xqy5skY-DW-Z1AM7FD5JPeA",
+      "nextRunAtMs": 1788416858701,
+      "lastRunAtMs": 1788409658701,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "19ac3f42-a45d-491e-aa0d-14df77a43364",
+      "declarationKey": "heartbeat:admin-bot",
+      "displayName": "Heartbeat (admin-bot)",
+      "agentId": "admin-bot",
+      "name": "heartbeat-admin-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808125,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 3611440
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416861127,
+        "lastRunAtMs": 1788409661127,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 22844,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788409683971,
+      "configRevision": "sha256:CfmNlv5ksaoIwA9KH_mbe-UZgQ7CK53eAj0kTZ8tgLU",
+      "nextRunAtMs": 1788416861127,
+      "lastRunAtMs": 1788409661127,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "d7d454c5-296a-48cb-a33d-dc08cb723f7c",
+      "declarationKey": "heartbeat:security-bot",
+      "displayName": "Heartbeat (security-bot)",
+      "agentId": "security-bot",
+      "name": "heartbeat-security-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808142,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 1336264
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416861135,
+        "lastRunAtMs": 1788409661135,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 18894,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788409680029,
+      "configRevision": "sha256:fKtOxpfXJMKYk-KdDFZc6b5pxZnPjt73sbMcCIGGI3c",
+      "nextRunAtMs": 1788416861135,
+      "lastRunAtMs": 1788409661135,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "a5a5cac7-2077-4499-8a1e-28aedc21b249",
+      "declarationKey": "heartbeat:medication_agent",
+      "displayName": "Heartbeat (medication_agent)",
+      "agentId": "medication_agent",
+      "name": "heartbeat-medication_agent",
+      "enabled": true,
+      "createdAtMs": 1788321808149,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 3814663
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416861144,
+        "lastRunAtMs": 1788409661144,
+        "lastRunStatus": "skipped",
+        "lastStatus": "skipped",
+        "lastDurationMs": 9273,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 11,
+        "lastError": "heartbeat skipped: empty-heartbeat-file"
+      },
+      "updatedAtMs": 1788409670417,
+      "configRevision": "sha256:n5r4SzSM97JPJO4cP7VtqzKy5u8rpOwYDyiczyNDXiI",
+      "nextRunAtMs": 1788416861144,
+      "lastRunAtMs": 1788409661144,
+      "lastRunStatus": "skipped",
+      "lastRunError": "heartbeat skipped: empty-heartbeat-file",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "skipped"
+    },
+    {
+      "id": "7ae0335c-9092-4ff8-ba4c-ac0e23349b2f",
+      "declarationKey": "heartbeat:manager-bot",
+      "displayName": "Heartbeat (manager-bot)",
+      "agentId": "manager-bot",
+      "name": "heartbeat-manager-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808095,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 4337710
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416877257,
+        "lastRunAtMs": 1788409677257,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 14386,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788409691643,
+      "configRevision": "sha256:NAETMoGWAdmGGYzKfFtnJffiCIwBWpK0BZ0SY6Ew6bw",
+      "nextRunAtMs": 1788416877257,
+      "lastRunAtMs": 1788409677257,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "3d0fd3d8-b60c-4f93-8502-4a55b3df0ae3",
+      "declarationKey": "heartbeat:modeler-bot",
+      "displayName": "Heartbeat (modeler-bot)",
+      "agentId": "modeler-bot",
+      "name": "heartbeat-modeler-bot",
+      "enabled": true,
+      "createdAtMs": 1788321808133,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 7200000,
+        "anchorMs": 7010474
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1788416883386,
+        "lastRunAtMs": 1788409683386,
+        "lastRunStatus": "skipped",
+        "lastStatus": "skipped",
+        "lastDurationMs": 8478,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 11,
+        "lastError": "heartbeat skipped: empty-heartbeat-file"
+      },
+      "updatedAtMs": 1788409691864,
+      "configRevision": "sha256:U21G6VVKuqcPC7GgLU5UBOESwxVv9h-Woqwt-MQuYU8",
+      "nextRunAtMs": 1788416883386,
+      "lastRunAtMs": 1788409683386,
+      "lastRunStatus": "skipped",
+      "lastRunError": "heartbeat skipped: empty-heartbeat-file",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "skipped"
+    },
+    {
+      "id": "c8da1b69-7b66-4483-8472-52284f11067b",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "jobserve-contract-analysis-5day-tue-thu-utc",
+      "description": "Recurs JobServe contract analysis with a 5-day recency filter and updates the shared Google Sheet.",
+      "enabled": true,
+      "createdAtMs": 1784712235871,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * 2,4",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the JobServe contract analysis workflow with these criteria:\n- Source: https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50\n- Titles: Digital Business Analyst, System Analyst, Business Analyst, Product Manager, Product Owner, Delivery Manager, AI Agentic Analyst, Agentic Engineer, Solution Architect\n- Must be Contract roles\n- Must explicitly include OUTSIDE IR35 or Outside IR35 in the advert\n- Additional filter: Date Posted within the last 5 days\n- Keep the output deduped and title-specific\n- Update the shared Google Sheet in folder Contract_Analysis_WebScrape with the latest results and a date-stamped title if a new sheet is created\n- If a title has fewer than 10 qualifying roles, record the shortfall clearly in a summary tab or note\n- Post a concise completion note with counts and any gaps",
+        "thinking": "medium",
+        "timeoutSeconds": 5400,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1788426000000,
+        "lastRunAtMs": 1788337782199,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 528,
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0,
+        "lastDiagnostics": {
+          "summary": "Cannot read properties of undefined (reading 'get')",
+          "entries": [
+            {
+              "ts": 1788337782686,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "Cannot read properties of undefined (reading 'get')"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "Cannot read properties of undefined (reading 'get')",
+        "lastError": "Cannot read properties of undefined (reading 'get')",
+        "lastDeliveryError": "Cannot read properties of undefined (reading 'get')"
+      },
+      "updatedAtMs": 1788337782727,
+      "configRevision": "sha256:zzr2E-aXe6fFSqiGDEa3XXOC_CvrijL7eZ9l6ZXxA8c",
+      "nextRunAtMs": 1788426000000,
+      "lastRunAtMs": 1788337782199,
+      "lastRunStatus": "error",
+      "lastRunError": "Cannot read properties of undefined (reading 'get')",
+      "lastDeliveryStatus": "unknown",
+      "lastDeliveryError": "Cannot read properties of undefined (reading 'get')",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "error"
+    },
+    {
+      "id": "5bcbe8d7-8901-4f6b-8f19-9f674b82a570",
+      "declarationKey": "skill-collection-review:modeler-bot",
+      "displayName": "Skill collection review (modeler-bot)",
+      "agentId": "modeler-bot",
+      "name": "skill-collection-review-modeler-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647355,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 35810474
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788429410474
+      },
+      "updatedAtMs": 1788337647355,
+      "configRevision": "sha256:baRP7pqvc5CN1XEI3K_CxZrpaNBnkDq43scDrOoHniQ",
+      "nextRunAtMs": 1788429410474,
+      "status": "idle"
+    },
+    {
+      "id": "7b755bae-c519-4f32-ac43-dfe65df39a2e",
+      "declarationKey": "skill-collection-review:manager-bot",
+      "displayName": "Skill collection review (manager-bot)",
+      "agentId": "manager-bot",
+      "name": "skill-collection-review-manager-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647210,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 47537710
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788441137710
+      },
+      "updatedAtMs": 1788337647210,
+      "configRevision": "sha256:6OFQjemlJtEXz1F38SZYzeHDTkekylc4ekH3IvAVY9w",
+      "nextRunAtMs": 1788441137710,
+      "status": "idle"
+    },
+    {
+      "id": "5ed848ec-43cf-4453-a0f9-b38d14c88a07",
+      "declarationKey": "skill-collection-review:security-bot",
+      "displayName": "Skill collection review (security-bot)",
+      "agentId": "security-bot",
+      "name": "skill-collection-review-security-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647373,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 51736264
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788445336264
+      },
+      "updatedAtMs": 1788337647373,
+      "configRevision": "sha256:GoR4cb9t2rPs_ED3ze7LdKCT70vVZLxGtJPlAQMfdsc",
+      "nextRunAtMs": 1788445336264,
+      "status": "idle"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1788458400000,
+        "lastRunAtMs": 1788372000023,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 117054,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1788372117077,
+      "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
+      "nextRunAtMs": 1788458400000,
+      "lastRunAtMs": 1788372000023,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1788490800000,
+        "lastRunAtMs": 1788404400061,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 26875,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788404426936,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1788490800000,
+      "lastRunAtMs": 1788404400061,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "7af371c2-667e-4297-aec2-d328d2a3807d",
+      "declarationKey": "skill-collection-review:medication_agent",
+      "displayName": "Skill collection review (medication_agent)",
+      "agentId": "medication_agent",
+      "name": "skill-collection-review-medication_agent",
+      "enabled": true,
+      "createdAtMs": 1788337647395,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 126214663
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788519814663
+      },
+      "updatedAtMs": 1788337647395,
+      "configRevision": "sha256:xcf5L0kRbjBoS7vFi3EQtqLM_6HOyARIITqPXe3vfKE",
+      "nextRunAtMs": 1788519814663,
+      "status": "idle"
+    },
+    {
+      "id": "7b79420e-31d0-4010-9545-ee97bae4dc07",
+      "declarationKey": "skill-collection-review:researcher-bot",
+      "displayName": "Skill collection review (researcher-bot)",
+      "agentId": "researcher-bot",
+      "name": "skill-collection-review-researcher-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647254,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 290073407
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788683673407
+      },
+      "updatedAtMs": 1788337647254,
+      "configRevision": "sha256:9lB98Ecs_ZAEtho3D0cGu9tESbU-ivhErYqKVWDGseU",
+      "nextRunAtMs": 1788683673407,
+      "status": "idle"
+    },
+    {
+      "id": "c2719573-25e8-43ad-88d6-1bf29daa5721",
+      "declarationKey": "skill-collection-review:admin-bot",
+      "displayName": "Skill collection review (admin-bot)",
+      "agentId": "admin-bot",
+      "name": "skill-collection-review-admin-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647329,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 471611440
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788865211440
+      },
+      "updatedAtMs": 1788337647329,
+      "configRevision": "sha256:onj-ItjLc7okJ6eWKzZxXdcWUAY1uxPfgOSnpAPAr6o",
+      "nextRunAtMs": 1788865211440,
+      "status": "idle"
+    },
+    {
+      "id": "92c3a4b6-e84d-452b-a686-79ba87240562",
+      "declarationKey": "skill-collection-review:ops-bot",
+      "displayName": "Skill collection review (ops-bot)",
+      "agentId": "ops-bot",
+      "name": "skill-collection-review-ops-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647284,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 535581341
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788929181341
+      },
+      "updatedAtMs": 1788337647284,
+      "configRevision": "sha256:HqAqIg0DGhsYQPK9asv5vmE6XxVQJ5fJf7BMuQOk2U8",
+      "nextRunAtMs": 1788929181341,
+      "status": "idle"
+    },
+    {
+      "id": "1997b259-13c0-4b0a-9f24-9756f484aa86",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - metformin",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527202970,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1789117200000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Metformin 500mg modified-release tablets. Allow 2 days postage. First prescribed 20 July 2026; 224 tablets at four a day with food."
+      },
+      "state": {
+        "nextRunAtMs": 1789117200000
+      },
+      "updatedAtMs": 1786527406246,
+      "configRevision": "sha256:bKMJA8DKo2Ogu_ycHtQZQBfkdNRyILq9vNUs5IeE1_E",
+      "nextRunAtMs": 1789117200000,
+      "status": "idle"
+    },
+    {
+      "id": "a1722f72-74b0-45c9-af4a-4e04513593f2",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - metformin",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528590367,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1789117200000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Metformin 500mg modified-release tablets. Keep it concise and include that it is 224 tablets, four a day with food, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537422220391874590",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1789117200000
+      },
+      "updatedAtMs": 1786623725519,
+      "configRevision": "sha256:PfG_De2yYuqtwZy4S-ZjOiXUL__Y7VKIGwrwM1bhUDg",
+      "nextRunAtMs": 1789117200000,
+      "status": "idle"
+    },
+    {
+      "id": "61968706-6860-41da-a75f-7439e9d2feea",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - atorvastatin",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528535468,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 2419200000,
+        "anchorMs": 1786698000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Atorvastatin 20mg tablets. Keep it concise and include that it is 28 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537422220391874590",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1789117200046,
+        "lastRunAtMs": 1786698000046,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 15415,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1786698015461,
+      "configRevision": "sha256:sGJrvdDWu3DdRDv4a41k1ev2hrqQbXTYLWdPW6TeUtc",
+      "nextRunAtMs": 1789117200046,
+      "lastRunAtMs": 1786698000046,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - amlodipine",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528545637,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787302800000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Amlodipine 5mg tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537422220391874590",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792141200018,
+        "lastRunAtMs": 1787302800018,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 14451,
+        "lastDelivered": true,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787302814469,
+      "configRevision": "sha256:LxbiLYgZDw8sTGxUrlI9n-dHo8uE-kAyhqkUm_6Ob6A",
+      "nextRunAtMs": 1792141200018,
+      "lastRunAtMs": 1787302800018,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "fefe1740-ddfb-42c0-9b27-f547824a33c8",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - losartan",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528555884,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787302800000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Losartan 100mg tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537422220391874590",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792141200029,
+        "lastRunAtMs": 1787302800029,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 501,
+        "lastError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDiagnostics": {
+          "summary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+          "entries": [
+            {
+              "ts": 1787302800529,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry."
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787302800530,
+      "configRevision": "sha256:MjiN6J84QhqjeSk9koxGyKatiZc46mb7Q4dzgcnZC-4",
+      "nextRunAtMs": 1792141200029,
+      "lastRunAtMs": 1787302800029,
+      "lastRunStatus": "error",
+      "lastRunError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+      "lastDeliveryStatus": "unknown",
+      "lastFailureNotificationDeliveryStatus": "unknown",
+      "status": "error"
+    },
+    {
+      "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527192208,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Indapamide 1.5mg modified-release tablets. Allow 2 days postage. First prescribed 7 July 2026; 56 tablets at one daily."
+      },
+      "state": {
+        "nextRunAtMs": 1792832400032,
+        "lastRunAtMs": 1787994000032,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 40,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787994000072,
+      "configRevision": "sha256:RgKZnDAXncTG0AFA1yc64nPKY_50WBEqRNvFqA-aA7M",
+      "nextRunAtMs": 1792832400032,
+      "lastRunAtMs": 1787994000032,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "b536f78b-8759-44a3-9626-47a59f4a8eaf",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527197661,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Mounjaro KwikPen 5mg/0.6ml. Allow 2 days postage. First prescribed 7 July 2026; 2 pre-filled pens, one injection per week, one pen per month."
+      },
+      "state": {
+        "nextRunAtMs": 1792832400052,
+        "lastRunAtMs": 1787994000052,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 20,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787994000072,
+      "configRevision": "sha256:jsSiwpGplhaxMB2rHre_QkUUGDQJdGTx6G56rCPgKZA",
+      "nextRunAtMs": 1792832400052,
+      "lastRunAtMs": 1787994000052,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "8934a1fb-fe05-4842-afbf-ffa406f9acb8",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528566974,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Indapamide 1.5mg modified-release tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792832400055,
+        "lastRunAtMs": 1787994000055,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19450,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787994019505,
+      "configRevision": "sha256:Z2RDUxzHS5ETwY5AfLrHFTYL5u7k82rXXudqLuKbAnQ",
+      "nextRunAtMs": 1792832400055,
+      "lastRunAtMs": 1787994000055,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "5d9c6a2a-7310-41c3-8012-dd661c6a9df6",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528580077,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Mounjaro KwikPen 5mg/0.6ml. Keep it concise and include that it is 2 pre-filled pens, one injection per week, one pen per month, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792832400066,
+        "lastRunAtMs": 1787994000066,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 564,
+        "lastError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDiagnostics": {
+          "summary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+          "entries": [
+            {
+              "ts": 1787994000630,
+              "source": "cron-setup",
+              "severity": "error",
+              "message": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry."
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+        "lastDeliveryStatus": "unknown",
+        "lastFailureNotificationDeliveryStatus": "unknown",
+        "consecutiveErrors": 1,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1787994000630,
+      "configRevision": "sha256:5QH2j2b_5xM4CL1FGDmHwBnfAf2YcTQoNMB70gcDhj0",
+      "nextRunAtMs": 1792832400066,
+      "lastRunAtMs": 1787994000066,
+      "lastRunStatus": "error",
+      "lastRunError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
+      "lastDeliveryStatus": "unknown",
+      "lastFailureNotificationDeliveryStatus": "unknown",
+      "status": "error"
+    },
+    {
+      "id": "47cd58e7-4bce-4f48-abfd-160280e7e5d1",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - needles",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528600760,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 60480000000,
+        "anchorMs": 1846995600000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for GlucoRx CarePoint hypodermic insulin needles. Keep it concise and include that it is 100 needles total, 1 needle per weekly Mounjaro injection, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537422220391874590",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1846995600000
+      },
+      "updatedAtMs": 1786623731548,
+      "configRevision": "sha256:rCsHmTjm1yTfUZu7TfbHrrAqsHp8NNTC6ErNtp6e1-E",
+      "nextRunAtMs": 1846995600000,
+      "status": "idle"
+    },
+    {
+      "id": "fe95e6dd-7b06-464c-b554-348eb4d5f14b",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - needles",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527428274,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 60480000000,
+        "anchorMs": 1846995600000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for GlucoRx CarePoint hypodermic insulin needles. Allow 2 days postage. Consumption: 1 needle per weekly Mounjaro injection; 100 needles total."
+      },
+      "state": {
+        "nextRunAtMs": 1846995600000
+      },
+      "updatedAtMs": 1786527445224,
+      "configRevision": "sha256:x2ZGl3tqBQr8KvcqSbaMOlpbGo06OeuBoskyLbmBSSQ",
+      "nextRunAtMs": 1846995600000,
+      "status": "idle"
+    }
+  ],
+  "snapshotRevision": "sha256:OTj1AHILXzCXL0NGLgM75skJEnzmud0aPBghmZIMoAg",
+  "total": 30,
+  "offset": 0,
+  "limit": 200,
+  "hasMore": false,
+  "nextOffset": null,
+  "deliveryPreviews": {
+    "eed4db5c-7ac9-4634-9fa1-fb72bc2de1b5": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "afba8207-7095-4d61-bbe9-9241dabbb2c8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
+    "f6c08cbb-d120-476f-99dd-1240e182c1bc": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "1d938b1e-144b-4c50-afd6-c2cc96f4d581": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "19ac3f42-a45d-491e-aa0d-14df77a43364": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "d7d454c5-296a-48cb-a33d-dc08cb723f7c": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "a5a5cac7-2077-4499-8a1e-28aedc21b249": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "7ae0335c-9092-4ff8-ba4c-ac0e23349b2f": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "3d0fd3d8-b60c-4f93-8502-4a55b3df0ae3": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "c8da1b69-7b66-4483-8472-52284f11067b": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
+    "5bcbe8d7-8901-4f6b-8f19-9f674b82a570": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "7b755bae-c519-4f32-ac43-dfe65df39a2e": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "5ed848ec-43cf-4453-a0f9-b38d14c88a07": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
+    "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "7af371c2-667e-4297-aec2-d328d2a3807d": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "7b79420e-31d0-4010-9545-ee97bae4dc07": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "c2719573-25e8-43ad-88d6-1bf29daa5721": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "92c3a4b6-e84d-452b-a686-79ba87240562": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "1997b259-13c0-4b0a-9f24-9756f484aa86": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "a1722f72-74b0-45c9-af4a-4e04513593f2": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "61968706-6860-41da-a75f-7439e9d2feea": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "fefe1740-ddfb-42c0-9b27-f547824a33c8": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "8934a1fb-fe05-4842-afbf-ffa406f9acb8": {
+      "label": "announce -> discord:channel:1537036715728965673",
+      "detail": "explicit"
+    },
+    "5d9c6a2a-7310-41c3-8012-dd661c6a9df6": {
+      "label": "announce -> discord:channel:1537036715728965673",
+      "detail": "explicit"
+    },
+    "47cd58e7-4bce-4f48-abfd-160280e7e5d1": {
+      "label": "announce -> discord:channel:1537422220391874590",
+      "detail": "explicit"
+    },
+    "fe95e6dd-7b06-464c-b554-348eb4d5f14b": {
+      "label": "not requested",
+      "detail": "not requested"
+    }
+  }
+}

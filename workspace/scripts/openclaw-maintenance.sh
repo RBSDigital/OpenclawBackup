@@ -184,6 +184,10 @@ log "Starting daily OpenClaw maintenance"
 BEFORE_VER="$("$OPENCLAW_BIN" --version 2>&1 || true)"
 log "Before version: $BEFORE_VER"
 
+# Stop gateway temporarily during updates to release SQLite leases cleanly
+log "Stopping gateway service before update to avoid active database lease collisions"
+systemctl --user stop openclaw-gateway.service 2>&1 || true
+
 UPDATE_JSON_RAW=""
 UPDATE_MODE="openclaw-update"
 if ! UPDATE_JSON_RAW="$("$OPENCLAW_BIN" update --yes --no-restart --json 2>&1)"; then
@@ -191,20 +195,32 @@ if ! UPDATE_JSON_RAW="$("$OPENCLAW_BIN" update --yes --no-restart --json 2>&1)";
     log "openclaw update blocked in service context; falling back to npm global reinstall"
     UPDATE_MODE="npm-fallback"
     if ! UPDATE_JSON_RAW="$(npm i -g openclaw@latest --no-fund --no-audit --loglevel=error 2>&1)"; then
+      systemctl --user start openclaw-gateway.service 2>&1 || true
       MSG="⚠️ OpenClaw daily maintenance failed at UPDATE step (UTC $TS).\n\nError:\n$UPDATE_JSON_RAW\n\nCurrent version: $BEFORE_VER\n\nSuggested fixes:\n$suggestions_common\n- Retry install manually: npm i -g openclaw@latest"
       send_report "$MSG"
       exit 1
     fi
   else
-    MSG="⚠️ OpenClaw daily maintenance failed at UPDATE step (UTC $TS).\n\nError:\n$UPDATE_JSON_RAW\n\nCurrent version: $BEFORE_VER\n\nSuggested fixes:\n$suggestions_common\n- Retry update manually: openclaw update --yes"
-    send_report "$MSG"
-    exit 1
+    log "openclaw update returned non-zero, checking if core files were updated..."
+    UPDATE_MODE="openclaw-update-advisory"
   fi
 fi
 
 echo "$UPDATE_JSON_RAW" >> "$RUN_LOG"
 
-if [ "$UPDATE_MODE" = "openclaw-update" ]; then
+# Sync installed plugins with updated core SDK to prevent runtime export mismatches
+log "Synchronizing installed plugins with core..."
+PLUGIN_UPDATE_RAW="$("$OPENCLAW_BIN" plugins update --all --accept-capabilities --acknowledge-install-policy-warning 2>&1 || true)"
+echo "$PLUGIN_UPDATE_RAW" >> "$RUN_LOG"
+
+# Run non-interactive doctor repairs and session sqlite migrations
+log "Running doctor fix and session sqlite migrations..."
+DOCTOR_FIX_RAW="$("$OPENCLAW_BIN" doctor --fix --yes --non-interactive 2>&1 || true)"
+echo "$DOCTOR_FIX_RAW" >> "$RUN_LOG"
+SESSION_MIGRATE_RAW="$("$OPENCLAW_BIN" doctor --session-sqlite import --session-sqlite-all-agents --non-interactive --yes 2>&1 || true)"
+echo "$SESSION_MIGRATE_RAW" >> "$RUN_LOG"
+
+if [ "$UPDATE_MODE" = "openclaw-update" ] || [ "$UPDATE_MODE" = "openclaw-update-advisory" ]; then
   PARSED="$(node -e '
 let s=""; process.stdin.on("data",d=>s+=d).on("end",()=>{
   try {

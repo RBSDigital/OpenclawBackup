@@ -1,96 +1,57 @@
 {
   "ok": true,
-  "ts": 1788323451735,
-  "durationMs": 33,
+  "ts": 1788409850007,
+  "durationMs": 38,
   "eventLoop": {
     "degraded": false,
+    "degradedSinceMs": null,
     "reasons": [],
-    "intervalMs": 9265,
-    "delayP99Ms": 25.4,
-    "delayMaxMs": 27.8,
-    "utilization": 0.014,
-    "cpuCoreRatio": 0.012
+    "intervalMs": 11132.556806999957,
+    "delayP99Ms": 25.6,
+    "delayMaxMs": 172.8,
+    "utilization": 0.026,
+    "cpuCoreRatio": 0.027
   },
   "plugins": {
     "loaded": [
-      "alibaba",
       "anthropic",
-      "azure-speech",
       "browser",
-      "byteplus",
       "canvas",
-      "clawrouter",
       "codex",
-      "cohere",
-      "comfy",
-      "copilot-proxy",
-      "deepgram",
+      "cua-computer",
       "device-pair",
       "discord",
-      "document-extract",
-      "elevenlabs",
-      "fal",
       "file-transfer",
-      "github-copilot",
-      "google",
-      "huggingface",
-      "litellm",
-      "lmstudio",
+      "geolocation",
+      "linux-node",
       "memory-core",
-      "meta",
-      "microsoft",
-      "microsoft-foundry",
-      "minimax",
-      "mistral",
-      "novita",
-      "nvidia",
       "ollama",
       "openai",
-      "opencode",
-      "opencode-go",
-      "openrouter",
-      "phone-control",
-      "runway",
-      "senseaudio",
-      "sglang",
-      "synthetic",
       "talk-voice",
       "telegram",
-      "together",
-      "tts-local-cli",
-      "vllm",
-      "volcengine",
-      "voyage",
-      "vydra",
-      "web-readability",
-      "xai",
-      "xiaomi"
+      "xai"
     ],
-    "errors": []
+    "errors": [],
+    "unavailable": []
   },
   "configReload": {
     "hotReloadStatus": "active"
-  },
-  "modelPricing": {
-    "state": "ok",
-    "sources": []
   },
   "channels": {
     "discord": {
       "accountId": "default",
       "enabled": true,
-      "configured": true,
-      "running": true,
-      "lastStartAt": 1788322435921,
-      "lastStopAt": 1788322435918,
-      "lastError": null,
-      "connected": true,
+      "lastStartAt": 1788408252534,
+      "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1788322439396,
-      "lastEventAt": 1788322439396,
-      "lastTransportActivityAt": 1788323414915,
-      "lastInboundAt": 1788252147158,
+      "lastConnectedAt": 1788408257324,
+      "lastEventAt": 1788408257324,
+      "lastTransportActivityAt": 1788409845829,
+      "lifecycle": "ready",
+      "busy": false,
+      "activeRuns": 0,
+      "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
@@ -108,23 +69,26 @@
         "id": "1486337968208875581",
         "username": "OpenClaw agent_Ada001"
       },
+      "configured": true,
+      "running": true,
+      "connected": true,
+      "lastError": null,
       "lastProbeAt": null,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
-          "configured": true,
-          "running": true,
-          "lastStartAt": 1788322435921,
-          "lastStopAt": 1788322435918,
-          "lastError": null,
-          "connected": true,
+          "lastStartAt": 1788408252534,
+          "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1788322439396,
-          "lastEventAt": 1788322439396,
-          "lastTransportActivityAt": 1788323414915,
-          "lastInboundAt": 1788252147158,
+          "lastConnectedAt": 1788408257324,
+          "lastEventAt": 1788408257324,
+          "lastTransportActivityAt": 1788409845829,
+          "lifecycle": "ready",
+          "busy": false,
+          "activeRuns": 0,
+          "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
@@ -142,6 +106,10 @@
             "id": "1486337968208875581",
             "username": "OpenClaw agent_Ada001"
           },
+          "configured": true,
+          "running": true,
+          "connected": true,
+          "lastError": null,
           "lastProbeAt": null
         }
       }
@@ -149,45 +117,47 @@
     "telegram": {
       "accountId": "default",
       "enabled": true,
-      "configured": true,
-      "running": true,
-      "lastStartAt": 1788062639209,
+      "lastStartAt": 1788408252534,
       "lastStopAt": null,
-      "lastError": null,
-      "connected": true,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1788323440884,
-      "lastEventAt": 1788323440884,
-      "lastTransportActivityAt": 1788323440884,
+      "lastConnectedAt": 1788409831017,
+      "lastEventAt": 1788409831017,
+      "lastTransportActivityAt": 1788409831017,
+      "lifecycle": "ready",
       "lastInboundAt": null,
       "lastOutboundAt": null,
       "tokenSource": "config",
       "tokenStatus": "available",
       "mode": "polling",
       "allowUnmentionedGroups": false,
+      "configured": true,
+      "running": true,
+      "connected": true,
+      "lastError": null,
       "lastProbeAt": null,
       "accounts": {
         "default": {
           "accountId": "default",
           "enabled": true,
-          "configured": true,
-          "running": true,
-          "lastStartAt": 1788062639209,
+          "lastStartAt": 1788408252534,
           "lastStopAt": null,
-          "lastError": null,
-          "connected": true,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1788323440884,
-          "lastEventAt": 1788323440884,
-          "lastTransportActivityAt": 1788323440884,
+          "lastConnectedAt": 1788409831017,
+          "lastEventAt": 1788409831017,
+          "lastTransportActivityAt": 1788409831017,
+          "lifecycle": "ready",
           "lastInboundAt": null,
           "lastOutboundAt": null,
           "tokenSource": "config",
           "tokenStatus": "available",
           "mode": "polling",
           "allowUnmentionedGroups": false,
+          "configured": true,
+          "running": true,
+          "connected": true,
+          "lastError": null,
           "lastProbeAt": null
         }
       }
@@ -202,47 +172,46 @@
     "telegram": "Telegram"
   },
   "heartbeatSeconds": 7200,
-  "defaultAgentId": "manager-bot",
   "agents": [
     {
       "agentId": "manager-bot",
-      "isDefault": true,
+      "isDefault": false,
       "heartbeat": {
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-        "count": 17,
+        "path": "/home/vin/.openclaw/agents/manager-bot/agent/openclaw-agent.sqlite",
+        "count": 30,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788318751517,
-            "age": 4700181
+            "updatedAt": 1788409691635,
+            "age": 158351
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788134761656,
-            "age": 188690042
+            "updatedAt": 1788404400307,
+            "age": 5449679
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788134694962,
-            "age": 188756736
+            "updatedAt": 1788404400307,
+            "age": 5449679
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788129931765,
-            "age": 193519933
+            "updatedAt": 1788393950663,
+            "age": 15899323
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788112800618,
-            "age": 210651080
+            "updatedAt": 1788393894944,
+            "age": 15955042
           }
         ]
       }
@@ -254,38 +223,38 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/researcher-bot/sessions/sessions.json",
+        "path": "/home/vin/.openclaw/agents/researcher-bot/agent/openclaw-agent.sqlite",
         "count": 5,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788316486996,
-            "age": 6964704
+            "updatedAt": 1788409656761,
+            "age": 193233
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1786027862439,
-            "age": 2295589261
+            "age": 2381987555
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781764610344,
-            "age": 6558841356
+            "age": 6645239650
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781598922730,
-            "age": 6724528970
+            "age": 6810927264
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781548525456,
-            "age": 6774926244
+            "age": 6861324538
           }
         ]
       }
@@ -297,33 +266,33 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/ops-bot/sessions/sessions.json",
+        "path": "/home/vin/.openclaw/agents/ops-bot/agent/openclaw-agent.sqlite",
         "count": 4,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788317199565,
-            "age": 6252135
+            "updatedAt": 1788409669771,
+            "age": 180224
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119360964,
-            "age": 4204090736
+            "age": 4290489031
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782010100171,
-            "age": 6313351529
+            "age": 6399749824
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781916502008,
-            "age": 6406949692
+            "age": 6493347987
           }
         ]
       }
@@ -335,33 +304,33 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/admin-bot/sessions/sessions.json",
+        "path": "/home/vin/.openclaw/agents/admin-bot/agent/openclaw-agent.sqlite",
         "count": 4,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788318026874,
-            "age": 5424826
+            "updatedAt": 1788409683963,
+            "age": 166033
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119347791,
-            "age": 4204103909
+            "age": 4290502205
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782939664054,
-            "age": 5383787646
+            "age": 5470185942
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782889288142,
-            "age": 5434163558
+            "age": 5520561854
           }
         ]
       }
@@ -373,23 +342,23 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/modeler-bot/sessions/sessions.json",
+        "path": "/home/vin/.openclaw/agents/modeler-bot/agent/openclaw-agent.sqlite",
         "count": 2,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1786713532310,
-            "age": 1609919391
+            "updatedAt": 1788328639031,
+            "age": 81210966
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1786712879353,
-            "age": 1610572348
+            "age": 1696970644
           }
         ]
       }
@@ -401,23 +370,23 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/security-bot/sessions/sessions.json",
+        "path": "/home/vin/.openclaw/agents/security-bot/agent/openclaw-agent.sqlite",
         "count": 2,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788323022440,
-            "age": 429261
+            "updatedAt": 1788409680018,
+            "age": 169982
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782037432244,
-            "age": 6286019457
+            "age": 6372417756
           }
         ]
       }
@@ -430,51 +399,56 @@
         "enabled": true,
         "every": "2h",
         "everyMs": 7200000,
-        "prompt": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.",
-        "target": "none",
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "owner",
         "ackMaxChars": 300
       },
       "sessions": {
-        "path": "/home/vin/.openclaw/agents/medication_agent/sessions/sessions.json",
-        "count": 1,
+        "path": "/home/vin/.openclaw/agents/medication_agent/agent/openclaw-agent.sqlite",
+        "count": 2,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
+            "updatedAt": 1788325434443,
+            "age": 84415559
+          },
+          {
+            "key": "[REDACTED_SECRET]",
             "updatedAt": 1787308528984,
-            "age": 1014922718
+            "age": 1101321018
           }
         ]
       }
     }
   ],
   "sessions": {
-    "path": "/home/vin/.openclaw/agents/manager-bot/sessions/sessions.json",
-    "count": 17,
+    "path": "/home/vin/.openclaw/agents/manager-bot/agent/openclaw-agent.sqlite",
+    "count": 30,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1788318751517,
-        "age": 4700181
+        "updatedAt": 1788409691635,
+        "age": 158351
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1788134761656,
-        "age": 188690042
+        "updatedAt": 1788404400307,
+        "age": 5449679
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1788134694962,
-        "age": 188756736
+        "updatedAt": 1788404400307,
+        "age": 5449679
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1788129931765,
-        "age": 193519933
+        "updatedAt": 1788393950663,
+        "age": 15899323
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1788112800618,
-        "age": 210651080
+        "updatedAt": 1788393894944,
+        "age": 15955042
       }
     ]
   },

@@ -1,0 +1,1 @@
+[modeler-bot/sessions/modeler-bot/0c9d6727-9afc-4e0d-b658-7266abd91981#L63] Assistant: `HEARTBEAT.md` is just the empty-skip template, so there was no active heartbeat task to execute. I recorded the wake as `no_change` with `notify=false`.

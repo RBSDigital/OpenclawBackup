@@ -1,5 +1,6 @@
 {
-  "workspaceScope": "omitted",
+  "workspaceDir": "/home/vin/.openclaw/workspaces/manager-bot",
+  "workspaceScope": "selected",
   "registry": {
     "source": "persisted",
     "diagnostics": []
@@ -2874,29 +2875,33 @@
     {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.7.1-1",
-      "description": "OpenClaw Codex app-server harness and model provider plugin with a Codex-managed GPT catalog.",
+      "version": "2026.8.2",
+      "description": "Codex app-server harness and native session catalog.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openclaw/codex/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openclaw/codex",
       "origin": "global",
       "enabled": true,
       "compat": [
-        "activation-agent-harness-hint"
+        "activation-agent-harness-hint",
+        "activation-command-hint",
+        "activation-config-path-hint"
       ],
-      "syntheticAuthRefs": [
-        "codex"
-      ],
+      "syntheticAuthRefs": [],
       "status": "loaded",
       "toolNames": [
-        "codex_threads"
+        "codex_threads",
+        "codex_plugins",
+        "codex_endpoint_probe",
+        "codex_sessions_list",
+        "codex_session_read",
+        "codex_session_send",
+        "codex_session_interrupt"
       ],
       "hookNames": [],
       "channelIds": [],
       "cliBackendIds": [],
-      "providerIds": [
-        "codex"
-      ],
+      "providerIds": [],
       "embeddingProviderIds": [],
       "speechProviderIds": [],
       "realtimeTranscriptionProviderIds": [],
@@ -2935,7 +2940,13 @@
           "codex"
         ],
         "tools": [
-          "codex_threads"
+          "codex_threads",
+          "codex_plugins",
+          "codex_endpoint_probe",
+          "codex_sessions_list",
+          "codex_session_read",
+          "codex_session_send",
+          "codex_session_interrupt"
         ]
       },
       "dependencyStatus": {
@@ -2948,31 +2959,45 @@
         "dependencies": [
           {
             "name": "@openai/codex",
-            "spec": "0.144.3",
+            "spec": "0.151.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex/node_modules/@openai/codex"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openai/codex"
+          },
+          {
+            "name": "semver",
+            "spec": "7.8.5",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/semver"
+          },
+          {
+            "name": "smol-toml",
+            "spec": "1.8.0",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/smol-toml"
           },
           {
             "name": "typebox",
-            "spec": "1.3.3",
+            "spec": "1.3.17",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/typebox"
           },
           {
             "name": "ws",
-            "spec": "8.21.0",
+            "spec": "8.21.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/ws"
           },
           {
             "name": "zod",
             "spec": "4.4.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-49fd4dbfde2c5057/node_modules/@openclaw/codex/node_modules/zod"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -2981,11 +3006,11 @@
     {
       "id": "discord",
       "name": "Discord",
-      "version": "2026.7.1",
+      "version": "2026.8.2",
       "description": "OpenClaw Discord channel plugin for channels, DMs, commands, and app events.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord",
       "origin": "global",
       "enabled": true,
       "compat": [],
@@ -3033,46 +3058,67 @@
         "missingOptional": [],
         "dependencies": [
           {
+            "name": "@discord/embedded-app-sdk",
+            "spec": "2.5.0",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/@discord/embedded-app-sdk"
+          },
+          {
             "name": "@discordjs/voice",
             "spec": "0.19.2",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/@discordjs/voice"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/@discordjs/voice"
           },
           {
             "name": "discord-api-types",
-            "spec": "0.38.49",
+            "spec": "0.38.53",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/discord-api-types"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/discord-api-types"
           },
           {
             "name": "libopus-wasm",
             "spec": "0.2.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/libopus-wasm"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/libopus-wasm"
+          },
+          {
+            "name": "mdast-util-from-markdown",
+            "spec": "2.0.3",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/mdast-util-from-markdown"
           },
           {
             "name": "typebox",
-            "spec": "1.3.3",
+            "spec": "1.3.17",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/typebox"
           },
           {
             "name": "undici",
-            "spec": "8.5.0",
+            "spec": "8.10.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/undici"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/undici"
           },
           {
             "name": "ws",
-            "spec": "8.21.0",
+            "spec": "8.21.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-3a4aecad18bbe2c4/node_modules/@openclaw/discord/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/ws"
+          },
+          {
+            "name": "zod",
+            "spec": "4.4.3",
+            "installed": true,
+            "optional": false,
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -3080,16 +3126,6 @@
     }
   ],
   "diagnostics": [
-    {
-      "level": "warn",
-      "message": "Workspace plugin discovery was skipped because multiple explicit agents are configured without agents.defaults.systemAgent.agentId. This partial result includes bundled, managed, and global plugins only; set agents.defaults.systemAgent.agentId to include that owner's workspace plugins.",
-      "code": "workspace-scope-omitted"
-    },
-    {
-      "level": "warn",
-      "pluginId": "codex",
-      "message": "Plugin \"codex\" requires capability consent; disable and re-enable it or run `openclaw plugins enable codex --accept-capabilities`."
-    },
     {
       "level": "warn",
       "pluginId": "discord",

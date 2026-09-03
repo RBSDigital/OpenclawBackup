@@ -1,0 +1,1 @@
+[security-bot/sessions/security-bot/3c9c8aec-ae7b-4913-a92c-6362ac8f38b8#L2204] Assistant: Heartbeat audit is blocked by two issues: the delivery queue still has 1 failed row, and `openclaw hooks list --agent security-bot` now fails with missing `operator.admin` scope. Workspace permissions and systemd override permissions are OK. Please repl

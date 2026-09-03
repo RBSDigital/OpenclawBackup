@@ -26,7 +26,7 @@
     ],
     "tokens": {
       "operator": {
-        "token": "[REDACTED_SECRET]",
+        "token": "KOnDdTrUzQWdXvg51OsPqmpLUDZindN1Tl3dDCNQzXQ",
         "role": "operator",
         "scopes": [
           "operator.admin",
@@ -41,7 +41,7 @@
     },
     "createdAtMs": 1772166640472,
     "approvedAtMs": 1772166640472,
-    "lastSeenAtMs": 1788321807275,
+    "lastSeenAtMs": 1788335911761,
     "lastSeenReason": "connect"
   },
   "da51b3f4102cf2afb0f7495341f161162b9f26d7471fc372768c3ca044811e2e": {
@@ -70,7 +70,7 @@
     ],
     "tokens": {
       "operator": {
-        "token": "[REDACTED_SECRET]",
+        "token": "ZMi8EchsPW7dno56K4k44ym3hlL4FltmKAiO8l0-6OM",
         "role": "operator",
         "scopes": [
           "operator.admin",
@@ -103,7 +103,7 @@
     ],
     "tokens": {
       "operator": {
-        "token": "[REDACTED_SECRET]",
+        "token": "pf7LyjoETUx-b3ZEnqtiiV6JxjQ2zlCC0pVc0LWiICc",
         "role": "operator",
         "scopes": [
           "operator.pairing"
