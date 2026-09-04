@@ -201,7 +201,8 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## Heartbeat Checks
 
 - `openclaw hooks list` may require `operator.admin` scope for agent-specific introspection.
-- If a hooks or heartbeat check fails on config validation, run `openclaw doctor` or validate `openclaw.json` against the current schema before retrying.
+- Before any heartbeat or hooks-dependent check, validate `openclaw.json` against the current schema or run `openclaw doctor` if the config may be stale.
+- If config validation fails, treat it as a blocking preflight issue and fix that before retrying hooks/status checks.
 
 ## Related
 

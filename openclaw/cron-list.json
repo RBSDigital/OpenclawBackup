@@ -23,21 +23,21 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1788410731244,
-        "lastRunAtMs": 1788389131244,
+        "nextRunAtMs": 1788497131354,
+        "lastRunAtMs": 1788475531354,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 46836,
+        "lastDurationMs": 37289,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1788389178080,
+      "updatedAtMs": 1788475568643,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1788410731244,
-      "lastRunAtMs": 1788389131244,
+      "nextRunAtMs": 1788497131354,
+      "lastRunAtMs": 1788475531354,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -71,21 +71,21 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1788415494831,
-        "lastRunAtMs": 1788393894851,
+        "nextRunAtMs": 1788501894831,
+        "lastRunAtMs": 1788480294847,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 55838,
+        "lastDurationMs": 63642,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": true
       },
-      "updatedAtMs": 1788393950689,
+      "updatedAtMs": 1788480358489,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1788415494831,
-      "lastRunAtMs": 1788393894851,
+      "nextRunAtMs": 1788501894831,
+      "lastRunAtMs": 1788480294847,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -111,20 +111,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416845786,
-        "lastRunAtMs": 1788409645786,
+        "nextRunAtMs": 1788503246075,
+        "lastRunAtMs": 1788496046075,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 10996,
+        "lastDurationMs": 11525,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788409656782,
+      "updatedAtMs": 1788496057600,
       "configRevision": "sha256:-MBMbMQtHsxRcSPQH2op2c-sNMr95nskMiqZREb_lYw",
-      "nextRunAtMs": 1788416845786,
-      "lastRunAtMs": 1788409645786,
+      "nextRunAtMs": 1788503246075,
+      "lastRunAtMs": 1788496046075,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -149,20 +149,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416858701,
-        "lastRunAtMs": 1788409658701,
+        "nextRunAtMs": 1788503262792,
+        "lastRunAtMs": 1788496062792,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 11077,
+        "lastDurationMs": 17157,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788409669778,
+      "updatedAtMs": 1788496079949,
       "configRevision": "sha256:AX1HDQ_YCJaacSIbYe_5Xqy5skY-DW-Z1AM7FD5JPeA",
-      "nextRunAtMs": 1788416858701,
-      "lastRunAtMs": 1788409658701,
+      "nextRunAtMs": 1788503262792,
+      "lastRunAtMs": 1788496062792,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -187,20 +187,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416861127,
-        "lastRunAtMs": 1788409661127,
+        "nextRunAtMs": 1788503271231,
+        "lastRunAtMs": 1788496071231,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 22844,
+        "lastDurationMs": 23927,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788409683971,
+      "updatedAtMs": 1788496095158,
       "configRevision": "sha256:CfmNlv5ksaoIwA9KH_mbe-UZgQ7CK53eAj0kTZ8tgLU",
-      "nextRunAtMs": 1788416861127,
-      "lastRunAtMs": 1788409661127,
+      "nextRunAtMs": 1788503271231,
+      "lastRunAtMs": 1788496071231,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -225,20 +225,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416861135,
-        "lastRunAtMs": 1788409661135,
+        "nextRunAtMs": 1788503271242,
+        "lastRunAtMs": 1788496071242,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 18894,
+        "lastDurationMs": 23062,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788409680029,
+      "updatedAtMs": 1788496094304,
       "configRevision": "sha256:fKtOxpfXJMKYk-KdDFZc6b5pxZnPjt73sbMcCIGGI3c",
-      "nextRunAtMs": 1788416861135,
-      "lastRunAtMs": 1788409661135,
+      "nextRunAtMs": 1788503271242,
+      "lastRunAtMs": 1788496071242,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -263,21 +263,21 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416861144,
-        "lastRunAtMs": 1788409661144,
+        "nextRunAtMs": 1788503273251,
+        "lastRunAtMs": 1788496073251,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 9273,
+        "lastDurationMs": 7320,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 11,
+        "consecutiveSkipped": 23,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1788409670417,
+      "updatedAtMs": 1788496080571,
       "configRevision": "sha256:n5r4SzSM97JPJO4cP7VtqzKy5u8rpOwYDyiczyNDXiI",
-      "nextRunAtMs": 1788416861144,
-      "lastRunAtMs": 1788409661144,
+      "nextRunAtMs": 1788503273251,
+      "lastRunAtMs": 1788496073251,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
@@ -303,20 +303,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416877257,
-        "lastRunAtMs": 1788409677257,
+        "nextRunAtMs": 1788503287449,
+        "lastRunAtMs": 1788496087449,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 14386,
+        "lastDurationMs": 15418,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788409691643,
+      "updatedAtMs": 1788496102867,
       "configRevision": "sha256:NAETMoGWAdmGGYzKfFtnJffiCIwBWpK0BZ0SY6Ew6bw",
-      "nextRunAtMs": 1788416877257,
-      "lastRunAtMs": 1788409677257,
+      "nextRunAtMs": 1788503287449,
+      "lastRunAtMs": 1788496087449,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -341,26 +341,175 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788416883386,
-        "lastRunAtMs": 1788409683386,
+        "nextRunAtMs": 1788503297526,
+        "lastRunAtMs": 1788496097526,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 8478,
+        "lastDurationMs": 5366,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 11,
+        "consecutiveSkipped": 23,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1788409691864,
+      "updatedAtMs": 1788496102892,
       "configRevision": "sha256:U21G6VVKuqcPC7GgLU5UBOESwxVv9h-Woqwt-MQuYU8",
-      "nextRunAtMs": 1788416883386,
-      "lastRunAtMs": 1788409683386,
+      "nextRunAtMs": 1788503297526,
+      "lastRunAtMs": 1788496097526,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "status": "skipped"
+    },
+    {
+      "id": "7af371c2-667e-4297-aec2-d328d2a3807d",
+      "declarationKey": "skill-collection-review:medication_agent",
+      "displayName": "Skill collection review (medication_agent)",
+      "agentId": "medication_agent",
+      "name": "skill-collection-review-medication_agent",
+      "enabled": true,
+      "createdAtMs": 1788337647395,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 126214663
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788519814663
+      },
+      "updatedAtMs": 1788337647395,
+      "configRevision": "sha256:xcf5L0kRbjBoS7vFi3EQtqLM_6HOyARIITqPXe3vfKE",
+      "nextRunAtMs": 1788519814663,
+      "status": "idle"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1788544800000,
+        "lastRunAtMs": 1788458400048,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 73670,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1788458473718,
+      "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
+      "nextRunAtMs": 1788544800000,
+      "lastRunAtMs": 1788458400048,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1788577200000,
+        "lastRunAtMs": 1788490800035,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 9920,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788490809955,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1788577200000,
+      "lastRunAtMs": 1788490800035,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "7b79420e-31d0-4010-9545-ee97bae4dc07",
+      "declarationKey": "skill-collection-review:researcher-bot",
+      "displayName": "Skill collection review (researcher-bot)",
+      "agentId": "researcher-bot",
+      "name": "skill-collection-review-researcher-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647254,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 290073407
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1788683673407
+      },
+      "updatedAtMs": 1788337647254,
+      "configRevision": "sha256:9lB98Ecs_ZAEtho3D0cGu9tESbU-ivhErYqKVWDGseU",
+      "nextRunAtMs": 1788683673407,
+      "status": "idle"
     },
     {
       "id": "c8da1b69-7b66-4483-8472-52284f11067b",
@@ -424,267 +573,26 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1788426000000,
-        "lastRunAtMs": 1788337782199,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 528,
-        "lastDeliveryStatus": "unknown",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
-        "consecutiveSkipped": 0,
-        "lastDiagnostics": {
-          "summary": "Cannot read properties of undefined (reading 'get')",
-          "entries": [
-            {
-              "ts": 1788337782686,
-              "source": "agent-run",
-              "severity": "error",
-              "message": "Cannot read properties of undefined (reading 'get')"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "Cannot read properties of undefined (reading 'get')",
-        "lastError": "Cannot read properties of undefined (reading 'get')",
-        "lastDeliveryError": "Cannot read properties of undefined (reading 'get')"
-      },
-      "updatedAtMs": 1788337782727,
-      "configRevision": "sha256:zzr2E-aXe6fFSqiGDEa3XXOC_CvrijL7eZ9l6ZXxA8c",
-      "nextRunAtMs": 1788426000000,
-      "lastRunAtMs": 1788337782199,
-      "lastRunStatus": "error",
-      "lastRunError": "Cannot read properties of undefined (reading 'get')",
-      "lastDeliveryStatus": "unknown",
-      "lastDeliveryError": "Cannot read properties of undefined (reading 'get')",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "error"
-    },
-    {
-      "id": "5bcbe8d7-8901-4f6b-8f19-9f674b82a570",
-      "declarationKey": "skill-collection-review:modeler-bot",
-      "displayName": "Skill collection review (modeler-bot)",
-      "agentId": "modeler-bot",
-      "name": "skill-collection-review-modeler-bot",
-      "enabled": true,
-      "createdAtMs": 1788337647355,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 35810474
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788429410474
-      },
-      "updatedAtMs": 1788337647355,
-      "configRevision": "sha256:baRP7pqvc5CN1XEI3K_CxZrpaNBnkDq43scDrOoHniQ",
-      "nextRunAtMs": 1788429410474,
-      "status": "idle"
-    },
-    {
-      "id": "7b755bae-c519-4f32-ac43-dfe65df39a2e",
-      "declarationKey": "skill-collection-review:manager-bot",
-      "displayName": "Skill collection review (manager-bot)",
-      "agentId": "manager-bot",
-      "name": "skill-collection-review-manager-bot",
-      "enabled": true,
-      "createdAtMs": 1788337647210,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 47537710
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788441137710
-      },
-      "updatedAtMs": 1788337647210,
-      "configRevision": "sha256:6OFQjemlJtEXz1F38SZYzeHDTkekylc4ekH3IvAVY9w",
-      "nextRunAtMs": 1788441137710,
-      "status": "idle"
-    },
-    {
-      "id": "5ed848ec-43cf-4453-a0f9-b38d14c88a07",
-      "declarationKey": "skill-collection-review:security-bot",
-      "displayName": "Skill collection review (security-bot)",
-      "agentId": "security-bot",
-      "name": "skill-collection-review-security-bot",
-      "enabled": true,
-      "createdAtMs": 1788337647373,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 51736264
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788445336264
-      },
-      "updatedAtMs": 1788337647373,
-      "configRevision": "sha256:GoR4cb9t2rPs_ED3ze7LdKCT70vVZLxGtJPlAQMfdsc",
-      "nextRunAtMs": 1788445336264,
-      "status": "idle"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1788458400000,
-        "lastRunAtMs": 1788372000023,
+        "nextRunAtMs": 1788858000000,
+        "lastRunAtMs": 1788426000032,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 117054,
+        "lastDurationMs": 69538,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": true
       },
-      "updatedAtMs": 1788372117077,
-      "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
-      "nextRunAtMs": 1788458400000,
-      "lastRunAtMs": 1788372000023,
+      "updatedAtMs": 1788426069570,
+      "configRevision": "sha256:zzr2E-aXe6fFSqiGDEa3XXOC_CvrijL7eZ9l6ZXxA8c",
+      "nextRunAtMs": 1788858000000,
+      "lastRunAtMs": 1788426000032,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "status": "ok"
-    },
-    {
-      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
-      "declarationKey": "memory-core:memory-dreaming-promotion",
-      "name": "Memory Dreaming Promotion",
-      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
-      "enabled": true,
-      "createdAtMs": 1788337645701,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "__openclaw_memory_core_short_term_promotion_dream__",
-        "lightContext": true,
-        "toolsAllow": [
-          "*"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1788490800000,
-        "lastRunAtMs": 1788404400061,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 26875,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1788404426936,
-      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1788490800000,
-      "lastRunAtMs": 1788404400061,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
-    },
-    {
-      "id": "7af371c2-667e-4297-aec2-d328d2a3807d",
-      "declarationKey": "skill-collection-review:medication_agent",
-      "displayName": "Skill collection review (medication_agent)",
-      "agentId": "medication_agent",
-      "name": "skill-collection-review-medication_agent",
-      "enabled": true,
-      "createdAtMs": 1788337647395,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 126214663
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788519814663
-      },
-      "updatedAtMs": 1788337647395,
-      "configRevision": "sha256:xcf5L0kRbjBoS7vFi3EQtqLM_6HOyARIITqPXe3vfKE",
-      "nextRunAtMs": 1788519814663,
-      "status": "idle"
-    },
-    {
-      "id": "7b79420e-31d0-4010-9545-ee97bae4dc07",
-      "declarationKey": "skill-collection-review:researcher-bot",
-      "displayName": "Skill collection review (researcher-bot)",
-      "agentId": "researcher-bot",
-      "name": "skill-collection-review-researcher-bot",
-      "enabled": true,
-      "createdAtMs": 1788337647254,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 290073407
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788683673407
-      },
-      "updatedAtMs": 1788337647254,
-      "configRevision": "sha256:9lB98Ecs_ZAEtho3D0cGu9tESbU-ivhErYqKVWDGseU",
-      "nextRunAtMs": 1788683673407,
-      "status": "idle"
     },
     {
       "id": "c2719573-25e8-43ad-88d6-1bf29daa5721",
@@ -737,6 +645,120 @@
       "configRevision": "sha256:HqAqIg0DGhsYQPK9asv5vmE6XxVQJ5fJf7BMuQOk2U8",
       "nextRunAtMs": 1788929181341,
       "status": "idle"
+    },
+    {
+      "id": "5bcbe8d7-8901-4f6b-8f19-9f674b82a570",
+      "declarationKey": "skill-collection-review:modeler-bot",
+      "displayName": "Skill collection review (modeler-bot)",
+      "agentId": "modeler-bot",
+      "name": "skill-collection-review-modeler-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647355,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 35810474
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1789034210489,
+        "lastRunAtMs": 1788429410489,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 10524,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788429421013,
+      "configRevision": "sha256:baRP7pqvc5CN1XEI3K_CxZrpaNBnkDq43scDrOoHniQ",
+      "nextRunAtMs": 1789034210489,
+      "lastRunAtMs": 1788429410489,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "7b755bae-c519-4f32-ac43-dfe65df39a2e",
+      "declarationKey": "skill-collection-review:manager-bot",
+      "displayName": "Skill collection review (manager-bot)",
+      "agentId": "manager-bot",
+      "name": "skill-collection-review-manager-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647210,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 47537710
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1789045937728,
+        "lastRunAtMs": 1788441137728,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 10866,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788441148594,
+      "configRevision": "sha256:6OFQjemlJtEXz1F38SZYzeHDTkekylc4ekH3IvAVY9w",
+      "nextRunAtMs": 1789045937728,
+      "lastRunAtMs": 1788441137728,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "5ed848ec-43cf-4453-a0f9-b38d14c88a07",
+      "declarationKey": "skill-collection-review:security-bot",
+      "displayName": "Skill collection review (security-bot)",
+      "agentId": "security-bot",
+      "name": "skill-collection-review-security-bot",
+      "enabled": true,
+      "createdAtMs": 1788337647373,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 51736264
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1789050136284,
+        "lastRunAtMs": 1788445336284,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 10770,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788445347054,
+      "configRevision": "sha256:GoR4cb9t2rPs_ED3ze7LdKCT70vVZLxGtJPlAQMfdsc",
+      "nextRunAtMs": 1789050136284,
+      "lastRunAtMs": 1788445336284,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
     },
     {
       "id": "1997b259-13c0-4b0a-9f24-9756f484aa86",
@@ -1471,7 +1493,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:OTj1AHILXzCXL0NGLgM75skJEnzmud0aPBghmZIMoAg",
+  "snapshotRevision": "sha256:31fETGlnS4oIB_qgth42vaRwOcmj4hySM6_S5rc0JeY",
   "total": 30,
   "offset": 0,
   "limit": 200,
@@ -1514,19 +1536,7 @@
       "label": "not requested",
       "detail": "not requested"
     },
-    "c8da1b69-7b66-4483-8472-52284f11067b": {
-      "label": "announce -> discord:channel:1504151367164498050",
-      "detail": "explicit"
-    },
-    "5bcbe8d7-8901-4f6b-8f19-9f674b82a570": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "7b755bae-c519-4f32-ac43-dfe65df39a2e": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "5ed848ec-43cf-4453-a0f9-b38d14c88a07": {
+    "7af371c2-667e-4297-aec2-d328d2a3807d": {
       "label": "not requested",
       "detail": "not requested"
     },
@@ -1538,19 +1548,31 @@
       "label": "not requested",
       "detail": "not requested"
     },
-    "7af371c2-667e-4297-aec2-d328d2a3807d": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
     "7b79420e-31d0-4010-9545-ee97bae4dc07": {
       "label": "not requested",
       "detail": "not requested"
+    },
+    "c8da1b69-7b66-4483-8472-52284f11067b": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
     },
     "c2719573-25e8-43ad-88d6-1bf29daa5721": {
       "label": "not requested",
       "detail": "not requested"
     },
     "92c3a4b6-e84d-452b-a686-79ba87240562": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "5bcbe8d7-8901-4f6b-8f19-9f674b82a570": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "7b755bae-c519-4f32-ac43-dfe65df39a2e": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "5ed848ec-43cf-4453-a0f9-b38d14c88a07": {
       "label": "not requested",
       "detail": "not requested"
     },

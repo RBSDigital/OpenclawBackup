@@ -134,6 +134,7 @@ Be helpful without being annoying: check in a few times a day, do useful backgro
 - Treat `REMINDER_SCHEDULE.md` as the source of truth for the medication lane.
 - Before posting any reminder, verify that every medication on the list has a concrete next trigger date in the manifest.
 - If a medication is missing a date or the manifest looks stale, repair the manifest first instead of reconstructing the schedule from channel search or partial chat history.
+- When posting the reminder, target `#medication-reminders` explicitly (`channel:1537422220391874590`) rather than reusing `#manager-hq` or any active session default.
 
 ## Make It Yours
 

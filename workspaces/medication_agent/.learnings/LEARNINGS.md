@@ -12,3 +12,12 @@ Corrections, insights, and knowledge gaps captured during development.
 - Guardrail: verify every medication has a concrete next trigger date in `REMINDER_SCHEDULE.md` before posting the reminder channel update.
 
 ---
+
+## 2026-09-03 - Medication reminder delivery target
+
+- Category: correction
+- Lesson: reminder posts must target `#medication-reminders` explicitly, not the currently active lane or `#manager-hq` default.
+- Failure mode: the 2026-08-29 reminder content was published in `#manager-hq` instead of the medication channel, so it looked like it never reached the reminder lane.
+- Guardrail: check the destination channel before sending and use `channel:1537422220391874590` for medication reminders.
+
+---

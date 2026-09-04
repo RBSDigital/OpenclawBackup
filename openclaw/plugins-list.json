@@ -9,7 +9,7 @@
     {
       "id": "a2a",
       "name": "A2A",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "A2A v1.0 Agent-to-Agent protocol channel plugin.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/a2a/index.js",
@@ -86,7 +86,7 @@
     {
       "id": "admin-http-rpc",
       "name": "@openclaw/admin-http-rpc",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
@@ -130,7 +130,7 @@
     {
       "id": "alibaba",
       "name": "@openclaw/alibaba-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba",
@@ -174,7 +174,7 @@
     {
       "id": "anthropic",
       "name": "Anthropic",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Anthropic models, Claude CLI, and native Claude session catalog.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic/index.js",
@@ -228,7 +228,7 @@
     {
       "id": "azure-speech",
       "name": "Azure Speech",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
@@ -275,7 +275,7 @@
     {
       "id": "beam",
       "name": "@openclaw/beam",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/beam/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/beam",
@@ -314,7 +314,7 @@
     {
       "id": "bonjour",
       "name": "Bonjour Gateway Discovery",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
@@ -352,7 +352,7 @@
     {
       "id": "browser",
       "name": "@openclaw/browser-plugin",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser",
@@ -400,7 +400,7 @@
     {
       "id": "canvas",
       "name": "Canvas",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Presents hosted widget documents on paired macOS panels.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
@@ -445,7 +445,7 @@
     {
       "id": "clawrouter",
       "name": "@openclaw/clawrouter",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clawrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clawrouter",
@@ -489,7 +489,7 @@
     {
       "id": "copilot-proxy",
       "name": "@openclaw/copilot-proxy",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy",
@@ -528,7 +528,7 @@
     {
       "id": "crabbox",
       "name": "Crabbox Worker Provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Cloud worker provider backed by the Crabbox CLI.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/crabbox/index.js",
@@ -575,7 +575,7 @@
     {
       "id": "cua-computer",
       "name": "CUA Computer",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Experimental CUA Driver computer control for macOS, Windows, and Linux node hosts.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cua-computer/index.js",
@@ -613,7 +613,7 @@
     {
       "id": "deepgram",
       "name": "@openclaw/deepgram-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram",
@@ -701,7 +701,7 @@
     {
       "id": "document-extract",
       "name": "Document Extraction",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Extract text and fallback page images from local document attachments.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
@@ -744,7 +744,7 @@
     {
       "id": "elevenlabs",
       "name": "@openclaw/elevenlabs-speech",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs",
@@ -798,7 +798,7 @@
     {
       "id": "fal",
       "name": "@openclaw/fal-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal",
@@ -854,7 +854,7 @@
     {
       "id": "file-transfer",
       "name": "File Transfer",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
@@ -905,7 +905,7 @@
     {
       "id": "geolocation",
       "name": "Geolocation",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Resolves client IP addresses to a coarse city using a locally cached IP-geolocation database.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/geolocation/index.js",
@@ -943,7 +943,7 @@
     {
       "id": "github-copilot",
       "name": "@openclaw/github-copilot-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot",
@@ -992,7 +992,7 @@
     {
       "id": "google",
       "name": "@openclaw/google-plugin",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google",
@@ -1077,7 +1077,7 @@
     {
       "id": "huggingface",
       "name": "@openclaw/huggingface-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface",
@@ -1116,7 +1116,7 @@
     {
       "id": "imap",
       "name": "IMAP email trigger",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Watch IMAP mailboxes and dispatch authenticated incoming email to isolated agent sessions.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imap/index.js",
@@ -1154,7 +1154,7 @@
     {
       "id": "linux-node",
       "name": "Linux Node",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Desktop notifications, camera capture, and location for Linux node hosts.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/linux-node/index.js",
@@ -1192,7 +1192,7 @@
     {
       "id": "litellm",
       "name": "@openclaw/litellm-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm",
@@ -1238,7 +1238,7 @@
     {
       "id": "llm-task",
       "name": "LLM Task",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
@@ -1283,7 +1283,7 @@
     {
       "id": "lmstudio",
       "name": "@openclaw/lmstudio-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio",
@@ -1331,7 +1331,7 @@
     {
       "id": "logbook",
       "name": "Logbook",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Automatic work journal: captures periodic screen snapshots from a paired node and turns them into a reviewable timeline of your day.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/logbook/index.js",
@@ -1369,7 +1369,7 @@
     {
       "id": "memory-core",
       "name": "OpenClaw Memory",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "kind": "memory",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core/index.js",
@@ -1420,7 +1420,7 @@
     {
       "id": "memory-wiki",
       "name": "Memory Wiki",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
@@ -1475,7 +1475,7 @@
     {
       "id": "microsoft",
       "name": "@openclaw/microsoft-speech",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft",
@@ -1521,7 +1521,7 @@
     {
       "id": "microsoft-foundry",
       "name": "@openclaw/microsoft-foundry",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry",
@@ -1567,7 +1567,7 @@
     {
       "id": "migrate-claude",
       "name": "Claude Migration",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
@@ -1612,7 +1612,7 @@
     {
       "id": "migrate-hermes",
       "name": "Hermes Migration",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
@@ -1657,7 +1657,7 @@
     {
       "id": "minimax",
       "name": "@openclaw/minimax-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax",
@@ -1740,7 +1740,7 @@
     {
       "id": "nvidia",
       "name": "@openclaw/nvidia-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia",
@@ -1779,7 +1779,7 @@
     {
       "id": "oc-path",
       "name": "OC Path",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
@@ -1821,7 +1821,7 @@
     {
       "id": "ollama",
       "name": "@openclaw/ollama-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama",
@@ -1880,7 +1880,7 @@
     {
       "id": "onepassword",
       "name": "1Password",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "1Password SecretRef resolver and curated agent broker with approval policy and SQLite audit history.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/onepassword/index.js",
@@ -1930,7 +1930,7 @@
     {
       "id": "openai",
       "name": "@openclaw/openai-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai",
@@ -2009,7 +2009,7 @@
     {
       "id": "opencode-go",
       "name": "@openclaw/opencode-go-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go",
@@ -2050,12 +2050,22 @@
         "mediaUnderstandingProviders": [
           "opencode-go"
         ]
+      },
+      "dependencyStatus": {
+        "hasDependencies": false,
+        "installed": true,
+        "requiredInstalled": true,
+        "optionalInstalled": true,
+        "missing": [],
+        "missingOptional": [],
+        "dependencies": [],
+        "optionalDependencies": []
       }
     },
     {
       "id": "openrouter",
       "name": "@openclaw/openrouter-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter",
@@ -2124,7 +2134,7 @@
     {
       "id": "policy",
       "name": "Policy",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Adds policy-backed doctor checks for workspace conformance.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy/index.js",
@@ -2166,7 +2176,7 @@
     {
       "id": "reef",
       "name": "Reef",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Guarded end-to-end encrypted claw channel",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/reef/index.js",
@@ -2210,7 +2220,7 @@
     {
       "id": "runway",
       "name": "@openclaw/runway-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway",
@@ -2254,7 +2264,7 @@
     {
       "id": "senseaudio",
       "name": "@openclaw/senseaudio-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio",
@@ -2298,7 +2308,7 @@
     {
       "id": "sglang",
       "name": "@openclaw/sglang-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang",
@@ -2376,7 +2386,7 @@
     {
       "id": "telegram",
       "name": "@openclaw/telegram",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram",
@@ -2415,7 +2425,7 @@
     {
       "id": "together",
       "name": "@openclaw/together-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together",
@@ -2461,7 +2471,7 @@
     {
       "id": "tts-local-cli",
       "name": "@openclaw/tts-local-cli",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
@@ -2507,7 +2517,7 @@
     {
       "id": "vault",
       "name": "Vault",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "HashiCorp Vault SecretRef provider integration.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vault/index.js",
@@ -2549,7 +2559,7 @@
     {
       "id": "vllm",
       "name": "@openclaw/vllm-provider",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm",
@@ -2588,7 +2598,7 @@
     {
       "id": "web-readability",
       "name": "Web Readability Extraction",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Extract readable article content from local HTML web fetch responses.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
@@ -2631,7 +2641,7 @@
     {
       "id": "webhooks",
       "name": "Webhooks",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Authenticated inbound webhooks that bind external automation to OpenClaw TaskFlows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
@@ -2669,7 +2679,7 @@
     {
       "id": "workboard",
       "name": "Workboard",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Dashboard workboard for agent-owned issues and sessions.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/workboard/index.js",
@@ -2786,7 +2796,7 @@
     {
       "id": "xai",
       "name": "@openclaw/xai-plugin",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai",
@@ -2866,6 +2876,9 @@
         "webSearchProviders": [
           "grok"
         ],
+        "usageProviders": [
+          "xai"
+        ],
         "tools": [
           "code_execution",
           "x_search"
@@ -2875,11 +2888,11 @@
     {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.8.2",
+      "version": "2026.9.1",
       "description": "Codex app-server harness and native session catalog.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openclaw/codex/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openclaw/codex",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openclaw/codex/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openclaw/codex",
       "origin": "global",
       "enabled": true,
       "compat": [
@@ -2959,45 +2972,45 @@
         "dependencies": [
           {
             "name": "@openai/codex",
-            "spec": "0.151.0",
+            "spec": "0.152.1",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/@openai/codex"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openai/codex"
           },
           {
             "name": "semver",
             "spec": "7.8.5",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/semver"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/semver"
           },
           {
             "name": "smol-toml",
             "spec": "1.8.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/smol-toml"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/smol-toml"
           },
           {
             "name": "typebox",
             "spec": "1.3.17",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/typebox"
           },
           {
             "name": "ws",
             "spec": "8.21.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/ws"
           },
           {
             "name": "zod",
             "spec": "4.4.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-904354ff99b0495b/node_modules/zod"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -3125,11 +3138,5 @@
       }
     }
   ],
-  "diagnostics": [
-    {
-      "level": "warn",
-      "pluginId": "discord",
-      "message": "Plugin \"discord\" requires capability consent; disable and re-enable it or run `openclaw plugins enable discord --accept-capabilities`."
-    }
-  ]
+  "diagnostics": []
 }
