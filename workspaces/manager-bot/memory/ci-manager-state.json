@@ -1,35 +1,35 @@
 {
-  "lastRunAt": "2026-09-03T05:20:51.505Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-09-03T05:20:30Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-09-03T05:20:30Z.json",
+  "lastRunAt": "2026-09-04T05:20:58.200Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-09-04T05:20:30Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-09-04T05:20:30Z.json",
   "openFindings": [
     {
-      "id": "ci-2026-09-03-001",
+      "id": "ci-2026-09-04-001",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "1 failed delivery queue item(s) exist.",
-      "firstSeenAt": "2026-09-03T05:20:51.505Z",
-      "lastSeenAt": "2026-09-03T05:20:51.505Z",
+      "firstSeenAt": "2026-09-04T05:20:58.200Z",
+      "lastSeenAt": "2026-09-04T05:20:58.200Z",
       "status": "open",
       "nextAction": "Inspect failed delivery targets and clear only after confirming no retry loop."
     },
     {
-      "id": "ci-2026-09-03-002",
+      "id": "ci-2026-09-04-002",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "Cross-agent handoff is blocked by session visibility or spawn policy.",
-      "firstSeenAt": "2026-09-03T05:20:51.505Z",
-      "lastSeenAt": "2026-09-03T05:20:51.505Z",
+      "firstSeenAt": "2026-09-04T05:20:58.200Z",
+      "lastSeenAt": "2026-09-04T05:20:58.200Z",
       "status": "open",
       "nextAction": "Preview the least-privilege config change or document direct-channel handoff as the operating pattern."
     },
     {
-      "id": "ci-2026-09-03-003",
+      "id": "ci-2026-09-04-003",
       "severity": "P2",
       "owner": "medication_agent",
       "summary": "medication_agent has no active heartbeat checklist items.",
-      "firstSeenAt": "2026-09-03T05:20:51.505Z",
-      "lastSeenAt": "2026-09-03T05:20:51.505Z",
+      "firstSeenAt": "2026-09-04T05:20:58.200Z",
+      "lastSeenAt": "2026-09-04T05:20:58.200Z",
       "status": "open",
       "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
     }

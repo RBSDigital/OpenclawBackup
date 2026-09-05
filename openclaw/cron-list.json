@@ -23,21 +23,21 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1788497131354,
-        "lastRunAtMs": 1788475531354,
+        "nextRunAtMs": 1788583531475,
+        "lastRunAtMs": 1788561931475,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 37289,
+        "lastDurationMs": 42746,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1788475568643,
+      "updatedAtMs": 1788561974221,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1788497131354,
-      "lastRunAtMs": 1788475531354,
+      "nextRunAtMs": 1788583531475,
+      "lastRunAtMs": 1788561931475,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -71,26 +71,48 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1788501894831,
-        "lastRunAtMs": 1788480294847,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 63642,
-        "lastDeliveryStatus": "delivered",
+        "nextRunAtMs": 1788588294831,
+        "lastRunAtMs": 1788566694853,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 45383,
+        "lastDeliveryStatus": "not-delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
+        "consecutiveErrors": 1,
         "consecutiveSkipped": 0,
-        "lastDelivered": true
+        "lastDelivered": false,
+        "lastError": "⚠️ Bash failed",
+        "lastDiagnostics": {
+          "summary": "⚠️ Bash failed",
+          "entries": [
+            {
+              "ts": 1788566740177,
+              "source": "tool",
+              "severity": "error",
+              "message": "⚠️ Bash failed"
+            },
+            {
+              "ts": 1788566740180,
+              "source": "agent-run",
+              "severity": "error",
+              "message": "⚠️ Bash failed"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "⚠️ Bash failed",
+        "lastDeliveryError": "⚠️ Bash failed"
       },
-      "updatedAtMs": 1788480358489,
+      "updatedAtMs": 1788566740236,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1788501894831,
-      "lastRunAtMs": 1788480294847,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
+      "nextRunAtMs": 1788588294831,
+      "lastRunAtMs": 1788566694853,
+      "lastRunStatus": "error",
+      "lastRunError": "⚠️ Bash failed",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "lastDeliveryError": "⚠️ Bash failed",
       "lastFailureNotificationDeliveryStatus": "not-requested",
-      "status": "ok"
+      "status": "error"
     },
     {
       "id": "f6c08cbb-d120-476f-99dd-1240e182c1bc",
@@ -111,20 +133,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503246075,
-        "lastRunAtMs": 1788496046075,
+        "nextRunAtMs": 1788589646329,
+        "lastRunAtMs": 1788582446329,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 11525,
+        "lastDurationMs": 8979,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788496057600,
+      "updatedAtMs": 1788582455308,
       "configRevision": "sha256:-MBMbMQtHsxRcSPQH2op2c-sNMr95nskMiqZREb_lYw",
-      "nextRunAtMs": 1788503246075,
-      "lastRunAtMs": 1788496046075,
+      "nextRunAtMs": 1788589646329,
+      "lastRunAtMs": 1788582446329,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -149,20 +171,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503262792,
-        "lastRunAtMs": 1788496062792,
+        "nextRunAtMs": 1788589666187,
+        "lastRunAtMs": 1788582466187,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 17157,
+        "lastDurationMs": 11977,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788496079949,
+      "updatedAtMs": 1788582478164,
       "configRevision": "sha256:AX1HDQ_YCJaacSIbYe_5Xqy5skY-DW-Z1AM7FD5JPeA",
-      "nextRunAtMs": 1788503262792,
-      "lastRunAtMs": 1788496062792,
+      "nextRunAtMs": 1788589666187,
+      "lastRunAtMs": 1788582466187,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -187,20 +209,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503271231,
-        "lastRunAtMs": 1788496071231,
+        "nextRunAtMs": 1788589680321,
+        "lastRunAtMs": 1788582480321,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 23927,
+        "lastDurationMs": 9830,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788496095158,
+      "updatedAtMs": 1788582490151,
       "configRevision": "sha256:CfmNlv5ksaoIwA9KH_mbe-UZgQ7CK53eAj0kTZ8tgLU",
-      "nextRunAtMs": 1788503271231,
-      "lastRunAtMs": 1788496071231,
+      "nextRunAtMs": 1788589680321,
+      "lastRunAtMs": 1788582480321,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -225,20 +247,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503271242,
-        "lastRunAtMs": 1788496071242,
+        "nextRunAtMs": 1788589684659,
+        "lastRunAtMs": 1788582484659,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 23062,
+        "lastDurationMs": 13187,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788496094304,
+      "updatedAtMs": 1788582497846,
       "configRevision": "sha256:fKtOxpfXJMKYk-KdDFZc6b5pxZnPjt73sbMcCIGGI3c",
-      "nextRunAtMs": 1788503271242,
-      "lastRunAtMs": 1788496071242,
+      "nextRunAtMs": 1788589684659,
+      "lastRunAtMs": 1788582484659,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -263,21 +285,21 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503273251,
-        "lastRunAtMs": 1788496073251,
+        "nextRunAtMs": 1788589688681,
+        "lastRunAtMs": 1788582488681,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 7320,
+        "lastDurationMs": 9394,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 23,
+        "consecutiveSkipped": 35,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1788496080571,
+      "updatedAtMs": 1788582498075,
       "configRevision": "sha256:n5r4SzSM97JPJO4cP7VtqzKy5u8rpOwYDyiczyNDXiI",
-      "nextRunAtMs": 1788503273251,
-      "lastRunAtMs": 1788496073251,
+      "nextRunAtMs": 1788589688681,
+      "lastRunAtMs": 1788582488681,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
@@ -303,20 +325,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503287449,
-        "lastRunAtMs": 1788496087449,
+        "nextRunAtMs": 1788589701721,
+        "lastRunAtMs": 1788582501721,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 15418,
+        "lastDurationMs": 6302,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788496102867,
+      "updatedAtMs": 1788582508023,
       "configRevision": "sha256:NAETMoGWAdmGGYzKfFtnJffiCIwBWpK0BZ0SY6Ew6bw",
-      "nextRunAtMs": 1788503287449,
-      "lastRunAtMs": 1788496087449,
+      "nextRunAtMs": 1788589701721,
+      "lastRunAtMs": 1788582501721,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -341,52 +363,26 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1788503297526,
-        "lastRunAtMs": 1788496097526,
+        "nextRunAtMs": 1788589709532,
+        "lastRunAtMs": 1788582509532,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 5366,
+        "lastDurationMs": 259,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 23,
+        "consecutiveSkipped": 35,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1788496102892,
+      "updatedAtMs": 1788582509791,
       "configRevision": "sha256:U21G6VVKuqcPC7GgLU5UBOESwxVv9h-Woqwt-MQuYU8",
-      "nextRunAtMs": 1788503297526,
-      "lastRunAtMs": 1788496097526,
+      "nextRunAtMs": 1788589709532,
+      "lastRunAtMs": 1788582509532,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "status": "skipped"
-    },
-    {
-      "id": "7af371c2-667e-4297-aec2-d328d2a3807d",
-      "declarationKey": "skill-collection-review:medication_agent",
-      "displayName": "Skill collection review (medication_agent)",
-      "agentId": "medication_agent",
-      "name": "skill-collection-review-medication_agent",
-      "enabled": true,
-      "createdAtMs": 1788337647395,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 604800000,
-        "anchorMs": 126214663
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "skillCollectionReview"
-      },
-      "state": {
-        "nextRunAtMs": 1788519814663
-      },
-      "updatedAtMs": 1788337647395,
-      "configRevision": "sha256:xcf5L0kRbjBoS7vFi3EQtqLM_6HOyARIITqPXe3vfKE",
-      "nextRunAtMs": 1788519814663,
-      "status": "idle"
     },
     {
       "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
@@ -414,21 +410,21 @@
         "bestEffort": true
       },
       "state": {
-        "nextRunAtMs": 1788544800000,
-        "lastRunAtMs": 1788458400048,
+        "nextRunAtMs": 1788631200000,
+        "lastRunAtMs": 1788544800033,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 73670,
+        "lastDurationMs": 106688,
         "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": true
       },
-      "updatedAtMs": 1788458473718,
+      "updatedAtMs": 1788544906721,
       "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
-      "nextRunAtMs": 1788544800000,
-      "lastRunAtMs": 1788458400048,
+      "nextRunAtMs": 1788631200000,
+      "lastRunAtMs": 1788544800033,
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
@@ -464,21 +460,21 @@
         "mode": "trusted"
       },
       "state": {
-        "nextRunAtMs": 1788577200000,
-        "lastRunAtMs": 1788490800035,
+        "nextRunAtMs": 1788663600000,
+        "lastRunAtMs": 1788577200072,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 9920,
+        "lastDurationMs": 11435,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1788490809955,
+      "updatedAtMs": 1788577211507,
       "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1788577200000,
-      "lastRunAtMs": 1788490800035,
+      "nextRunAtMs": 1788663600000,
+      "lastRunAtMs": 1788577200072,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -942,6 +938,44 @@
       "lastRunStatus": "ok",
       "lastDelivered": true,
       "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "status": "ok"
+    },
+    {
+      "id": "7af371c2-667e-4297-aec2-d328d2a3807d",
+      "declarationKey": "skill-collection-review:medication_agent",
+      "displayName": "Skill collection review (medication_agent)",
+      "agentId": "medication_agent",
+      "name": "skill-collection-review-medication_agent",
+      "enabled": true,
+      "createdAtMs": 1788337647395,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 604800000,
+        "anchorMs": 126214663
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "skillCollectionReview"
+      },
+      "state": {
+        "nextRunAtMs": 1789124614685,
+        "lastRunAtMs": 1788519814685,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 178,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1788519814863,
+      "configRevision": "sha256:xcf5L0kRbjBoS7vFi3EQtqLM_6HOyARIITqPXe3vfKE",
+      "nextRunAtMs": 1789124614685,
+      "lastRunAtMs": 1788519814685,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "status": "ok"
     },
@@ -1493,7 +1527,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:31fETGlnS4oIB_qgth42vaRwOcmj4hySM6_S5rc0JeY",
+  "snapshotRevision": "sha256:WMKj_ZXLULy91tZuU_bXh1qxm_CBHe5VGxZRPnNLCW4",
   "total": 30,
   "offset": 0,
   "limit": 200,
@@ -1533,10 +1567,6 @@
       "detail": "not requested"
     },
     "3d0fd3d8-b60c-4f93-8502-4a55b3df0ae3": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "7af371c2-667e-4297-aec2-d328d2a3807d": {
       "label": "not requested",
       "detail": "not requested"
     },
@@ -1587,6 +1617,10 @@
     "61968706-6860-41da-a75f-7439e9d2feea": {
       "label": "announce -> discord:channel:1537422220391874590",
       "detail": "explicit"
+    },
+    "7af371c2-667e-4297-aec2-d328d2a3807d": {
+      "label": "not requested",
+      "detail": "not requested"
     },
     "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4": {
       "label": "announce -> discord:channel:1537422220391874590",
