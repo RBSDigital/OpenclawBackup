@@ -9,12 +9,17 @@
     {
       "id": "a2a",
       "name": "A2A",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "A2A v1.0 Agent-to-Agent protocol channel plugin.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/a2a/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/a2a",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -54,6 +59,11 @@
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/active-memory/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/active-memory",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -86,11 +96,16 @@
     {
       "id": "admin-http-rpc",
       "name": "@openclaw/admin-http-rpc",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/admin-http-rpc",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-config-path-hint"
@@ -130,11 +145,16 @@
     {
       "id": "alibaba",
       "name": "@openclaw/alibaba-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/alibaba",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -174,12 +194,17 @@
     {
       "id": "anthropic",
       "name": "Anthropic",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Anthropic models, Claude CLI, and native Claude session catalog.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/anthropic",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [
@@ -228,12 +253,17 @@
     {
       "id": "azure-speech",
       "name": "Azure Speech",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Azure AI Speech text-to-speech (MP3, native Ogg/Opus voice notes, PCM telephony).",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/azure-speech",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -275,11 +305,16 @@
     {
       "id": "beam",
       "name": "@openclaw/beam",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/beam/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/beam",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-config-path-hint"
@@ -314,12 +349,17 @@
     {
       "id": "bonjour",
       "name": "Bonjour Gateway Discovery",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Advertise the local OpenClaw gateway over Bonjour/mDNS.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/bonjour",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -352,11 +392,16 @@
     {
       "id": "browser",
       "name": "@openclaw/browser-plugin",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/browser",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [
         "activation-config-path-hint"
@@ -400,12 +445,17 @@
     {
       "id": "canvas",
       "name": "Canvas",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Presents hosted widget documents on paired macOS panels.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/canvas",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -445,11 +495,16 @@
     {
       "id": "clawrouter",
       "name": "@openclaw/clawrouter",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clawrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/clawrouter",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -489,11 +544,16 @@
     {
       "id": "copilot-proxy",
       "name": "@openclaw/copilot-proxy",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/copilot-proxy",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -528,12 +588,17 @@
     {
       "id": "crabbox",
       "name": "Crabbox Worker Provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Cloud worker provider backed by the Crabbox CLI.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/crabbox/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/crabbox",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -575,12 +640,17 @@
     {
       "id": "cua-computer",
       "name": "CUA Computer",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Experimental CUA Driver computer control for macOS, Windows, and Linux node hosts.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cua-computer/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/cua-computer",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -613,11 +683,16 @@
     {
       "id": "deepgram",
       "name": "@openclaw/deepgram-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/deepgram",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -667,6 +742,11 @@
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/device-pair/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/device-pair",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -701,12 +781,17 @@
     {
       "id": "document-extract",
       "name": "Document Extraction",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Extract text and fallback page images from local document attachments.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/document-extract",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -744,11 +829,16 @@
     {
       "id": "elevenlabs",
       "name": "@openclaw/elevenlabs-speech",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/elevenlabs",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -798,11 +888,16 @@
     {
       "id": "fal",
       "name": "@openclaw/fal-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/fal",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -854,12 +949,17 @@
     {
       "id": "file-transfer",
       "name": "File Transfer",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Fetch, list, and write files on paired nodes via dedicated node commands. Bypasses bash stdout truncation by using base64 over node.invoke for binaries up to 16 MB.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/file-transfer",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -905,12 +1005,17 @@
     {
       "id": "geolocation",
       "name": "Geolocation",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Resolves client IP addresses to a coarse city using a locally cached IP-geolocation database.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/geolocation/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/geolocation",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -943,11 +1048,16 @@
     {
       "id": "github-copilot",
       "name": "@openclaw/github-copilot-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/github-copilot",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -992,11 +1102,16 @@
     {
       "id": "google",
       "name": "@openclaw/google-plugin",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/google",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1077,11 +1192,16 @@
     {
       "id": "huggingface",
       "name": "@openclaw/huggingface-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/huggingface",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1116,12 +1236,17 @@
     {
       "id": "imap",
       "name": "IMAP email trigger",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Watch IMAP mailboxes and dispatch authenticated incoming email to isolated agent sessions.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imap/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/imap",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1154,12 +1279,17 @@
     {
       "id": "linux-node",
       "name": "Linux Node",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Desktop notifications, camera capture, and location for Linux node hosts.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/linux-node/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/linux-node",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1192,11 +1322,16 @@
     {
       "id": "litellm",
       "name": "@openclaw/litellm-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/litellm",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1238,12 +1373,17 @@
     {
       "id": "llm-task",
       "name": "LLM Task",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Generic JSON-only LLM tool for structured tasks callable from workflows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/llm-task",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1283,11 +1423,16 @@
     {
       "id": "lmstudio",
       "name": "@openclaw/lmstudio-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/lmstudio",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [
@@ -1331,12 +1476,17 @@
     {
       "id": "logbook",
       "name": "Logbook",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Automatic work journal: captures periodic screen snapshots from a paired node and turns them into a reviewable timeline of your day.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/logbook/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/logbook",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1369,12 +1519,17 @@
     {
       "id": "memory-core",
       "name": "OpenClaw Memory",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "kind": "memory",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-core",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1420,12 +1575,17 @@
     {
       "id": "memory-wiki",
       "name": "Memory Wiki",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Persistent wiki compiler and Obsidian-friendly knowledge vault for OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/memory-wiki",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1475,11 +1635,16 @@
     {
       "id": "microsoft",
       "name": "@openclaw/microsoft-speech",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1521,11 +1686,16 @@
     {
       "id": "microsoft-foundry",
       "name": "@openclaw/microsoft-foundry",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/microsoft-foundry",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1567,12 +1737,17 @@
     {
       "id": "migrate-claude",
       "name": "Claude Migration",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Imports Claude Code and Claude Desktop instructions, MCP servers, skills, and safe configuration into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-claude",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1612,12 +1787,17 @@
     {
       "id": "migrate-hermes",
       "name": "Hermes Migration",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Imports Hermes configuration, memories, skills, and supported credentials into OpenClaw.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/migrate-hermes",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1657,11 +1837,16 @@
     {
       "id": "minimax",
       "name": "@openclaw/minimax-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/minimax",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1740,11 +1925,16 @@
     {
       "id": "nvidia",
       "name": "@openclaw/nvidia-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/nvidia",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -1779,12 +1969,17 @@
     {
       "id": "oc-path",
       "name": "OC Path",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Adds the openclaw path CLI for oc:// workspace file addressing.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/oc-path",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -1821,11 +2016,16 @@
     {
       "id": "ollama",
       "name": "@openclaw/ollama-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/ollama",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [
@@ -1880,12 +2080,17 @@
     {
       "id": "onepassword",
       "name": "1Password",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "1Password SecretRef resolver and curated agent broker with approval policy and SQLite audit history.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/onepassword/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/onepassword",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint",
@@ -1930,11 +2135,16 @@
     {
       "id": "openai",
       "name": "@openclaw/openai-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openai",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2009,11 +2219,16 @@
     {
       "id": "opencode-go",
       "name": "@openclaw/opencode-go-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/opencode-go",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2065,11 +2280,16 @@
     {
       "id": "openrouter",
       "name": "@openclaw/openrouter-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/openrouter",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2134,12 +2354,17 @@
     {
       "id": "policy",
       "name": "Policy",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Adds policy-backed doctor checks for workspace conformance.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/policy",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -2176,12 +2401,17 @@
     {
       "id": "reef",
       "name": "Reef",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Guarded end-to-end encrypted claw channel",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/reef/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/reef",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -2220,11 +2450,16 @@
     {
       "id": "runway",
       "name": "@openclaw/runway-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/runway",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2264,11 +2499,16 @@
     {
       "id": "senseaudio",
       "name": "@openclaw/senseaudio-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/senseaudio",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2308,11 +2548,16 @@
     {
       "id": "sglang",
       "name": "@openclaw/sglang-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/sglang",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2352,6 +2597,11 @@
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/talk-voice/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/talk-voice",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2385,12 +2635,18 @@
     },
     {
       "id": "telegram",
-      "name": "@openclaw/telegram",
-      "version": "2026.9.1",
+      "name": "Telegram",
+      "version": "2026.9.2",
+      "description": "OpenClaw Telegram channel plugin.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/telegram",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2425,11 +2681,16 @@
     {
       "id": "together",
       "name": "@openclaw/together-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/together",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2471,11 +2732,16 @@
     {
       "id": "tts-local-cli",
       "name": "@openclaw/tts-local-cli",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/tts-local-cli",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2517,12 +2783,17 @@
     {
       "id": "vault",
       "name": "Vault",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "HashiCorp Vault SecretRef provider integration.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vault/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vault",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -2559,11 +2830,16 @@
     {
       "id": "vllm",
       "name": "@openclaw/vllm-provider",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/vllm",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2598,12 +2874,17 @@
     {
       "id": "web-readability",
       "name": "Web Readability Extraction",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Extract readable article content from local HTML web fetch responses.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/web-readability",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2641,12 +2922,17 @@
     {
       "id": "webhooks",
       "name": "Webhooks",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Authenticated inbound webhooks that bind external automation to OpenClaw TaskFlows.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/webhooks",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [],
       "syntheticAuthRefs": [],
@@ -2679,12 +2965,17 @@
     {
       "id": "workboard",
       "name": "Workboard",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Dashboard workboard for agent-owned issues and sessions.",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/workboard/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/workboard",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": false,
       "compat": [
         "activation-command-hint"
@@ -2796,11 +3087,16 @@
     {
       "id": "xai",
       "name": "@openclaw/xai-plugin",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "format": "openclaw",
       "source": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai/index.js",
       "rootDir": "/home/vin/.npm-global/lib/node_modules/openclaw/dist/extensions/xai",
       "origin": "bundled",
+      "trust": {
+        "reason": "bundled",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "bundled"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [
@@ -2888,12 +3184,20 @@
     {
       "id": "codex",
       "name": "Codex",
-      "version": "2026.9.1",
+      "version": "2026.9.2",
       "description": "Codex app-server harness and native session catalog.",
       "format": "openclaw",
-      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openclaw/codex/dist/index.js",
-      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openclaw/codex",
+      "source": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/@openclaw/codex/dist/index.js",
+      "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/@openclaw/codex",
       "origin": "global",
+      "trustedOfficialInstall": true,
+      "trust": {
+        "reason": "trusted-official",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "global",
+        "installSource": "npm",
+        "installSpec": "@openclaw/codex@2026.9.2"
+      },
       "enabled": true,
       "compat": [
         "activation-agent-harness-hint",
@@ -2972,45 +3276,45 @@
         "dependencies": [
           {
             "name": "@openai/codex",
-            "spec": "0.152.1",
+            "spec": "0.153.4",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/@openai/codex"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/@openai/codex"
           },
           {
             "name": "semver",
             "spec": "7.8.5",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/semver"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/semver"
           },
           {
             "name": "smol-toml",
             "spec": "1.8.0",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/smol-toml"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/smol-toml"
           },
           {
             "name": "typebox",
-            "spec": "1.3.17",
+            "spec": "1.3.18",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/typebox"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/typebox"
           },
           {
             "name": "ws",
             "spec": "8.21.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/ws"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/ws"
           },
           {
             "name": "zod",
             "spec": "4.4.3",
             "installed": true,
             "optional": false,
-            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-b42d646e5561ece2/node_modules/zod"
+            "resolvedPath": "/home/vin/.openclaw/npm/projects/openclaw-codex-8902d781d4__openclaw-generation__g-e2e0de3303206c53/node_modules/zod"
           }
         ],
         "optionalDependencies": []
@@ -3025,6 +3329,14 @@
       "source": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord/dist/index.js",
       "rootDir": "/home/vin/.openclaw/npm/projects/openclaw-discord-c0892df945__openclaw-generation__g-8281b201856a748e/node_modules/@openclaw/discord",
       "origin": "global",
+      "trustedOfficialInstall": true,
+      "trust": {
+        "reason": "trusted-official",
+        "registryPath": "/home/vin/.openclaw/state/openclaw.sqlite",
+        "origin": "global",
+        "installSource": "npm",
+        "installSpec": "@openclaw/discord@2026.8.2"
+      },
       "enabled": true,
       "compat": [],
       "syntheticAuthRefs": [],
