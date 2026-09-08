@@ -61,6 +61,7 @@ Prefer safe defaults:
 - Use `.learnings/ERRORS.md` for tool or integration failures, `.learnings/LEARNINGS.md` for user corrections and insights, and `.learnings/FEATURE_REQUESTS.md` for missing capabilities.
 - Write entries as short, structured markdown blocks so they can be parsed by `manager-bot`'s daily review and promoted to the right long-term location.
 - Log first, improve second.
+- For heartbeat and hooks checks, validate `openclaw.json` with `openclaw doctor` or schema checks before relying on output, and expect `openclaw hooks list --agent ...` to require `operator.admin` scope for agent-specific introspection.
 
 ## Tools
 
