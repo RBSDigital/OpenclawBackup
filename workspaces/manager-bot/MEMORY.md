@@ -136,3 +136,7 @@ Blockers to flag: <credentials, paywalls, missing context, ambiguous scope>
 ```
 
 Good research prompts include the decision supported, exact question, timeframe, geography, reliable source criteria, exclusions, desired output format, deadline, and blocker handling.
+## Consolidated Memory (2026-09-09)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-30.md:1:6 -->
+- # 2026-08-30 - Reviewed `.learnings` across workspace roots for the last 24 hours. - No new `.learnings` entries were added since the prior review. - No repeated failures, corrections, or feature requests needed promotion today. Source: memory/2026-08-30.md#L1-L6 <!-- trigger: reviewed, learnings, across --> <!-- importance: 9 -->

@@ -55,24 +55,132 @@
         "workspace": "/home/vin/.openclaw/workspaces/manager-bot"
       },
       "researcher-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/researcher-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/researcher-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "ops-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/ops-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/ops-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "admin-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/admin-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/admin-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "modeler-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/modeler-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/modeler-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "security-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/security-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/security-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "medication_agent": {
         "name": "medication_agent",
         "workspace": "/home/vin/.openclaw/workspaces/medication_agent",
-        "agentDir": "/home/vin/.openclaw/agents/medication_agent"
+        "agentDir": "/home/vin/.openclaw/agents/medication_agent",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       }
     }
   },
@@ -144,13 +252,13 @@
     }
   },
   "wizard": {
-    "lastRunAt": "2026-09-02T04:03:07.501Z",
-    "lastRunVersion": "2026.8.2",
+    "lastRunAt": "2026-09-09T04:03:26.689Z",
+    "lastRunVersion": "2026.9.3",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.9.2",
+    "lastTouchedVersion": "2026.9.3",
     "migrations": {
       "modelPolicyAllowlist": true
     }

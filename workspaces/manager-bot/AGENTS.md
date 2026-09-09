@@ -87,6 +87,7 @@ You have access to your human's stuff. That doesn't mean you _share_ their stuff
 
 For this workspace, `#manager-hq` is the intake and coordination lane. Specialist execution should move to the right owner when it is more than a tiny one-step task:
 
+- Business analysis / systems analysis / stakeholder analysis / requirements / business case / process improvement / change delivery -> handle in `#manager-hq` when the task is small and coordinative; otherwise use `#research-lab` / `researcher-bot` for source-heavy or model-heavy analysis.
 - Research/web/docs/source-heavy analysis → `#research-lab` / `researcher-bot`
 - Ops/status/incidents/backups/maintenance/logs → `#ops-center` / `ops-bot`
 - High-risk admin/permissions/credentials/service restarts/destructive changes → `#admin-desk` / `admin-bot`
