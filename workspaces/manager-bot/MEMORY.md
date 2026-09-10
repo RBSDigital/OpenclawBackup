@@ -140,3 +140,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 
 <!-- openclaw-memory-promotion:memory:memory/2026-08-30.md:1:6 -->
 - # 2026-08-30 - Reviewed `.learnings` across workspace roots for the last 24 hours. - No new `.learnings` entries were added since the prior review. - No repeated failures, corrections, or feature requests needed promotion today. Source: memory/2026-08-30.md#L1-L6 <!-- trigger: reviewed, learnings, across --> <!-- importance: 9 -->
+## Consolidated Memory (2026-09-10)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-08-29.md:1:9 -->
+- # 2026-08-29 - Reviewed `.learnings` across all active workspaces for the last day. - No new workspace-local entries were added since the prior review. - Two standing items were checked and found to already be promoted: - medication reminders must use `REMINDER_SCHEDULE.md` as the source of truth - Structurizr validation can fall back to portable Temurin 17 plus the official CLI ZIP when host Java/Docker access is unavailable - No additional durable promotion was needed today. Source: memory/2026-08-29.md#L1-L9 <!-- trigger: workspace-local, reminder-schedule.md, java/docker --> <!-- importance: 8 -->
