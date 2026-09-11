@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-10T04:30:46.407Z",
+  "generatedAt": "2026-09-11T04:30:45.332Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
@@ -18,6 +18,7 @@
   "configuredAgents": [],
   "workspaceDirs": [
     "admin-bot",
+    "bcg-coach",
     "manager-bot",
     "medication_agent",
     "modeler-bot",
@@ -27,6 +28,7 @@
   ],
   "runtimeDirs": [
     "admin-bot",
+    "bcg-coach",
     "main",
     "manager-bot",
     "medication_agent",
@@ -52,77 +54,89 @@
       "agentId": "manager-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151367164498050"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "researcher-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151368343228636"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "ops-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151369261514856"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "admin-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151371195220160"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "modeler-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1505085743414902819"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "security-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1507299212272996423"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "medication_agent",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1537422220391874590"
-        }
+        },
+        "guildId": "1485914371766091809"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "bcg-coach",
+      "match": {
+        "channel": "discord",
+        "peer": {
+          "kind": "channel",
+          "id": "1547635566017781872"
+        },
+        "guildId": "1485914371766091809"
       }
     }
   ],

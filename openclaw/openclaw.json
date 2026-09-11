@@ -52,7 +52,25 @@
     "ownership": "explicit",
     "entries": {
       "manager-bot": {
-        "workspace": "/home/vin/.openclaw/workspaces/manager-bot"
+        "workspace": "/home/vin/.openclaw/workspaces/manager-bot",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       },
       "researcher-bot": {
         "workspace": "/home/vin/.openclaw/workspaces/researcher-bot",
@@ -181,6 +199,29 @@
             "openai/o4-mini"
           ]
         }
+      },
+      "bcg-coach": {
+        "name": "bcg-coach",
+        "workspace": "/home/vin/.openclaw/workspaces/bcg-coach",
+        "agentDir": "/home/vin/.openclaw/agents/bcg-coach/agent",
+        "identity": {
+          "name": "BCG-Coach",
+          "emoji": "✍️",
+          "theme": "Sharp, supportive, executive, and UK English by default"
+        },
+        "model": "openai/gpt-5.6-luna",
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       }
     }
   },
@@ -252,7 +293,7 @@
     }
   },
   "wizard": {
-    "lastRunAt": "2026-09-09T04:03:26.689Z",
+    "lastRunAt": "2026-09-11T04:05:54.016Z",
     "lastRunVersion": "2026.9.3",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
@@ -444,7 +485,8 @@
         "1504151371195220160",
         "1505085743414902819",
         "1507299212272996423",
-        "1537422220391874590"
+        "1537422220391874590",
+        "1547635566017781872"
       ],
       "guilds": {
         "1485914371766091809": {
@@ -494,6 +536,12 @@
               "users": [
                 "1057573629275148369"
               ]
+            },
+            "1547635566017781872": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
             }
           }
         }
@@ -522,77 +570,89 @@
       "agentId": "manager-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151367164498050"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "researcher-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151368343228636"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "ops-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151369261514856"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "admin-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1504151371195220160"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "modeler-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1505085743414902819"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "security-bot",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1507299212272996423"
-        }
+        },
+        "guildId": "1485914371766091809"
       }
     },
     {
       "agentId": "medication_agent",
       "match": {
         "channel": "discord",
-        "guildId": "1485914371766091809",
         "peer": {
           "kind": "channel",
           "id": "1537422220391874590"
-        }
+        },
+        "guildId": "1485914371766091809"
+      }
+    },
+    {
+      "type": "route",
+      "agentId": "bcg-coach",
+      "match": {
+        "channel": "discord",
+        "peer": {
+          "kind": "channel",
+          "id": "1547635566017781872"
+        },
+        "guildId": "1485914371766091809"
       }
     }
   ],

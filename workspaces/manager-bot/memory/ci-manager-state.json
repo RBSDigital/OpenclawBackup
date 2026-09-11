@@ -1,37 +1,87 @@
 {
-  "lastRunAt": "2026-09-09T05:20:43.455Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-09-09T05:20:30Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-09-09T05:20:30Z.json",
+  "lastRunAt": "2026-09-10T05:20:45.077Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-09-10T05:20:30Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-09-10T05:20:30Z.json",
   "openFindings": [
     {
-      "id": "ci-2026-09-09-001",
+      "id": "ci-2026-09-10-001",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "1 failed delivery queue item(s) exist.",
-      "firstSeenAt": "2026-09-09T05:20:43.455Z",
-      "lastSeenAt": "2026-09-09T05:20:43.455Z",
+      "firstSeenAt": "2026-09-10T05:20:45.076Z",
+      "lastSeenAt": "2026-09-10T05:20:45.076Z",
       "status": "open",
       "nextAction": "Inspect failed delivery targets and clear only after confirming no retry loop."
     },
     {
-      "id": "ci-2026-09-09-002",
+      "id": "ci-2026-09-10-002",
       "severity": "P1",
       "owner": "ops-bot",
       "summary": "Cross-agent handoff is blocked by session visibility or spawn policy.",
-      "firstSeenAt": "2026-09-09T05:20:43.455Z",
-      "lastSeenAt": "2026-09-09T05:20:43.455Z",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
       "status": "open",
       "nextAction": "Preview the least-privilege config change or document direct-channel handoff as the operating pattern."
     },
     {
-      "id": "ci-2026-09-09-003",
+      "id": "ci-2026-09-10-003",
+      "severity": "P2",
+      "owner": "admin-bot",
+      "summary": "admin-bot memory is stale at 170h.",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-09-10-004",
       "severity": "P2",
       "owner": "medication_agent",
       "summary": "medication_agent has no active heartbeat checklist items.",
-      "firstSeenAt": "2026-09-09T05:20:43.455Z",
-      "lastSeenAt": "2026-09-09T05:20:43.455Z",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
       "status": "open",
       "nextAction": "Add lightweight lane-specific routine checks if the lane needs proactive monitoring."
+    },
+    {
+      "id": "ci-2026-09-10-005",
+      "severity": "P2",
+      "owner": "medication_agent",
+      "summary": "medication_agent memory is stale at 170h.",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-09-10-006",
+      "severity": "P2",
+      "owner": "modeler-bot",
+      "summary": "modeler-bot memory is stale at 170h.",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-09-10-007",
+      "severity": "P2",
+      "owner": "ops-bot",
+      "summary": "ops-bot memory is stale at 170h.",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-09-10-008",
+      "severity": "P2",
+      "owner": "security-bot",
+      "summary": "security-bot memory is stale at 170h.",
+      "firstSeenAt": "2026-09-10T05:20:45.077Z",
+      "lastSeenAt": "2026-09-10T05:20:45.077Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
     }
   ],
   "quietFindings": []

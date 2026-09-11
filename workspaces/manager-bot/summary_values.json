@@ -22,10 +22,10 @@
   ],
   [
     "Business Analyst",
-    0,
+    1,
     10,
-    10,
-    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    9,
+    "Only 1 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Product Manager",
@@ -43,10 +43,10 @@
   ],
   [
     "Delivery Manager",
-    0,
+    1,
     10,
-    10,
-    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    9,
+    "Only 1 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "AI Agentic Analyst",
@@ -74,6 +74,6 @@
     "https://it.jobserve.com/JobSearch?q=business%20analysis&l=&dist=50",
     "",
     "",
-    "Filtered to Contract results with OUTSIDE IR35 in advert/snippet and posting age <= 5 days."
+    "Filtered from live UK location pages for Contract roles with OUTSIDE IR35 and posting age <= 5 days."
   ]
 ]
