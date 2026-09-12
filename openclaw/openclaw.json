@@ -268,6 +268,9 @@
       },
       "discord": {
         "enabled": true
+      },
+      "browser": {
+        "enabled": true
       }
     }
   },
@@ -293,7 +296,7 @@
     }
   },
   "wizard": {
-    "lastRunAt": "2026-09-11T04:05:54.016Z",
+    "lastRunAt": "2026-09-12T04:05:57.826Z",
     "lastRunVersion": "2026.9.3",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
@@ -674,5 +677,9 @@
         }
       }
     }
+  },
+  "browser": {
+    "headless": true,
+    "noSandbox": true
   }
 }

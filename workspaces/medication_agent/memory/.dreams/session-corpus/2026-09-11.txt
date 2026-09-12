@@ -1,0 +1,4 @@
+[medication_agent/sessions/medication_agent/243ec524-6718-4fb8-81df-1c7f0d318110#L46] User: Which one of those medicines can cause a chest rash?
+[medication_agent/sessions/medication_agent/243ec524-6718-4fb8-81df-1c7f0d318110#L47] Assistant: I’m checking reliable medication references because a new rash can occasionally signal an allergic reaction, and the urgency depends on its appearance and symptoms.
+[medication_agent/sessions/medication_agent/243ec524-6718-4fb8-81df-1c7f0d318110#L52] Assistant: All three can potentially cause a chest rash: - **Atorvastatin** — itchy/red rash is a recognized possible side effect. - **Losartan** — can rarely cause an allergic, raised itchy rash. - **Amlodipine** — can rarely cause an itchy rash or serious 
+[medication_agent/sessions/medication_agent/243ec524-6718-4fb8-81df-1c7f0d318110#L52] Assistant: amlodipine](https://www.nhs.uk/medicines/amlodipine/))
