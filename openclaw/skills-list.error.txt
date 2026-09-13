@@ -1,5 +1,1 @@
-[openclaw] Could not start the CLI.
-[openclaw] Reason: Multiple agents are configured, but the skills command has no explicit owner. Pass --agent <id>.
-[openclaw] Debug: set OPENCLAW_DEBUG=1 to include the stack trace.
-[openclaw] Try: openclaw doctor
-[openclaw] Help: openclaw --help
+Multiple agents are configured, but the skills command has no explicit owner. Pass --agent <id>.

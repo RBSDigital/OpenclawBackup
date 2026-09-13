@@ -35,7 +35,9 @@
         ]
       },
       "heartbeat": {
-        "every": "2h"
+        "every": "2h",
+        "target": "none",
+        "directPolicy": "allow"
       },
       "systemAgent": {
         "agentId": "manager-bot"
@@ -209,7 +211,12 @@
           "emoji": "✍️",
           "theme": "Sharp, supportive, executive, and UK English by default"
         },
-        "model": "openai/gpt-5.6-luna",
+        "model": {
+          "primary": "openai/gpt-5.6-luna",
+          "fallbacks": [
+            "openai/gpt-5.5"
+          ]
+        },
         "models": {
           "openai/gpt-5.6-luna": {}
         },
@@ -279,6 +286,9 @@
   },
   "tools": {
     "profile": "coding",
+    "alsoAllow": [
+      "message"
+    ],
     "sessions": {
       "visibility": "all"
     },
@@ -302,7 +312,7 @@
     "lastRunMode": "local"
   },
   "meta": {
-    "lastTouchedVersion": "2026.9.3",
+    "lastTouchedVersion": "2026.9.4",
     "migrations": {
       "modelPolicyAllowlist": true
     }
@@ -550,6 +560,11 @@
         }
       }
     }
+  },
+  "commands": {
+    "ownerAllowFrom": [
+      "discord:1057573629275148369"
+    ]
   },
   "messages": {
     "groupChat": {
