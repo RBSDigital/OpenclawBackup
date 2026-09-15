@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-09-14T08:40:00Z",
+  "sources": {
+    "livebench": {
+      "release": "2026-06-25",
+      "overall": {"model": "Claude Fable 5.1 Max Effort", "score": 83.4},
+      "reasoning": {"model": "GPT-6 Astra Max Effort", "score": 92.7},
+      "coding": {"model": "Claude Fable 5.1 Max Effort", "score": 86.4},
+      "mathematics": {"model": "Claude Fable 5.1 Max Effort", "score": 97.0},
+      "openWeightOverall": {"model": "Smaug-Agentic", "score": 79.5},
+      "lowestCostPerSuccessfulTask": {"model": "DeepSeek V4 Flash open", "costUsd": 0.016}
+    },
+    "scale": {
+      "scipredict": {"model": "gemini-3-pro-preview", "rank": 1, "score": 25.27, "uncertainty": 1.92},
+      "humanitysLastExam": {"model": "GPT 6 Astra", "rank": 1, "score": 54.80, "uncertainty": 1.94},
+      "prbenchFinance": {"model": "Muse Spark 1.1", "rank": 1, "score": 55.01, "uncertainty": 0.14},
+      "prbenchLegal": {"model": "Muse Spark 1.1", "rank": 1, "score": 57.05, "uncertainty": 0.22}
+    }
+  },
+  "note": "Catch-up snapshot created after the 2026-09-14 scheduled run failed to extract and email results."
+}

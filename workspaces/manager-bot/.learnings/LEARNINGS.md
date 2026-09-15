@@ -6,6 +6,30 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260914-001] best_practice
+
+**Logged**: 2026-09-14T08:42:00Z
+**Priority**: high
+**Status**: pending
+**Area**: automation
+
+### Summary
+Scheduled research jobs must distinguish technical run completion from successful business outcome and must verify both extraction and email delivery.
+
+### Details
+The leaderboard job reported `ok` at the scheduler level even though it neither produced a trusted report nor sent a warning email. The catch-up run succeeded after using live source retrieval and the gateway Gmail path.
+
+### Suggested Action
+Treat report preparation and delivery as explicit success gates. Do not mark a run complete, update the snapshot, or suppress failure notification until source extraction is reliable and the email send operation succeeds.
+
+### Metadata
+- Source: incident
+- Tags: automation, research, email, delivery, observability
+- Pattern-Key: [REDACTED_SECRET]
+- Recurrence-Count: 1
+
+---
+
 ## [LRN-20260716-001] best_practice
 
 **Logged**: 2026-07-16T10:21:00Z

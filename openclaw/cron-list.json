@@ -19,20 +19,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789360664620,
-        "lastRunAtMs": 1789353464620,
+        "nextRunAtMs": 1789447064844,
+        "lastRunAtMs": 1789439864844,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 7397,
+        "lastDurationMs": 7515,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789353472017,
+      "updatedAtMs": 1789439872359,
       "configRevision": "sha256:wQrv66bH60RrtmpZJbFjAA_jfPeyzOVdCM7KmAB7lZ4",
-      "nextRunAtMs": 1789360664620,
-      "lastRunAtMs": 1789353464620,
+      "nextRunAtMs": 1789447064844,
+      "lastRunAtMs": 1789439864844,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -62,21 +62,21 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1789361131259,
-        "lastRunAtMs": 1789339531259,
+        "nextRunAtMs": 1789447531331,
+        "lastRunAtMs": 1789425931331,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21953,
+        "lastDurationMs": 22741,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1789339553212,
+      "updatedAtMs": 1789425954072,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1789361131259,
-      "lastRunAtMs": 1789339531259,
+      "nextRunAtMs": 1789447531331,
+      "lastRunAtMs": 1789425931331,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -111,26 +111,24 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1789365894831,
-        "lastRunAtMs": 1789344294851,
+        "nextRunAtMs": 1789452294831,
+        "lastRunAtMs": 1789430694851,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 11079,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 38629,
+        "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
-        "lastDelivered": false,
-        "deliverySuppressionReason": "silent"
+        "lastDelivered": true
       },
-      "updatedAtMs": 1789344305930,
+      "updatedAtMs": 1789430733480,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1789365894831,
-      "lastRunAtMs": 1789344294851,
+      "nextRunAtMs": 1789452294831,
+      "lastRunAtMs": 1789430694851,
       "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "deliverySuppressionReason": "silent",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "manager-bot",
       "status": "ok"
@@ -154,20 +152,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367248531,
-        "lastRunAtMs": 1789360048531,
+        "nextRunAtMs": 1789453648751,
+        "lastRunAtMs": 1789446448751,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 13684,
+        "lastDurationMs": 13718,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789360062215,
+      "updatedAtMs": 1789446462469,
       "configRevision": "sha256:-MBMbMQtHsxRcSPQH2op2c-sNMr95nskMiqZREb_lYw",
-      "nextRunAtMs": 1789367248531,
-      "lastRunAtMs": 1789360048531,
+      "nextRunAtMs": 1789453648751,
+      "lastRunAtMs": 1789446448751,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -193,20 +191,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367275627,
-        "lastRunAtMs": 1789360075627,
+        "nextRunAtMs": 1789453677094,
+        "lastRunAtMs": 1789446477094,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 13243,
+        "lastDurationMs": 15160,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789360088870,
+      "updatedAtMs": 1789446492254,
       "configRevision": "sha256:AX1HDQ_YCJaacSIbYe_5Xqy5skY-DW-Z1AM7FD5JPeA",
-      "nextRunAtMs": 1789367275627,
-      "lastRunAtMs": 1789360075627,
+      "nextRunAtMs": 1789453677094,
+      "lastRunAtMs": 1789446477094,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -232,20 +230,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367293710,
-        "lastRunAtMs": 1789360093710,
+        "nextRunAtMs": 1789453695196,
+        "lastRunAtMs": 1789446495196,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 10742,
+        "lastDurationMs": 9736,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789360104452,
+      "updatedAtMs": 1789446504932,
       "configRevision": "sha256:CfmNlv5ksaoIwA9KH_mbe-UZgQ7CK53eAj0kTZ8tgLU",
-      "nextRunAtMs": 1789367293710,
-      "lastRunAtMs": 1789360093710,
+      "nextRunAtMs": 1789453695196,
+      "lastRunAtMs": 1789446495196,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -271,20 +269,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367308241,
-        "lastRunAtMs": 1789360108241,
+        "nextRunAtMs": 1789453709287,
+        "lastRunAtMs": 1789446509287,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 9722,
+        "lastDurationMs": 10230,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789360117963,
+      "updatedAtMs": 1789446519517,
       "configRevision": "sha256:fKtOxpfXJMKYk-KdDFZc6b5pxZnPjt73sbMcCIGGI3c",
-      "nextRunAtMs": 1789367308241,
-      "lastRunAtMs": 1789360108241,
+      "nextRunAtMs": 1789453709287,
+      "lastRunAtMs": 1789446509287,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -310,20 +308,20 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367328407,
-        "lastRunAtMs": 1789360128407,
+        "nextRunAtMs": 1789453729484,
+        "lastRunAtMs": 1789446529484,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 9985,
+        "lastDurationMs": 9564,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789360138392,
+      "updatedAtMs": 1789446539048,
       "configRevision": "sha256:NAETMoGWAdmGGYzKfFtnJffiCIwBWpK0BZ0SY6Ew6bw",
-      "nextRunAtMs": 1789367328407,
-      "lastRunAtMs": 1789360128407,
+      "nextRunAtMs": 1789453729484,
+      "lastRunAtMs": 1789446529484,
       "lastRunStatus": "ok",
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
@@ -349,21 +347,21 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367342521,
-        "lastRunAtMs": 1789360142521,
+        "nextRunAtMs": 1789453743622,
+        "lastRunAtMs": 1789446543622,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 266,
+        "lastDurationMs": 263,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 143,
+        "consecutiveSkipped": 155,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1789360142787,
+      "updatedAtMs": 1789446543885,
       "configRevision": "sha256:U21G6VVKuqcPC7GgLU5UBOESwxVv9h-Woqwt-MQuYU8",
-      "nextRunAtMs": 1789367342521,
-      "lastRunAtMs": 1789360142521,
+      "nextRunAtMs": 1789453743622,
+      "lastRunAtMs": 1789446543622,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
@@ -390,21 +388,21 @@
         "kind": "heartbeat"
       },
       "state": {
-        "nextRunAtMs": 1789367346159,
-        "lastRunAtMs": 1789360146159,
+        "nextRunAtMs": 1789453747609,
+        "lastRunAtMs": 1789446547609,
         "lastRunStatus": "skipped",
         "lastStatus": "skipped",
-        "lastDurationMs": 261,
+        "lastDurationMs": 260,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
-        "consecutiveSkipped": 143,
+        "consecutiveSkipped": 155,
         "lastError": "heartbeat skipped: empty-heartbeat-file"
       },
-      "updatedAtMs": 1789360146420,
+      "updatedAtMs": 1789446547869,
       "configRevision": "sha256:n5r4SzSM97JPJO4cP7VtqzKy5u8rpOwYDyiczyNDXiI",
-      "nextRunAtMs": 1789367346159,
-      "lastRunAtMs": 1789360146159,
+      "nextRunAtMs": 1789453747609,
+      "lastRunAtMs": 1789446547609,
       "lastRunStatus": "skipped",
       "lastRunError": "heartbeat skipped: empty-heartbeat-file",
       "lastDeliveryStatus": "not-requested",
@@ -438,7 +436,8 @@
         "message": "Every day, research these two sources:\n- https://livebench.ai/#/\n- https://labs.scale.com/leaderboard\n\nPrepare and email a full analysis report to vincent.reynolds@digitalrbs.co.uk.\n\nRequired capability coverage:\n- open weights\n- reasoning\n- coding\n- mathematics\n- scipredict\n- humanity's last exam\n- professional reasoning in finance\n- professional reasoning in legal\n- cost per successful task\n\nUse the latest/currently published results. Report each website separately. For every relevant category, include the best-performing models and, where available, rank, score/result, model name, provider, open-weight status, and cost per successful task. Treat \"cost per successful task\" as a cost-efficiency metric only when the source provides it; never invent or estimate it. If a requested category is absent, renamed, unavailable, or not comparable, say so explicitly.\n\nMaintain a durable previous snapshot at /home/vin/.openclaw/workspaces/manager-bot/state/ai-leaderboard-snapshot.json. Compare today's extracted results with that snapshot using stable model/category/source identifiers. If nothing has changed, email a concise notice saying that no published results changed since the previous report and do not repeat the full tables. If anything changed, include only the changed/new/removed rows in the main report, plus concise commentary on the implications; do not republish unchanged results. Then update the snapshot only after the report has been successfully prepared.\n\nEmail style:\n- subject: Daily AI leaderboard report - YYYY-MM-DD\n- fuller analyst-style report with clear headings, separate sections for each website, tables where useful, concise commentary, and direct source links\n- distinguish observed results from interpretation\n- use UK English\n- include the extraction timestamp and note any source limitations\n- use HTML email formatting for headings, paragraphs, lists and links\n- use real HTML structure such as <p>, <br>, <ul> and <li>; never expose literal backslash-n or escaped newline sequences in the visible body\n- escape currency symbols safely so values such as $0.016 render correctly\n- sign the message as Ada. The only currently verified sender account is vrbs940054@gmail.com, so do not claim a different From address unless a verified Ada send-as alias exists\n\nFailure handling:\n- If either website is unavailable, inaccessible, or its data cannot be reliably extracted, email Vincent a warning naming the affected source, the failure reason, and that the job will retry the next day. Do not fabricate or reuse stale results as if current.\n- Use the configured Google Workspace/Gmail capability to send the email. Do not claim delivery unless the send operation succeeds.",
         "toolsAllow": [
           "terminal",
-          "web_fetch"
+          "web_fetch",
+          "exec"
         ]
       },
       "delivery": {
@@ -451,106 +450,21 @@
         "ownerAccountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1789372800000
-      },
-      "updatedAtMs": 1789313209309,
-      "configRevision": "sha256:4MYvBtAzr93PNJgqevzCvcQAhudk6JFoobJdFltubxg",
-      "nextRunAtMs": 1789372800000,
-      "effectiveAgentId": "manager-bot",
-      "status": "idle"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1789408800000,
-        "lastRunAtMs": 1789322400067,
+        "nextRunAtMs": 1789459200000,
+        "lastRunAtMs": 1789372800050,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 82205,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDelivered": true
-      },
-      "updatedAtMs": 1789322482272,
-      "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
-      "nextRunAtMs": 1789408800000,
-      "lastRunAtMs": 1789322400067,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
-      "declarationKey": "memory-core:memory-dreaming-promotion",
-      "name": "Memory Dreaming Promotion",
-      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
-      "enabled": true,
-      "createdAtMs": 1788337645701,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "__openclaw_memory_core_short_term_promotion_dream__",
-        "lightContext": true,
-        "toolsAllow": [
-          "*"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1789441200000,
-        "lastRunAtMs": 1789354800028,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 15446,
+        "lastDurationMs": 60122,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1789354815474,
-      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1789441200000,
-      "lastRunAtMs": 1789354800028,
+      "updatedAtMs": 1789374980162,
+      "configRevision": "sha256:Co5L2Zf5HyAIdgm4EKZlFWmiHZJ5qfb_14iONN766gM",
+      "nextRunAtMs": 1789459200000,
+      "lastRunAtMs": 1789372800050,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -685,6 +599,105 @@
       "nextRunAtMs": 1789470011440,
       "effectiveAgentId": "admin-bot",
       "status": "idle"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and any other sessions visible in the manager tree. Summarize model utilisation, token usage, error rate, retries, and any signs that the current default model (`openai/gpt-5.4-mini`) is underpowered for the workload.\n\nAdd a separate section titled `Utilisation vs Efficiency` with:\n- total usage and where it concentrated\n- whether the same work could be done with fewer tokens or fewer retries\n- signs of wasted context, overlong prompts, or avoidable escalation\n- a clear call on whether we should keep the current default or dial up to `GPT_FULL`\n\nAdd a `Coverage` section that explicitly says:\n- how many visible sessions were included\n- whether any live session is still running at the time of the report\n- whether any cron job was still in progress or pending\n- whether visibility is restricted to the manager tree, and what that means for confidence\n\nUse `openclaw session status` for the current session and `openclaw cron status/list` to capture live state. Separate finished runs from in-progress work. If you see repeated failures, long contexts, or obvious quality issues, recommend whether we should dial up to `GPT_FULL` or keep the current default. Post a concise report with findings, the separate `Utilisation vs Efficiency` section, the `Coverage` section, a recommendation, and any blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1789495200000,
+        "lastRunAtMs": 1789408800026,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 81102,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1789408881128,
+      "configRevision": "sha256:QptxE8auDYT-PKvtwpIlgt6MEkAmjyu6B998jiLjGQY",
+      "nextRunAtMs": 1789495200000,
+      "lastRunAtMs": 1789408800026,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1789527600000,
+        "lastRunAtMs": 1789441200025,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 15503,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1789441215528,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1789527600000,
+      "lastRunAtMs": 1789441200025,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
     },
     {
       "id": "e4d438e8-b4b9-462f-8174-c68934578167",
@@ -1946,7 +1959,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:8r9_yK9ZIn-bAaaJ773RfARx-O-lZSt9XS5JkKB1fVg",
+  "snapshotRevision": "sha256:hocueG7NLaGZLeexcCH-8jbch0fzqTcGKjeG6QaijD4",
   "total": 33,
   "offset": 0,
   "limit": 200,
@@ -1997,19 +2010,19 @@
       "label": "not requested",
       "detail": "not requested"
     },
-    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
-      "label": "announce -> discord:channel:1504151367164498050",
-      "detail": "explicit"
-    },
-    "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
     "c8da1b69-7b66-4483-8472-52284f11067b": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
     },
     "95aec8c9-d1d8-4201-b69c-7105e7f780b7": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
+    "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
       "label": "not requested",
       "detail": "not requested"
     },
