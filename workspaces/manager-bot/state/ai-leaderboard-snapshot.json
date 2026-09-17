@@ -1,56 +1,356 @@
 {
-  "capturedAt": "2026-09-15T08:00:00Z",
+  "extracted_at": "2026-09-16T08:03:33Z",
   "sources": {
     "livebench": {
-      "release": "2026-06-25",
-      "overall": {
-        "model": "Claude Fable 5.1 Max Effort",
-        "score": 83.4
+      "categories": {
+        "Agentic Coding": [
+          {
+            "id": "deepseek-v4.1-flash-max",
+            "model": "DeepSeek V4.1 Flash Max Effort",
+            "open_weight": true,
+            "provider": "DeepSeek",
+            "rank": 1,
+            "score": 77.273
+          },
+          {
+            "id": "claude-fable-5-1-max-effort",
+            "model": "Claude Fable 5.1 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 2,
+            "score": 66.061
+          },
+          {
+            "id": "claude-opus-5-max-effort",
+            "model": "claude-opus-5-max-effort",
+            "open_weight": false,
+            "provider": "Not stated",
+            "rank": 3,
+            "score": 65.202
+          }
+        ],
+        "Coding": [
+          {
+            "id": "claude-fable-5-1-max-effort",
+            "model": "Claude Fable 5.1 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 1,
+            "score": 86.375
+          },
+          {
+            "id": "claude-fable-5-max-effort",
+            "model": "Claude Fable 5 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 2,
+            "score": 85.992
+          },
+          {
+            "id": "gpt-5.6-sol-max",
+            "model": "GPT-5.6 Sol Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 3,
+            "score": 83.941
+          }
+        ],
+        "Cost per successful task": [
+          {
+            "cost": "0.0000",
+            "id": "ox-alpha-max",
+            "model": "ox-alpha-max",
+            "open_weight": false,
+            "provider": "Stealth",
+            "rank": 1
+          },
+          {
+            "cost": "0.0140",
+            "id": "smaug-flash",
+            "model": "Smaug Flash",
+            "open_weight": true,
+            "provider": "Abacus.AI",
+            "rank": 2
+          },
+          {
+            "cost": "0.0161",
+            "id": "deepseek-v4-flash",
+            "model": "deepseek-v4-flash",
+            "open_weight": false,
+            "provider": "Not stated",
+            "rank": 3
+          }
+        ],
+        "Data Analysis": [
+          {
+            "id": "gpt-6-astra-max",
+            "model": "GPT-6 Astra Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 1,
+            "score": 82.973
+          },
+          {
+            "id": "gpt-5.5-xhigh",
+            "model": "gpt-5.5-xhigh",
+            "open_weight": false,
+            "provider": "Not stated",
+            "rank": 2,
+            "score": 81.576
+          },
+          {
+            "id": "claude-fable-5-max-effort",
+            "model": "Claude Fable 5 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 3,
+            "score": 80.538
+          }
+        ],
+        "IF": [
+          {
+            "id": "gemini-3.8-flash-high",
+            "model": "Gemini 3.8 Flash High",
+            "open_weight": false,
+            "provider": "Google",
+            "rank": 1,
+            "score": 81.412
+          },
+          {
+            "id": "gemini-3.7-flash-high",
+            "model": "Gemini 3.7 Flash High",
+            "open_weight": false,
+            "provider": "Google",
+            "rank": 2,
+            "score": 79.925
+          },
+          {
+            "id": "gemini-3.1-pro-preview-high",
+            "model": "Gemini 3.1 Pro Preview High",
+            "open_weight": false,
+            "provider": "Google",
+            "rank": 3,
+            "score": 79.1
+          }
+        ],
+        "Language": [
+          {
+            "id": "claude-fable-5-max-effort",
+            "model": "Claude Fable 5 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 1,
+            "score": 90.684
+          },
+          {
+            "id": "claude-fable-5-1-max-effort",
+            "model": "Claude Fable 5.1 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 2,
+            "score": 89.501
+          },
+          {
+            "id": "gpt-6-astra-max",
+            "model": "GPT-6 Astra Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 3,
+            "score": 89.431
+          }
+        ],
+        "Mathematics": [
+          {
+            "id": "claude-fable-5-1-max-effort",
+            "model": "Claude Fable 5.1 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 1,
+            "score": 97.007
+          },
+          {
+            "id": "gpt-6-astra-max",
+            "model": "GPT-6 Astra Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 2,
+            "score": 96.806
+          },
+          {
+            "id": "gpt-5.6-sol-max",
+            "model": "GPT-5.6 Sol Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 3,
+            "score": 96.198
+          }
+        ],
+        "Open weights": [
+          {
+            "id": "deepseek-v4.1-flash-max",
+            "model": "DeepSeek V4.1 Flash Max Effort",
+            "open_weight": true,
+            "provider": "DeepSeek",
+            "rank": 1,
+            "score": 81.447
+          },
+          {
+            "id": "smaug-agentic",
+            "model": "Smaug Agentic",
+            "open_weight": true,
+            "provider": "Abacus.AI",
+            "rank": 2,
+            "score": 79.669
+          },
+          {
+            "id": "qwen3.8-max",
+            "model": "Qwen 3.8 Max",
+            "open_weight": true,
+            "provider": "Alibaba",
+            "rank": 3,
+            "score": 79.496
+          }
+        ],
+        "Reasoning": [
+          {
+            "id": "gpt-6-astra-max",
+            "model": "GPT-6 Astra Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 1,
+            "score": 92.654
+          },
+          {
+            "id": "claude-fable-5-1-max-effort",
+            "model": "Claude Fable 5.1 Max Effort",
+            "open_weight": false,
+            "provider": "Anthropic",
+            "rank": 2,
+            "score": 91.692
+          },
+          {
+            "id": "gpt-5.6-sol-max",
+            "model": "GPT-5.6 Sol Max Effort",
+            "open_weight": false,
+            "provider": "OpenAI",
+            "rank": 3,
+            "score": 91.654
+          }
+        ]
       },
-      "reasoning": {
-        "model": "GPT-6 Astra Max Effort",
-        "score": 92.65
-      },
-      "coding": {
-        "model": "Claude Fable 5.1 Max Effort",
-        "score": 86.38
-      },
-      "mathematics": {
-        "model": "Claude Fable 5.1 Max Effort",
-        "score": 97.01
-      },
-      "openWeightOverall": {
-        "model": "Muse Spark 1.3 xHigh Effort",
-        "score": 81.59
-      },
-      "lowestCostPerSuccessfulTask": {
-        "model": "ox-alpha-max",
-        "costUsd": 0.0
-      }
+      "published": "2026_06_25",
+      "source": "LiveBench",
+      "url": "https://livebench.ai/#/"
     },
     "scale": {
-      "scipredict": {
-        "model": "gemini-3-pro-preview",
-        "rank": 1,
-        "score": 25.27,
-        "uncertainty": 1.92
+      "categories": {
+        "Humanity's Last Exam": [
+          {
+            "id": "humanitys_last_exam|GPT 6 Astra",
+            "model": "GPT 6 Astra",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "54.80"
+          },
+          {
+            "id": "humanitys_last_exam|Fable 5.1 (xhigh)\n",
+            "model": "Fable 5.1 (xhigh)",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 2,
+            "score": "46.50"
+          },
+          {
+            "id": "humanitys_last_exam|gemini-3.1-pro-preview (thinking high)",
+            "model": "gemini-3.1-pro-preview (thinking high)",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 2,
+            "score": "46.44"
+          }
+        ],
+        "Professional reasoning in finance": [
+          {
+            "id": "prbench-finance|Muse Spark 1.3",
+            "model": "Muse Spark 1.3",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "59.54"
+          },
+          {
+            "id": "prbench-finance|Muse Spark 1.1\n",
+            "model": "Muse Spark 1.1",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 2,
+            "score": "55.01"
+          },
+          {
+            "id": "prbench-finance|claude-fable 5\n",
+            "model": "claude-fable 5",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 3,
+            "score": "53.86"
+          }
+        ],
+        "Professional reasoning in legal": [
+          {
+            "id": "prbench-legal|Muse Spark 1.3",
+            "model": "Muse Spark 1.3",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "61.56"
+          },
+          {
+            "id": "prbench-legal|Muse Spark 1.1",
+            "model": "Muse Spark 1.1",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 2,
+            "score": "57.05"
+          },
+          {
+            "id": "prbench-legal|claude-fable 5\n\n",
+            "model": "claude-fable 5",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 3,
+            "score": "52.56"
+          }
+        ],
+        "SciPredict": [
+          {
+            "id": "scipredict|gemini-3-pro-preview",
+            "model": "gemini-3-pro-preview",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "25.27"
+          },
+          {
+            "id": "scipredict|claude-opus-4-5-20251101",
+            "model": "claude-opus-4-5-20251101",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "23.05"
+          },
+          {
+            "id": "scipredict|claude-opus-4-1-20250805",
+            "model": "claude-opus-4-1-20250805",
+            "open_weight": "Not stated",
+            "provider": "Not stated",
+            "rank": 1,
+            "score": "22.22"
+          }
+        ]
       },
-      "humanitysLastExam": {
-        "model": "GPT 6 Astra",
-        "rank": 1,
-        "score": 54.8
-      },
-      "prbenchFinance": {
-        "model": "Muse Spark 1.3",
-        "rank": 1,
-        "score": 59.54
-      },
-      "prbenchLegal": {
-        "model": "Muse Spark 1.3",
-        "rank": 1,
-        "score": 61.56
-      }
+      "source": "Scale Labs",
+      "url": "https://labs.scale.com/leaderboard"
     }
-  },
-  "note": "Snapshot updated only after successful email delivery."
+  }
 }
