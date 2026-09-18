@@ -99,6 +99,12 @@ If a cross-agent send is blocked by visibility or spawn policy, keep the handoff
 
 Use `COST_POLICY.md` for token-cost discipline: deterministic tools first, bounded context, one owner per routed task, quiet heartbeats unless there is signal, and high-reasoning calls only when the task truly needs them.
 
+### Scheduled automation success gates
+
+- For scheduled research/report jobs, treat source extraction/validation and final delivery as separate success gates.
+- Do not mark the run complete, update a snapshot, or suppress failure notification until both gates pass.
+- For JS-backed or protected sources, use source-specific retrieval with browser-like headers, retries, release/asset discovery, and a non-empty ranking/data-row validation gate; do not infer availability from HTTP status alone.
+
 ## Shared Agent Memory Vault
 
 Use `/home/vin/ObsidianVaults/AdaKTVault/06_system/agent-memory-vault` as the shared sanitized durable memory layer for cross-agent recall.

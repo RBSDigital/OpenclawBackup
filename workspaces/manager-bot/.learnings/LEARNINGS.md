@@ -6,6 +6,25 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260917-001] source-specific-retrieval
+
+**Logged**: 2026-09-17T09:32:00Z
+**Priority**: high
+**Status**: applied
+**Area**: automation
+
+### Summary
+Leaderboard automation must use source-specific retrieval and validation. HTTP 200/404 alone is not evidence that rankings were or were not available: a static asset can be reachable through direct HTTP while a generic client is blocked or served a shell page.
+
+### Action
+Use browser-like headers and retries, discover current release assets, parse known detail pages, require ranking rows from every requested source, and update snapshots only after verified email delivery.
+
+### Metadata
+- Source: incident reproduction
+- Tags: leaderboard, extraction, validation, email, automation
+
+---
+
 ## [LRN-20260914-001] best_practice
 
 **Logged**: 2026-09-14T08:42:00Z
