@@ -150,3 +150,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-09-15)
 
 - Reviewed new `.learnings` entries since the prior review: BCG-Coach consulting-playbook capability (implemented), and the 2026-09-14 leaderboard automation incident showing extraction and delivery were not treated as explicit success gates. The latter is a single occurrence, so no auto-promotion was made; keep it pending until repeated or explicitly hardened in the owning automation.
+
+## Consolidated Memory (2026-09-19)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-09-15 review. New entries were the resolved `python`→`python3` tooling correction and the leaderboard source-specific retrieval/validation fix. The leaderboard guidance is already durable in `AGENTS.md`; the interpreter correction is a one-off and does not warrant promotion. No additional durable fix needed.

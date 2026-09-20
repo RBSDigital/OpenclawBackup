@@ -1,16 +1,16 @@
 {
   "ok": true,
-  "ts": 1789792250183,
-  "durationMs": 21,
+  "ts": 1789878650222,
+  "durationMs": 18,
   "eventLoop": {
     "degraded": false,
     "degradedSinceMs": null,
     "reasons": [],
-    "intervalMs": 1013.1746129998937,
-    "delayP99Ms": 26,
-    "delayMaxMs": 26,
-    "utilization": 0.008,
-    "cpuCoreRatio": 0.009
+    "intervalMs": 1003.8685729999561,
+    "delayP99Ms": 23.9,
+    "delayMaxMs": 23.9,
+    "utilization": 0.009,
+    "cpuCoreRatio": 0.02
   },
   "plugins": {
     "loaded": [
@@ -41,13 +41,13 @@
     "discord": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1789790902197,
+      "lastStartAt": 1789877321700,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1789790903604,
-      "lastEventAt": 1789790903604,
-      "lastTransportActivityAt": 1789792241585,
+      "lastConnectedAt": 1789877323273,
+      "lastEventAt": 1789877323273,
+      "lastTransportActivityAt": 1789878645788,
       "lifecycle": "ready",
       "busy": false,
       "activeRuns": 0,
@@ -80,13 +80,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1789790902197,
+          "lastStartAt": 1789877321700,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1789790903604,
-          "lastEventAt": 1789790903604,
-          "lastTransportActivityAt": 1789792241585,
+          "lastConnectedAt": 1789877323273,
+          "lastEventAt": 1789877323273,
+          "lastTransportActivityAt": 1789878645788,
           "lifecycle": "ready",
           "busy": false,
           "activeRuns": 0,
@@ -121,13 +121,13 @@
     "telegram": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1789790902197,
+      "lastStartAt": 1789877321700,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1789792238680,
-      "lastEventAt": 1789792238680,
-      "lastTransportActivityAt": 1789792238680,
+      "lastConnectedAt": 1789878625723,
+      "lastEventAt": 1789878625723,
+      "lastTransportActivityAt": 1789878625723,
       "lifecycle": "ready",
       "lastInboundAt": null,
       "lastOutboundAt": null,
@@ -144,13 +144,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1789790902197,
+          "lastStartAt": 1789877321700,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1789792238680,
-          "lastEventAt": 1789792238680,
-          "lastTransportActivityAt": 1789792238680,
+          "lastConnectedAt": 1789878625723,
+          "lastEventAt": 1789878625723,
+          "lastTransportActivityAt": 1789878625723,
           "lifecycle": "ready",
           "lastInboundAt": null,
           "lastOutboundAt": null,
@@ -194,28 +194,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789792141117,
-            "age": 109053
+            "updatedAt": 1789878540995,
+            "age": 109212
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789786800295,
-            "age": 5449875
+            "updatedAt": 1789873200326,
+            "age": 5449881
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789776294943,
-            "age": 15955227
+            "updatedAt": 1789862695123,
+            "age": 15955084
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789771531770,
-            "age": 20718400
+            "updatedAt": 1789857931831,
+            "age": 20718376
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789754721600,
-            "age": 37528570
+            "updatedAt": 1789840855035,
+            "age": 37795172
           }
         ]
       }
@@ -237,28 +237,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789792064582,
-            "age": 185590
+            "updatedAt": 1789878463163,
+            "age": 187046
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789288473484,
-            "age": 503776688
+            "age": 590176725
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1788857634421,
-            "age": 934615751
+            "age": 1021015788
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781764610344,
-            "age": 8027639828
+            "age": 8114039865
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781598922730,
-            "age": 8193327442
+            "age": 8279727479
           }
         ]
       }
@@ -280,28 +280,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789792090012,
-            "age": 160162
+            "updatedAt": 1789878488582,
+            "age": 161629
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789533981426,
-            "age": 258268748
+            "age": 344668785
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119360964,
-            "age": 5672889210
+            "age": 5759289247
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782010100171,
-            "age": 7782150003
+            "age": 7868550040
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781916502008,
-            "age": 7875748166
+            "age": 7962148203
           }
         ]
       }
@@ -323,28 +323,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789792111466,
-            "age": 138709
+            "updatedAt": 1789878510647,
+            "age": 139565
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789470011549,
-            "age": 322238626
+            "age": 408638663
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119347791,
-            "age": 5672902384
+            "age": 5759302421
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782939664054,
-            "age": 6852586121
+            "age": 6938986158
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782889288142,
-            "age": 6902962033
+            "age": 6989362070
           }
         ]
       }
@@ -367,17 +367,17 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789639010607,
-            "age": 153239569
+            "age": 239639606
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197970773,
-            "age": 594279403
+            "age": 680679440
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1786712879353,
-            "age": 3079370823
+            "age": 3165770860
           }
         ]
       }
@@ -399,18 +399,18 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789792124909,
-            "age": 125268
+            "updatedAt": 1789878525061,
+            "age": 125153
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789654936379,
-            "age": 137313798
+            "age": 223713835
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782037432244,
-            "age": 7754817933
+            "age": 7841217970
           }
         ]
       }
@@ -429,27 +429,22 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/medication_agent/agent/openclaw-agent.sqlite",
-        "count": 4,
+        "count": 3,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789729414784,
-            "age": 62835394
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789729414783,
-            "age": 62835395
+            "age": 149235432
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197989439,
-            "age": 594260739
+            "age": 680660777
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789144921896,
-            "age": 647328282
+            "age": 733728320
           }
         ]
       }
@@ -468,27 +463,22 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/bcg-coach/agent/openclaw-agent.sqlite",
-        "count": 4,
+        "count": 3,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789785475370,
-            "age": 6774809
+            "updatedAt": 1789871876659,
+            "age": 6773558
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789735061243,
-            "age": 57188936
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1789735061243,
-            "age": 57188936
+            "age": 143588974
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789551909603,
-            "age": 240340576
+            "age": 326740614
           }
         ]
       }
@@ -500,28 +490,28 @@
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1789792141117,
-        "age": 109053
+        "updatedAt": 1789878540995,
+        "age": 109212
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1789786800295,
-        "age": 5449875
+        "updatedAt": 1789873200326,
+        "age": 5449881
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1789776294943,
-        "age": 15955227
+        "updatedAt": 1789862695123,
+        "age": 15955084
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1789771531770,
-        "age": 20718400
+        "updatedAt": 1789857931831,
+        "age": 20718376
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1789754721600,
-        "age": 37528570
+        "updatedAt": 1789840855035,
+        "age": 37795172
       }
     ]
   },
