@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-09-21T08:00:08.742388+00:00",
+  "extracted_at": "2026-09-22T08:00:15.842369+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-06-25",
     "url": "https://livebench.ai/#/",
-    "models": 58,
+    "models": 59,
     "overall_leaders": [
       {
         "model": "claude-fable-5-1-max-effort",
@@ -987,6 +987,23 @@
           "cost_per_successful_task": 0.7067
         },
         {
+          "model": "grok-4.7-xhigh",
+          "display_name": "Grok 4.7 xHigh",
+          "provider": "xAI",
+          "open_weights": false,
+          "overall": 78.338,
+          "categories": {
+            "Reasoning": 82.654,
+            "Coding": 77.159,
+            "Agentic Coding": 53.99,
+            "Mathematics": 95.678,
+            "Data Analysis": 76.883,
+            "Language": 80.139,
+            "IF": 75.275
+          },
+          "cost_per_successful_task": 0.7179
+        },
+        {
           "model": "union-alpha",
           "display_name": "Union Alpha",
           "provider": "Stealth",
@@ -1019,23 +1036,6 @@
             "IF": 67.7
           },
           "cost_per_successful_task": 0.0442
-        },
-        {
-          "model": "gpt-5.6-terra-max",
-          "display_name": "GPT-5.6 Terra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 78.634,
-          "categories": {
-            "Reasoning": 90.635,
-            "Coding": 78.245,
-            "Agentic Coding": 54.95,
-            "Mathematics": 94.908,
-            "Data Analysis": 79.307,
-            "Language": 82.893,
-            "IF": 64.617
-          },
-          "cost_per_successful_task": 0.3437
         }
       ],
       "Data Analysis": [
@@ -1537,21 +1537,21 @@
           "cost_per_successful_task": 0.2353
         },
         {
-          "model": "muse-spark-1.2-xhigh",
-          "display_name": "Muse Spark 1.2 xHigh Effort",
-          "provider": "Meta",
+          "model": "grok-4.7-xhigh",
+          "display_name": "Grok 4.7 xHigh",
+          "provider": "xAI",
           "open_weights": false,
-          "overall": 78.915,
+          "overall": 78.338,
           "categories": {
-            "Reasoning": 90.005,
-            "Coding": 77.541,
-            "Agentic Coding": 57.576,
-            "Mathematics": 91.203,
-            "Data Analysis": 76.458,
-            "Language": 78.575,
-            "IF": 74.325
+            "Reasoning": 82.654,
+            "Coding": 77.159,
+            "Agentic Coding": 53.99,
+            "Mathematics": 95.678,
+            "Data Analysis": 76.883,
+            "Language": 80.139,
+            "IF": 75.275
           },
-          "cost_per_successful_task": 0.3753
+          "cost_per_successful_task": 0.7179
         }
       ]
     },
