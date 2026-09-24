@@ -4,6 +4,21 @@ Command failures and integration errors.
 
 ---
 
+## [ERR-20260923-001] google-docs-api-disabled
+
+**Logged**: 2026-09-23T12:36:00Z
+**Priority**: medium
+**Status**: blocked
+**Area**: google-docs
+
+### Summary
+Google Docs document creation succeeded, but the Docs API `batchUpdate` used to insert editable content returned HTTP 403 because `docs.googleapis.com` is disabled for the configured Google Cloud project.
+
+### Next Action
+Enable the Google Docs API for project `606821794733`, then rerun the population script. The created document remains available and blank until that step is completed.
+
+---
+
 ## [ERR-20260917-002] interpreter-name
 
 **Logged**: 2026-09-17T09:00:00Z
@@ -62,5 +77,23 @@ Expose the gateway/Gmail execution capability to the isolated job and require de
 ### Metadata
 - Reproducible: yes
 - Related Files: state/ai-leaderboard-snapshot.json
+
+---
+
+## [ERR-20260923-001] leaderboard-diff
+
+**Logged**: 2026-09-23T08:00:40Z
+**Priority**: low
+**Status**: resolved
+**Area**: automation
+
+### Summary
+Inline snapshot comparison diagnostic used dict.get with too many arguments and exited non-zero.
+
+### Details
+The diagnostic attempted a three-argument dict.get call while listing changed rows. Extraction itself succeeded; the comparison was rerun with corrected formatting.
+
+### Suggested Action
+Keep comparison diagnostics using explicit helper functions for rank/score display.
 
 ---
