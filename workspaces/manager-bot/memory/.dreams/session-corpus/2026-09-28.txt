@@ -1,0 +1,1 @@
+[manager-bot/sessions/manager-bot/81dfd2d1-3a5b-45bc-ada3-b26f06932086#L3] Assistant: I’m using the self-improvement workflow and reviewing only the last 24 hours of workspace logs before making any low-risk durable edits.
