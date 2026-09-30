@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-09-27T08:00:13.876427+00:00",
+  "extracted_at": "2026-09-29T08:00:22.843450+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-06-25",
     "url": "https://livebench.ai/#/",
-    "models": 63,
+    "models": 64,
     "overall_leaders": [
       {
         "model": "claude-fable-5-1-max-effort",
@@ -420,6 +420,23 @@
           "cost_per_successful_task": 0.507
         },
         {
+          "model": "claude-sonnet-5-5-max-effort",
+          "display_name": "Claude Sonnet 5.5 Max Effort",
+          "provider": null,
+          "open_weights": false,
+          "overall": 75.752,
+          "categories": {
+            "Reasoning": 91.635,
+            "Coding": 91.366,
+            "Agentic Coding": 56.313,
+            "Mathematics": 96.132,
+            "Data Analysis": 59.488,
+            "Language": 77.984,
+            "IF": 56.788
+          },
+          "cost_per_successful_task": 0.8682
+        },
+        {
           "model": "claude-opus-5-max-effort",
           "display_name": "Claude 5 Opus Thinking Max Effort",
           "provider": null,
@@ -489,7 +506,7 @@
         },
         {
           "model": "grok-4.6",
-          "display_name": "Grok 4.6",
+          "display_name": "Grok 4.6 xHigh",
           "provider": "xAI",
           "open_weights": false,
           "overall": 79.002,
@@ -503,26 +520,26 @@
             "IF": 71.867
           },
           "cost_per_successful_task": 0.2068
-        },
-        {
-          "model": "smaug-agentic",
-          "display_name": "Smaug Agentic",
-          "provider": "Abacus.AI",
-          "open_weights": true,
-          "overall": 79.669,
-          "categories": {
-            "Reasoning": 90.274,
-            "Coding": 82.471,
-            "Agentic Coding": 64.647,
-            "Mathematics": 83.919,
-            "Data Analysis": 79.898,
-            "Language": 84.357,
-            "IF": 70.992
-          },
-          "cost_per_successful_task": 0.3288
         }
       ],
       "Coding": [
+        {
+          "model": "claude-sonnet-5-5-max-effort",
+          "display_name": "Claude Sonnet 5.5 Max Effort",
+          "provider": null,
+          "open_weights": false,
+          "overall": 75.752,
+          "categories": {
+            "Reasoning": 91.635,
+            "Coding": 91.366,
+            "Agentic Coding": 56.313,
+            "Mathematics": 96.132,
+            "Data Analysis": 59.488,
+            "Language": 77.984,
+            "IF": 56.788
+          },
+          "cost_per_successful_task": 0.8682
+        },
         {
           "model": "claude-opus-5-5-max-effort",
           "display_name": "Claude 5.5 Opus Thinking Max Effort",
@@ -556,6 +573,23 @@
             "IF": 67.05
           },
           "cost_per_successful_task": 0.2428
+        },
+        {
+          "model": "claude-sonnet-5-5-xhigh-effort",
+          "display_name": "Claude Sonnet 5.5 xHigh Effort",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 78.174,
+          "categories": {
+            "Reasoning": 86.808,
+            "Coding": 88.87,
+            "Agentic Coding": 39.344,
+            "Mathematics": 96.695,
+            "Data Analysis": 78.62,
+            "Language": 83.43,
+            "IF": 70.517
+          },
+          "cost_per_successful_task": 0.1412
         },
         {
           "model": "claude-fable-5-1-max-effort",
@@ -658,40 +692,6 @@
             "IF": 70.992
           },
           "cost_per_successful_task": 0.3288
-        },
-        {
-          "model": "gpt-5.5-xhigh",
-          "display_name": "GPT-5.5 Thinking xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.785,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 82.149,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.857,
-            "Data Analysis": 81.576,
-            "Language": 87.363,
-            "IF": 70.729
-          },
-          "cost_per_successful_task": 0.4356
-        },
-        {
-          "model": "union-alpha",
-          "display_name": "Union Alpha",
-          "provider": "Stealth",
-          "open_weights": false,
-          "overall": 76.181,
-          "categories": {
-            "Reasoning": 80.75,
-            "Coding": 82.149,
-            "Agentic Coding": 54.697,
-            "Mathematics": 95.293,
-            "Data Analysis": 74.601,
-            "Language": 85.889,
-            "IF": 59.529
-          },
-          "cost_per_successful_task": 0.0
         }
       ],
       "Agentic Coding": [
@@ -936,6 +936,23 @@
           "cost_per_successful_task": 0.2428
         },
         {
+          "model": "claude-sonnet-5-5-xhigh-effort",
+          "display_name": "Claude Sonnet 5.5 xHigh Effort",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 78.174,
+          "categories": {
+            "Reasoning": 86.808,
+            "Coding": 88.87,
+            "Agentic Coding": 39.344,
+            "Mathematics": 96.695,
+            "Data Analysis": 78.62,
+            "Language": 83.43,
+            "IF": 70.517
+          },
+          "cost_per_successful_task": 0.1412
+        },
+        {
           "model": "gpt-6-sol-max",
           "display_name": "GPT-6 Sol Max Effort",
           "provider": "OpenAI",
@@ -970,6 +987,23 @@
           "cost_per_successful_task": 0.507
         },
         {
+          "model": "claude-sonnet-5-5-max-effort",
+          "display_name": "Claude Sonnet 5.5 Max Effort",
+          "provider": null,
+          "open_weights": false,
+          "overall": 75.752,
+          "categories": {
+            "Reasoning": 91.635,
+            "Coding": 91.366,
+            "Agentic Coding": 56.313,
+            "Mathematics": 96.132,
+            "Data Analysis": 59.488,
+            "Language": 77.984,
+            "IF": 56.788
+          },
+          "cost_per_successful_task": 0.8682
+        },
+        {
           "model": "claude-fable-5-max-effort",
           "display_name": "Claude Fable 5 Max Effort",
           "provider": "Anthropic",
@@ -1002,40 +1036,6 @@
             "IF": 78.004
           },
           "cost_per_successful_task": 0.2192
-        },
-        {
-          "model": "gpt-5.5-xhigh",
-          "display_name": "GPT-5.5 Thinking xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.785,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 82.149,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.857,
-            "Data Analysis": 81.576,
-            "Language": 87.363,
-            "IF": 70.729
-          },
-          "cost_per_successful_task": 0.4356
-        },
-        {
-          "model": "claude-opus-5-max-effort",
-          "display_name": "Claude 5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.48,
-          "categories": {
-            "Reasoning": 91.212,
-            "Coding": 81.445,
-            "Agentic Coding": 65.202,
-            "Mathematics": 95.731,
-            "Data Analysis": 74.55,
-            "Language": 88.688,
-            "IF": 63.767
-          },
-          "cost_per_successful_task": 0.7067
         }
       ],
       "Data Analysis": [
@@ -1348,23 +1348,6 @@
           "cost_per_successful_task": 0.7993
         },
         {
-          "model": "union-alpha",
-          "display_name": "Union Alpha",
-          "provider": "Stealth",
-          "open_weights": false,
-          "overall": 76.181,
-          "categories": {
-            "Reasoning": 80.75,
-            "Coding": 82.149,
-            "Agentic Coding": 54.697,
-            "Mathematics": 95.293,
-            "Data Analysis": 74.601,
-            "Language": 85.889,
-            "IF": 59.529
-          },
-          "cost_per_successful_task": 0.0
-        },
-        {
           "model": "kimi-k3",
           "display_name": "Kimi K3",
           "provider": "Moonshot AI",
@@ -1380,6 +1363,23 @@
             "IF": 71.363
           },
           "cost_per_successful_task": 0.351
+        },
+        {
+          "model": "claude-opus-5-5-xhigh-effort",
+          "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.109,
+          "categories": {
+            "Reasoning": 90.654,
+            "Coding": 89.253,
+            "Agentic Coding": 65.353,
+            "Mathematics": 96.803,
+            "Data Analysis": 79.803,
+            "Language": 85.499,
+            "IF": 67.05
+          },
+          "cost_per_successful_task": 0.2428
         }
       ],
       "IF": [
