@@ -154,3 +154,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-09-19)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-09-15 review. New entries were the resolved `python`→`python3` tooling correction and the leaderboard source-specific retrieval/validation fix. The leaderboard guidance is already durable in `AGENTS.md`; the interpreter correction is a one-off and does not warrant promotion. No additional durable fix needed.
+
+## Consolidated Memory (2026-09-30)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-09-19 review. New signal: one blocked Google Docs API integration, one resolved leaderboard comparison diagnostic typo, and one staged cross-agent evidence-to-deliverable workflow request. None is repeated enough for auto-promotion; the existing leaderboard extraction/delivery gates are already durable in `AGENTS.md`. No additional durable fix needed.

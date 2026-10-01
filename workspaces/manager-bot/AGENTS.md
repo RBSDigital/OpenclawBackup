@@ -56,6 +56,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Review `SELF_IMPROVEMENT_ROUTINE.md` when you need the autonomous triage loop or promotion checklist. The review loop aggregates `.learnings/` entries from all specialist agent workspaces.
 - Log first, then decide whether an item belongs in `AGENTS.md`, `TOOLS.md`, `SOUL.md`, or `MEMORY.md`.
 - If a review finds no new `.learnings` entries, report that briefly and stop instead of restating old patterns.
+- For utilisation and automation status, use the supported runtime telemetry/tools (session status, sessions list/history, and automations status/list); do not invoke unsupported CLI status commands or report them as blockers.
 - For recurring reminder jobs, keep a durable schedule manifest and verify each item's next trigger date before posting; do not reconstruct reminders from partial channel history or live search. Also verify the destination channel explicitly before sending.
 
 ## Red Lines

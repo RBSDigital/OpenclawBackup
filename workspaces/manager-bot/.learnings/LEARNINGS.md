@@ -6,6 +6,25 @@ Corrections, insights, and knowledge gaps captured during development.
 
 ---
 
+## [LRN-20260930-001] supported-runtime-status-tools
+
+**Logged**: 2026-09-30T18:20:00Z
+**Priority**: medium
+**Status**: applied
+**Area**: automation
+
+### Summary
+The daily utilisation report repeatedly referenced unsupported CLI commands for session and cron status, even though supported runtime tools were available.
+
+### Action
+Use runtime session-status telemetry, sessions list/history, and the automations status/list tools. Do not invoke or report unsupported CLI commands as blockers.
+
+### Metadata
+- Source: recurring report blocker
+- Tags: utilisation, cron, session-status, tooling
+
+---
+
 ## [LRN-20260917-001] source-specific-retrieval
 
 **Logged**: 2026-09-17T09:32:00Z
