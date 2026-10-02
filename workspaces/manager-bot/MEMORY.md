@@ -158,3 +158,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-09-30)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-09-19 review. New signal: one blocked Google Docs API integration, one resolved leaderboard comparison diagnostic typo, and one staged cross-agent evidence-to-deliverable workflow request. None is repeated enough for auto-promotion; the existing leaderboard extraction/delivery gates are already durable in `AGENTS.md`. No additional durable fix needed.
+
+## Consolidated Memory (2026-10-01)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-09-30 review. New signal: recurring utilisation reports used unsupported CLI status commands despite supported runtime telemetry. The low-risk fix is already durable in `AGENTS.md`; no further promotion needed.
