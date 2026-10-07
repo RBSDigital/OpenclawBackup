@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T04:30:58.961Z",
+  "generatedAt": "2026-10-07T04:30:59.858Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
@@ -19,6 +19,7 @@
   "workspaceDirs": [
     "admin-bot",
     "bcg-coach",
+    "kali-rbsd-cybersecurity",
     "manager-bot",
     "medication_agent",
     "modeler-bot",
@@ -29,6 +30,7 @@
   "runtimeDirs": [
     "admin-bot",
     "bcg-coach",
+    "kali-rbsd-cybersecurity",
     "main",
     "manager-bot",
     "medication_agent",
@@ -135,6 +137,17 @@
         "peer": {
           "kind": "channel",
           "id": "1547635566017781872"
+        },
+        "guildId": "1485914371766091809"
+      }
+    },
+    {
+      "agentId": "kali-rbsd-cybersecurity",
+      "match": {
+        "channel": "discord",
+        "peer": {
+          "kind": "channel",
+          "id": "1556949862887460908"
         },
         "guildId": "1485914371766091809"
       }

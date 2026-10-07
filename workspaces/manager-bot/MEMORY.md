@@ -162,3 +162,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-10-01)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-09-30 review. New signal: recurring utilisation reports used unsupported CLI status commands despite supported runtime telemetry. The low-risk fix is already durable in `AGENTS.md`; no further promotion needed.
+
+## Consolidated Memory (2026-10-06)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-10-01 review. New signal: one travel-routing correction requiring explicit TfL branch/stop validation, plus one Discord discovery context error. The supported runtime-status fix remains durable in `AGENTS.md`; the new items are one-off, and the Discord item is routing/context-sensitive, so no additional auto-promotion was made.

@@ -1,14 +1,14 @@
 {
   "ok": true,
-  "ts": 1791261051274,
-  "durationMs": 12,
+  "ts": 1791347452191,
+  "durationMs": 24,
   "eventLoop": {
     "degraded": false,
     "degradedSinceMs": null,
     "reasons": [],
-    "intervalMs": 1022.8218940000515,
-    "delayP99Ms": 23.6,
-    "delayMaxMs": 23.6,
+    "intervalMs": 1000.6014880000148,
+    "delayP99Ms": 26,
+    "delayMaxMs": 26,
     "utilization": 0.008,
     "cpuCoreRatio": 0.01
   },
@@ -41,13 +41,13 @@
     "discord": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1791259704588,
+      "lastStartAt": 1791345796890,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1791259706801,
-      "lastEventAt": 1791259706801,
-      "lastTransportActivityAt": 1791261014846,
+      "lastConnectedAt": 1791345798834,
+      "lastEventAt": 1791345798834,
+      "lastTransportActivityAt": 1791347442781,
       "lifecycle": "ready",
       "busy": false,
       "activeRuns": 0,
@@ -80,13 +80,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1791259704588,
+          "lastStartAt": 1791345796890,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1791259706801,
-          "lastEventAt": 1791259706801,
-          "lastTransportActivityAt": 1791261014846,
+          "lastConnectedAt": 1791345798834,
+          "lastEventAt": 1791345798834,
+          "lastTransportActivityAt": 1791347442781,
           "lifecycle": "ready",
           "busy": false,
           "activeRuns": 0,
@@ -121,13 +121,13 @@
     "telegram": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1791259704588,
+      "lastStartAt": 1791345796890,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1791261039924,
-      "lastEventAt": 1791261039924,
-      "lastTransportActivityAt": 1791261039924,
+      "lastConnectedAt": 1791347436202,
+      "lastEventAt": 1791347436202,
+      "lastTransportActivityAt": 1791347436202,
       "lifecycle": "ready",
       "lastInboundAt": null,
       "lastOutboundAt": null,
@@ -144,13 +144,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1791259704588,
+          "lastStartAt": 1791345796890,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1791261039924,
-          "lastEventAt": 1791261039924,
-          "lastTransportActivityAt": 1791261039924,
+          "lastConnectedAt": 1791347436202,
+          "lastEventAt": 1791347436202,
+          "lastTransportActivityAt": 1791347436202,
           "lifecycle": "ready",
           "lastInboundAt": null,
           "lastOutboundAt": null,
@@ -175,15 +175,15 @@
     "discord": "Discord",
     "telegram": "Telegram"
   },
-  "heartbeatSeconds": 7200,
+  "heartbeatSeconds": 86400,
   "agents": [
     {
       "agentId": "manager-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -194,28 +194,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791260957741,
-            "age": 93524
+            "updatedAt": 1791342000619,
+            "age": 5451558
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791255600722,
-            "age": 5450543
+            "updatedAt": 1791331494991,
+            "age": 15957186
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791245095001,
-            "age": 15956264
+            "updatedAt": 1791329344283,
+            "age": 18107894
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791240331417,
-            "age": 20719848
+            "updatedAt": 1791329330450,
+            "age": 18121727
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791223521389,
-            "age": 37529876
+            "updatedAt": 1791326731849,
+            "age": 20720328
           }
         ]
       }
@@ -224,9 +224,9 @@
       "agentId": "researcher-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -237,28 +237,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791260872719,
-            "age": 178547
+            "updatedAt": 1791277974394,
+            "age": 69477786
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1791275270090,
+            "age": 72182090
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791102873518,
-            "age": 158177748
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1788857634421,
-            "age": 2403416845
+            "age": 244578662
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781764610344,
-            "age": 9496440922
+            "age": 9582841836
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781598922730,
-            "age": 9662128536
+            "age": 9748529450
           }
         ]
       }
@@ -267,9 +267,9 @@
       "agentId": "ops-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -280,28 +280,28 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791260894816,
-            "age": 156451
+            "updatedAt": 1791275296364,
+            "age": 72155817
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790743581401,
-            "age": 517469866
+            "age": 603870780
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119360964,
-            "age": 7141690303
+            "age": 7228091217
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782010100171,
-            "age": 9250951096
+            "age": 9337352010
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781916502008,
-            "age": 9344549259
+            "age": 9430950173
           }
         ]
       }
@@ -310,41 +310,41 @@
       "agentId": "admin-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/admin-bot/agent/openclaw-agent.sqlite",
-        "count": 5,
+        "count": 7,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791260925409,
-            "age": 125859
+            "updatedAt": 1791284411579,
+            "age": 63040604
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1790679611559,
-            "age": 581439709
+            "updatedAt": 1791284411579,
+            "age": 63040604
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1784119347791,
-            "age": 7141703477
+            "updatedAt": 1791276669440,
+            "age": 70782743
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1782939664054,
-            "age": 8321387214
+            "updatedAt": 1791276597604,
+            "age": 70854579
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1782889288142,
-            "age": 8371763126
+            "updatedAt": 1791276571887,
+            "age": 70880296
           }
         ]
       }
@@ -353,9 +353,9 @@
       "agentId": "modeler-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -367,17 +367,17 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790848610614,
-            "age": 412440655
+            "age": 498841570
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197970773,
-            "age": 2063080496
+            "age": 2149481411
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1786712879353,
-            "age": 4548171916
+            "age": 4634572831
           }
         ]
       }
@@ -386,9 +386,9 @@
       "agentId": "security-bot",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -399,18 +399,18 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791260944670,
-            "age": 106600
+            "updatedAt": 1791275346121,
+            "age": 72106063
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790864536383,
-            "age": 396514887
+            "age": 482915801
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782037432244,
-            "age": 9223619026
+            "age": 9310019940
           }
         ]
       }
@@ -420,9 +420,9 @@
       "name": "medication_agent",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -434,17 +434,17 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790939014763,
-            "age": 322036507
+            "age": 408437422
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197989439,
-            "age": 2063061831
+            "age": 2149462746
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789144921896,
-            "age": 2116129374
+            "age": 2202530289
           }
         ]
       }
@@ -454,9 +454,9 @@
       "name": "bcg-coach",
       "isDefault": false,
       "heartbeat": {
-        "enabled": true,
-        "every": "2h",
-        "everyMs": 7200000,
+        "enabled": false,
+        "every": "disabled",
+        "everyMs": null,
         "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
         "target": "none",
         "ackMaxChars": 300
@@ -467,18 +467,57 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1791254278227,
-            "age": 6773044
+            "updatedAt": 1791275879024,
+            "age": 71573162
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790944661231,
-            "age": 316390040
+            "age": 402790955
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1790930067103,
-            "age": 330984168
+            "age": 417385083
+          }
+        ]
+      }
+    },
+    {
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "kali-rbsd-cybersecurity",
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "24h",
+        "everyMs": 86400000,
+        "prompt": "Follow the heartbeat monitor scratch context when provided. Recurring tasks are automations; create or change their schedules with the automations tool, not heartbeat scratch. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply NO_REPLY.",
+        "target": "none",
+        "ackMaxChars": 300
+      },
+      "sessions": {
+        "path": "/home/vin/.openclaw/agents/kali-rbsd-cybersecurity/agent/openclaw-agent.sqlite",
+        "count": 4,
+        "recent": [
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1791329344227,
+            "age": 18107960
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1791329255052,
+            "age": 18197135
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1791329255051,
+            "age": 18197136
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1791318600779,
+            "age": 28851408
           }
         ]
       }
@@ -490,28 +529,28 @@
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1791260957741,
-        "age": 93524
+        "updatedAt": 1791342000619,
+        "age": 5451558
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1791255600722,
-        "age": 5450543
+        "updatedAt": 1791331494991,
+        "age": 15957186
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1791245095001,
-        "age": 15956264
+        "updatedAt": 1791329344283,
+        "age": 18107894
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1791240331417,
-        "age": 20719848
+        "updatedAt": 1791329330450,
+        "age": 18121727
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1791223521389,
-        "age": 37529876
+        "updatedAt": 1791326731849,
+        "age": 20720328
       }
     ]
   },

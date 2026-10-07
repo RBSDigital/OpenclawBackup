@@ -229,6 +229,30 @@
             "openai/o4-mini"
           ]
         }
+      },
+      "kali-rbsd-cybersecurity": {
+        "name": "kali-rbsd-cybersecurity",
+        "workspace": "/home/vin/.openclaw/workspaces/kali-rbsd-cybersecurity",
+        "agentDir": "/home/vin/.openclaw/agents/kali-rbsd-cybersecurity/agent",
+        "identity": {
+          "name": "kali-rbsd-cybersecurity"
+        },
+        "model": "openai/gpt-5.6-luna",
+        "heartbeat": {
+          "every": "24h"
+        },
+        "models": {
+          "openai/gpt-5.6-luna": {}
+        },
+        "modelPolicy": {
+          "allow": [
+            "openai/gpt-5.5",
+            "openai/gpt-5.4-mini",
+            "openai/gpt-5.6-luna",
+            "openai/gpt-5.4-nano",
+            "openai/o4-mini"
+          ]
+        }
       }
     }
   },
@@ -301,13 +325,14 @@
         "admin-bot",
         "modeler-bot",
         "security-bot",
-        "medication_agent"
+        "medication_agent",
+        "kali-rbsd-cybersecurity"
       ]
     }
   },
   "wizard": {
-    "lastRunAt": "2026-09-12T04:05:57.826Z",
-    "lastRunVersion": "2026.9.3",
+    "lastRunAt": "2026-10-07T04:02:18.066Z",
+    "lastRunVersion": "2026.9.4",
     "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
@@ -555,6 +580,12 @@
               "users": [
                 "1057573629275148369"
               ]
+            },
+            "1556949862887460908": {
+              "requireMention": false,
+              "users": [
+                "1057573629275148369"
+              ]
             }
           }
         }
@@ -669,6 +700,17 @@
         "peer": {
           "kind": "channel",
           "id": "1547635566017781872"
+        },
+        "guildId": "1485914371766091809"
+      }
+    },
+    {
+      "agentId": "kali-rbsd-cybersecurity",
+      "match": {
+        "channel": "discord",
+        "peer": {
+          "kind": "channel",
+          "id": "1556949862887460908"
         },
         "guildId": "1485914371766091809"
       }

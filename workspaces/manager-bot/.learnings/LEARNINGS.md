@@ -4,6 +4,23 @@ Corrections, insights, and knowledge gaps captured during development.
 
 **Categories**: correction | insight | knowledge_gap | best_practice
 
+## [LRN-20261006-001] tube-branch-verification
+
+**Logged**: 2026-10-06T11:42:00Z
+**Priority**: medium
+**Status**: applied
+**Area**: travel
+
+### Summary
+Tube route advice incorrectly presented Richmond as the required District-line destination for Chiswick Park. The official TfL timetable confirms Chiswick Park is reached on the westbound District service towards Ealing Broadway; branch and stop validation must be explicit.
+
+### Action
+For time-sensitive public-transport advice, verify the exact origin, destination, departure/arrival interpretation, line branch, train destination, intermediate stops and live service status against TfL before giving timed steps. If multiple branches serve a shared section, state the safest exact destination and explain alternatives rather than asserting one without checking.
+
+### Metadata
+- Source: user correction and TfL timetable verification
+- Tags: travel, TfL, District-line, branch-selection, route-validation
+
 ---
 
 ## [LRN-20260930-001] supported-runtime-status-tools
