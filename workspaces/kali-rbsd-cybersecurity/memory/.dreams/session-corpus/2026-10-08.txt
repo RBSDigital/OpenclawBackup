@@ -1,0 +1,1 @@
+[kali-rbsd-cybersecurity/sessions/kali-rbsd-cybersecurity/43ab2dbb-2b12-4b0f-ab83-99ad313db66f#L27] Assistant: Daily read-only health completed. - **Healthy:** config valid; gateway active/reachable loopback-only; agent registered; Discord connected/ready; peer-specific Discord bindings visible over defaults. - **Blockers/drift:** 1 failed ou

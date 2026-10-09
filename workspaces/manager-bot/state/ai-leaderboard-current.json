@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-10-07T08:00:23.060306+00:00",
+  "extracted_at": "2026-10-08T08:00:21.475475+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-06-25",
     "url": "https://livebench.ai/#/",
-    "models": 67,
+    "models": 69,
     "overall_leaders": [
       {
         "model": "claude-fable-5-1-max-effort",
@@ -1591,6 +1591,23 @@
         "cost_per_successful_task": 0.0161
       },
       {
+        "model": "claude-haiku-5-5-xhigh-effort",
+        "display_name": "Claude Haiku 5.5 xHigh Effort",
+        "provider": "Anthropic",
+        "open_weights": false,
+        "overall": 72.934,
+        "categories": {
+          "Reasoning": 81.231,
+          "Coding": 76.393,
+          "Agentic Coding": 51.364,
+          "Mathematics": 92.752,
+          "Data Analysis": 72.753,
+          "Language": 63.516,
+          "IF": 66.466
+        },
+        "cost_per_successful_task": 0.0188
+      },
+      {
         "model": "grok-build-0.1",
         "display_name": "Grok Build 0.1",
         "provider": "xAI",
@@ -1708,23 +1725,6 @@
           "IF": 62.35
         },
         "cost_per_successful_task": 0.0498
-      },
-      {
-        "model": "deepseek-v4-flash-vision-exp",
-        "display_name": "DeepSeek V4 Flash Vision Exp",
-        "provider": "DeepSeek",
-        "open_weights": true,
-        "overall": 77.734,
-        "categories": {
-          "Reasoning": 85.399,
-          "Coding": 68.203,
-          "Agentic Coding": 65.101,
-          "Mathematics": 87.807,
-          "Data Analysis": 79.477,
-          "Language": 80.36,
-          "IF": 70.958
-        },
-        "cost_per_successful_task": 0.0505
       }
     ]
   },
