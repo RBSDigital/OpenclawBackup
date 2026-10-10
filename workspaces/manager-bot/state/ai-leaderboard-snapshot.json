@@ -1,5 +1,5 @@
 {
-  "extracted_at": "2026-10-08T08:00:21.475475+00:00",
+  "extracted_at": "2026-10-09T08:00:17.971922+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-06-25",
@@ -1742,45 +1742,31 @@
           "calibration_error": null
         },
         {
-          "rank": 1,
+          "rank": 2,
           "model": "claude-opus-4-5-20251101",
           "score": 23.05,
           "uncertainty": 0.51,
           "calibration_error": null
         },
         {
-          "rank": 1,
-          "model": "claude-opus-4-1-20250805",
-          "score": 22.22,
-          "uncertainty": 1.48,
-          "calibration_error": null
-        },
-        {
-          "rank": 2,
+          "rank": 3,
           "model": "claude-sonnet-4-5-20250929",
           "score": 22.55,
           "uncertainty": 0.75,
           "calibration_error": null
         },
         {
-          "rank": 2,
+          "rank": 3,
           "model": "gemini-3-flash",
           "score": 22.22,
           "uncertainty": 1.08,
           "calibration_error": null
         },
         {
-          "rank": 2,
-          "model": "gpt-5.2-2025-12-11",
-          "score": 20.58,
-          "uncertainty": 1.03,
-          "calibration_error": null
-        },
-        {
-          "rank": 2,
-          "model": "o3-mini-2025-01-31",
-          "score": 19.84,
-          "uncertainty": 1.49,
+          "rank": 3,
+          "model": "claude-opus-4-1-20250805",
+          "score": 22.22,
+          "uncertainty": 1.48,
           "calibration_error": null
         }
       ]
@@ -1798,32 +1784,18 @@
           "calibration_error": 39.0
         },
         {
-          "rank": 2,
+          "rank": 3,
           "model": "gemini-3.1-pro-preview (thinking high)",
           "score": 46.44,
           "uncertainty": 1.96,
           "calibration_error": 51.0
         },
         {
-          "rank": 2,
+          "rank": 3,
           "model": "Gemini 3.8 Flash",
           "score": 44.52,
           "uncertainty": 1.96,
           "calibration_error": 51.0
-        },
-        {
-          "rank": 2,
-          "model": "gpt-5.4-pro-2026-03-05",
-          "score": 44.32,
-          "uncertainty": 1.95,
-          "calibration_error": 38.0
-        },
-        {
-          "rank": 2,
-          "model": "Muse Spark",
-          "score": 40.56,
-          "uncertainty": 1.92,
-          "calibration_error": 50.0
         }
       ]
     },
