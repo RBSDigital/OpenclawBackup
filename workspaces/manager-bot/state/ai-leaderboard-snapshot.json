@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-10-12T08:00:26.288362+00:00",
+  "extracted_at": "2026-10-13T08:00:24.932999+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-06-25",
     "url": "https://livebench.ai/#/",
-    "models": 69,
+    "models": 70,
     "overall_leaders": [
       {
         "model": "claude-fable-5-1-max-effort",
@@ -126,6 +126,23 @@
         "cost_per_successful_task": 0.2428
       },
       {
+        "model": "muse-wonder-1.0-max",
+        "display_name": "Muse Wonder 1.0 Max Effort",
+        "provider": "Meta",
+        "open_weights": false,
+        "overall": 81.901,
+        "categories": {
+          "Reasoning": 90.635,
+          "Coding": 80.68,
+          "Agentic Coding": 62.727,
+          "Mathematics": 96.471,
+          "Data Analysis": 81.617,
+          "Language": 82.932,
+          "IF": 73.029
+        },
+        "cost_per_successful_task": 0.6153
+      },
+      {
         "model": "gpt-6.1-sol-xhigh",
         "display_name": "GPT-6.1 Sol xHigh Effort",
         "provider": null,
@@ -158,23 +175,6 @@
           "IF": 71.846
         },
         "cost_per_successful_task": 0.507
-      },
-      {
-        "model": "deepseek-v4.1-flash-max",
-        "display_name": "DeepSeek V4.1 Flash Max Effort",
-        "provider": "DeepSeek",
-        "open_weights": true,
-        "overall": 81.447,
-        "categories": {
-          "Reasoning": 86.692,
-          "Coding": 80.037,
-          "Agentic Coding": 77.273,
-          "Mathematics": 93.29,
-          "Data Analysis": 79.253,
-          "Language": 81.19,
-          "IF": 70.033
-        },
-        "cost_per_successful_task": 0.0292
       }
     ],
     "open_weight_leaders": [
@@ -849,21 +849,21 @@
           "cost_per_successful_task": 0.2192
         },
         {
-          "model": "claude-fable-5-max-effort",
-          "display_name": "Claude Fable 5 Max Effort",
-          "provider": "Anthropic",
+          "model": "muse-wonder-1.0-max",
+          "display_name": "Muse Wonder 1.0 Max Effort",
+          "provider": "Meta",
           "open_weights": false,
-          "overall": 83.383,
+          "overall": 81.901,
           "categories": {
-            "Reasoning": 89.654,
-            "Coding": 85.992,
-            "Agentic Coding": 62.172,
-            "Mathematics": 95.986,
-            "Data Analysis": 80.538,
-            "Language": 90.684,
-            "IF": 75.771
+            "Reasoning": 90.635,
+            "Coding": 80.68,
+            "Agentic Coding": 62.727,
+            "Mathematics": 96.471,
+            "Data Analysis": 81.617,
+            "Language": 82.932,
+            "IF": 73.029
           },
-          "cost_per_successful_task": 1.4777
+          "cost_per_successful_task": 0.6153
         }
       ],
       "Mathematics": [
@@ -987,6 +987,23 @@
           "cost_per_successful_task": 0.0934
         },
         {
+          "model": "muse-wonder-1.0-max",
+          "display_name": "Muse Wonder 1.0 Max Effort",
+          "provider": "Meta",
+          "open_weights": false,
+          "overall": 81.901,
+          "categories": {
+            "Reasoning": 90.635,
+            "Coding": 80.68,
+            "Agentic Coding": 62.727,
+            "Mathematics": 96.471,
+            "Data Analysis": 81.617,
+            "Language": 82.932,
+            "IF": 73.029
+          },
+          "cost_per_successful_task": 0.6153
+        },
+        {
           "model": "gpt-6-sol-max",
           "display_name": "GPT-6 Sol Max Effort",
           "provider": "OpenAI",
@@ -1019,23 +1036,6 @@
             "IF": 71.846
           },
           "cost_per_successful_task": 0.507
-        },
-        {
-          "model": "claude-sonnet-5-5-max-effort",
-          "display_name": "Claude Sonnet 5.5 Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 75.752,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 91.366,
-            "Agentic Coding": 56.313,
-            "Mathematics": 96.132,
-            "Data Analysis": 59.488,
-            "Language": 77.984,
-            "IF": 56.788
-          },
-          "cost_per_successful_task": 0.8682
         }
       ],
       "Data Analysis": [
@@ -1089,6 +1089,23 @@
             "IF": 71.325
           },
           "cost_per_successful_task": 0.0934
+        },
+        {
+          "model": "muse-wonder-1.0-max",
+          "display_name": "Muse Wonder 1.0 Max Effort",
+          "provider": "Meta",
+          "open_weights": false,
+          "overall": 81.901,
+          "categories": {
+            "Reasoning": 90.635,
+            "Coding": 80.68,
+            "Agentic Coding": 62.727,
+            "Mathematics": 96.471,
+            "Data Analysis": 81.617,
+            "Language": 82.932,
+            "IF": 73.029
+          },
+          "cost_per_successful_task": 0.6153
         },
         {
           "model": "gpt-5.5-xhigh",
@@ -1191,23 +1208,6 @@
             "IF": 70.992
           },
           "cost_per_successful_task": 0.3288
-        },
-        {
-          "model": "gpt-5.6-sol-max",
-          "display_name": "GPT-5.6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 81.647,
-          "categories": {
-            "Reasoning": 91.654,
-            "Coding": 83.941,
-            "Agentic Coding": 56.212,
-            "Mathematics": 96.198,
-            "Data Analysis": 79.841,
-            "Language": 87.684,
-            "IF": 71.846
-          },
-          "cost_per_successful_task": 0.507
         }
       ],
       "Language": [
@@ -1792,10 +1792,10 @@
         },
         {
           "rank": 3,
-          "model": "Gemini 3.8 Flash",
-          "score": 44.52,
-          "uncertainty": 1.96,
-          "calibration_error": 51.0
+          "model": "Sonnet 5.5 (xhigh)",
+          "score": 46.12,
+          "uncertainty": 1.95,
+          "calibration_error": null
         }
       ]
     },
