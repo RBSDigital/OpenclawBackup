@@ -1,1732 +1,1527 @@
 {
-  "extracted_at": "2026-10-13T08:00:24.932999+00:00",
+  "extracted_at": "2026-10-14T08:00:25.652134+00:00",
   "livebench": {
     "source": "LiveBench",
-    "release": "2026-06-25",
+    "release": "2026-09-02",
     "url": "https://livebench.ai/#/",
-    "models": 70,
+    "models": 36,
     "overall_leaders": [
       {
-        "model": "claude-fable-5-1-max-effort",
-        "display_name": "Claude Fable 5.1 Max Effort",
+        "model": "claude-fable-5.1",
+        "display_name": "Claude Fable 5.1",
         "provider": "Anthropic",
         "open_weights": false,
-        "overall": 83.783,
+        "overall": 87.986,
         "categories": {
-          "Reasoning": 91.692,
-          "Coding": 86.375,
-          "Agentic Coding": 66.061,
-          "Mathematics": 97.007,
-          "Data Analysis": 80.276,
-          "Language": 89.501,
-          "IF": 72.988
+          "Long-Horizon": 80.8,
+          "Reasoning": 91.7,
+          "Coding": 97.7,
+          "Browser": 100.0,
+          "Data Analysis": 80.3,
+          "Research": 82.0,
+          "Design": 83.4
         },
-        "cost_per_successful_task": 1.2117
+        "cost_per_successful_task": null
       },
       {
-        "model": "claude-fable-5-max-effort",
-        "display_name": "Claude Fable 5 Max Effort",
+        "model": "claude-opus-5.5",
+        "display_name": "Claude Opus 5.5",
         "provider": "Anthropic",
         "open_weights": false,
-        "overall": 83.383,
+        "overall": 86.529,
         "categories": {
-          "Reasoning": 89.654,
-          "Coding": 85.992,
-          "Agentic Coding": 62.172,
-          "Mathematics": 95.986,
-          "Data Analysis": 80.538,
-          "Language": 90.684,
-          "IF": 75.771
+          "Long-Horizon": 85.0,
+          "Reasoning": 92.2,
+          "Coding": 96.3,
+          "Browser": 80.0,
+          "Data Analysis": 80.3,
+          "Research": 85.0,
+          "Design": 86.9
         },
-        "cost_per_successful_task": 1.4777
+        "cost_per_successful_task": null
       },
       {
-        "model": "claude-opus-5-5-max-effort",
-        "display_name": "Claude 5.5 Opus Thinking Max Effort",
-        "provider": null,
-        "open_weights": false,
-        "overall": 83.185,
-        "categories": {
-          "Reasoning": 92.154,
-          "Coding": 89.253,
-          "Agentic Coding": 71.717,
-          "Mathematics": 97.078,
-          "Data Analysis": 80.307,
-          "Language": 86.27,
-          "IF": 65.738
-        },
-        "cost_per_successful_task": 0.7993
-      },
-      {
-        "model": "gpt-6-astra-max",
-        "display_name": "GPT-6 Astra Max Effort",
+        "model": "gpt-6-astra",
+        "display_name": "GPT-6 Astra",
         "provider": "OpenAI",
         "open_weights": false,
-        "overall": 83.046,
+        "overall": 86.143,
         "categories": {
-          "Reasoning": 92.654,
-          "Coding": 80.358,
-          "Agentic Coding": 57.323,
-          "Mathematics": 96.806,
-          "Data Analysis": 82.973,
-          "Language": 89.431,
-          "IF": 75.579
+          "Long-Horizon": 82.4,
+          "Reasoning": 92.7,
+          "Coding": 93.7,
+          "Browser": 84.0,
+          "Data Analysis": 83.0,
+          "Research": 85.2,
+          "Design": 82.0
         },
-        "cost_per_successful_task": 0.7359
+        "cost_per_successful_task": null
       },
       {
-        "model": "gpt-6.1-sol-max",
-        "display_name": "GPT-6.1 Sol Max Effort",
+        "model": "gpt-6.1-sol",
+        "display_name": "GPT-6.1 Sol",
         "provider": "OpenAI",
         "open_weights": false,
-        "overall": 82.487,
+        "overall": 85.414,
         "categories": {
-          "Reasoning": 92.635,
-          "Coding": 80.358,
-          "Agentic Coding": 54.545,
-          "Mathematics": 96.832,
-          "Data Analysis": 82.659,
-          "Language": 90.126,
-          "IF": 74.154
+          "Long-Horizon": 73.0,
+          "Reasoning": 92.6,
+          "Coding": 96.0,
+          "Browser": 88.0,
+          "Data Analysis": 82.7,
+          "Research": 83.5,
+          "Design": 82.1
         },
-        "cost_per_successful_task": 0.1416
+        "cost_per_successful_task": null
       },
       {
-        "model": "muse-spark-1.3-xhigh",
-        "display_name": "Muse Spark 1.3 xHigh Effort",
+        "model": "gemini-4-argon",
+        "display_name": "Gemini 4 Argon",
+        "provider": "Google",
+        "open_weights": false,
+        "overall": 84.1,
+        "categories": {
+          "Long-Horizon": 69.9,
+          "Reasoning": 95.1,
+          "Coding": 89.7,
+          "Browser": 92.0,
+          "Data Analysis": 85.2,
+          "Research": 83.1,
+          "Design": 73.7
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "claude-fable-5",
+        "display_name": "Claude Fable 5",
+        "provider": "Anthropic",
+        "open_weights": false,
+        "overall": 83.614,
+        "categories": {
+          "Long-Horizon": 53.2,
+          "Reasoning": 89.7,
+          "Coding": 98.3,
+          "Browser": 92.0,
+          "Data Analysis": 80.5,
+          "Research": 86.9,
+          "Design": 84.7
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "claude-sonnet-5.5",
+        "display_name": "Claude Sonnet 5.5",
+        "provider": "Anthropic",
+        "open_weights": false,
+        "overall": 82.457,
+        "categories": {
+          "Long-Horizon": 78.8,
+          "Reasoning": 91.6,
+          "Coding": 94.7,
+          "Browser": 84.0,
+          "Data Analysis": 59.5,
+          "Research": 83.6,
+          "Design": 85.0
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "claude-opus-5",
+        "display_name": "Claude Opus 5",
+        "provider": "Anthropic",
+        "open_weights": false,
+        "overall": 82.086,
+        "categories": {
+          "Long-Horizon": 62.1,
+          "Reasoning": 91.2,
+          "Coding": 90.8,
+          "Browser": 84.0,
+          "Data Analysis": 74.6,
+          "Research": 88.9,
+          "Design": 83.0
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "gpt-6-sol",
+        "display_name": "GPT-6 Sol",
+        "provider": "OpenAI",
+        "open_weights": false,
+        "overall": 81.914,
+        "categories": {
+          "Long-Horizon": 66.9,
+          "Reasoning": 88.7,
+          "Coding": 93.1,
+          "Browser": 92.0,
+          "Data Analysis": 81.2,
+          "Research": 69.3,
+          "Design": 82.2
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "muse-wonder-1.0",
+        "display_name": "Muse Wonder 1.0",
         "provider": "Meta",
         "open_weights": false,
-        "overall": 82.431,
+        "overall": 78.1,
         "categories": {
-          "Reasoning": 89.654,
-          "Coding": 81.062,
-          "Agentic Coding": 64.091,
-          "Mathematics": 95.95,
-          "Data Analysis": 79.565,
-          "Language": 82.794,
-          "IF": 78.004
+          "Long-Horizon": 53.2,
+          "Reasoning": 90.6,
+          "Coding": 86.2,
+          "Browser": 72.0,
+          "Data Analysis": 81.6,
+          "Research": 88.0,
+          "Design": 75.1
         },
-        "cost_per_successful_task": 0.2192
-      },
-      {
-        "model": "claude-opus-5-5-xhigh-effort",
-        "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
-        "provider": "Anthropic",
-        "open_weights": false,
-        "overall": 82.109,
-        "categories": {
-          "Reasoning": 90.654,
-          "Coding": 89.253,
-          "Agentic Coding": 65.353,
-          "Mathematics": 96.803,
-          "Data Analysis": 79.803,
-          "Language": 85.499,
-          "IF": 67.05
-        },
-        "cost_per_successful_task": 0.2428
-      },
-      {
-        "model": "muse-wonder-1.0-max",
-        "display_name": "Muse Wonder 1.0 Max Effort",
-        "provider": "Meta",
-        "open_weights": false,
-        "overall": 81.901,
-        "categories": {
-          "Reasoning": 90.635,
-          "Coding": 80.68,
-          "Agentic Coding": 62.727,
-          "Mathematics": 96.471,
-          "Data Analysis": 81.617,
-          "Language": 82.932,
-          "IF": 73.029
-        },
-        "cost_per_successful_task": 0.6153
-      },
-      {
-        "model": "gpt-6.1-sol-xhigh",
-        "display_name": "GPT-6.1 Sol xHigh Effort",
-        "provider": null,
-        "open_weights": false,
-        "overall": 81.827,
-        "categories": {
-          "Reasoning": 91.635,
-          "Coding": 80.741,
-          "Agentic Coding": 56.768,
-          "Mathematics": 96.478,
-          "Data Analysis": 82.18,
-          "Language": 88.645,
-          "IF": 71.325
-        },
-        "cost_per_successful_task": 0.0934
-      },
-      {
-        "model": "gpt-5.6-sol-max",
-        "display_name": "GPT-5.6 Sol Max Effort",
-        "provider": "OpenAI",
-        "open_weights": false,
-        "overall": 81.647,
-        "categories": {
-          "Reasoning": 91.654,
-          "Coding": 83.941,
-          "Agentic Coding": 56.212,
-          "Mathematics": 96.198,
-          "Data Analysis": 79.841,
-          "Language": 87.684,
-          "IF": 71.846
-        },
-        "cost_per_successful_task": 0.507
+        "cost_per_successful_task": null
       }
     ],
     "open_weight_leaders": [
       {
-        "model": "deepseek-v4.1-flash-max",
-        "display_name": "DeepSeek V4.1 Flash Max Effort",
+        "model": "deepseek-v4.1-flash",
+        "display_name": "DeepSeek V4.1 Flash",
         "provider": "DeepSeek",
         "open_weights": true,
-        "overall": 81.447,
+        "overall": 77.257,
         "categories": {
-          "Reasoning": 86.692,
-          "Coding": 80.037,
-          "Agentic Coding": 77.273,
-          "Mathematics": 93.29,
-          "Data Analysis": 79.253,
-          "Language": 81.19,
-          "IF": 70.033
-        },
-        "cost_per_successful_task": 0.0292
-      },
-      {
-        "model": "smaug-agentic",
-        "display_name": "Smaug Agentic",
-        "provider": "Abacus.AI",
-        "open_weights": true,
-        "overall": 79.669,
-        "categories": {
-          "Reasoning": 90.274,
-          "Coding": 82.471,
-          "Agentic Coding": 64.647,
-          "Mathematics": 83.919,
-          "Data Analysis": 79.898,
-          "Language": 84.357,
-          "IF": 70.992
-        },
-        "cost_per_successful_task": 0.3288
-      },
-      {
-        "model": "qwen3.8-max",
-        "display_name": "Qwen 3.8 Max",
-        "provider": "Alibaba",
-        "open_weights": true,
-        "overall": 79.496,
-        "categories": {
-          "Reasoning": 88.212,
-          "Coding": 72.872,
-          "Agentic Coding": 64.647,
-          "Mathematics": 91.312,
-          "Data Analysis": 78.413,
-          "Language": 79.687,
-          "IF": 74.084
-        },
-        "cost_per_successful_task": 0.275
-      },
-      {
-        "model": "kimi-k3",
-        "display_name": "Kimi K3",
-        "provider": "Moonshot AI",
-        "open_weights": true,
-        "overall": 79.482,
-        "categories": {
-          "Reasoning": 90.673,
-          "Coding": 81.445,
-          "Agentic Coding": 62.172,
-          "Mathematics": 84.437,
-          "Data Analysis": 78.734,
-          "Language": 85.528,
-          "IF": 71.363
-        },
-        "cost_per_successful_task": 0.351
-      },
-      {
-        "model": "deepseek-v4-pro-0813",
-        "display_name": "DeepSeek V4 Pro 0813",
-        "provider": "DeepSeek",
-        "open_weights": true,
-        "overall": 78.158,
-        "categories": {
-          "Reasoning": 85.841,
-          "Coding": 77.159,
-          "Agentic Coding": 54.95,
-          "Mathematics": 95.086,
-          "Data Analysis": 79.243,
-          "Language": 82.074,
-          "IF": 67.7
-        },
-        "cost_per_successful_task": 0.0442
-      },
-      {
-        "model": "smaug-flash",
-        "display_name": "Smaug Flash",
-        "provider": "Abacus.AI",
-        "open_weights": true,
-        "overall": 78.026,
-        "categories": {
-          "Reasoning": 86.231,
-          "Coding": 77.097,
-          "Agentic Coding": 61.061,
-          "Mathematics": 90.064,
-          "Data Analysis": 79.122,
-          "Language": 79.214,
-          "IF": 69.258
-        },
-        "cost_per_successful_task": 0.014
-      },
-      {
-        "model": "deepseek-v4-flash-vision-exp",
-        "display_name": "DeepSeek V4 Flash Vision Exp",
-        "provider": "DeepSeek",
-        "open_weights": true,
-        "overall": 77.734,
-        "categories": {
-          "Reasoning": 85.399,
-          "Coding": 68.203,
-          "Agentic Coding": 65.101,
-          "Mathematics": 87.807,
-          "Data Analysis": 79.477,
-          "Language": 80.36,
-          "IF": 70.958
-        },
-        "cost_per_successful_task": 0.0505
-      },
-      {
-        "model": "smaug-mini",
-        "display_name": "Smaug Mini",
-        "provider": "Abacus.AI",
-        "open_weights": true,
-        "overall": 77.678,
-        "categories": {
-          "Reasoning": 82.808,
-          "Coding": 75.429,
-          "Agentic Coding": 60.808,
-          "Mathematics": 89.743,
-          "Data Analysis": 78.813,
-          "Language": 76.999,
-          "IF": 73.916
-        },
-        "cost_per_successful_task": 0.0994
-      },
-      {
-        "model": "qwen3.8-flash-next",
-        "display_name": "Qwen 3.8 Flash Next",
-        "provider": "Alibaba",
-        "open_weights": true,
-        "overall": 77.297,
-        "categories": {
-          "Reasoning": 87.38,
-          "Coding": 72.55,
-          "Agentic Coding": 61.616,
-          "Mathematics": 85.821,
-          "Data Analysis": 74.24,
-          "Language": 74.643,
-          "IF": 77.108
-        },
-        "cost_per_successful_task": 0.0423
-      },
-      {
-        "model": "glm-5.3",
-        "display_name": "GLM-5.3",
-        "provider": "Z.AI",
-        "open_weights": true,
-        "overall": 76.65,
-        "categories": {
-          "Reasoning": 85.803,
-          "Coding": 78.95,
-          "Agentic Coding": 60.909,
-          "Mathematics": 87.898,
-          "Data Analysis": 70.244,
-          "Language": 79.856,
-          "IF": 69.304
-        },
-        "cost_per_successful_task": 0.4504
-      }
-    ],
-    "categories": {
-      "Reasoning": [
-        {
-          "model": "gpt-6-astra-max",
-          "display_name": "GPT-6 Astra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 83.046,
-          "categories": {
-            "Reasoning": 92.654,
-            "Coding": 80.358,
-            "Agentic Coding": 57.323,
-            "Mathematics": 96.806,
-            "Data Analysis": 82.973,
-            "Language": 89.431,
-            "IF": 75.579
-          },
-          "cost_per_successful_task": 0.7359
-        },
-        {
-          "model": "gpt-6.1-sol-max",
-          "display_name": "GPT-6.1 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 82.487,
-          "categories": {
-            "Reasoning": 92.635,
-            "Coding": 80.358,
-            "Agentic Coding": 54.545,
-            "Mathematics": 96.832,
-            "Data Analysis": 82.659,
-            "Language": 90.126,
-            "IF": 74.154
-          },
-          "cost_per_successful_task": 0.1416
-        },
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "gpt-5.6-sol-max",
-          "display_name": "GPT-5.6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 81.647,
-          "categories": {
-            "Reasoning": 91.654,
-            "Coding": 83.941,
-            "Agentic Coding": 56.212,
-            "Mathematics": 96.198,
-            "Data Analysis": 79.841,
-            "Language": 87.684,
-            "IF": 71.846
-          },
-          "cost_per_successful_task": 0.507
-        },
-        {
-          "model": "claude-sonnet-5-5-max-effort",
-          "display_name": "Claude Sonnet 5.5 Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 75.752,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 91.366,
-            "Agentic Coding": 56.313,
-            "Mathematics": 96.132,
-            "Data Analysis": 59.488,
-            "Language": 77.984,
-            "IF": 56.788
-          },
-          "cost_per_successful_task": 0.8682
-        },
-        {
-          "model": "gpt-6.1-sol-xhigh",
-          "display_name": "GPT-6.1 Sol xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 81.827,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 80.741,
-            "Agentic Coding": 56.768,
-            "Mathematics": 96.478,
-            "Data Analysis": 82.18,
-            "Language": 88.645,
-            "IF": 71.325
-          },
-          "cost_per_successful_task": 0.0934
-        },
-        {
-          "model": "claude-opus-5-max-effort",
-          "display_name": "Claude 5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.48,
-          "categories": {
-            "Reasoning": 91.212,
-            "Coding": 81.445,
-            "Agentic Coding": 65.202,
-            "Mathematics": 95.731,
-            "Data Analysis": 74.55,
-            "Language": 88.688,
-            "IF": 63.767
-          },
-          "cost_per_successful_task": 0.7067
-        },
-        {
-          "model": "kimi-k3",
-          "display_name": "Kimi K3",
-          "provider": "Moonshot AI",
-          "open_weights": true,
-          "overall": 79.482,
-          "categories": {
-            "Reasoning": 90.673,
-            "Coding": 81.445,
-            "Agentic Coding": 62.172,
-            "Mathematics": 84.437,
-            "Data Analysis": 78.734,
-            "Language": 85.528,
-            "IF": 71.363
-          },
-          "cost_per_successful_task": 0.351
-        },
-        {
-          "model": "claude-opus-5-5-xhigh-effort",
-          "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 82.109,
-          "categories": {
-            "Reasoning": 90.654,
-            "Coding": 89.253,
-            "Agentic Coding": 65.353,
-            "Mathematics": 96.803,
-            "Data Analysis": 79.803,
-            "Language": 85.499,
-            "IF": 67.05
-          },
-          "cost_per_successful_task": 0.2428
-        }
-      ],
-      "Coding": [
-        {
-          "model": "claude-sonnet-5-5-max-effort",
-          "display_name": "Claude Sonnet 5.5 Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 75.752,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 91.366,
-            "Agentic Coding": 56.313,
-            "Mathematics": 96.132,
-            "Data Analysis": 59.488,
-            "Language": 77.984,
-            "IF": 56.788
-          },
-          "cost_per_successful_task": 0.8682
-        },
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        },
-        {
-          "model": "claude-opus-5-5-xhigh-effort",
-          "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 82.109,
-          "categories": {
-            "Reasoning": 90.654,
-            "Coding": 89.253,
-            "Agentic Coding": 65.353,
-            "Mathematics": 96.803,
-            "Data Analysis": 79.803,
-            "Language": 85.499,
-            "IF": 67.05
-          },
-          "cost_per_successful_task": 0.2428
-        },
-        {
-          "model": "claude-sonnet-5-5-xhigh-effort",
-          "display_name": "Claude Sonnet 5.5 xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 78.174,
-          "categories": {
-            "Reasoning": 86.808,
-            "Coding": 88.87,
-            "Agentic Coding": 39.344,
-            "Mathematics": 96.695,
-            "Data Analysis": 78.62,
-            "Language": 83.43,
-            "IF": 70.517
-          },
-          "cost_per_successful_task": 0.1412
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "claude-fable-5-max-effort",
-          "display_name": "Claude Fable 5 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.383,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 85.992,
-            "Agentic Coding": 62.172,
-            "Mathematics": 95.986,
-            "Data Analysis": 80.538,
-            "Language": 90.684,
-            "IF": 75.771
-          },
-          "cost_per_successful_task": 1.4777
-        },
-        {
-          "model": "gpt-5.6-sol-max",
-          "display_name": "GPT-5.6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 81.647,
-          "categories": {
-            "Reasoning": 91.654,
-            "Coding": 83.941,
-            "Agentic Coding": 56.212,
-            "Mathematics": 96.198,
-            "Data Analysis": 79.841,
-            "Language": 87.684,
-            "IF": 71.846
-          },
-          "cost_per_successful_task": 0.507
-        },
-        {
-          "model": "gpt-5.2-codex",
-          "display_name": "GPT-5.2 Codex",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 74.034,
-          "categories": {
-            "Reasoning": 77.712,
-            "Coding": 83.619,
-            "Agentic Coding": 49.394,
-            "Mathematics": 88.774,
-            "Data Analysis": 78.204,
-            "Language": 73.678,
-            "IF": 66.446
-          },
-          "cost_per_successful_task": 0.1874
-        },
-        {
-          "model": "gpt-5.6-luna-max",
-          "display_name": "GPT-5.6 Luna Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 73.687,
-          "categories": {
-            "Reasoning": 85.644,
-            "Coding": 82.915,
-            "Agentic Coding": 48.434,
-            "Mathematics": 87.201,
-            "Data Analysis": 78.033,
-            "Language": 72.567,
-            "IF": 60.121
-          },
-          "cost_per_successful_task": 0.1677
-        },
-        {
-          "model": "smaug-agentic",
-          "display_name": "Smaug Agentic",
-          "provider": "Abacus.AI",
-          "open_weights": true,
-          "overall": 79.669,
-          "categories": {
-            "Reasoning": 90.274,
-            "Coding": 82.471,
-            "Agentic Coding": 64.647,
-            "Mathematics": 83.919,
-            "Data Analysis": 79.898,
-            "Language": 84.357,
-            "IF": 70.992
-          },
-          "cost_per_successful_task": 0.3288
-        }
-      ],
-      "Agentic Coding": [
-        {
-          "model": "deepseek-v4.1-flash-max",
-          "display_name": "DeepSeek V4.1 Flash Max Effort",
-          "provider": "DeepSeek",
-          "open_weights": true,
-          "overall": 81.447,
-          "categories": {
-            "Reasoning": 86.692,
-            "Coding": 80.037,
-            "Agentic Coding": 77.273,
-            "Mathematics": 93.29,
-            "Data Analysis": 79.253,
-            "Language": 81.19,
-            "IF": 70.033
-          },
-          "cost_per_successful_task": 0.0292
-        },
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "claude-opus-5-5-xhigh-effort",
-          "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 82.109,
-          "categories": {
-            "Reasoning": 90.654,
-            "Coding": 89.253,
-            "Agentic Coding": 65.353,
-            "Mathematics": 96.803,
-            "Data Analysis": 79.803,
-            "Language": 85.499,
-            "IF": 67.05
-          },
-          "cost_per_successful_task": 0.2428
-        },
-        {
-          "model": "claude-opus-5-max-effort",
-          "display_name": "Claude 5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.48,
-          "categories": {
-            "Reasoning": 91.212,
-            "Coding": 81.445,
-            "Agentic Coding": 65.202,
-            "Mathematics": 95.731,
-            "Data Analysis": 74.55,
-            "Language": 88.688,
-            "IF": 63.767
-          },
-          "cost_per_successful_task": 0.7067
-        },
-        {
-          "model": "deepseek-v4-flash-vision-exp",
-          "display_name": "DeepSeek V4 Flash Vision Exp",
-          "provider": "DeepSeek",
-          "open_weights": true,
-          "overall": 77.734,
-          "categories": {
-            "Reasoning": 85.399,
-            "Coding": 68.203,
-            "Agentic Coding": 65.101,
-            "Mathematics": 87.807,
-            "Data Analysis": 79.477,
-            "Language": 80.36,
-            "IF": 70.958
-          },
-          "cost_per_successful_task": 0.0505
-        },
-        {
-          "model": "qwen3.8-max",
-          "display_name": "Qwen 3.8 Max",
-          "provider": "Alibaba",
-          "open_weights": true,
-          "overall": 79.496,
-          "categories": {
-            "Reasoning": 88.212,
-            "Coding": 72.872,
-            "Agentic Coding": 64.647,
-            "Mathematics": 91.312,
-            "Data Analysis": 78.413,
-            "Language": 79.687,
-            "IF": 74.084
-          },
-          "cost_per_successful_task": 0.275
-        },
-        {
-          "model": "smaug-agentic",
-          "display_name": "Smaug Agentic",
-          "provider": "Abacus.AI",
-          "open_weights": true,
-          "overall": 79.669,
-          "categories": {
-            "Reasoning": 90.274,
-            "Coding": 82.471,
-            "Agentic Coding": 64.647,
-            "Mathematics": 83.919,
-            "Data Analysis": 79.898,
-            "Language": 84.357,
-            "IF": 70.992
-          },
-          "cost_per_successful_task": 0.3288
-        },
-        {
-          "model": "muse-spark-1.3-xhigh",
-          "display_name": "Muse Spark 1.3 xHigh Effort",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 82.431,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 81.062,
-            "Agentic Coding": 64.091,
-            "Mathematics": 95.95,
-            "Data Analysis": 79.565,
-            "Language": 82.794,
-            "IF": 78.004
-          },
-          "cost_per_successful_task": 0.2192
-        },
-        {
-          "model": "muse-wonder-1.0-max",
-          "display_name": "Muse Wonder 1.0 Max Effort",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 81.901,
-          "categories": {
-            "Reasoning": 90.635,
-            "Coding": 80.68,
-            "Agentic Coding": 62.727,
-            "Mathematics": 96.471,
-            "Data Analysis": 81.617,
-            "Language": 82.932,
-            "IF": 73.029
-          },
-          "cost_per_successful_task": 0.6153
-        }
-      ],
-      "Mathematics": [
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "gpt-6.1-sol-max",
-          "display_name": "GPT-6.1 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 82.487,
-          "categories": {
-            "Reasoning": 92.635,
-            "Coding": 80.358,
-            "Agentic Coding": 54.545,
-            "Mathematics": 96.832,
-            "Data Analysis": 82.659,
-            "Language": 90.126,
-            "IF": 74.154
-          },
-          "cost_per_successful_task": 0.1416
-        },
-        {
-          "model": "gpt-6-astra-max",
-          "display_name": "GPT-6 Astra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 83.046,
-          "categories": {
-            "Reasoning": 92.654,
-            "Coding": 80.358,
-            "Agentic Coding": 57.323,
-            "Mathematics": 96.806,
-            "Data Analysis": 82.973,
-            "Language": 89.431,
-            "IF": 75.579
-          },
-          "cost_per_successful_task": 0.7359
-        },
-        {
-          "model": "claude-opus-5-5-xhigh-effort",
-          "display_name": "Claude 5.5 Opus Thinking xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 82.109,
-          "categories": {
-            "Reasoning": 90.654,
-            "Coding": 89.253,
-            "Agentic Coding": 65.353,
-            "Mathematics": 96.803,
-            "Data Analysis": 79.803,
-            "Language": 85.499,
-            "IF": 67.05
-          },
-          "cost_per_successful_task": 0.2428
-        },
-        {
-          "model": "claude-sonnet-5-5-xhigh-effort",
-          "display_name": "Claude Sonnet 5.5 xHigh Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 78.174,
-          "categories": {
-            "Reasoning": 86.808,
-            "Coding": 88.87,
-            "Agentic Coding": 39.344,
-            "Mathematics": 96.695,
-            "Data Analysis": 78.62,
-            "Language": 83.43,
-            "IF": 70.517
-          },
-          "cost_per_successful_task": 0.1412
-        },
-        {
-          "model": "gpt-6.1-sol-xhigh",
-          "display_name": "GPT-6.1 Sol xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 81.827,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 80.741,
-            "Agentic Coding": 56.768,
-            "Mathematics": 96.478,
-            "Data Analysis": 82.18,
-            "Language": 88.645,
-            "IF": 71.325
-          },
-          "cost_per_successful_task": 0.0934
-        },
-        {
-          "model": "muse-wonder-1.0-max",
-          "display_name": "Muse Wonder 1.0 Max Effort",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 81.901,
-          "categories": {
-            "Reasoning": 90.635,
-            "Coding": 80.68,
-            "Agentic Coding": 62.727,
-            "Mathematics": 96.471,
-            "Data Analysis": 81.617,
-            "Language": 82.932,
-            "IF": 73.029
-          },
-          "cost_per_successful_task": 0.6153
-        },
-        {
-          "model": "gpt-6-sol-max",
-          "display_name": "GPT-6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 79.825,
-          "categories": {
-            "Reasoning": 88.654,
-            "Coding": 81.767,
-            "Agentic Coding": 52.879,
-            "Mathematics": 96.356,
-            "Data Analysis": 81.189,
-            "Language": 85.299,
-            "IF": 68.575
-          },
-          "cost_per_successful_task": 0.2685
-        },
-        {
-          "model": "gpt-5.6-sol-max",
-          "display_name": "GPT-5.6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 81.647,
-          "categories": {
-            "Reasoning": 91.654,
-            "Coding": 83.941,
-            "Agentic Coding": 56.212,
-            "Mathematics": 96.198,
-            "Data Analysis": 79.841,
-            "Language": 87.684,
-            "IF": 71.846
-          },
-          "cost_per_successful_task": 0.507
-        }
-      ],
-      "Data Analysis": [
-        {
-          "model": "gpt-6-astra-max",
-          "display_name": "GPT-6 Astra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 83.046,
-          "categories": {
-            "Reasoning": 92.654,
-            "Coding": 80.358,
-            "Agentic Coding": 57.323,
-            "Mathematics": 96.806,
-            "Data Analysis": 82.973,
-            "Language": 89.431,
-            "IF": 75.579
-          },
-          "cost_per_successful_task": 0.7359
-        },
-        {
-          "model": "gpt-6.1-sol-max",
-          "display_name": "GPT-6.1 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 82.487,
-          "categories": {
-            "Reasoning": 92.635,
-            "Coding": 80.358,
-            "Agentic Coding": 54.545,
-            "Mathematics": 96.832,
-            "Data Analysis": 82.659,
-            "Language": 90.126,
-            "IF": 74.154
-          },
-          "cost_per_successful_task": 0.1416
-        },
-        {
-          "model": "gpt-6.1-sol-xhigh",
-          "display_name": "GPT-6.1 Sol xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 81.827,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 80.741,
-            "Agentic Coding": 56.768,
-            "Mathematics": 96.478,
-            "Data Analysis": 82.18,
-            "Language": 88.645,
-            "IF": 71.325
-          },
-          "cost_per_successful_task": 0.0934
-        },
-        {
-          "model": "muse-wonder-1.0-max",
-          "display_name": "Muse Wonder 1.0 Max Effort",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 81.901,
-          "categories": {
-            "Reasoning": 90.635,
-            "Coding": 80.68,
-            "Agentic Coding": 62.727,
-            "Mathematics": 96.471,
-            "Data Analysis": 81.617,
-            "Language": 82.932,
-            "IF": 73.029
-          },
-          "cost_per_successful_task": 0.6153
-        },
-        {
-          "model": "gpt-5.5-xhigh",
-          "display_name": "GPT-5.5 Thinking xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.785,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 82.149,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.857,
-            "Data Analysis": 81.576,
-            "Language": 87.363,
-            "IF": 70.729
-          },
-          "cost_per_successful_task": 0.4356
-        },
-        {
-          "model": "gpt-6-sol-max",
-          "display_name": "GPT-6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 79.825,
-          "categories": {
-            "Reasoning": 88.654,
-            "Coding": 81.767,
-            "Agentic Coding": 52.879,
-            "Mathematics": 96.356,
-            "Data Analysis": 81.189,
-            "Language": 85.299,
-            "IF": 68.575
-          },
-          "cost_per_successful_task": 0.2685
-        },
-        {
-          "model": "claude-fable-5-max-effort",
-          "display_name": "Claude Fable 5 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.383,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 85.992,
-            "Agentic Coding": 62.172,
-            "Mathematics": 95.986,
-            "Data Analysis": 80.538,
-            "Language": 90.684,
-            "IF": 75.771
-          },
-          "cost_per_successful_task": 1.4777
-        },
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "smaug-agentic",
-          "display_name": "Smaug Agentic",
-          "provider": "Abacus.AI",
-          "open_weights": true,
-          "overall": 79.669,
-          "categories": {
-            "Reasoning": 90.274,
-            "Coding": 82.471,
-            "Agentic Coding": 64.647,
-            "Mathematics": 83.919,
-            "Data Analysis": 79.898,
-            "Language": 84.357,
-            "IF": 70.992
-          },
-          "cost_per_successful_task": 0.3288
-        }
-      ],
-      "Language": [
-        {
-          "model": "claude-fable-5-max-effort",
-          "display_name": "Claude Fable 5 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.383,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 85.992,
-            "Agentic Coding": 62.172,
-            "Mathematics": 95.986,
-            "Data Analysis": 80.538,
-            "Language": 90.684,
-            "IF": 75.771
-          },
-          "cost_per_successful_task": 1.4777
-        },
-        {
-          "model": "gpt-6.1-sol-max",
-          "display_name": "GPT-6.1 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 82.487,
-          "categories": {
-            "Reasoning": 92.635,
-            "Coding": 80.358,
-            "Agentic Coding": 54.545,
-            "Mathematics": 96.832,
-            "Data Analysis": 82.659,
-            "Language": 90.126,
-            "IF": 74.154
-          },
-          "cost_per_successful_task": 0.1416
-        },
-        {
-          "model": "claude-fable-5-1-max-effort",
-          "display_name": "Claude Fable 5.1 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.783,
-          "categories": {
-            "Reasoning": 91.692,
-            "Coding": 86.375,
-            "Agentic Coding": 66.061,
-            "Mathematics": 97.007,
-            "Data Analysis": 80.276,
-            "Language": 89.501,
-            "IF": 72.988
-          },
-          "cost_per_successful_task": 1.2117
-        },
-        {
-          "model": "gpt-6-astra-max",
-          "display_name": "GPT-6 Astra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 83.046,
-          "categories": {
-            "Reasoning": 92.654,
-            "Coding": 80.358,
-            "Agentic Coding": 57.323,
-            "Mathematics": 96.806,
-            "Data Analysis": 82.973,
-            "Language": 89.431,
-            "IF": 75.579
-          },
-          "cost_per_successful_task": 0.7359
-        },
-        {
-          "model": "claude-opus-5-max-effort",
-          "display_name": "Claude 5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.48,
-          "categories": {
-            "Reasoning": 91.212,
-            "Coding": 81.445,
-            "Agentic Coding": 65.202,
-            "Mathematics": 95.731,
-            "Data Analysis": 74.55,
-            "Language": 88.688,
-            "IF": 63.767
-          },
-          "cost_per_successful_task": 0.7067
-        },
-        {
-          "model": "gpt-6.1-sol-xhigh",
-          "display_name": "GPT-6.1 Sol xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 81.827,
-          "categories": {
-            "Reasoning": 91.635,
-            "Coding": 80.741,
-            "Agentic Coding": 56.768,
-            "Mathematics": 96.478,
-            "Data Analysis": 82.18,
-            "Language": 88.645,
-            "IF": 71.325
-          },
-          "cost_per_successful_task": 0.0934
-        },
-        {
-          "model": "gemini-3.8-flash-high",
-          "display_name": "Gemini 3.8 Flash High",
-          "provider": "Google",
-          "open_weights": false,
-          "overall": 77.486,
-          "categories": {
-            "Reasoning": 89.293,
-            "Coding": 72.489,
-            "Agentic Coding": 54.242,
-            "Mathematics": 91.564,
-            "Data Analysis": 54.006,
-            "Language": 87.793,
-            "IF": 81.412
-          },
-          "cost_per_successful_task": 0.3073
-        },
-        {
-          "model": "gpt-5.6-sol-max",
-          "display_name": "GPT-5.6 Sol Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 81.647,
-          "categories": {
-            "Reasoning": 91.654,
-            "Coding": 83.941,
-            "Agentic Coding": 56.212,
-            "Mathematics": 96.198,
-            "Data Analysis": 79.841,
-            "Language": 87.684,
-            "IF": 71.846
-          },
-          "cost_per_successful_task": 0.507
-        },
-        {
-          "model": "gpt-5.5-xhigh",
-          "display_name": "GPT-5.5 Thinking xHigh Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 80.785,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 82.149,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.857,
-            "Data Analysis": 81.576,
-            "Language": 87.363,
-            "IF": 70.729
-          },
-          "cost_per_successful_task": 0.4356
-        },
-        {
-          "model": "claude-opus-5-5-max-effort",
-          "display_name": "Claude 5.5 Opus Thinking Max Effort",
-          "provider": null,
-          "open_weights": false,
-          "overall": 83.185,
-          "categories": {
-            "Reasoning": 92.154,
-            "Coding": 89.253,
-            "Agentic Coding": 71.717,
-            "Mathematics": 97.078,
-            "Data Analysis": 80.307,
-            "Language": 86.27,
-            "IF": 65.738
-          },
-          "cost_per_successful_task": 0.7993
-        }
-      ],
-      "IF": [
-        {
-          "model": "gemini-3.8-flash-high",
-          "display_name": "Gemini 3.8 Flash High",
-          "provider": "Google",
-          "open_weights": false,
-          "overall": 77.486,
-          "categories": {
-            "Reasoning": 89.293,
-            "Coding": 72.489,
-            "Agentic Coding": 54.242,
-            "Mathematics": 91.564,
-            "Data Analysis": 54.006,
-            "Language": 87.793,
-            "IF": 81.412
-          },
-          "cost_per_successful_task": 0.3073
-        },
-        {
-          "model": "gemini-3.7-flash-high",
-          "display_name": "Gemini 3.7 Flash High",
-          "provider": "Google",
-          "open_weights": false,
-          "overall": 79.898,
-          "categories": {
-            "Reasoning": 87.798,
-            "Coding": 78.888,
-            "Agentic Coding": 58.283,
-            "Mathematics": 93.468,
-            "Data Analysis": 67.964,
-            "Language": 85.455,
-            "IF": 79.925
-          },
-          "cost_per_successful_task": 0.1571
-        },
-        {
-          "model": "gemini-3.1-pro-preview-high",
-          "display_name": "Gemini 3.1 Pro Preview High",
-          "provider": "Google",
-          "open_weights": false,
-          "overall": 77.986,
-          "categories": {
-            "Reasoning": 84.005,
-            "Coding": 76.454,
-            "Agentic Coding": 44.141,
-            "Mathematics": 91.045,
-            "Data Analysis": 78.541,
-            "Language": 85.376,
-            "IF": 79.1
-          },
-          "cost_per_successful_task": 0.2852
-        },
-        {
-          "model": "muse-spark-1.3-xhigh",
-          "display_name": "Muse Spark 1.3 xHigh Effort",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 82.431,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 81.062,
-            "Agentic Coding": 64.091,
-            "Mathematics": 95.95,
-            "Data Analysis": 79.565,
-            "Language": 82.794,
-            "IF": 78.004
-          },
-          "cost_per_successful_task": 0.2192
-        },
-        {
-          "model": "qwen3.8-flash-next",
-          "display_name": "Qwen 3.8 Flash Next",
-          "provider": "Alibaba",
-          "open_weights": true,
-          "overall": 77.297,
-          "categories": {
-            "Reasoning": 87.38,
-            "Coding": 72.55,
-            "Agentic Coding": 61.616,
-            "Mathematics": 85.821,
-            "Data Analysis": 74.24,
-            "Language": 74.643,
-            "IF": 77.108
-          },
-          "cost_per_successful_task": 0.0423
-        },
-        {
-          "model": "claude-fable-5-max-effort",
-          "display_name": "Claude Fable 5 Max Effort",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 83.383,
-          "categories": {
-            "Reasoning": 89.654,
-            "Coding": 85.992,
-            "Agentic Coding": 62.172,
-            "Mathematics": 95.986,
-            "Data Analysis": 80.538,
-            "Language": 90.684,
-            "IF": 75.771
-          },
-          "cost_per_successful_task": 1.4777
-        },
-        {
-          "model": "gemini-3.5-flash-high",
-          "display_name": "Gemini 3.5 Flash High",
-          "provider": null,
-          "open_weights": false,
-          "overall": 75.437,
-          "categories": {
-            "Reasoning": 82.005,
-            "Coding": 78.184,
-            "Agentic Coding": 48.99,
-            "Mathematics": 88.244,
-            "Data Analysis": 64.857,
-            "Language": 84.584,
-            "IF": 75.6
-          },
-          "cost_per_successful_task": 0.2489
-        },
-        {
-          "model": "gpt-6-astra-max",
-          "display_name": "GPT-6 Astra Max Effort",
-          "provider": "OpenAI",
-          "open_weights": false,
-          "overall": 83.046,
-          "categories": {
-            "Reasoning": 92.654,
-            "Coding": 80.358,
-            "Agentic Coding": 57.323,
-            "Mathematics": 96.806,
-            "Data Analysis": 82.973,
-            "Language": 89.431,
-            "IF": 75.579
-          },
-          "cost_per_successful_task": 0.7359
-        },
-        {
-          "model": "gemini-3.6-flash-high",
-          "display_name": "Gemini 3.6 Flash High",
-          "provider": "Google",
-          "open_weights": false,
-          "overall": 74.539,
-          "categories": {
-            "Reasoning": 85.149,
-            "Coding": 77.863,
-            "Agentic Coding": 43.434,
-            "Mathematics": 86.403,
-            "Data Analysis": 62.999,
-            "Language": 83.898,
-            "IF": 75.367
-          },
-          "cost_per_successful_task": 0.2353
-        },
-        {
-          "model": "grok-4.7-xhigh",
-          "display_name": "Grok 4.7 xHigh",
-          "provider": "xAI",
-          "open_weights": false,
-          "overall": 78.338,
-          "categories": {
-            "Reasoning": 82.654,
-            "Coding": 77.159,
-            "Agentic Coding": 53.99,
-            "Mathematics": 95.678,
-            "Data Analysis": 76.883,
-            "Language": 80.139,
-            "IF": 75.275
-          },
-          "cost_per_successful_task": 0.7179
-        }
-      ]
-    },
-    "cost_leaders": [
-      {
-        "model": "smaug-flash",
-        "display_name": "Smaug Flash",
-        "provider": "Abacus.AI",
-        "open_weights": true,
-        "overall": 78.026,
-        "categories": {
-          "Reasoning": 86.231,
-          "Coding": 77.097,
-          "Agentic Coding": 61.061,
-          "Mathematics": 90.064,
-          "Data Analysis": 79.122,
-          "Language": 79.214,
-          "IF": 69.258
-        },
-        "cost_per_successful_task": 0.014
-      },
-      {
-        "model": "deepseek-v4-flash",
-        "display_name": "deepseek-v4-flash",
-        "provider": null,
-        "open_weights": false,
-        "overall": 66.054,
-        "categories": {
-          "Reasoning": 70.582,
-          "Coding": 69.228,
-          "Agentic Coding": 37.626,
-          "Mathematics": 79.648,
-          "Data Analysis": 68.023,
-          "Language": 70.124,
-          "IF": 63.137
-        },
-        "cost_per_successful_task": 0.0161
-      },
-      {
-        "model": "claude-haiku-5-5-xhigh-effort",
-        "display_name": "Claude Haiku 5.5 xHigh Effort",
-        "provider": "Anthropic",
-        "open_weights": false,
-        "overall": 72.934,
-        "categories": {
-          "Reasoning": 81.231,
-          "Coding": 76.393,
-          "Agentic Coding": 51.364,
-          "Mathematics": 92.752,
-          "Data Analysis": 72.753,
-          "Language": 63.516,
-          "IF": 66.466
-        },
-        "cost_per_successful_task": 0.0188
-      },
-      {
-        "model": "grok-build-0.1",
-        "display_name": "Grok Build 0.1",
-        "provider": "xAI",
-        "open_weights": false,
-        "overall": 68.61,
-        "categories": {
-          "Reasoning": 76.37,
-          "Coding": 65.386,
-          "Agentic Coding": 45.808,
-          "Mathematics": 78.429,
-          "Data Analysis": 70.794,
-          "Language": 72.46,
-          "IF": 65.221
-        },
-        "cost_per_successful_task": 0.024
-      },
-      {
-        "model": "gpt-6-luna-max",
-        "display_name": "GPT-6 Luna Max Effort",
-        "provider": "OpenAI",
-        "open_weights": false,
-        "overall": 72.193,
-        "categories": {
-          "Reasoning": 81.769,
-          "Coding": 78.95,
-          "Agentic Coding": 51.212,
-          "Mathematics": 89.124,
-          "Data Analysis": 73.37,
-          "Language": 73.828,
-          "IF": 55.933
-        },
-        "cost_per_successful_task": 0.0263
-      },
-      {
-        "model": "deepseek-v4.1-flash-max",
-        "display_name": "DeepSeek V4.1 Flash Max Effort",
-        "provider": "DeepSeek",
-        "open_weights": true,
-        "overall": 81.447,
-        "categories": {
-          "Reasoning": 86.692,
-          "Coding": 80.037,
-          "Agentic Coding": 77.273,
-          "Mathematics": 93.29,
-          "Data Analysis": 79.253,
-          "Language": 81.19,
-          "IF": 70.033
-        },
-        "cost_per_successful_task": 0.0292
+          "Long-Horizon": 43.8,
+          "Reasoning": 86.7,
+          "Coding": 85.4,
+          "Browser": 83.3,
+          "Data Analysis": 79.3,
+          "Research": 85.3,
+          "Design": 77.0
+        },
+        "cost_per_successful_task": null
       },
       {
         "model": "glm-5.3-flash",
         "display_name": "GLM-5.3 Flash",
         "provider": "Z.AI",
         "open_weights": true,
-        "overall": 71.138,
+        "overall": 70.614,
         "categories": {
-          "Reasoning": 77.644,
-          "Coding": 78.95,
-          "Agentic Coding": 56.768,
-          "Mathematics": 81.245,
-          "Data Analysis": 76.401,
-          "Language": 77.307,
-          "IF": 52.821
+          "Long-Horizon": 28.4,
+          "Reasoning": 77.6,
+          "Coding": 80.6,
+          "Browser": 84.0,
+          "Data Analysis": 76.4,
+          "Research": 70.1,
+          "Design": 77.2
         },
-        "cost_per_successful_task": 0.0305
+        "cost_per_successful_task": null
       },
       {
-        "model": "qwen3.8-flash-next",
-        "display_name": "Qwen 3.8 Flash Next",
+        "model": "qwen3.8-max",
+        "display_name": "Qwen3.8 Max",
         "provider": "Alibaba",
         "open_weights": true,
-        "overall": 77.297,
+        "overall": 64.243,
         "categories": {
-          "Reasoning": 87.38,
-          "Coding": 72.55,
-          "Agentic Coding": 61.616,
-          "Mathematics": 85.821,
-          "Data Analysis": 74.24,
-          "Language": 74.643,
-          "IF": 77.108
+          "Long-Horizon": 42.3,
+          "Reasoning": 88.2,
+          "Coding": 60.3,
+          "Browser": 32.0,
+          "Data Analysis": 78.4,
+          "Research": 69.9,
+          "Design": 78.6
         },
-        "cost_per_successful_task": 0.0423
+        "cost_per_successful_task": null
       },
       {
-        "model": "deepseek-v4-pro-0813",
-        "display_name": "DeepSeek V4 Pro 0813",
+        "model": "deepseek-v4-flash-vision",
+        "display_name": "DeepSeek V4 Flash Vision",
         "provider": "DeepSeek",
         "open_weights": true,
-        "overall": 78.158,
+        "overall": 63.629,
         "categories": {
-          "Reasoning": 85.841,
-          "Coding": 77.159,
-          "Agentic Coding": 54.95,
-          "Mathematics": 95.086,
-          "Data Analysis": 79.243,
-          "Language": 82.074,
-          "IF": 67.7
+          "Long-Horizon": 39.0,
+          "Reasoning": 85.4,
+          "Coding": 37.6,
+          "Browser": 64.0,
+          "Data Analysis": 79.5,
+          "Research": 69.2,
+          "Design": 70.7
         },
-        "cost_per_successful_task": 0.0442
+        "cost_per_successful_task": null
       },
       {
-        "model": "deepseek-v4-pro",
-        "display_name": "DeepSeek V4 Pro 0813",
-        "provider": "DeepSeek",
+        "model": "kimi-k3",
+        "display_name": "Kimi K3",
+        "provider": "Moonshot AI",
         "open_weights": true,
-        "overall": 72.554,
+        "overall": 63.386,
         "categories": {
-          "Reasoning": 82.692,
-          "Coding": 69.994,
-          "Agentic Coding": 42.626,
-          "Mathematics": 90.675,
-          "Data Analysis": 74.538,
-          "Language": 78.13,
-          "IF": 62.35
+          "Long-Horizon": 42.8,
+          "Reasoning": 90.7,
+          "Coding": 59.3,
+          "Browser": 16.0,
+          "Data Analysis": 78.7,
+          "Research": 79.0,
+          "Design": 77.2
         },
-        "cost_per_successful_task": 0.0498
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "glm-5.3",
+        "display_name": "GLM-5.3",
+        "provider": "Z.AI",
+        "open_weights": true,
+        "overall": 60.743,
+        "categories": {
+          "Long-Horizon": 35.9,
+          "Reasoning": 85.8,
+          "Coding": 82.8,
+          "Browser": 0.0,
+          "Data Analysis": 70.2,
+          "Research": 73.2,
+          "Design": 77.3
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "smaug-flash",
+        "display_name": "Smaug Flash",
+        "provider": "Abacus.AI",
+        "open_weights": true,
+        "overall": 57.543,
+        "categories": {
+          "Long-Horizon": 27.1,
+          "Reasoning": 86.2,
+          "Coding": 60.1,
+          "Browser": 0.0,
+          "Data Analysis": 79.1,
+          "Research": 74.1,
+          "Design": 76.2
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "qwen3.8-flash",
+        "display_name": "Qwen3.8 Flash",
+        "provider": "Alibaba",
+        "open_weights": true,
+        "overall": 46.957,
+        "categories": {
+          "Long-Horizon": 36.0,
+          "Reasoning": 87.4,
+          "Coding": 53.5,
+          "Browser": 4.0,
+          "Data Analysis": 74.2,
+          "Research": 35.4,
+          "Design": 38.2
+        },
+        "cost_per_successful_task": null
       }
-    ]
+    ],
+    "categories": {
+      "Long-Horizon": [
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-astra",
+          "display_name": "GPT-6 Astra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 86.143,
+          "categories": {
+            "Long-Horizon": 82.4,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 84.0,
+            "Data Analysis": 83.0,
+            "Research": 85.2,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5.5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.457,
+          "categories": {
+            "Long-Horizon": 78.8,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 84.0,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gemini-4-argon",
+          "display_name": "Gemini 4 Argon",
+          "provider": "Google",
+          "open_weights": false,
+          "overall": 84.1,
+          "categories": {
+            "Long-Horizon": 69.9,
+            "Reasoning": 95.1,
+            "Coding": 89.7,
+            "Browser": 92.0,
+            "Data Analysis": 85.2,
+            "Research": 83.1,
+            "Design": 73.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-sol",
+          "display_name": "GPT-6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 81.914,
+          "categories": {
+            "Long-Horizon": 66.9,
+            "Reasoning": 88.7,
+            "Coding": 93.1,
+            "Browser": 92.0,
+            "Data Analysis": 81.2,
+            "Research": 69.3,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-haiku-5.5",
+          "display_name": "Claude Haiku 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 74.486,
+          "categories": {
+            "Long-Horizon": 56.6,
+            "Reasoning": 84.6,
+            "Coding": 84.5,
+            "Browser": 88.0,
+            "Data Analysis": 51.8,
+            "Research": 73.7,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Reasoning": [
+        {
+          "model": "gemini-4-argon",
+          "display_name": "Gemini 4 Argon",
+          "provider": "Google",
+          "open_weights": false,
+          "overall": 84.1,
+          "categories": {
+            "Long-Horizon": 69.9,
+            "Reasoning": 95.1,
+            "Coding": 89.7,
+            "Browser": 92.0,
+            "Data Analysis": 85.2,
+            "Research": 83.1,
+            "Design": 73.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-astra",
+          "display_name": "GPT-6 Astra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 86.143,
+          "categories": {
+            "Long-Horizon": 82.4,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 84.0,
+            "Data Analysis": 83.0,
+            "Research": 85.2,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 76.257,
+          "categories": {
+            "Long-Horizon": 48.5,
+            "Reasoning": 91.7,
+            "Coding": 89.7,
+            "Browser": 88.0,
+            "Data Analysis": 79.8,
+            "Research": 54.5,
+            "Design": 81.6
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5.5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.457,
+          "categories": {
+            "Long-Horizon": 78.8,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 84.0,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "provider": "Moonshot AI",
+          "open_weights": true,
+          "overall": 63.386,
+          "categories": {
+            "Long-Horizon": 42.8,
+            "Reasoning": 90.7,
+            "Coding": 59.3,
+            "Browser": 16.0,
+            "Data Analysis": 78.7,
+            "Research": 79.0,
+            "Design": 77.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.6-terra",
+          "display_name": "GPT-5.6 Terra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 74.986,
+          "categories": {
+            "Long-Horizon": 48.4,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 84.0,
+            "Data Analysis": 79.3,
+            "Research": 60.4,
+            "Design": 76.0
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Coding": [
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5.5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.457,
+          "categories": {
+            "Long-Horizon": 78.8,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 84.0,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "grok-4.5",
+          "display_name": "Grok 4.5",
+          "provider": "xAI",
+          "open_weights": false,
+          "overall": 70.057,
+          "categories": {
+            "Long-Horizon": 27.9,
+            "Reasoning": 87.2,
+            "Coding": 94.3,
+            "Browser": 44.0,
+            "Data Analysis": 73.0,
+            "Research": 85.9,
+            "Design": 78.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-astra",
+          "display_name": "GPT-6 Astra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 86.143,
+          "categories": {
+            "Long-Horizon": 82.4,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 84.0,
+            "Data Analysis": 83.0,
+            "Research": 85.2,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-sol",
+          "display_name": "GPT-6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 81.914,
+          "categories": {
+            "Long-Horizon": 66.9,
+            "Reasoning": 88.7,
+            "Coding": 93.1,
+            "Browser": 92.0,
+            "Data Analysis": 81.2,
+            "Research": 69.3,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "muse-spark-1.3",
+          "display_name": "Muse Spark 1.3",
+          "provider": "Meta",
+          "open_weights": false,
+          "overall": 74.9,
+          "categories": {
+            "Long-Horizon": 40.4,
+            "Reasoning": 89.7,
+            "Coding": 90.2,
+            "Browser": 81.0,
+            "Data Analysis": 79.6,
+            "Research": 68.6,
+            "Design": 74.8
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Browser": [
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-4.8",
+          "display_name": "Claude Opus 4.8",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 76.771,
+          "categories": {
+            "Long-Horizon": 48.3,
+            "Reasoning": 89.2,
+            "Coding": 77.3,
+            "Browser": 96.0,
+            "Data Analysis": 66.0,
+            "Research": 81.8,
+            "Design": 78.8
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-sol",
+          "display_name": "GPT-6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 81.914,
+          "categories": {
+            "Long-Horizon": 66.9,
+            "Reasoning": 88.7,
+            "Coding": 93.1,
+            "Browser": 92.0,
+            "Data Analysis": 81.2,
+            "Research": 69.3,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gemini-4-argon",
+          "display_name": "Gemini 4 Argon",
+          "provider": "Google",
+          "open_weights": false,
+          "overall": 84.1,
+          "categories": {
+            "Long-Horizon": 69.9,
+            "Reasoning": 95.1,
+            "Coding": 89.7,
+            "Browser": 92.0,
+            "Data Analysis": 85.2,
+            "Research": 83.1,
+            "Design": 73.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 76.257,
+          "categories": {
+            "Long-Horizon": 48.5,
+            "Reasoning": 91.7,
+            "Coding": 89.7,
+            "Browser": 88.0,
+            "Data Analysis": 79.8,
+            "Research": 54.5,
+            "Design": 81.6
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-haiku-5.5",
+          "display_name": "Claude Haiku 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 74.486,
+          "categories": {
+            "Long-Horizon": 56.6,
+            "Reasoning": 84.6,
+            "Coding": 84.5,
+            "Browser": 88.0,
+            "Data Analysis": 51.8,
+            "Research": 73.7,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.6-terra",
+          "display_name": "GPT-5.6 Terra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 74.986,
+          "categories": {
+            "Long-Horizon": 48.4,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 84.0,
+            "Data Analysis": 79.3,
+            "Research": 60.4,
+            "Design": 76.0
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Data Analysis": [
+        {
+          "model": "gemini-4-argon",
+          "display_name": "Gemini 4 Argon",
+          "provider": "Google",
+          "open_weights": false,
+          "overall": 84.1,
+          "categories": {
+            "Long-Horizon": 69.9,
+            "Reasoning": 95.1,
+            "Coding": 89.7,
+            "Browser": 92.0,
+            "Data Analysis": 85.2,
+            "Research": 83.1,
+            "Design": 73.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-astra",
+          "display_name": "GPT-6 Astra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 86.143,
+          "categories": {
+            "Long-Horizon": 82.4,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 84.0,
+            "Data Analysis": 83.0,
+            "Research": 85.2,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.5",
+          "display_name": "GPT-5.5",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 68.7,
+          "categories": {
+            "Long-Horizon": 44.6,
+            "Reasoning": 89.7,
+            "Coding": 85.1,
+            "Browser": 48.0,
+            "Data Analysis": 81.6,
+            "Research": 61.6,
+            "Design": 70.3
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "muse-wonder-1.0",
+          "display_name": "Muse Wonder 1.0",
+          "provider": "Meta",
+          "open_weights": false,
+          "overall": 78.1,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 72.0,
+            "Data Analysis": 81.6,
+            "Research": 88.0,
+            "Design": 75.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-sol",
+          "display_name": "GPT-6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 81.914,
+          "categories": {
+            "Long-Horizon": 66.9,
+            "Reasoning": 88.7,
+            "Coding": 93.1,
+            "Browser": 92.0,
+            "Data Analysis": 81.2,
+            "Research": 69.3,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 76.257,
+          "categories": {
+            "Long-Horizon": 48.5,
+            "Reasoning": 91.7,
+            "Coding": 89.7,
+            "Browser": 88.0,
+            "Data Analysis": 79.8,
+            "Research": 54.5,
+            "Design": 81.6
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Research": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "muse-wonder-1.0",
+          "display_name": "Muse Wonder 1.0",
+          "provider": "Meta",
+          "open_weights": false,
+          "overall": 78.1,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 90.6,
+            "Coding": 86.2,
+            "Browser": 72.0,
+            "Data Analysis": 81.6,
+            "Research": 88.0,
+            "Design": 75.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "grok-4.7",
+          "display_name": "Grok 4.7",
+          "provider": "xAI",
+          "open_weights": false,
+          "overall": 74.086,
+          "categories": {
+            "Long-Horizon": 50.1,
+            "Reasoning": 82.7,
+            "Coding": 84.5,
+            "Browser": 60.0,
+            "Data Analysis": 76.9,
+            "Research": 86.4,
+            "Design": 78.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "grok-4.5",
+          "display_name": "Grok 4.5",
+          "provider": "xAI",
+          "open_weights": false,
+          "overall": 70.057,
+          "categories": {
+            "Long-Horizon": 27.9,
+            "Reasoning": 87.2,
+            "Coding": 94.3,
+            "Browser": 44.0,
+            "Data Analysis": 73.0,
+            "Research": 85.9,
+            "Design": 78.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "deepseek-v4.1-flash",
+          "display_name": "DeepSeek V4.1 Flash",
+          "provider": "DeepSeek",
+          "open_weights": true,
+          "overall": 77.257,
+          "categories": {
+            "Long-Horizon": 43.8,
+            "Reasoning": 86.7,
+            "Coding": 85.4,
+            "Browser": 83.3,
+            "Data Analysis": 79.3,
+            "Research": 85.3,
+            "Design": 77.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-astra",
+          "display_name": "GPT-6 Astra",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 86.143,
+          "categories": {
+            "Long-Horizon": 82.4,
+            "Reasoning": 92.7,
+            "Coding": 93.7,
+            "Browser": 84.0,
+            "Data Analysis": 83.0,
+            "Research": 85.2,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "grok-4.6",
+          "display_name": "Grok 4.6",
+          "provider": "xAI",
+          "open_weights": false,
+          "overall": 74.643,
+          "categories": {
+            "Long-Horizon": 40.7,
+            "Reasoning": 90.5,
+            "Coding": 89.1,
+            "Browser": 64.0,
+            "Data Analysis": 73.9,
+            "Research": 84.5,
+            "Design": 79.8
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5.5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.457,
+          "categories": {
+            "Long-Horizon": 78.8,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 84.0,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85.0
+          },
+          "cost_per_successful_task": null
+        }
+      ],
+      "Design": [
+        {
+          "model": "claude-opus-5.5",
+          "display_name": "Claude Opus 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 86.529,
+          "categories": {
+            "Long-Horizon": 85.0,
+            "Reasoning": 92.2,
+            "Coding": 96.3,
+            "Browser": 80.0,
+            "Data Analysis": 80.3,
+            "Research": 85.0,
+            "Design": 86.9
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5.5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.457,
+          "categories": {
+            "Long-Horizon": 78.8,
+            "Reasoning": 91.6,
+            "Coding": 94.7,
+            "Browser": 84.0,
+            "Data Analysis": 59.5,
+            "Research": 83.6,
+            "Design": 85.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5",
+          "display_name": "Claude Fable 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 83.614,
+          "categories": {
+            "Long-Horizon": 53.2,
+            "Reasoning": 89.7,
+            "Coding": 98.3,
+            "Browser": 92.0,
+            "Data Analysis": 80.5,
+            "Research": 86.9,
+            "Design": 84.7
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-fable-5.1",
+          "display_name": "Claude Fable 5.1",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 87.986,
+          "categories": {
+            "Long-Horizon": 80.8,
+            "Reasoning": 91.7,
+            "Coding": 97.7,
+            "Browser": 100.0,
+            "Data Analysis": 80.3,
+            "Research": 82.0,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 82.086,
+          "categories": {
+            "Long-Horizon": 62.1,
+            "Reasoning": 91.2,
+            "Coding": 90.8,
+            "Browser": 84.0,
+            "Data Analysis": 74.6,
+            "Research": 88.9,
+            "Design": 83.0
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-luna",
+          "display_name": "GPT-6 Luna",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 69.4,
+          "categories": {
+            "Long-Horizon": 48.1,
+            "Reasoning": 81.8,
+            "Coding": 84.5,
+            "Browser": 72.0,
+            "Data Analysis": 73.4,
+            "Research": 43.5,
+            "Design": 82.5
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6-sol",
+          "display_name": "GPT-6 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 81.914,
+          "categories": {
+            "Long-Horizon": 66.9,
+            "Reasoning": 88.7,
+            "Coding": 93.1,
+            "Browser": 92.0,
+            "Data Analysis": 81.2,
+            "Research": 69.3,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-haiku-5.5",
+          "display_name": "Claude Haiku 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 74.486,
+          "categories": {
+            "Long-Horizon": 56.6,
+            "Reasoning": 84.6,
+            "Coding": 84.5,
+            "Browser": 88.0,
+            "Data Analysis": 51.8,
+            "Research": 73.7,
+            "Design": 82.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "gpt-6.1-sol",
+          "display_name": "GPT-6.1 Sol",
+          "provider": "OpenAI",
+          "open_weights": false,
+          "overall": 85.414,
+          "categories": {
+            "Long-Horizon": 73.0,
+            "Reasoning": 92.6,
+            "Coding": 96.0,
+            "Browser": 88.0,
+            "Data Analysis": 82.7,
+            "Research": 83.5,
+            "Design": 82.1
+          },
+          "cost_per_successful_task": null
+        },
+        {
+          "model": "claude-sonnet-5",
+          "display_name": "Claude Sonnet 5.5",
+          "provider": "Anthropic",
+          "open_weights": false,
+          "overall": 74.629,
+          "categories": {
+            "Long-Horizon": 39.0,
+            "Reasoning": 88.7,
+            "Coding": 82.2,
+            "Browser": 76.0,
+            "Data Analysis": 71.7,
+            "Research": 82.8,
+            "Design": 82.0
+          },
+          "cost_per_successful_task": null
+        }
+      ]
+    },
+    "cost_leaders": []
   },
   "scale": [
     {
@@ -1812,17 +1607,17 @@
           "calibration_error": null
         },
         {
-          "rank": 3,
-          "model": "claude-opus-4-6 (Non-Thinking)",
-          "score": 53.28,
-          "uncertainty": 0.18,
+          "rank": 2,
+          "model": "Muse Wonder 1.0",
+          "score": 58.67,
+          "uncertainty": 1.69,
           "calibration_error": null
         },
         {
           "rank": 3,
-          "model": "Muse Spark",
-          "score": 52.44,
-          "uncertainty": 0.06,
+          "model": "claude-opus-4-6 (Non-Thinking)",
+          "score": 53.28,
+          "uncertainty": 0.18,
           "calibration_error": null
         }
       ]
@@ -1841,6 +1636,13 @@
         },
         {
           "rank": 2,
+          "model": "Muse Wonder 1.0",
+          "score": 58.4,
+          "uncertainty": 1.76,
+          "calibration_error": null
+        },
+        {
+          "rank": 3,
           "model": "Muse Spark 1.1",
           "score": 57.05,
           "uncertainty": 0.22,
@@ -1851,13 +1653,6 @@
           "model": "Muse Spark",
           "score": 52.29,
           "uncertainty": 0.06,
-          "calibration_error": null
-        },
-        {
-          "rank": 3,
-          "model": "claude-opus-4-6 (Non-Thinking)",
-          "score": 52.27,
-          "uncertainty": 0.66,
           "calibration_error": null
         }
       ]
