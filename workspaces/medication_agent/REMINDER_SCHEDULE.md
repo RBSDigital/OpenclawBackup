@@ -10,15 +10,16 @@ Source of truth for the `#medication-reminders` channel.
 
 ## Current Trigger Dates
 
-- `Atorvastatin 20mg tablets` - `2026-08-14 09:00 UTC` - `28 day` cycle
-- `Amlodipine 5mg tablets` - `2026-08-21 09:00 UTC` - `56 day` cycle
-- `Losartan 100mg tablets` - `2026-08-21 09:00 UTC` - `56 day` cycle
-- `Indapamide 1.5mg modified-release tablets` - `2026-08-29 09:00 UTC` - `56 day` cycle
-- `Mounjaro KwikPen 5mg/0.6ml` - `2026-08-29 09:00 UTC` - `56 day` cycle
-- `Metformin 500mg modified-release tablets` - `2026-09-11 09:00 UTC` - `56 day` cycle
-- `GlucoRx CarePoint hypodermic insulin needles` - `2028-07-12 09:00 UTC` - provisional `100 week` fallback until the actual first-prescribed date is provided
+- `Atorvastatin 20mg tablets` - `2026-10-30 09:00 UTC` - `28 day` cycle
+- `Amlodipine 5mg tablets` - `2026-11-27 09:00 UTC` - `56 day` cycle
+- `Losartan 100mg tablets` - `2026-11-27 09:00 UTC` - `56 day` cycle
+- `Indapamide 1.5mg modified-release tablets` - `2026-10-20 09:00 UTC` - `56 day` cycle
+- `Mounjaro KwikPen 5mg/0.6ml solution for injection` - `2026-10-20 09:00 UTC` - weekly injection / `2 pens` supply
+- `Metformin 500mg modified-release tablets` - `2026-10-30 09:00 UTC` - `56 day` cycle
+- `GlucoRx CarePoint hypodermic insulin needles for pre-filled / reusable pen injectors` - `2026-10-29 09:00 UTC` - `100 needles` supply; cadence remains provisional pending prescribing history
 
 ## Notes
 
 - The losartan omission on `2026-08-21` happened because the reminder set was being reconstructed from partial channel history instead of a durable schedule manifest.
 - The fix is to keep this file up to date and require a full list check before every reminder post.
+- NHS app confirmation on `2026-10-16` supplied the next permitted dates for every active item: Amlodipine and Losartan `2026-11-27`; Atorvastatin and Metformin `2026-10-30`; Indapamide and Mounjaro `2026-10-20`; and GlucoRx needles `2026-10-29`. These are the earliest permitted reminder dates, set at `09:00 UTC`.

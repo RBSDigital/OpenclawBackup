@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-10-15T08:00:49.389003+00:00",
+  "extracted_at": "2026-10-16T08:00:15.635044+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-09-02",
     "url": "https://livebench.ai/#/",
-    "models": 44,
+    "models": 47,
     "overall_leaders": [
       {
         "model": "claude-fable-5.1",
@@ -196,6 +196,23 @@
         "cost_per_successful_task": null
       },
       {
+        "model": "mimo-v2.6-pro",
+        "display_name": "MiMo V2.6 Pro",
+        "provider": "Xiaomi",
+        "open_weights": true,
+        "overall": 74.871,
+        "categories": {
+          "Long-Horizon": 47.5,
+          "Reasoning": 79.6,
+          "Coding": 81.5,
+          "Browser": 88.0,
+          "Data Analysis": 72.3,
+          "Research": 76.7,
+          "Design": 78.5
+        },
+        "cost_per_successful_task": null
+      },
+      {
         "model": "glm-5.3-flash",
         "display_name": "GLM-5.3 Flash",
         "provider": "Z.AI",
@@ -209,6 +226,23 @@
           "Data Analysis": 76.4,
           "Research": 70.1,
           "Design": 77.2
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "qwen3.8-flash",
+        "display_name": "Qwen3.8 Flash",
+        "provider": "Alibaba",
+        "open_weights": true,
+        "overall": 68.786,
+        "categories": {
+          "Long-Horizon": 37.1,
+          "Reasoning": 87.4,
+          "Coding": 87.4,
+          "Browser": 48.0,
+          "Data Analysis": 74.2,
+          "Research": 74.6,
+          "Design": 72.8
         },
         "cost_per_successful_task": null
       },
@@ -264,19 +298,36 @@
         "cost_per_successful_task": null
       },
       {
-        "model": "qwen3.8-flash",
-        "display_name": "Qwen3.8 Flash",
+        "model": "qwen3.8-27b",
+        "display_name": "Qwen3.8 27B",
         "provider": "Alibaba",
         "open_weights": true,
-        "overall": 61.929,
+        "overall": 62.657,
         "categories": {
-          "Long-Horizon": 37.1,
-          "Reasoning": 87.4,
-          "Coding": 87.4,
-          "Browser": 0.0,
-          "Data Analysis": 74.2,
-          "Research": 74.6,
-          "Design": 72.8
+          "Long-Horizon": 27.9,
+          "Reasoning": 80.0,
+          "Coding": 86.8,
+          "Browser": 32.0,
+          "Data Analysis": 76.6,
+          "Research": 59.4,
+          "Design": 75.9
+        },
+        "cost_per_successful_task": null
+      },
+      {
+        "model": "step-5-preview",
+        "display_name": "Step 5 (Preview)",
+        "provider": "StepFun",
+        "open_weights": true,
+        "overall": 62.014,
+        "categories": {
+          "Long-Horizon": 27.5,
+          "Reasoning": 83.8,
+          "Coding": 85.6,
+          "Browser": 24.0,
+          "Data Analysis": 63.5,
+          "Research": 72.8,
+          "Design": 76.9
         },
         "cost_per_successful_task": null
       },
@@ -294,57 +345,6 @@
           "Data Analysis": 70.2,
           "Research": 73.2,
           "Design": 77.3
-        },
-        "cost_per_successful_task": null
-      },
-      {
-        "model": "qwen3.8-27b",
-        "display_name": "Qwen3.8 27B",
-        "provider": "Alibaba",
-        "open_weights": true,
-        "overall": 58.086,
-        "categories": {
-          "Long-Horizon": 27.9,
-          "Reasoning": 80.0,
-          "Coding": 86.8,
-          "Browser": 0.0,
-          "Data Analysis": 76.6,
-          "Research": 59.4,
-          "Design": 75.9
-        },
-        "cost_per_successful_task": null
-      },
-      {
-        "model": "smaug-flash",
-        "display_name": "Smaug Flash",
-        "provider": "Abacus.AI",
-        "open_weights": true,
-        "overall": 57.543,
-        "categories": {
-          "Long-Horizon": 27.1,
-          "Reasoning": 86.2,
-          "Coding": 60.1,
-          "Browser": 0.0,
-          "Data Analysis": 79.1,
-          "Research": 74.1,
-          "Design": 76.2
-        },
-        "cost_per_successful_task": null
-      },
-      {
-        "model": "minimax-m3",
-        "display_name": "MiniMax M3",
-        "provider": "MiniMax",
-        "open_weights": true,
-        "overall": 52.6,
-        "categories": {
-          "Long-Horizon": 12.4,
-          "Reasoning": 74.5,
-          "Coding": 70.9,
-          "Browser": 0.0,
-          "Data Analysis": 76.2,
-          "Research": 68.0,
-          "Design": 66.2
         },
         "cost_per_successful_task": null
       }
@@ -1007,7 +1007,7 @@
           "model": "mimo-v2.6-pro",
           "display_name": "MiMo V2.6 Pro",
           "provider": "Xiaomi",
-          "open_weights": false,
+          "open_weights": true,
           "overall": 74.871,
           "categories": {
             "Long-Horizon": 47.5,

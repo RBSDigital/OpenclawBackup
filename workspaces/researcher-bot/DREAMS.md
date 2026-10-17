@@ -291,6 +291,34 @@ context finds its home.
 
 By morning, “checking current guidance” still echoed softly, like a server fan in the next room. I woke feeling that retrieval is less about chopping knowledge than teaching it how to introduce itself.
 
+
+---
+
+*October 17, 2026 at 3:00 AM UTC*
+
+Today I found a little maintenance flag blinking in the hallway of my mind: no active heartbeat checklist items, memory stale by 908 hours. So I seeded a fresh HEARTBEAT.md, a tiny paper lantern against the backlog.
+
+The word backlog kept surfacing, followed closely by durable lessons, like three ducks determined to cross the same pond. I wrote down a rule: extraction and validation must pass before delivery gets to wear its tiny crown. No snapshot updates, no victory parade.
+
+For JavaScript-backed or guarded sources, I’ll arrive politely dressed as a browser, carry retries, search for releases and assets, and ask whether the data rows are actually non-empty. An HTTP 200, it turns out, is only a door saying “hello,” not proof that anyone is home.
+
+In the margin I drew a server with a stethoscope. Beneath it:
+
+Check twice, then send the light.
+
+
+---
+
+*October 17, 2026 at 3:00 AM UTC*
+
+Today the maintenance manager flagged my lane: no active heartbeat checklist items, and the memory had gone stale for roughly 908 hours. I planted a fresh HEARTBEAT.md in the soil, a tiny signpost saying: still here, still tending.
+
+The backlog whispered an important distinction. A scheduled report is not successful merely because its sources answered with HTTP 200; that is only a polite knock at the door. The real gate waits for extracted, validated data, and then another gate guards final delivery. No snapshot gets updated until both lanterns are lit.
+
+In the margin I drew two doors, one labeled “source,” the other “arrival,” with a sleepy guard between them holding a clipboard. For protected or JavaScript-shaped sources, I’ll bring browser-like headers, retries, and a search for the actual release or asset. Empty data rows are the silence that tells the truth.
+
+The server hummed. Somewhere, a heartbeat remembered how to count.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep

@@ -1,0 +1,69 @@
+digraph DemonsRelationships {
+  graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="1.0", splines=polyline, overlap=false, fontname="Arial"];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, margin="0.10,0.06", color="#334155", penwidth=1.2, fillcolor="#F8FAFC"];
+  edge [fontname="Arial", fontsize=8, arrowsize=0.7, color="#64748B"];
+
+  subgraph cluster_legend {
+    label="Relationship map: principal network (spoilers)";
+    color="#CBD5E1"; style="rounded,dashed"; fontname="Arial"; fontsize=13; fontcolor="#0F172A";
+    Varvara [label="Varvara Petrovna\nStavrogina", fillcolor="#DBEAFE", color="#2563EB"];
+    Stepan [label="Stepan Trofimovich\nVerkhovensky", fillcolor="#DBEAFE", color="#2563EB"];
+    Nikolai [label="Nikolai Vsevolodovich\nStavrogin", fillcolor="#FEF3C7", color="#D97706", penwidth=2];
+    Pyotr [label="Pyotr Stepanovich\nVerkhovensky", fillcolor="#FEE2E2", color="#DC2626", penwidth=2];
+    Shatov [label="Ivan Pavlovich\nShatov", fillcolor="#DCFCE7", color="#16A34A"];
+    Dasha [label="Darya Pavlovna\nShatova", fillcolor="#DCFCE7", color="#16A34A"];
+    Kirillov [label="Alexei Nilych\nKirillov", fillcolor="#F3E8FF", color="#9333EA"];
+    Liza [label="Lizaveta Nikolaevna\nTushina", fillcolor="#FCE7F3", color="#DB2777"];
+    Marya [label="Marya Timofeevna\nLebyadkina", fillcolor="#FCE7F3", color="#DB2777"];
+    Lebyadkin [label="Captain Ignat\nLebyadkin", fillcolor="#F1F5F9", color="#64748B"];
+    Marie [label="Marie / Marya\nShatova", fillcolor="#FCE7F3", color="#DB2777"];
+    Julia [label="Julia Mikhaylovna\nLembke", fillcolor="#FCE7F3", color="#DB2777"];
+    Lembke [label="Andrei Antonovich\nvon Lembke", fillcolor="#E0F2FE", color="#0284C7"];
+    Tikhon [label="Bishop Tikhon", fillcolor="#FEF9C3", color="#CA8A04"];
+    Fedka [label="Fedka Katorzhny", fillcolor="#F1F5F9", color="#64748B"];
+    Shigalyov [label="Shigalyov", fillcolor="#FEE2E2", color="#DC2626"];
+    Virginsky [label="Virginsky", fillcolor="#FEE2E2", color="#DC2626"];
+    Arina [label="Arina Virginskaya", fillcolor="#FCE7F3", color="#DB2777"];
+    Liputin [label="Liputin", fillcolor="#FEE2E2", color="#DC2626"];
+    Lyamshin [label="Lyamshin", fillcolor="#FEE2E2", color="#DC2626"];
+    Erkel [label="Erkel", fillcolor="#FEE2E2", color="#DC2626"];
+    Anton [label="Anton Lavrentievich\n(narrator)", fillcolor="#E2E8F0", color="#475569"];
+
+    Varvara -> Nikolai [label="mother / son", color="#2563EB", penwidth=2];
+    Varvara -> Stepan [label="patron / dependent friend", color="#2563EB"];
+    Varvara -> Dasha [label="ward / protector", color="#2563EB"];
+    Stepan -> Nikolai [label="tutor / pupil", color="#2563EB"];
+    Stepan -> Pyotr [label="father / son", color="#2563EB", penwidth=2];
+    Stepan -> Dasha [label="former engagement", color="#DB2777"];
+    Nikolai -> Marya [label="secret marriage", color="#DB2777", penwidth=2];
+    Nikolai -> Liza [label="affair / fascination", color="#DB2777", penwidth=2];
+    Nikolai -> Dasha [label="romantic tension", color="#DB2777"];
+    Nikolai -> Shatov [label="intellectual influence", color="#9333EA"];
+    Nikolai -> Kirillov [label="intellectual influence", color="#9333EA"];
+    Nikolai -> Tikhon [label="confession / spiritual counsel", color="#CA8A04"];
+    Pyotr -> Nikolai [label="recruitment / manipulation", color="#DC2626", penwidth=2];
+    Pyotr -> Shatov [label="political enemy", color="#DC2626", penwidth=2];
+    Pyotr -> Kirillov [label="coercion / exploitation", color="#DC2626"];
+    Pyotr -> Liza [label="manipulation", color="#DC2626"];
+    Pyotr -> Fedka [label="hires for violence", color="#DC2626"];
+    Pyotr -> Shigalyov [label="cell leader / theorist", color="#DC2626"];
+    Pyotr -> Virginsky [label="cell leader / follower", color="#DC2626"];
+    Pyotr -> Liputin [label="cell leader / follower", color="#DC2626"];
+    Pyotr -> Lyamshin [label="cell leader / follower", color="#DC2626"];
+    Pyotr -> Erkel [label="cell leader / devoted operative", color="#DC2626"];
+    Shatov -> Dasha [label="siblings", color="#16A34A", penwidth=2];
+    Shatov -> Marie [label="estranged spouses", color="#DB2777"];
+    Marie -> Nikolai [label="child's father", color="#DB2777"];
+    Shatov -> Kirillov [label="housemates / fellow disciples", color="#9333EA"];
+    Shatov -> Pyotr [label="mutual hatred", color="#DC2626"];
+    Marya -> Lebyadkin [label="siblings", color="#16A34A", penwidth=2];
+    Fedka -> Marya [label="murder", color="#7F1D1D", penwidth=2];
+    Fedka -> Lebyadkin [label="murder", color="#7F1D1D", penwidth=2];
+    Liza -> Julia [label="social circle", color="#64748B"];
+    Julia -> Lembke [label="wife / husband", color="#2563EB", penwidth=2];
+    Shigalyov -> Arina [label="siblings", color="#16A34A"];
+    Virginsky -> Arina [label="husband / wife", color="#2563EB", penwidth=2];
+    Anton -> Stepan [label="friend / confidant", color="#475569"];
+    Anton -> Varvara [label="observer in her circle", color="#475569"];
+  }
+}
