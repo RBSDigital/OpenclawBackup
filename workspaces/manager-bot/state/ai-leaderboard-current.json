@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-10-16T08:00:15.635044+00:00",
+  "extracted_at": "2026-10-17T08:00:16.913174+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-09-02",
     "url": "https://livebench.ai/#/",
-    "models": 47,
+    "models": 48,
     "overall_leaders": [
       {
         "model": "claude-fable-5.1",
@@ -183,12 +183,12 @@
         "display_name": "DeepSeek V4.1 Flash",
         "provider": "DeepSeek",
         "open_weights": true,
-        "overall": 77.257,
+        "overall": 76.786,
         "categories": {
           "Long-Horizon": 43.8,
           "Reasoning": 86.7,
           "Coding": 85.4,
-          "Browser": 83.3,
+          "Browser": 80.0,
           "Data Analysis": 79.3,
           "Research": 85.3,
           "Design": 77.0
@@ -1301,12 +1301,12 @@
           "display_name": "DeepSeek V4.1 Flash",
           "provider": "DeepSeek",
           "open_weights": true,
-          "overall": 77.257,
+          "overall": 76.786,
           "categories": {
             "Long-Horizon": 43.8,
             "Reasoning": 86.7,
             "Coding": 85.4,
-            "Browser": 83.3,
+            "Browser": 80.0,
             "Data Analysis": 79.3,
             "Research": 85.3,
             "Design": 77.0
