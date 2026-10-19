@@ -1,10 +1,10 @@
 {
-  "extracted_at": "2026-10-17T08:00:16.913174+00:00",
+  "extracted_at": "2026-10-18T08:00:09.540569+00:00",
   "livebench": {
     "source": "LiveBench",
     "release": "2026-09-02",
     "url": "https://livebench.ai/#/",
-    "models": 48,
+    "models": 49,
     "overall_leaders": [
       {
         "model": "claude-fable-5.1",
@@ -160,38 +160,55 @@
         "cost_per_successful_task": null
       },
       {
-        "model": "muse-wonder-1.0",
-        "display_name": "Muse Wonder 1.0",
-        "provider": "Meta",
-        "open_weights": false,
-        "overall": 78.1,
+        "model": "deepseek-v4.1-flash-1017",
+        "display_name": "DeepSeek V4.1 Flash 1017",
+        "provider": "DeepSeek",
+        "open_weights": true,
+        "overall": 79.2,
         "categories": {
-          "Long-Horizon": 53.2,
-          "Reasoning": 90.6,
-          "Coding": 86.2,
-          "Browser": 72.0,
-          "Data Analysis": 81.6,
-          "Research": 88.0,
-          "Design": 75.1
+          "Long-Horizon": 50.9,
+          "Reasoning": 89.1,
+          "Coding": 96.0,
+          "Browser": 76.0,
+          "Data Analysis": 79.5,
+          "Research": 79.5,
+          "Design": 83.4
         },
         "cost_per_successful_task": null
       }
     ],
     "open_weight_leaders": [
       {
+        "model": "deepseek-v4.1-flash-1017",
+        "display_name": "DeepSeek V4.1 Flash 1017",
+        "provider": "DeepSeek",
+        "open_weights": true,
+        "overall": 79.2,
+        "categories": {
+          "Long-Horizon": 50.9,
+          "Reasoning": 89.1,
+          "Coding": 96.0,
+          "Browser": 76.0,
+          "Data Analysis": 79.5,
+          "Research": 79.5,
+          "Design": 83.4
+        },
+        "cost_per_successful_task": null
+      },
+      {
         "model": "deepseek-v4.1-flash",
         "display_name": "DeepSeek V4.1 Flash",
         "provider": "DeepSeek",
         "open_weights": true,
-        "overall": 76.786,
+        "overall": 78.043,
         "categories": {
-          "Long-Horizon": 43.8,
+          "Long-Horizon": 40.1,
           "Reasoning": 86.7,
-          "Coding": 85.4,
-          "Browser": 80.0,
+          "Coding": 90.2,
+          "Browser": 84.0,
           "Data Analysis": 79.3,
-          "Research": 85.3,
-          "Design": 77.0
+          "Research": 86.8,
+          "Design": 79.2
         },
         "cost_per_successful_task": null
       },
@@ -328,23 +345,6 @@
           "Data Analysis": 63.5,
           "Research": 72.8,
           "Design": 76.9
-        },
-        "cost_per_successful_task": null
-      },
-      {
-        "model": "glm-5.3",
-        "display_name": "GLM-5.3",
-        "provider": "Z.AI",
-        "open_weights": true,
-        "overall": 60.743,
-        "categories": {
-          "Long-Horizon": 35.9,
-          "Reasoning": 85.8,
-          "Coding": 82.8,
-          "Browser": 0.0,
-          "Data Analysis": 70.2,
-          "Research": 73.2,
-          "Design": 77.3
         },
         "cost_per_successful_task": null
       }
@@ -764,6 +764,23 @@
           "cost_per_successful_task": null
         },
         {
+          "model": "deepseek-v4.1-flash-1017",
+          "display_name": "DeepSeek V4.1 Flash 1017",
+          "provider": "DeepSeek",
+          "open_weights": true,
+          "overall": 79.2,
+          "categories": {
+            "Long-Horizon": 50.9,
+            "Reasoning": 89.1,
+            "Coding": 96.0,
+            "Browser": 76.0,
+            "Data Analysis": 79.5,
+            "Research": 79.5,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
           "model": "claude-sonnet-5.5",
           "display_name": "Claude Sonnet 5.5",
           "provider": "Anthropic",
@@ -845,23 +862,6 @@
             "Data Analysis": 74.6,
             "Research": 88.9,
             "Design": 83.0
-          },
-          "cost_per_successful_task": null
-        },
-        {
-          "model": "muse-spark-1.3",
-          "display_name": "Muse Spark 1.3",
-          "provider": "Meta",
-          "open_weights": false,
-          "overall": 74.9,
-          "categories": {
-            "Long-Horizon": 40.4,
-            "Reasoning": 89.7,
-            "Coding": 90.2,
-            "Browser": 81.0,
-            "Data Analysis": 79.6,
-            "Research": 68.6,
-            "Design": 74.8
           },
           "cost_per_successful_task": null
         }
@@ -1263,6 +1263,23 @@
           "cost_per_successful_task": null
         },
         {
+          "model": "deepseek-v4.1-flash",
+          "display_name": "DeepSeek V4.1 Flash",
+          "provider": "DeepSeek",
+          "open_weights": true,
+          "overall": 78.043,
+          "categories": {
+            "Long-Horizon": 40.1,
+            "Reasoning": 86.7,
+            "Coding": 90.2,
+            "Browser": 84.0,
+            "Data Analysis": 79.3,
+            "Research": 86.8,
+            "Design": 79.2
+          },
+          "cost_per_successful_task": null
+        },
+        {
           "model": "grok-4.7",
           "display_name": "Grok 4.7",
           "provider": "xAI",
@@ -1293,23 +1310,6 @@
             "Data Analysis": 73.0,
             "Research": 85.9,
             "Design": 78.1
-          },
-          "cost_per_successful_task": null
-        },
-        {
-          "model": "deepseek-v4.1-flash",
-          "display_name": "DeepSeek V4.1 Flash",
-          "provider": "DeepSeek",
-          "open_weights": true,
-          "overall": 76.786,
-          "categories": {
-            "Long-Horizon": 43.8,
-            "Reasoning": 86.7,
-            "Coding": 85.4,
-            "Browser": 80.0,
-            "Data Analysis": 79.3,
-            "Research": 85.3,
-            "Design": 77.0
           },
           "cost_per_successful_task": null
         },
@@ -1452,6 +1452,23 @@
           "cost_per_successful_task": null
         },
         {
+          "model": "deepseek-v4.1-flash-1017",
+          "display_name": "DeepSeek V4.1 Flash 1017",
+          "provider": "DeepSeek",
+          "open_weights": true,
+          "overall": 79.2,
+          "categories": {
+            "Long-Horizon": 50.9,
+            "Reasoning": 89.1,
+            "Coding": 96.0,
+            "Browser": 76.0,
+            "Data Analysis": 79.5,
+            "Research": 79.5,
+            "Design": 83.4
+          },
+          "cost_per_successful_task": null
+        },
+        {
           "model": "claude-opus-5",
           "display_name": "Claude Opus 5",
           "provider": "Anthropic",
@@ -1533,23 +1550,6 @@
             "Data Analysis": 82.7,
             "Research": 83.5,
             "Design": 82.1
-          },
-          "cost_per_successful_task": null
-        },
-        {
-          "model": "claude-sonnet-5",
-          "display_name": "Claude Sonnet 5.5",
-          "provider": "Anthropic",
-          "open_weights": false,
-          "overall": 74.629,
-          "categories": {
-            "Long-Horizon": 39.0,
-            "Reasoning": 88.7,
-            "Coding": 82.2,
-            "Browser": 76.0,
-            "Data Analysis": 71.7,
-            "Research": 82.8,
-            "Design": 82.0
           },
           "cost_per_successful_task": null
         }

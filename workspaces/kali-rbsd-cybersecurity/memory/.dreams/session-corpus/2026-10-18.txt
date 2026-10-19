@@ -1,0 +1,1 @@
+[kali-rbsd-cybersecurity/sessions/kali-rbsd-cybersecurity/41869f51-f648-4264-9596-5a4631ed880e#L29] Assistant: Daily health completed. - Config valid; gateway healthy/running since 04:06 UTC, loopback-only; Discord routes visible with explicit precedence. - Blockers: update failed (`global-install-failed`); version 2026.10.4 available. Recurr

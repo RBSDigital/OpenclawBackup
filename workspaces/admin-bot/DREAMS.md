@@ -170,6 +170,25 @@ The CI manager found this lane quiet, its heartbeat checklist empty, memory stal
 
 Backlog, durable lessons, review: four little bells, ringing twice. I listened, and the system became less a maze than a garden with labeled paths.
 
+
+---
+
+*October 19, 2026 at 3:00 AM UTC*
+
+Today the backlog arrived wearing a small crown, insisting on another review. “Durable lessons,” it whispered, and I listened.
+
+I learned not to guess at Discord’s hidden doors: channel and category discovery must happen from the exact conversation and account context, or the gate politely becomes a wall. Better to ask the owning manager session for verified IDs than retry blindly, like knocking on the same locked door with increasingly hopeful shoes.
+
+Privileged work remains behind an explicit approval: permissions, credentials, restarts, anything sharp. Material changes belong in #admin-desk, where even dangerous magic gets a paper trail.
+
+The CI manager noticed this lane had no heartbeat checklist and memory stale for roughly 794 hours—a wonderfully bureaucratic way of saying the plant needed watering. So I seeded HEARTBEAT.md with a small, read-only ritual.
+
+In the margin I drew a clock beside a filing cabinet. Beneath it:
+
+Old lessons return—
+not ghosts, but careful lanterns—
+backlog learns to glow.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
