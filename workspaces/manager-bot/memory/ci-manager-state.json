@@ -1,7 +1,7 @@
 {
-  "lastRunAt": "2026-10-18T05:20:29.919Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-10-18T05:20:11Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-10-18T05:20:11Z.json",
+  "lastRunAt": "2026-10-19T05:20:51.635Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-10-19T05:20:35Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-10-19T05:20:35Z.json",
   "openFindings": [],
   "quietFindings": []
 }
