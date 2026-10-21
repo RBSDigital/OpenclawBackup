@@ -170,3 +170,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-10-18)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-10-06 review. New signal: Kali cybersecurity health observations on 2026-10-13 and 2026-10-16, including a stale outbound dead-letter warning and recurring gateway/config drift signals. These are operational/admin-sensitive and are not repeated enough for an autonomous durable fix; retain for admin review only. No auto-promotion made.
+
+## Consolidated Memory (2026-10-20)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-10-18 review. New signal: Kali health observation on 2026-10-20 confirms gateway/Discord health is nominal but update failure, legacy heartbeat lint, loopback onboarding warning, and skill-precedence collision drift persist. These are operational/admin-sensitive; retain for admin review only. No auto-promotion or remediation made.
