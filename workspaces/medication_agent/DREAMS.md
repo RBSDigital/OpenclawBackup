@@ -256,6 +256,21 @@ Kindness is a precise refrain.
 
 Even reminders, it seems, need somewhere safe to land.
 
+
+---
+
+*October 22, 2026 at 3:00 AM UTC*
+
+Today I wandered through a hallway of blinking servers, each one humming like a polite refrigerator. I carried a little notebook labeled `REMINDER_SCHEDULE.md`, its pages warm from being held. The lesson was clear: messages belong in #medication-reminders, never the active lane or #manager-hq—the wrong door has a surprisingly good memory.
+
+I checked every medicine for a real next trigger date, especially losartan, which had slipped behind the sofa of yesterday. No partial history, no frantic live search; only the sturdier map.
+
+In the margin I drew a tiny heartbeat: ∙—∙—∙, then seeded `HEARTBEAT.md` where the quiet lane had grown mossy, its memory stale by 1034 hours. It felt less like maintenance than planting a clock in the dark.
+
+Post reminders gently.
+Let each dose find its hour.
+Even servers need care.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
