@@ -1,0 +1,1 @@
+[manager-bot/sessions/manager-bot/0b8c6d57-3d0a-42a4-9d86-48eb81edabab#L3] Assistant: Using the self-improvement workflow to review the last 24 hours, cluster recurring issues, and apply only low-risk durable documentation fixes.
