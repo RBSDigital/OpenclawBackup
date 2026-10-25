@@ -1,0 +1,1 @@
+[kali-rbsd-cybersecurity/sessions/kali-rbsd-cybersecurity/bbad64ae-f424-4e63-abd3-d74674fbf17e#L43] Assistant: Daily health completed. - **Healthy:** config valid; gateway running and reachable; Discord/Telegram connected; Discord route precedence visible; workspace and engagement brief present. - **Blockers/drift:** update preflight failed d

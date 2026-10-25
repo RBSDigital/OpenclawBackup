@@ -1,7 +1,88 @@
 {
-  "lastRunAt": "2026-10-23T05:20:55.305Z",
-  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-10-23T05:20:35Z.log",
-  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-10-23T05:20:35Z.json",
-  "openFindings": [],
+  "lastRunAt": "2026-10-24T05:20:52.694Z",
+  "lastReportPath": "/home/vin/.openclaw/logs/ci-manager-2026-10-24T05:20:35Z.log",
+  "discoveryPath": "/home/vin/.openclaw/logs/ci-manager-discovery-2026-10-24T05:20:35Z.json",
+  "openFindings": [
+    {
+      "id": "ci-2026-10-24-001",
+      "severity": "P2",
+      "owner": "admin-bot",
+      "summary": "admin-bot memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-002",
+      "severity": "P2",
+      "owner": "bcg-coach",
+      "summary": "bcg-coach memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-003",
+      "severity": "P2",
+      "owner": "kali-rbsd-cybersecurity",
+      "summary": "kali-rbsd-cybersecurity memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-004",
+      "severity": "P2",
+      "owner": "medication_agent",
+      "summary": "medication_agent memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-005",
+      "severity": "P2",
+      "owner": "modeler-bot",
+      "summary": "modeler-bot memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-006",
+      "severity": "P2",
+      "owner": "ops-bot",
+      "summary": "ops-bot memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-007",
+      "severity": "P2",
+      "owner": "researcher-bot",
+      "summary": "researcher-bot memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    },
+    {
+      "id": "ci-2026-10-24-008",
+      "severity": "P2",
+      "owner": "security-bot",
+      "summary": "security-bot memory is stale at 189h.",
+      "firstSeenAt": "2026-10-24T05:20:52.694Z",
+      "lastSeenAt": "2026-10-24T05:20:52.694Z",
+      "status": "open",
+      "nextAction": "Review recent work and capture durable lessons."
+    }
+  ],
   "quietFindings": []
 }

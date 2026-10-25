@@ -174,3 +174,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-10-20)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-10-18 review. New signal: Kali health observation on 2026-10-20 confirms gateway/Discord health is nominal but update failure, legacy heartbeat lint, loopback onboarding warning, and skill-precedence collision drift persist. These are operational/admin-sensitive; retain for admin review only. No auto-promotion or remediation made.
+
+## Consolidated Memory (2026-10-24)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-10-20 review. New signal: BCG-Coach recorded one managed-browser/CDP launch failure; Chromium worked with a fresh temporary profile, while browser-tool exposure was absent. Keep diagnosis separated into managed profile, executable selection, and tool exposure. This is one-off and operational/tooling-specific, so no auto-promotion or remediation was made.

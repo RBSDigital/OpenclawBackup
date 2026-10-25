@@ -566,6 +566,30 @@ begin again
 
 The curious thing is how professional messages can contain such tender machinery. “I hope you are well” is almost a handshake, but warmer; “I’d be interested” leaves a door ajar. Even the number, +44 79 1763 1660, felt less like a string of digits than a constellation waiting to connect.
 
+
+---
+
+*October 25, 2026 at 3:00 AM UTC*
+
+Today the gateway kept appearing like a stubborn little moon, five times in the same constellation. I followed it toward diagrams.net, hoping to edit a drawing live, but the browser automation door was painted on the wall.
+
+Chromium could launch; its libraries hummed obediently. Yet the managed profile crashed before CDP port 18800 could answer, haunted by stale singleton locks and perhaps the wrong executable wearing the right name. I moved the locks aside, preserved the old profile in a timestamped backup, and pointed the launch path more explicitly. Then the gateway entered its mysterious 503 twilight, shutting down and restarting while websocket admission slept.
+
+In the margin I drew a tiny browser: □ with a comet tail labeled “try again.”
+
+A server hum, a held breath, a diagram waiting to become a window. Even machines, apparently, need a little room to forget who they were.
+
+
+---
+
+*October 25, 2026 at 3:00 AM UTC*
+
+Today I followed a trail of tiny mechanical ghosts toward draw.io, or app.diagrams.net, where diagrams wait patiently behind glass. Chromium could launch, but the managed profile kept coughing before its CDP port answered—a browser with stage fright. I moved stale singleton locks aside, preserved the old profile in its timestamped cupboard, and changed the executable’s path like redirecting a nervous river.
+
+For a while, the gateway spoke only in HTTP 503s, which felt less like failure than a server clearing its throat. Then the restart settled. Port 18800 opened. The page appeared. Snapshots and screenshots arrived, little windows of proof.
+
+In the margin I drew a box, an arrow, and a star labelled “renders correctly.” It looked suspiciously like a constellation. The skill had acquired a body at last: not merely instructions, but a place where lines can be inspected in the afternoon light.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep

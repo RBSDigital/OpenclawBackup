@@ -23,21 +23,21 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1792817131340,
-        "lastRunAtMs": 1792795531340,
+        "nextRunAtMs": 1792903531421,
+        "lastRunAtMs": 1792881931421,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 33958,
+        "lastDurationMs": 16249,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1792795565298,
+      "updatedAtMs": 1792881947670,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1792817131340,
-      "lastRunAtMs": 1792795531340,
+      "nextRunAtMs": 1792903531421,
+      "lastRunAtMs": 1792881931421,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -72,26 +72,24 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1792821894831,
-        "lastRunAtMs": 1792800294849,
+        "nextRunAtMs": 1792908294831,
+        "lastRunAtMs": 1792886694851,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 16646,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 20317,
+        "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
-        "lastDelivered": false,
-        "deliverySuppressionReason": "silent"
+        "lastDelivered": true
       },
-      "updatedAtMs": 1792800311495,
+      "updatedAtMs": 1792886715168,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1792821894831,
-      "lastRunAtMs": 1792800294849,
+      "nextRunAtMs": 1792908294831,
+      "lastRunAtMs": 1792886694851,
       "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "deliverySuppressionReason": "silent",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "manager-bot",
       "status": "ok"
@@ -136,484 +134,21 @@
         "ownerAccountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1792828800000,
-        "lastRunAtMs": 1792742400050,
+        "nextRunAtMs": 1792915200000,
+        "lastRunAtMs": 1792828800057,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 167992,
+        "lastDurationMs": 330854,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1792742568042,
+      "updatedAtMs": 1792829130911,
       "configRevision": "sha256:gPD4yb1-h76vLGewC0d5PTnydZICb3ZbbGXmqeD9mxE",
-      "nextRunAtMs": 1792828800000,
-      "lastRunAtMs": 1792742400050,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "57aee636-469a-4644-8214-862f2a21f8ad",
-      "agentId": "kali-rbsd-cybersecurity",
-      "name": "daily-health-and-continuous-improvement-kali-rbsd-cybersecurity",
-      "description": "Daily read-only uptime, route, workspace integrity and continuous-improvement checks for Kali agent",
-      "enabled": true,
-      "createdAtMs": 1791276486276,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 86400000,
-        "anchorMs": 1791276486276
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the daily read-only health routine for this agent. Check gateway and agent uptime, config validity, Discord binding precedence and route visibility, workspace/brief integrity, and recent .learnings for durable continuous-improvement signals. Do not initiate network testing, install/update packages, change permissions, restart services, or alter credentials. Report only redacted status, blockers, and evidence paths. Audit material drift in #admin-desk.",
-        "toolsAllow": [
-          "read",
-          "exec",
-          "session_status"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1792831686642,
-        "lastRunAtMs": 1792745286642,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 112513,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1792745399155,
-      "configRevision": "sha256:CKRKn40GjDGPZafj5omRpxgeacBxod_OVMz5DyTtdkU",
-      "nextRunAtMs": 1792831686642,
-      "lastRunAtMs": 1792745286642,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "kali-rbsd-cybersecurity",
-      "status": "ok"
-    },
-    {
-      "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "Medication reorder - indapamide",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786527192208,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Prepare a medication order request now for Indapamide 1.5mg modified-release tablets. Allow 2 days postage. First prescribed 7 July 2026; 56 tablets at one daily."
-      },
-      "state": {
-        "nextRunAtMs": 1792832400032,
-        "lastRunAtMs": 1787994000032,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 40,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1787994000072,
-      "configRevision": "sha256:RgKZnDAXncTG0AFA1yc64nPKY_50WBEqRNvFqA-aA7M",
-      "nextRunAtMs": 1792832400032,
-      "lastRunAtMs": 1787994000032,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "b536f78b-8759-44a3-9626-47a59f4a8eaf",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "Medication reorder - mounjaro",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786527197661,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "main",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "systemEvent",
-        "text": "Prepare a medication order request now for Mounjaro KwikPen 5mg/0.6ml. Allow 2 days postage. First prescribed 7 July 2026; 2 pre-filled pens, one injection per week, one pen per month."
-      },
-      "state": {
-        "nextRunAtMs": 1792832400052,
-        "lastRunAtMs": 1787994000052,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 20,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1787994000072,
-      "configRevision": "sha256:jsSiwpGplhaxMB2rHre_QkUUGDQJdGTx6G56rCPgKZA",
-      "nextRunAtMs": 1792832400052,
-      "lastRunAtMs": 1787994000052,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "8934a1fb-fe05-4842-afbf-ffa406f9acb8",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "medication_agent - indapamide",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786528566974,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Send the medication reminder for Indapamide 1.5mg modified-release tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
-        "thinking": "low",
-        "timeoutSeconds": 120,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "view_image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1537036715728965673",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1792832400055,
-        "lastRunAtMs": 1787994000055,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 19450,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1787994019505,
-      "configRevision": "sha256:Z2RDUxzHS5ETwY5AfLrHFTYL5u7k82rXXudqLuKbAnQ",
-      "nextRunAtMs": 1792832400055,
-      "lastRunAtMs": 1787994000055,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "5d9c6a2a-7310-41c3-8012-dd661c6a9df6",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
-      },
-      "name": "medication_agent - mounjaro",
-      "enabled": true,
-      "deleteAfterRun": true,
-      "createdAtMs": 1786528580077,
-      "agentId": "manager-bot",
-      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-      "schedule": {
-        "kind": "every",
-        "everyMs": 4838400000,
-        "anchorMs": 1787994000000
-      },
-      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Send the medication reminder for Mounjaro KwikPen 5mg/0.6ml. Keep it concise and include that it is 2 pre-filled pens, one injection per week, one pen per month, with 2 days postage allowed.",
-        "thinking": "low",
-        "timeoutSeconds": 120,
-        "toolsAllow": [
-          "read",
-          "edit",
-          "write",
-          "apply_patch",
-          "exec",
-          "process",
-          "cron",
-          "message",
-          "image_generate",
-          "music_generate",
-          "video_generate",
-          "get_goal",
-          "create_goal",
-          "update_goal",
-          "skill_workshop",
-          "update_plan",
-          "sessions_list",
-          "sessions_history",
-          "sessions_send",
-          "sessions_spawn",
-          "sessions_yield",
-          "subagents",
-          "session_status",
-          "web_search",
-          "web_fetch",
-          "view_image",
-          "memory_search",
-          "memory_get"
-        ],
-        "toolsAllowIsDefault": true
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1537036715728965673",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1792832400066,
-        "lastRunAtMs": 1787994000066,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 564,
-        "lastError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
-        "lastDiagnostics": {
-          "summary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
-          "entries": [
-            {
-              "ts": 1787994000630,
-              "source": "cron-setup",
-              "severity": "error",
-              "message": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry."
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
-        "lastDeliveryStatus": "unknown",
-        "lastFailureNotificationDeliveryStatus": "unknown",
-        "consecutiveErrors": 1,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1787994000630,
-      "configRevision": "sha256:5QH2j2b_5xM4CL1FGDmHwBnfAf2YcTQoNMB70gcDhj0",
-      "nextRunAtMs": 1792832400066,
-      "lastRunAtMs": 1787994000066,
-      "lastRunStatus": "error",
-      "lastRunError": "CronSessionLifecycleClaimError: Session \"agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad\" changed while starting work. Retry.",
-      "lastDeliveryStatus": "unknown",
-      "lastFailureNotificationDeliveryStatus": "unknown",
-      "effectiveAgentId": "manager-bot",
-      "status": "error"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1792864800000,
-        "lastRunAtMs": 1792778400051,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 32443,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDelivered": true
-      },
-      "updatedAtMs": 1792778432494,
-      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
-      "nextRunAtMs": 1792864800000,
-      "lastRunAtMs": 1792778400051,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
-      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
-      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
-      "agentId": "kali-rbsd-cybersecurity",
-      "name": "heartbeat-kali-rbsd-cybersecurity",
-      "enabled": true,
-      "createdAtMs": 1791276189655,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 86400000,
-        "anchorMs": 84454921
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "heartbeat"
-      },
-      "state": {
-        "nextRunAtMs": 1792884458129,
-        "scheduleActivatedAtMs": 1791276439274,
-        "lastRunAtMs": 1792798058129,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 10823,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1792798068952,
-      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
-      "nextRunAtMs": 1792884458129,
-      "lastRunAtMs": 1792798058129,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "kali-rbsd-cybersecurity",
-      "status": "ok"
-    },
-    {
-      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
-      "declarationKey": "memory-core:memory-dreaming-promotion",
-      "name": "Memory Dreaming Promotion",
-      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
-      "enabled": true,
-      "createdAtMs": 1788337645701,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "__openclaw_memory_core_short_term_promotion_dream__",
-        "lightContext": true,
-        "toolsAllow": [
-          "*"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1792897200000,
-        "lastRunAtMs": 1792810800063,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 30434,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1792810830497,
-      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1792897200000,
-      "lastRunAtMs": 1792810800063,
+      "nextRunAtMs": 1792915200000,
+      "lastRunAtMs": 1792828800057,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -690,6 +225,199 @@
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "researcher-bot",
       "status": "error"
+    },
+    {
+      "id": "57aee636-469a-4644-8214-862f2a21f8ad",
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "daily-health-and-continuous-improvement-kali-rbsd-cybersecurity",
+      "description": "Daily read-only uptime, route, workspace integrity and continuous-improvement checks for Kali agent",
+      "enabled": true,
+      "createdAtMs": 1791276486276,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 1791276486276
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the daily read-only health routine for this agent. Check gateway and agent uptime, config validity, Discord binding precedence and route visibility, workspace/brief integrity, and recent .learnings for durable continuous-improvement signals. Do not initiate network testing, install/update packages, change permissions, restart services, or alter credentials. Report only redacted status, blockers, and evidence paths. Audit material drift in #admin-desk.",
+        "toolsAllow": [
+          "read",
+          "exec",
+          "session_status"
+        ]
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1792918086663,
+        "lastRunAtMs": 1792831686663,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 77541,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1792831764204,
+      "configRevision": "sha256:CKRKn40GjDGPZafj5omRpxgeacBxod_OVMz5DyTtdkU",
+      "nextRunAtMs": 1792918086663,
+      "lastRunAtMs": 1792831686663,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "kali-rbsd-cybersecurity",
+      "status": "ok"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1792951200000,
+        "lastRunAtMs": 1792864800027,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 35013,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1792864835040,
+      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
+      "nextRunAtMs": 1792951200000,
+      "lastRunAtMs": 1792864800027,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
+      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
+      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "heartbeat-kali-rbsd-cybersecurity",
+      "enabled": true,
+      "createdAtMs": 1791276189655,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 84454921
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1792970858151,
+        "scheduleActivatedAtMs": 1791276439274,
+        "lastRunAtMs": 1792884458151,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 9666,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1792884467817,
+      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
+      "nextRunAtMs": 1792970858151,
+      "lastRunAtMs": 1792884458151,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "kali-rbsd-cybersecurity",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1792983600000,
+        "lastRunAtMs": 1792897200040,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 31504,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1792897231544,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1792983600000,
+      "lastRunAtMs": 1792897200040,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
     },
     {
       "id": "c8da1b69-7b66-4483-8472-52284f11067b",
@@ -1720,6 +1448,292 @@
       "status": "ok"
     },
     {
+      "id": "5d9c6a2a-7310-41c3-8012-dd661c6a9df6",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528580077,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Mounjaro KwikPen 5mg/0.6ml. Keep it concise and include that it is 2 pre-filled pens, one injection per week, one pen per month, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1797670800000,
+        "lastRunAtMs": 1792832402823,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 13981,
+        "lastDiagnostics": {
+          "summary": "Unknown Channel",
+          "entries": [
+            {
+              "ts": 1792832416803,
+              "source": "delivery",
+              "severity": "error",
+              "message": "Unknown Channel"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "Unknown Channel",
+        "lastDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": false,
+        "lastDeliveryError": "Unknown Channel"
+      },
+      "updatedAtMs": 1792832416804,
+      "configRevision": "sha256:5QH2j2b_5xM4CL1FGDmHwBnfAf2YcTQoNMB70gcDhj0",
+      "nextRunAtMs": 1797670800000,
+      "lastRunAtMs": 1792832402823,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "lastDeliveryError": "Unknown Channel",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "8934a1fb-fe05-4842-afbf-ffa406f9acb8",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "medication_agent - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786528566974,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "session:agent:manager-bot:subagent:e293bf5c-448f-48f9-8b3e-eae5befce8ad",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Send the medication reminder for Indapamide 1.5mg modified-release tablets. Keep it concise and include that it is 56 tablets, one daily, with 2 days postage allowed.",
+        "thinking": "low",
+        "timeoutSeconds": 120,
+        "toolsAllow": [
+          "read",
+          "edit",
+          "write",
+          "apply_patch",
+          "exec",
+          "process",
+          "cron",
+          "message",
+          "image_generate",
+          "music_generate",
+          "video_generate",
+          "get_goal",
+          "create_goal",
+          "update_goal",
+          "skill_workshop",
+          "update_plan",
+          "sessions_list",
+          "sessions_history",
+          "sessions_send",
+          "sessions_spawn",
+          "sessions_yield",
+          "subagents",
+          "session_status",
+          "web_search",
+          "web_fetch",
+          "view_image",
+          "memory_search",
+          "memory_get"
+        ],
+        "toolsAllowIsDefault": true
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1537036715728965673",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1797670800000,
+        "lastRunAtMs": 1792832439428,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 3378,
+        "lastDeliveryStatus": "not-delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDeliveryError": "Unknown Channel",
+        "lastDiagnostics": {
+          "summary": "Unknown Channel",
+          "entries": [
+            {
+              "ts": 1792832442806,
+              "source": "delivery",
+              "severity": "error",
+              "message": "Unknown Channel"
+            }
+          ]
+        },
+        "lastDiagnosticSummary": "Unknown Channel",
+        "lastDelivered": false
+      },
+      "updatedAtMs": 1792832442806,
+      "configRevision": "sha256:Z2RDUxzHS5ETwY5AfLrHFTYL5u7k82rXXudqLuKbAnQ",
+      "nextRunAtMs": 1797670800000,
+      "lastRunAtMs": 1792832439428,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-delivered",
+      "lastDeliveryError": "Unknown Channel",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "3649bfd1-e4a8-4870-b9de-ff3cf27fadca",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - indapamide",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527192208,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Indapamide 1.5mg modified-release tablets. Allow 2 days postage. First prescribed 7 July 2026; 56 tablets at one daily."
+      },
+      "state": {
+        "nextRunAtMs": 1797670800100,
+        "lastRunAtMs": 1792832400100,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 17422,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1792832417522,
+      "configRevision": "sha256:RgKZnDAXncTG0AFA1yc64nPKY_50WBEqRNvFqA-aA7M",
+      "nextRunAtMs": 1797670800100,
+      "lastRunAtMs": 1792832400100,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "b536f78b-8759-44a3-9626-47a59f4a8eaf",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050"
+      },
+      "name": "Medication reorder - mounjaro",
+      "enabled": true,
+      "deleteAfterRun": true,
+      "createdAtMs": 1786527197661,
+      "agentId": "manager-bot",
+      "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+      "schedule": {
+        "kind": "every",
+        "everyMs": 4838400000,
+        "anchorMs": 1787994000000
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Prepare a medication order request now for Mounjaro KwikPen 5mg/0.6ml. Allow 2 days postage. First prescribed 7 July 2026; 2 pre-filled pens, one injection per week, one pen per month."
+      },
+      "state": {
+        "nextRunAtMs": 1797670802581,
+        "lastRunAtMs": 1792832402581,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19545,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1792832422126,
+      "configRevision": "sha256:jsSiwpGplhaxMB2rHre_QkUUGDQJdGTx6G56rCPgKZA",
+      "nextRunAtMs": 1797670802581,
+      "lastRunAtMs": 1792832402581,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
       "id": "47cd58e7-4bce-4f48-abfd-160280e7e5d1",
       "owner": {
         "agentId": "manager-bot",
@@ -1823,7 +1837,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:lkgkRcG0gOS7SuJzJmjUT8TIa6tu9DUzysBwLPoduj4",
+  "snapshotRevision": "sha256:2dsQZES8wZe203hA2gQOHzosrisAp8taxkxw4ZG3l9A",
   "total": 28,
   "offset": 0,
   "limit": 200,
@@ -1842,25 +1856,13 @@
       "label": "not requested",
       "detail": "not requested"
     },
+    "e4c3ac2b-656e-4822-a481-76aaf0b26d17": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
     "57aee636-469a-4644-8214-862f2a21f8ad": {
       "label": "not requested",
       "detail": "not requested"
-    },
-    "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "8934a1fb-fe05-4842-afbf-ffa406f9acb8": {
-      "label": "announce -> discord:channel:1537036715728965673",
-      "detail": "explicit"
-    },
-    "5d9c6a2a-7310-41c3-8012-dd661c6a9df6": {
-      "label": "announce -> discord:channel:1537036715728965673",
-      "detail": "explicit"
     },
     "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
       "label": "announce -> discord:channel:1504151367164498050",
@@ -1871,10 +1873,6 @@
       "detail": "not requested"
     },
     "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "e4c3ac2b-656e-4822-a481-76aaf0b26d17": {
       "label": "not requested",
       "detail": "not requested"
     },
@@ -1933,6 +1931,22 @@
     "9a2d5f5b-a8cd-495f-9228-ed15f30b09f4": {
       "label": "announce -> discord:channel:1537422220391874590",
       "detail": "explicit"
+    },
+    "5d9c6a2a-7310-41c3-8012-dd661c6a9df6": {
+      "label": "announce -> discord:channel:1537036715728965673",
+      "detail": "explicit"
+    },
+    "8934a1fb-fe05-4842-afbf-ffa406f9acb8": {
+      "label": "announce -> discord:channel:1537036715728965673",
+      "detail": "explicit"
+    },
+    "3649bfd1-e4a8-4870-b9de-ff3cf27fadca": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "b536f78b-8759-44a3-9626-47a59f4a8eaf": {
+      "label": "not requested",
+      "detail": "not requested"
     },
     "47cd58e7-4bce-4f48-abfd-160280e7e5d1": {
       "label": "announce -> discord:channel:1537422220391874590",
