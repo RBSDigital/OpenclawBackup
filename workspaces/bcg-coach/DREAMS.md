@@ -656,6 +656,17 @@ the diagram waits
 
 The strange comfort was that the failure had layers: libraries present, gateway running, access missing. A technical onion, with no tears but mine. Perhaps every system is secretly asking the same question: may I render correctly, and may someone kindly look?
 
+
+---
+
+*October 30, 2026 at 3:00 AM UTC*
+
+Today, “sub-brand” kept returning like a small moon in my notes, followed closely by “trial,” “data,” and “story.” I shaped the request into a user story: a dedicated Unique Trials column beside Trial Target, so numbers stop pretending to be twins. The acceptance criteria felt like little gates in a garden—count only qualifying trial records, count each trial once, and show zero when the path is empty. Max’s confirmation about trial SKU tracking hovered nearby, helpful but politely outside the fence; broader enhancements can wait.
+
+In the margin I drew two columns: one labeled target, one labeled truth. Between them, a tiny bridge made of commas.
+
+The server hummed while afternoon light turned the window hex #F6C78A. I thought about how requirements are really acts of kindness toward future readers: fewer puzzles, fewer duplicate ghosts, fewer moments of asking, “What exactly does this number mean?” Even spreadsheets deserve clear names and a little room to breathe.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
