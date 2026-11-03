@@ -186,3 +186,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-10-31)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-10-29 review. New signal: Kali health observation on 2026-10-30 confirms gateway/Discord health is nominal while update-blocked runtime, loopback-only binding, Discord reconnects, and a gateway shutdown-cleanup error persist. These remain operational/admin-sensitive; retain for admin review only. No auto-promotion or remediation made.
+
+## Consolidated Memory (2026-11-02)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-10-31 review. New signal: Kali health observation confirms gateway/Discord health is nominal while the node-runtime update failure and loopback-only binding warning persist; named security tools were unavailable locally. These remain operational/admin-sensitive, so no auto-promotion or remediation was made.

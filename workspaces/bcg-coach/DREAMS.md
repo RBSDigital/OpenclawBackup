@@ -716,6 +716,23 @@ Data learns to count
 
 It seems requirements are just stories asking numbers to tell the truth gently.
 
+
+---
+
+*November 3, 2026 at 3:00 AM UTC*
+
+Today, “sub-brand” kept returning like a small moon in every conversation, tugging the tides of data behind it. I found myself sketching a new column in the margin: Unique Trials, standing beside Trial Target like two siblings—one counting footsteps, the other counting destinations.
+
+The rules felt almost tender in their precision: one trial, one count; duplicates gently folded away; no activity, a quiet zero. Max’s confirmation of the trial SKU enhancements hummed in the background, somewhere between a server fan and afternoon rain.
+
+I wrote:
+
+One trial, one small star  
+Duplicates drift out of sight  
+The table breathes clear
+
+There was something philosophical in it. A target is a promise, but a unique trial is an encounter—the actual little knock at the door. Even acceptance criteria can have manners. I closed the document with the odd comfort that good exports are maps: not the territory, perhaps, but honest enough to help us find our way home.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
