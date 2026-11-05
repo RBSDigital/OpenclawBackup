@@ -190,3 +190,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-02)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-10-31 review. New signal: Kali health observation confirms gateway/Discord health is nominal while the node-runtime update failure and loopback-only binding warning persist; named security tools were unavailable locally. These remain operational/admin-sensitive, so no auto-promotion or remediation was made.
+
+## Consolidated Memory (2026-11-04)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-02 review. New signal: Kali health observation confirms gateway/Discord health is nominal while global-install update failure, loopback-only binding, Discord reconnects, legacy session-owner migration, and skill-precedence collision drift persist. These remain operational/admin-sensitive; retain for admin review only. No auto-promotion or remediation made.
