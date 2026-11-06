@@ -15,6 +15,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -30,18 +31,31 @@ SCALE_SLUGS = {
 }
 
 
-def fetch(url: str, attempts: int = 3) -> tuple[int, str]:
+class FetchFailure(RuntimeError):
+    pass
+
+
+def fetch(url: str, attempts: int = 2, deadline: float | None = None) -> tuple[int, str]:
     last = None
     for n in range(attempts):
+        remaining = 12.0 if deadline is None else max(0.1, deadline - time.monotonic())
+        if deadline is not None and remaining <= 0:
+            break
         try:
             req = Request(url, headers={"User-Agent": UA, "Accept": "text/html,application/json,text/csv,*/*"})
-            with urlopen(req, timeout=30) as response:
+            with urlopen(req, timeout=min(12.0, remaining)) as response:
                 return response.status, response.read().decode("utf-8", "replace")
-        except (HTTPError, URLError, TimeoutError) as exc:
+        except HTTPError as exc:
+            if exc.code == 404:
+                raise FetchFailure(f"404 Not Found: {url}") from exc
             last = exc
-            if n + 1 < attempts:
-                time.sleep(1 + n)
-    raise RuntimeError(f"fetch failed after {attempts} attempts: {url}: {last}")
+            if n + 1 < attempts and (deadline is None or time.monotonic() < deadline):
+                time.sleep(min(1 + n, max(0.1, deadline - time.monotonic()) if deadline else 1 + n))
+        except (URLError, TimeoutError) as exc:
+            last = exc
+            if n + 1 < attempts and (deadline is None or time.monotonic() < deadline):
+                time.sleep(min(1 + n, max(0.1, deadline - time.monotonic()) if deadline else 1 + n))
+    raise FetchFailure(f"fetch failed after {attempts} attempts: {url}: {last}")
 
 
 def numbers(value: str) -> float | None:
@@ -70,62 +84,100 @@ def livebench_metadata(js: str, model: str) -> dict:
     }
 
 
-def livebench() -> dict:
-    status, home = fetch(LIVEBENCH + "/")
+def _weighted_average(scores: dict, categories: dict, weights: dict | None = None) -> float:
+    weights = weights or {}
+    parts = []
+    for name, cols in categories.items():
+        vals = [scores.get(c) for c in cols if scores.get(c) is not None]
+        if vals:
+            parts.append((sum(vals) / len(vals), float(weights.get(name, 1.0))))
+    if not parts:
+        return 0.0
+    return sum(value * weight for value, weight in parts) / sum(weight for _, weight in parts)
+
+
+def _build_livebench_result(release: str, table_text: str, categories_text: str,
+                            cost_text: str | None, js: str, url: str, gen: str) -> dict:
+    table = list(csv.DictReader(io.StringIO(table_text)))
+    categories_raw = json.loads(categories_text)
+    weights = categories_raw.pop("_overall_weights", {}) if isinstance(categories_raw, dict) else {}
+    categories = categories_raw
+    costs = {r.get("model"): r for r in csv.DictReader(io.StringIO(cost_text or ""))} if cost_text else {}
+    if len(table) < 2 or not categories:
+        raise RuntimeError("assets contained no usable rows or categories")
+    task_columns = [k for k in table[0] if k != "model"]
+    models = []
+    for row in table:
+        if not row.get("model"):
+            continue
+        meta = livebench_metadata(js, row["model"])
+        scores = {k: numbers(row.get(k)) for k in task_columns}
+        category_scores = {}
+        for name, cols in categories.items():
+            vals = [scores.get(c) for c in cols if scores.get(c) is not None]
+            if vals:
+                category_scores[name] = round(sum(vals) / len(vals), 3)
+        direct_cost = costs.get(row["model"], {}).get("cost_per_successful_task")
+        models.append({**meta, "overall": round(_weighted_average(scores, categories, weights), 3),
+                       "categories": category_scores,
+                       "cost_per_successful_task": numbers(direct_cost)})
+    if not models:
+        raise RuntimeError("table contained no model rows")
+    def top(key):
+        return sorted(models, key=[REDACTED_SECRET] x: x.get(key) if isinstance(x.get(key), (int, float)) else -1, reverse=True)[:10]
+    return {"source": "LiveBench", "release": release, "generation": gen, "url": url,
+            "models": len(models), "overall_leaders": top("overall"),
+            "open_weight_leaders": sorted([x for x in models if x["open_weights"]], key=[REDACTED_SECRET] x: x["overall"], reverse=True)[:10],
+            "categories": {name: sorted(models, key=[REDACTED_SECRET] x: x["categories"].get(name, -1), reverse=True)[:10] for name in categories},
+            "cost_leaders": sorted([x for x in models if x["cost_per_successful_task"] and x["cost_per_successful_task"] > 0], key=[REDACTED_SECRET] x: x["cost_per_successful_task"])[:10]}
+
+
+def livebench(deadline: float) -> dict:
+    _, home = fetch(LIVEBENCH + "/", deadline=deadline)
     scripts = re.findall(r'(?:src|href)=["\']([^"\']+\.js)["\']', home)
     js = ""
     for path in scripts:
         if not path.startswith("http"):
             path = LIVEBENCH + "/" + path.lstrip("/")
         try:
-            _, js = fetch(path)
+            _, js = fetch(path, deadline=deadline)
             if "table_" in js or "openweight" in js:
                 break
         except RuntimeError:
             continue
-    releases = sorted(set(re.findall(r"(\d{4})[_-](\d{2})[_-](\d{2})", home + js)), reverse=True)
+    separated = re.findall(r"(\d{4})[_-](\d{2})[_-](\d{2})", home + js)
+    compact = re.findall(r"(?<!\d)(\d{4})(\d{2})(\d{2})(?!\d)", home + js)
+    releases = sorted(set(separated + compact), reverse=True)
     if not releases:
         raise RuntimeError("LiveBench release list was not found")
     last_error = None
-    for y, m, d in releases:
+    for y, m, d in releases[:8]:
         release = f"{y}-{m}-{d}"
         suffix = f"{y}_{m}_{d}"
         try:
-            _, table_text = fetch(f"{LIVEBENCH}/table_{suffix}.csv")
-            _, categories_text = fetch(f"{LIVEBENCH}/categories_{suffix}.json")
-            _, cost_text = fetch(f"{LIVEBENCH}/cost_{suffix}.csv")
-            table = list(csv.DictReader(io.StringIO(table_text)))
-            categories = json.loads(categories_text)
-            costs = {r["model"]: r for r in csv.DictReader(io.StringIO(cost_text))}
-            if len(table) < 2 or not categories:
-                raise RuntimeError("assets contained no usable rows")
-            task_columns = [k for k in table[0] if k != "model"]
-            models = []
-            for row in table:
-                meta = livebench_metadata(js, row["model"])
-                scores = {k: numbers(row.get(k)) for k in task_columns}
-                overall = sum(v for v in scores.values() if v is not None) / len([v for v in scores.values() if v is not None])
-                category_scores = {}
-                for name, cols in categories.items():
-                    vals = [scores.get(c) for c in cols if scores.get(c) is not None]
-                    if vals:
-                        category_scores[name] = round(sum(vals) / len(vals), 3)
-                models.append({**meta, "overall": round(overall, 3), "categories": category_scores,
-                               "cost_per_successful_task": numbers(costs.get(row["model"], {}).get("cost_per_successful_task"))})
-            def top(key):
-                return sorted(models, key=[REDACTED_SECRET] x: x.get(key) if isinstance(x.get(key), (int, float)) else -1, reverse=True)[:10]
-            result = {"source": "LiveBench", "release": release, "url": LIVEBENCH + "/#/", "models": len(models),
-                      "overall_leaders": top("overall"), "open_weight_leaders": sorted([x for x in models if x["open_weights"]], key=[REDACTED_SECRET] x: x["overall"], reverse=True)[:10],
-                      "categories": {name: sorted(models, key=[REDACTED_SECRET] x: x["categories"].get(name, -1), reverse=True)[:10] for name in categories},
-                      "cost_leaders": sorted([x for x in models if x["cost_per_successful_task"] and x["cost_per_successful_task"] > 0], key=[REDACTED_SECRET] x: x["cost_per_successful_task"])[:10]}
-            return result
+            if y + m + d >= "20261014":
+                base = f"{LIVEBENCH}/data/{y}{m}{d}"
+                _, table_text = fetch(f"{base}/table.csv?v=1793398874", deadline=deadline)
+                _, categories_text = fetch(f"{base}/categories.json?v=1793398874", deadline=deadline)
+                try:
+                    _, cost_text = fetch(f"{base}/cost.csv?v=1793398874", deadline=deadline)
+                except FetchFailure:
+                    cost_text = None
+                return _build_livebench_result(release, table_text, categories_text, cost_text, js, LIVEBENCH + "/#", "v2")
+            _, table_text = fetch(f"{LIVEBENCH}/v1/table_{suffix}.csv?v=1793398874", deadline=deadline)
+            _, categories_text = fetch(f"{LIVEBENCH}/v1/categories_{suffix}.json?v=1793398874", deadline=deadline)
+            try:
+                _, cost_text = fetch(f"{LIVEBENCH}/v1/cost_{suffix}.csv?v=1793398874", deadline=deadline)
+            except FetchFailure:
+                cost_text = None
+            return _build_livebench_result(release, table_text, categories_text, cost_text, js, LIVEBENCH + "/#", "v1")
         except Exception as exc:
             last_error = exc
     raise RuntimeError(f"LiveBench assets could not be parsed: {last_error}")
 
 
-def scale_page(name: str, slug: str) -> dict:
-    _, page = fetch(f"{SCALE}/{slug}")
+def scale_page(name: str, slug: str, deadline: float) -> dict:
+    _, page = fetch(f"{SCALE}/{slug}", deadline=deadline)
     start = page.find("Performance Comparison")
     if start < 0:
         raise RuntimeError(f"{name}: Performance Comparison section not found")
@@ -158,10 +210,16 @@ def scale_page(name: str, slug: str) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", help="write JSON to this path")
+    parser.add_argument("--timeout-seconds", type=float, default=240)
     args = parser.parse_args()
+    deadline = time.monotonic() + args.timeout_seconds
     result = {"extracted_at": datetime.now(timezone.utc).isoformat(), "livebench": None, "scale": []}
-    result["livebench"] = livebench()
-    result["scale"] = [scale_page(name, slug) for name, slug in SCALE_SLUGS.items()]
+    result["livebench"] = livebench(deadline)
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        futures = {pool.submit(scale_page, name, slug, deadline): name for name, slug in SCALE_SLUGS.items()}
+        for future in as_completed(futures):
+            result["scale"].append(future.result())
+    result["scale"].sort(key=[REDACTED_SECRET] x: x["benchmark"])
     if len(result["livebench"]["overall_leaders"]) < 1 or any(len(x["rows"]) < 1 for x in result["scale"]):
         raise RuntimeError("validation failed: one or more sources returned no usable rankings")
     text = json.dumps(result, indent=2, ensure_ascii=False)

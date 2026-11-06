@@ -4,6 +4,25 @@ Command failures and integration errors.
 
 ---
 
+## [ERR-20261105-001] leaderboard-extractor-stale-assets-timeout
+
+**Logged**: 2026-11-05T08:30:00Z
+**Priority**: high
+**Status**: resolved
+**Area**: automation
+
+### Summary
+The daily AI leaderboard extractor spent the run budget probing obsolete LiveBench v1 asset paths after LiveBench moved its current release to the v2 data/YYYYMMDD layout. The scheduler returned a technical success result even though no report was produced.
+
+### Fix
+Added v1/v2 asset discovery, a hard wall-clock deadline, bounded per-request timeouts, immediate handling for deterministic 404s, concurrent Scale retrieval, and non-empty ranking validation.
+
+### Metadata
+- Reproducible: yes
+- Related file: scripts/ai_leaderboard_extract.py
+
+---
+
 ## [ERR-20260923-001] google-docs-api-disabled
 
 **Logged**: 2026-09-23T12:36:00Z
@@ -95,5 +114,23 @@ The diagnostic attempted a three-argument dict.get call while listing changed ro
 
 ### Suggested Action
 Keep comparison diagnostics using explicit helper functions for rank/score display.
+
+---
+
+## [ERR-20261105-001] researcher-handoff-visibility
+
+**Logged**: 2026-11-05T16:52:00Z
+**Priority**: low
+**Status**: workaround used
+**Area**: orchestration
+
+### Summary
+Direct researcher-bot delegation was rejected by the current agent-visibility policy.
+
+### Details
+The manager lane retained the task and used authoritative-source web retrieval directly. Future source-heavy jobs should check cross-agent visibility before attempting delegation.
+
+### Suggested Action
+If delegation is blocked, continue with bounded first-party research and record the routing limitation; do not retry blindly.
 
 ---

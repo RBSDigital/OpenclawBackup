@@ -23,6 +23,25 @@ For time-sensitive public-transport advice, verify the exact origin, destination
 
 ---
 
+## [LRN-20261105-001] versioned-source-asset-discovery
+
+**Logged**: 2026-11-05T08:30:00Z
+**Priority**: high
+**Status**: implemented
+**Area**: automation
+
+### Summary
+Versioned research sources can retain an HTTP-200 application shell while moving their data assets or changing their URL layout. A scheduled extractor must discover the current release and asset generation, enforce a wall-clock deadline, and validate rows before treating the run as successful.
+
+### Action taken
+The leaderboard extractor now supports LiveBench v1 and v2 assets, treats 404s as deterministic rather than retryable, bounds every request, retrieves Scale pages concurrently, and requires non-empty ranking rows.
+
+### Metadata
+- Source: 2026-11-05 leaderboard automation incident
+- Related file: scripts/ai_leaderboard_extract.py
+
+---
+
 ## [LRN-20260930-001] supported-runtime-status-tools
 
 **Logged**: 2026-09-30T18:20:00Z

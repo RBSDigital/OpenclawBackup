@@ -104,7 +104,7 @@ Use `COST_POLICY.md` for token-cost discipline: deterministic tools first, bound
 
 - For scheduled research/report jobs, treat source extraction/validation and final delivery as separate success gates.
 - Do not mark the run complete, update a snapshot, or suppress failure notification until both gates pass.
-- For JS-backed or protected sources, use source-specific retrieval with browser-like headers, retries, release/asset discovery, and a non-empty ranking/data-row validation gate; do not infer availability from HTTP status alone.
+- For JS-backed or protected sources, use source-specific retrieval with browser-like headers, bounded request timeouts, a hard wall-clock deadline, release/asset discovery, immediate handling for deterministic 404s, and a non-empty ranking/data-row validation gate; do not infer availability from HTTP status alone.
 
 ## Shared Agent Memory Vault
 
