@@ -10,7 +10,7 @@ Source of truth for the `#medication-reminders` channel.
 
 ## Current Trigger Dates
 
-- `Atorvastatin 20mg tablets` - `2026-10-30 09:00 UTC` - `28 day` cycle
+- `Atorvastatin 20mg tablets` - `2027-01-01 09:00 UTC` - `56 tablet` supply / `56 day` cycle
 - `Amlodipine 5mg tablets` - `2026-11-27 09:00 UTC` - `56 day` cycle
 - `Losartan 100mg tablets` - `2026-11-27 09:00 UTC` - `56 day` cycle
 - `Indapamide 1.5mg modified-release tablets` - `2026-10-20 09:00 UTC` - `56 day` cycle
@@ -23,3 +23,4 @@ Source of truth for the `#medication-reminders` channel.
 - The losartan omission on `2026-08-21` happened because the reminder set was being reconstructed from partial channel history instead of a durable schedule manifest.
 - The fix is to keep this file up to date and require a full list check before every reminder post.
 - NHS app confirmation on `2026-10-16` supplied the next permitted dates for every active item: Amlodipine and Losartan `2026-11-27`; Atorvastatin and Metformin `2026-10-30`; Indapamide and Mounjaro `2026-10-20`; and GlucoRx needles `2026-10-29`. These are the earliest permitted reminder dates, set at `09:00 UTC`.
+- User update on `2026-11-06`: Atorvastatin supply is now `56 tablets`; assuming the supply was received on this date, the next trigger is `2027-01-01 09:00 UTC`.
