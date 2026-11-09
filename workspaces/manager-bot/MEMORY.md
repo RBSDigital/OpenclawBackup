@@ -200,3 +200,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 - Reviewed new `.learnings` entries from the last day. New signal: the leaderboard extractor hit stale versioned assets and could have reported technical success without a report; the fix now discovers v1/v2 assets, bounds requests, handles deterministic 404s, and validates non-empty ranking rows. This repeats the existing source-specific retrieval and extraction/delivery gate pattern, already durable in `AGENTS.md`; no further promotion was needed. No new feature requests or sensitive items.
 
 - Follow-up review at 2026-11-05 18:04 UTC found one additional orchestration workaround: researcher-bot delegation was blocked by visibility policy, so the manager lane used bounded first-party retrieval and did not retry blindly. Existing `AGENTS.md` guidance already covers this fallback; no durable promotion was needed.
+
+## Consolidated Memory (2026-11-08)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-05 review. New signal: one malformed `jq` validation expression caused a post-delivery diagnostic failure; the snapshot write succeeded. The smallest fix—keep mixed root/object and array assertions in one parenthesized expression—is already durable in `AGENTS.md`; no further promotion or feature action is needed.

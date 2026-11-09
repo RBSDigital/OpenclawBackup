@@ -278,6 +278,10 @@ Add whatever helps you do your job. This is your cheat sheet.
 - Prefer `validate -workspace workspace.dsl` followed by `export -workspace workspace.dsl -format mermaid -output out` for local verification.
 - Docker-based validation may fail when the current user cannot reach `unix:///var/run/docker.sock`.
 
+## Diagnostic expressions
+
+- Keep mixed root/object and array assertions in one explicit `jq` expression (use parentheses); avoid piping into an array before evaluating root-level fields.
+
 ## Related
 
 - [Agent workspace](/concepts/agent-workspace)

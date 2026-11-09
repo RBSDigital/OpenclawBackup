@@ -134,3 +134,7 @@ The manager lane retained the task and used authoritative-source web retrieval d
 If delegation is blocked, continue with bounded first-party research and record the routing limitation; do not retry blindly.
 
 ---
+
+## 2026-11-08 — malformed jq validation expression
+
+The post-delivery snapshot validation command used a pipe with a compound jq expression, causing `.delivery` to be evaluated against the items array. The snapshot write itself completed successfully. Use a single root-level jq expression with parentheses for mixed array/root assertions.
