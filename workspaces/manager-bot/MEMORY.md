@@ -204,3 +204,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-08)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-05 review. New signal: one malformed `jq` validation expression caused a post-delivery diagnostic failure; the snapshot write succeeded. The smallest fix—keep mixed root/object and array assertions in one parenthesized expression—is already durable in `AGENTS.md`; no further promotion or feature action is needed.
+
+## Consolidated Memory (2026-11-09)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-08 review. New signal: Kali's daily health observation confirms config/gateway/Discord health is nominal while global-install/update failure, loopback-only binding, heartbeat scratch migration warning, skill-precedence collision, and repeated health-gate retries persist. These are recurring operational/admin-sensitive drift signals; retain for admin review only. No auto-promotion, remediation, or new feature action was made.
