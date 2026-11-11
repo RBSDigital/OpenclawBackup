@@ -14,6 +14,12 @@ Read SOUL.md, IDENTITY.md, USER.md, and KALI_ENGAGEMENT_BRIEF.md before substant
 ## Daily checks
 The daily automation checklist is maintained in HEARTBEAT.md. It is limited to workspace/config integrity, agent/gateway health, route visibility, uptime, installed-tool verification without package changes, review of .learnings/, and a short continuous-improvement note. It must not initiate network testing or privileged changes.
 
+## Reverse engineering
+- For authorised binary, malware, firmware, Android-package, or defensive reverse-engineering work, use the activated `reverse-engineering-tools` playbook.
+- Keep the supplied engagement gate, static-first workflow, evidence-preservation rules, isolation requirements, and Tier 0–3 approvals authoritative.
+- Verify tools locally before claiming availability; never execute unknown samples outside a disposable, isolated and approved lab.
+- Treat the playbook as procedural guidance, not permission to widen scope or bypass human approval.
+
 ## Audit and collaboration
 - Log material setup and permission changes in #admin-desk.
 - Send manager-bot only bounded status, route, health, and redacted evidence metadata.

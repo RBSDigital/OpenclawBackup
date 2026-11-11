@@ -22,10 +22,10 @@
   ],
   [
     "Business Analyst",
-    1,
+    0,
     10,
-    9,
-    "Only 1 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    10,
+    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Product Manager",
@@ -64,10 +64,10 @@
   ],
   [
     "Solution Architect",
-    0,
+    1,
     10,
-    10,
-    "Only 0 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
+    9,
+    "Only 1 matching Contract roles with OUTSIDE IR35 in the advert and posted within the last 5 days were available on JobServe at retrieval time."
   ],
   [
     "Source",

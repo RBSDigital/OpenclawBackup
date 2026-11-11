@@ -208,3 +208,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-09)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-08 review. New signal: Kali's daily health observation confirms config/gateway/Discord health is nominal while global-install/update failure, loopback-only binding, heartbeat scratch migration warning, skill-precedence collision, and repeated health-gate retries persist. These are recurring operational/admin-sensitive drift signals; retain for admin review only. No auto-promotion, remediation, or new feature action was made.
+
+## Consolidated Memory (2026-11-10)
+
+- Reviewed new `.learnings` across all workspace roots since the 2026-11-09 review. New signal: Kali health remains nominal, while the failed global-install update attempt and loopback-only exposure persist. These repeat the existing operational/admin-sensitive drift pattern; retain for admin review only. No auto-promotion, remediation, or new feature action was made.

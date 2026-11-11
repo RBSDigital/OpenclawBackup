@@ -1,112 +1,112 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T09:00:00Z",
-  "checked_at": "2026-11-08T09:08:00Z",
+  "generated_at": "2026-11-10T09:00:00Z",
+  "checked_at": "2026-11-10T09:01:10Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
       "id": "PHISH-01",
       "name": "Cross-channel phishing and impersonation",
       "rank": 1,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "SHOP-01",
       "name": "Online shopping and marketplace fraud",
       "rank": 2,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "INV-01",
       "name": "Investment, pension and clone-firm scams",
       "rank": 3,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "BEC-01",
       "name": "Business email compromise and invoice or mandate fraud",
       "rank": 4,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "ATO-01",
       "name": "Account takeover and credential-reuse fraud",
       "rank": 5,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "APP-01",
       "name": "Authorised payment and bank-transfer scams",
       "rank": 6,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "ROM-01",
       "name": "Romance and relationship scams",
       "rank": 7,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "DELIV-01",
       "name": "Delivery, parcel and missed-delivery scams",
       "rank": 8,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "ID-01",
       "name": "Identity theft and identity-document misuse",
       "rank": 9,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "JOB-01",
       "name": "Job-offer and recruitment scams",
       "rank": 10,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "SIM-01",
       "name": "SIM-swap and mobile-number takeover",
       "rank": 11,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "TECH-01",
       "name": "Tech-support and remote-access scams",
       "rank": 12,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "HMRC-01",
       "name": "HMRC, tax, refund and benefit impersonation scams",
       "rank": 13,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "POST-01",
       "name": "Postal, courier-collection and doorstep payment fraud",
       "rank": 14,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-baseline"
     },
     {
       "id": "LOAN-01",
       "name": "Loan-fee and advance-fee scams",
       "rank": 15,
-      "material_version": "2026-11-08-baseline"
+      "material_version": "2026-11-10-fca-average-loss-260"
     }
   ],
-  "report_sha256": "effbf2773a465362a3be46140d352916c44f3bdc9c602dca0b106948a3ae0fb9",
+  "report_sha256": "41e4058ba25282618baf82f7f94ff12dc7e584fad99418bf27f0729811b60cff",
   "delivery": {
     "verified": true,
-    "message_id": "1a1ba6a21f952eeb",
-    "thread_id": "1a1ba6a21f952eeb",
+    "message_id": "1a1c4b150522612e",
+    "thread_id": "1a1c4b150522612e",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud and Identity-Fraud Awareness Report \u2014 2026-11-08",
-    "verified_at": "2026-11-08T09:08:00Z"
+    "subject": "Daily UK Cyber-Fraud and Identity-Fraud Awareness Report — 2026-11-10",
+    "verified_at": "2026-11-10T09:01:57Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-08T09:06:16Z",
+    "checked_at": "2026-11-10T09:01:10Z",
     "sources": [
       "NCSC",
       "Stop! Think Fraud/GOV.UK",
