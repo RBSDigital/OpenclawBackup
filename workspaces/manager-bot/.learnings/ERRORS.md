@@ -138,3 +138,15 @@ If delegation is blocked, continue with bounded first-party research and record 
 ## 2026-11-08 — malformed jq validation expression
 
 The post-delivery snapshot validation command used a pipe with a compound jq expression, causing `.delivery` to be evaluated against the items array. The snapshot write itself completed successfully. Use a single root-level jq expression with parentheses for mixed array/root assertions.
+---
+
+## 2026-11-11 — missing rg/apply_patch utilities
+
+The scheduled report workflow found that rg and apply_patch are unavailable in this runtime. It continued with grep/sed and controlled patch fallbacks.
+
+---
+
+## 2026-11-11 — validation command lacked fail-fast
+
+A report preflight Python check correctly flagged an intentional £260 occurrence in the change log, but the surrounding shell command lacked `set -e` and continued to send. Delivery was independently re-verified and the sent body passed the corrected checks.
+
