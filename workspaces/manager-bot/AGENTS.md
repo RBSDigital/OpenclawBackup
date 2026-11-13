@@ -177,6 +177,10 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 
 ### Local notes (migrated from TOOLS.md)
 
+### JSON/jq verification
+
+- Inspect the actual returned JSON shape before writing jq assertions; provider responses may expose fields as objects rather than arrays. For mixed root/array checks, keep one root-level expression and parenthesize array predicates. Run validation with fail-fast or explicit exit-code checks before delivery.
+
 # TOOLS.md - Local Notes
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup: camera names and locations, SSH hosts and aliases, preferred TTS voices, speaker/room names, device nicknames, anything environment-specific.
@@ -282,6 +286,7 @@ Add whatever helps you do your job. This is your cheat sheet.
 ## Diagnostic expressions
 
 - Keep mixed root/object and array assertions in one explicit `jq` expression (use parentheses); avoid piping into an array before evaluating root-level fields.
+- For provider responses such as `gog`, inspect one real response before asserting fields; headers or message metadata may be objects at the root or nested under a message rather than arrays.
 
 ## Related
 

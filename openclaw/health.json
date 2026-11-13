@@ -1,16 +1,16 @@
 {
   "ok": true,
-  "ts": 1794457843718,
-  "durationMs": 17,
+  "ts": 1794544245615,
+  "durationMs": 25,
   "eventLoop": {
     "degraded": false,
     "degradedSinceMs": null,
     "reasons": [],
-    "intervalMs": 1000.1621910000686,
-    "delayP99Ms": 22.3,
-    "delayMaxMs": 22.3,
-    "utilization": 0.009,
-    "cpuCoreRatio": 0.011
+    "intervalMs": 1011.7994269998744,
+    "delayP99Ms": 21.4,
+    "delayMaxMs": 21.4,
+    "utilization": 0.007,
+    "cpuCoreRatio": 0.009
   },
   "plugins": {
     "loaded": [
@@ -41,13 +41,13 @@
     "discord": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1794456535804,
+      "lastStartAt": 1794542913481,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1794456537872,
-      "lastEventAt": 1794456537872,
-      "lastTransportActivityAt": 1794457809625,
+      "lastConnectedAt": 1794542915894,
+      "lastEventAt": 1794542915894,
+      "lastTransportActivityAt": 1794544231207,
       "lifecycle": "ready",
       "busy": false,
       "activeRuns": 0,
@@ -80,13 +80,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1794456535804,
+          "lastStartAt": 1794542913481,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1794456537872,
-          "lastEventAt": 1794456537872,
-          "lastTransportActivityAt": 1794457809625,
+          "lastConnectedAt": 1794542915894,
+          "lastEventAt": 1794542915894,
+          "lastTransportActivityAt": 1794544231207,
           "lifecycle": "ready",
           "busy": false,
           "activeRuns": 0,
@@ -121,13 +121,13 @@
     "telegram": {
       "accountId": "default",
       "enabled": true,
-      "lastStartAt": 1794456535804,
+      "lastStartAt": 1794542913481,
       "lastStopAt": null,
       "restartPending": false,
       "reconnectAttempts": 0,
-      "lastConnectedAt": 1794457840193,
-      "lastEventAt": 1794457840193,
-      "lastTransportActivityAt": 1794457840193,
+      "lastConnectedAt": 1794544218188,
+      "lastEventAt": 1794544218188,
+      "lastTransportActivityAt": 1794544218188,
       "lifecycle": "ready",
       "lastInboundAt": null,
       "lastOutboundAt": null,
@@ -144,13 +144,13 @@
         "default": {
           "accountId": "default",
           "enabled": true,
-          "lastStartAt": 1794456535804,
+          "lastStartAt": 1794542913481,
           "lastStopAt": null,
           "restartPending": false,
           "reconnectAttempts": 0,
-          "lastConnectedAt": 1794457840193,
-          "lastEventAt": 1794457840193,
-          "lastTransportActivityAt": 1794457840193,
+          "lastConnectedAt": 1794544218188,
+          "lastEventAt": 1794544218188,
+          "lastTransportActivityAt": 1794544218188,
           "lifecycle": "ready",
           "lastInboundAt": null,
           "lastOutboundAt": null,
@@ -190,32 +190,32 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/manager-bot/agent/openclaw-agent.sqlite",
-        "count": 21,
+        "count": 22,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794452400747,
-            "age": 5442956
+            "updatedAt": 1794538800649,
+            "age": 5444944
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794441895077,
-            "age": 15948626
+            "updatedAt": 1794528334352,
+            "age": 15911241
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794437132475,
-            "age": 20711228
+            "updatedAt": 1794528295019,
+            "age": 15950574
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794423862129,
-            "age": 33981574
+            "updatedAt": 1794523532448,
+            "age": 20713145
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794420000178,
-            "age": 37843525
+            "updatedAt": 1794506400258,
+            "age": 37845335
           }
         ]
       }
@@ -238,27 +238,27 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794126873516,
-            "age": 330970190
+            "age": 417372080
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791277974394,
-            "age": 3179869312
+            "age": 3266271202
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791275270090,
-            "age": 3182573616
+            "age": 3268975506
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781764610344,
-            "age": 12693233362
+            "age": 12779635252
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1781598922730,
-            "age": 12858920976
+            "age": 12945322866
           }
         ]
       }
@@ -276,32 +276,32 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/ops-bot/agent/openclaw-agent.sqlite",
-        "count": 6,
+        "count": 5,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794372381430,
-            "age": 85462277
-          },
-          {
-            "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794372381429,
-            "age": 85462278
+            "age": 171864169
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791275296364,
-            "age": 3182547343
+            "age": 3268949235
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1784119360964,
-            "age": 10338482743
+            "age": 10424884635
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782010100171,
-            "age": 12447743536
+            "age": 12534145428
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1781916502008,
+            "age": 12627743591
           }
         ]
       }
@@ -324,27 +324,27 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794308411625,
-            "age": 149432084
+            "age": 235833979
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791276669440,
-            "age": 3181174269
+            "age": 3267576164
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791276597604,
-            "age": 3181246105
+            "age": 3267648000
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791276571887,
-            "age": 3181271822
+            "age": 3267673717
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782939664054,
-            "age": 11518179655
+            "age": 11604581550
           }
         ]
       }
@@ -362,22 +362,27 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/modeler-bot/agent/openclaw-agent.sqlite",
-        "count": 3,
+        "count": 4,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1793872610598,
-            "age": 585233112
+            "updatedAt": 1794477410609,
+            "age": 66834996
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1794477410608,
+            "age": 66834997
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197970773,
-            "age": 5259872937
+            "age": 5346274832
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1786712879353,
-            "age": 7744964357
+            "age": 7831366252
           }
         ]
       }
@@ -395,22 +400,27 @@
       },
       "sessions": {
         "path": "/home/vin/.openclaw/agents/security-bot/agent/openclaw-agent.sqlite",
-        "count": 3,
+        "count": 4,
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1793888536653,
-            "age": 569307058
+            "updatedAt": 1794493336410,
+            "age": 50909198
+          },
+          {
+            "key": "[REDACTED_SECRET]",
+            "updatedAt": 1794493336409,
+            "age": 50909199
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791275346121,
-            "age": 3182497590
+            "age": 3268899487
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1782037432244,
-            "age": 12420411467
+            "age": 12506813364
           }
         ]
       }
@@ -434,17 +444,17 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794307119173,
-            "age": 150724539
+            "age": 237126436
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1793963014750,
-            "age": 494828962
+            "age": 581230859
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1789197989439,
-            "age": 5259854273
+            "age": 5346256170
           }
         ]
       }
@@ -468,17 +478,17 @@
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794424697169,
-            "age": 33146544
+            "age": 119548441
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1793968661238,
-            "age": 489182475
+            "age": 575584372
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791275879024,
-            "age": 3181964689
+            "age": 3268366586
           }
         ]
       }
@@ -501,23 +511,23 @@
         "recent": [
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794439675553,
-            "age": 18168161
+            "updatedAt": 1794526076350,
+            "age": 18169261
           },
           {
             "key": "[REDACTED_SECRET]",
-            "updatedAt": 1794386887288,
-            "age": 70956426
+            "updatedAt": 1794473287349,
+            "age": 70958262
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1794353255041,
-            "age": 104588673
+            "age": 190990570
           },
           {
             "key": "[REDACTED_SECRET]",
             "updatedAt": 1791318600779,
-            "age": 3139242935
+            "age": 3225644832
           }
         ]
       }
@@ -525,32 +535,32 @@
   ],
   "sessions": {
     "path": "/home/vin/.openclaw/agents/manager-bot/agent/openclaw-agent.sqlite",
-    "count": 21,
+    "count": 22,
     "recent": [
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1794452400747,
-        "age": 5442956
+        "updatedAt": 1794538800649,
+        "age": 5444944
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1794441895077,
-        "age": 15948626
+        "updatedAt": 1794528334352,
+        "age": 15911241
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1794437132475,
-        "age": 20711228
+        "updatedAt": 1794528295019,
+        "age": 15950574
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1794423862129,
-        "age": 33981574
+        "updatedAt": 1794523532448,
+        "age": 20713145
       },
       {
         "key": "[REDACTED_SECRET]",
-        "updatedAt": 1794420000178,
-        "age": 37843525
+        "updatedAt": 1794506400258,
+        "age": 37845335
       }
     ]
   }

@@ -150,3 +150,9 @@ The scheduled report workflow found that rg and apply_patch are unavailable in t
 
 A report preflight Python check correctly flagged an intentional £260 occurrence in the change log, but the surrounding shell command lacked `set -e` and continued to send. Delivery was independently re-verified and the sent body passed the corrected checks.
 
+
+---
+
+## 2026-11-12 — Gmail verification jq shape mismatch
+
+The first post-send verification query assumed Gmail headers were an array, but gog returned a top-level headers object plus a nested message object. The send completed; verification was retried using the actual returned schema.

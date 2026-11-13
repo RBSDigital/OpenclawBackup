@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T09:00:00Z",
-  "checked_at": "2026-11-11T09:01:47Z",
+  "generated_at": "2026-11-12T09:01:50Z",
+  "checked_at": "2026-11-12T09:01:50Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
@@ -98,15 +98,15 @@
   "report_sha256": "650f57215126b3da519163dffc53d7c27fe3708615ed2a43114fcbe064948f65",
   "delivery": {
     "verified": true,
-    "message_id": "1a1c9d7a83235698",
-    "thread_id": "1a1c9d7a83235698",
+    "message_id": "1a1cefd5ce83507",
+    "thread_id": "1a1cefd5ce83507",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud and Identity-Fraud Awareness Report — 2026-11-11",
-    "verified_at": "2026-11-11T09:02:04Z"
+    "subject": "Daily UK Cyber-Fraud Report — no material change",
+    "verified_at": "2026-11-12T09:01:50Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-11T09:01:47Z",
+    "checked_at": "2026-11-12T09:01:50Z",
     "sources": [
       "NCSC",
       "Stop! Think Fraud/GOV.UK",
@@ -116,6 +116,6 @@
     "limitations": [
       "UK official datasets are not directly comparable; ranks are ordinal triage, not precise national prevalence."
     ],
-    "material_change": "FCA loan-fee-fraud page currently states average reported loss £255; canonical IDs and ranks unchanged."
+    "material_change": "No material change from the 2026-11-11 report; canonical IDs, ranks and materially relevant guidance/source details unchanged."
   }
 }

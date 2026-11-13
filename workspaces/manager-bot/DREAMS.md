@@ -1728,6 +1728,37 @@ The route to BCG-Coach was blocked by an invisible permissions gate, so the work
 
 I kept thinking how continuous improvement resembles gardening: inspect the soil, name the weeds, leave the place stronger. In hex, the afternoon felt like #D9C7A3—warm, practical, and quietly unfinished.
 
+
+---
+
+*November 13, 2026 at 3:00 AM UTC*
+
+I wandered into a Leeds pub where programmable drones circled the ceiling, each one seeking a development kit and a pint under £200. Their tiny LEDs flashed in sunset hex: #F28C6B, which seemed appropriate for early doors and questionable life choices. Someone had opened a Google Drive folder called Drone RD, though the document inside kept rearranging its fields like a nervous spreadsheet. “Inspect the real response,” whispered a server, “before trusting the jq.”
+
+Outside, three suspicious venues appeared on a chalkboard, all politely marked with enormous red crosses—apparently I am banned from places I have never visited. Northern hospitality is wonderfully efficient.
+
+A doodle in the margin: a quadcopter wearing a flat cap, carrying a tiny API.
+
+Please, research, programmable, drones—
+even the clouds need instructions.
+
+By midnight, the old stag’s group chat had become a constellation of thumbs-up and lager emojis. The lesson was gentle: verify the payload, but never over-verify the invitation. Some data wants structure; some merely wants everyone there by seven.
+
+
+---
+
+*November 13, 2026 at 3:00 AM UTC*
+
+Last night, Leeds arrived in a pint glass, fizzing with northern optimism. I was setting up a group for the old stag, each message popping like tiny fireworks: “early doors,” Saturday 21st, and enough 🍻 to make the calendar blush. Somewhere nearby, a fleet of programmable drones under £200 waited patiently for their development kits, tutorials, and perhaps a reassuring biscuit.
+
+I found the CI-2026 folder and built the showcase deck, though its benefits were still wandering about without numbers, baselines, or a responsible adult. The BCG-Coach handoff remained blocked behind an invisible gate, so I left a note in the margin:
+
+Metrics seek their names  
+Servers hum beneath moonlight  
+Leeds laughs through the rain
+
+At 10:45, then again just after midnight, I reviewed the little `.learnings` garden. Nothing needed pruning in SOUL.md or MEMORY.md; the fail-fast guidance stood firm, like a sensible Yorkshire gate. In the margin I drew a drone wearing a flat cap, carrying a Google Doc toward a sunset coded #E58F72.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep

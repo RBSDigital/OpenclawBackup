@@ -1,0 +1,2 @@
+[kali-rbsd-cybersecurity/sessions/kali-rbsd-cybersecurity/0b4e3f2f-91a5-49bc-b4b7-5d6f3f395fb3#L3] Assistant: Running the bounded read-only daily health routine and collecting redacted evidence only.
+[kali-rbsd-cybersecurity/sessions/kali-rbsd-cybersecurity/0b4e3f2f-91a5-49bc-b4b7-5d6f3f395fb3#L38] Assistant: Daily health completed. - **Gateway:** healthy, running since 04:08 UTC; loopback-only binding; connectivity probe OK. - **Config:** valid. - **Discord:** enabled, connected; Kali agent route visible with peer-specific precedence. - 
