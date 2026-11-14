@@ -220,3 +220,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-11 10:45 UTC)
 
 - Reviewed entries added since the earlier 2026-11-11 review: a report workflow lacked fail-fast validation before delivery, and the runtime lacked `rg`/`apply_patch` in that workflow. The fail-fast issue repeats the existing report extraction/delivery gate pattern, so the smallest low-risk fix was promoted to `AGENTS.md`; the utility availability issue was one-off and not promoted. No new feature request or sensitive item.
+
+## Consolidated Memory (2026-11-13 06:04 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-13 00:04 review. New signal: Gmail post-send verification assumed headers were an array, but `gog` returned a root-level headers object plus nested message data. This repeats the provider JSON-shape/`jq` validation pattern already documented in `AGENTS.md`; no further promotion or feature action was needed.

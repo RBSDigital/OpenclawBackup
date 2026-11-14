@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T09:01:50Z",
-  "checked_at": "2026-11-12T09:01:50Z",
+  "generated_at": "2026-11-13T09:00:00Z",
+  "checked_at": "2026-11-13T09:00:00Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
       "id": "PHISH-01",
       "name": "Cross-channel phishing and impersonation",
       "rank": 1,
-      "material_version": "2026-11-11-baseline"
+      "material_version": "2026-11-13-ncsc-october-metrics"
     },
     {
       "id": "SHOP-01",
@@ -50,7 +50,7 @@
       "id": "DELIV-01",
       "name": "Delivery, parcel and missed-delivery scams",
       "rank": 8,
-      "material_version": "2026-11-11-baseline"
+      "material_version": "2026-11-13-ofcom-current-index"
     },
     {
       "id": "ID-01",
@@ -62,13 +62,13 @@
       "id": "JOB-01",
       "name": "Job-offer and recruitment scams",
       "rank": 10,
-      "material_version": "2026-11-11-baseline"
+      "material_version": "2026-11-13-ofcom-current-index"
     },
     {
       "id": "SIM-01",
       "name": "SIM-swap and mobile-number takeover",
       "rank": 11,
-      "material_version": "2026-11-11-baseline"
+      "material_version": "2026-11-13-ofcom-current-index"
     },
     {
       "id": "TECH-01",
@@ -95,18 +95,18 @@
       "material_version": "2026-11-11-fca-average-loss-255"
     }
   ],
-  "report_sha256": "650f57215126b3da519163dffc53d7c27fe3708615ed2a43114fcbe064948f65",
+  "report_sha256": "e8d5fef5ac7635ac2929cfc928c81a8b7bfd51dd7b822e5cc8701412769f7535",
   "delivery": {
     "verified": true,
-    "message_id": "1a1cefd5ce83507",
-    "thread_id": "1a1cefd5ce83507",
+    "message_id": "1a1d423aeb9f2d59",
+    "thread_id": "1a1d423aeb9f2d59",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud Report — no material change",
-    "verified_at": "2026-11-12T09:01:50Z"
+    "subject": "Daily UK Cyber-Fraud and Identity-Fraud Awareness Report — 13 November 2026",
+    "verified_at": "2026-11-13T09:01:00Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-12T09:01:50Z",
+    "checked_at": "2026-11-13T09:00:00Z",
     "sources": [
       "NCSC",
       "Stop! Think Fraud/GOV.UK",
@@ -116,6 +116,6 @@
     "limitations": [
       "UK official datasets are not directly comparable; ranks are ordinal triage, not precise national prevalence."
     ],
-    "material_change": "No material change from the 2026-11-11 report; canonical IDs, ranks and materially relevant guidance/source details unchanged."
+    "material_change": "Material source change from 2026-11-12: NCSC phishing metrics moved from the September to October 2026 figures (60.5m reports; 267.3k removals across 472,300 URLs). Ofcom's current index also exposes newer 3 November and 21 October 2026 scam-enforcement items. Canonical IDs and ranked awareness order otherwise unchanged."
   }
 }
