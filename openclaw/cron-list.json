@@ -23,47 +23,27 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1794631532360,
-        "lastRunAtMs": 1794609932360,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 25980,
+        "nextRunAtMs": 1794717931267,
+        "lastRunAtMs": 1794696331267,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 24708,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 1,
+        "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
-        "lastDelivered": false,
-        "lastError": "⚠️ Heartbeat Respond blocked",
-        "lastDiagnostics": {
-          "summary": "⚠️ Heartbeat Respond blocked",
-          "entries": [
-            {
-              "ts": 1794609958253,
-              "source": "tool",
-              "severity": "error",
-              "message": "⚠️ Heartbeat Respond blocked"
-            },
-            {
-              "ts": 1794609958254,
-              "source": "agent-run",
-              "severity": "error",
-              "message": "⚠️ Heartbeat Respond blocked"
-            }
-          ]
-        },
-        "lastDiagnosticSummary": "⚠️ Heartbeat Respond blocked"
+        "lastDelivered": false
       },
-      "updatedAtMs": 1794609958340,
+      "updatedAtMs": 1794696355975,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1794631532360,
-      "lastRunAtMs": 1794609932360,
-      "lastRunStatus": "error",
-      "lastRunError": "⚠️ Heartbeat Respond blocked",
+      "nextRunAtMs": 1794717931267,
+      "lastRunAtMs": 1794696331267,
+      "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "manager-bot",
-      "status": "error"
+      "status": "ok"
     },
     {
       "id": "afba8207-7095-4d61-bbe9-9241dabbb2c8",
@@ -92,11 +72,11 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1794636294831,
-        "lastRunAtMs": 1794614694854,
+        "nextRunAtMs": 1794722694831,
+        "lastRunAtMs": 1794701094853,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 21046,
+        "lastDurationMs": 14543,
         "lastDeliveryStatus": "not-delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
@@ -104,10 +84,10 @@
         "lastDelivered": false,
         "deliverySuppressionReason": "silent"
       },
-      "updatedAtMs": 1794614715900,
+      "updatedAtMs": 1794701109396,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1794636294831,
-      "lastRunAtMs": 1794614694854,
+      "nextRunAtMs": 1794722694831,
+      "lastRunAtMs": 1794701094853,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-delivered",
@@ -156,279 +136,21 @@
         "ownerAccountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1794643200000,
-        "lastRunAtMs": 1794556800085,
+        "nextRunAtMs": 1794729600000,
+        "lastRunAtMs": 1794643200067,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 80527,
+        "lastDurationMs": 41127,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1794556880612,
+      "updatedAtMs": 1794643241194,
       "configRevision": "sha256:B6TJ03hK5ksaDUKpq5CE2gxAPLNLXSn9R6WSdRliuPM",
-      "nextRunAtMs": 1794643200000,
-      "lastRunAtMs": 1794556800085,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "57aee636-469a-4644-8214-862f2a21f8ad",
-      "agentId": "kali-rbsd-cybersecurity",
-      "name": "daily-health-and-continuous-improvement-kali-rbsd-cybersecurity",
-      "description": "Daily read-only uptime, route, workspace integrity and continuous-improvement checks for Kali agent",
-      "enabled": true,
-      "createdAtMs": 1791276486276,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 86400000,
-        "anchorMs": 1791276486276
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Run the daily read-only health routine for this agent. Check gateway and agent uptime, config validity, Discord binding precedence and route visibility, workspace/brief integrity, and recent .learnings for durable continuous-improvement signals. Do not initiate network testing, install/update packages, change permissions, restart services, or alter credentials. Report only redacted status, blockers, and evidence paths. Audit material drift in #admin-desk.",
-        "toolsAllow": [
-          "read",
-          "exec",
-          "session_status"
-        ]
-      },
-      "delivery": {
-        "mode": "none",
-        "channel": "last"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1794646087117,
-        "lastRunAtMs": 1794559687117,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 177821,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1794559864938,
-      "configRevision": "sha256:CKRKn40GjDGPZafj5omRpxgeacBxod_OVMz5DyTtdkU",
-      "nextRunAtMs": 1794646087117,
-      "lastRunAtMs": 1794559687117,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "kali-rbsd-cybersecurity",
-      "status": "ok"
-    },
-    {
-      "id": "794842be-ee0b-4cfc-b640-36e96c160fb6",
-      "displayName": "Daily UK cyber-fraud and identity-scam report",
-      "owner": {
-        "agentId": "manager-bot",
-        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-        "accountId": "default"
-      },
-      "agentId": "manager-bot",
-      "name": "Daily UK cyber-fraud and identity-scam report",
-      "description": "Research and email a deduplicated daily UK cyber-fraud and identity-fraud awareness report.",
-      "enabled": true,
-      "createdAtMs": 1793897537259,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 9 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "model": "openai/gpt-5.6-luna",
-        "thinking": "high",
-        "timeoutSeconds": 240,
-        "message": "Produce and email the daily UK cyber-fraud and identity-fraud awareness report.\n\nRecipient: vincent.reynolds@digitalrbs.co.uk\nSign as: Ada\nRun time: daily at 09:00 UTC.\n\nScope:\n- Identify the top 15 currently operating cybercriminal activities, cyber-enabled frauds, and identity-fraud scams affecting people or organisations in the UK.\n- Use authoritative, current sources first: NCSC, Report Fraud/Action Fraud, GOV.UK/Stop! Think Fraud, UK Finance, FCA, Ofcom, Cifas, CPS, police or regulator sources.\n- Keep the report defensive and awareness-focused. Do not include exploit instructions, evasion methods, targeting advice, or operational criminal detail.\n- For each item include: canonical deduplicated name, what it is, common warning signs, where reliable guidance can be found, how to report it, source URLs, and publication/last-checked dates where available.\n- Rank using an explicit evidence-based method, prioritising current UK prevalence/loss/volume and authoritative warnings. State limitations; do not imply a precise national ranking when sources are not directly comparable.\n- Deduplicate overlapping labels. Maintain stable canonical IDs in the snapshot so “phishing email”, “smishing” and “vishing” are not double-counted when they are the same underlying impersonation/payment theme unless the evidence supports separate entries.\n\nChange/snapshot rules:\n- Use /home/vin/.openclaw/workspaces/manager-bot/state/uk-cyber-fraud-snapshot.json as the durable previous snapshot; create the directory/file if needed.\n- Compare canonical IDs, material ranking changes, wording/source changes, and new/removed scams against yesterday.\n- If the current deduplicated list and materially relevant details are exactly unchanged, do not send the full report. Send only an HTML email with subject “Daily UK Cyber-Fraud Report — no material change” stating: “Nothing has changed from yesterday’s report.”\n- If changed, send a full professional HTML report with concise executive summary, ranked sections, defensive advice, official reporting links, sources and a change log.\n- If a source is unavailable or current evidence cannot be validated, send an HTML warning email identifying the affected source, do not invent or reuse stale rankings, and do not update the snapshot.\n- Treat source extraction, deduplication/validation, email generation, email delivery verification and snapshot update as separate success gates. Update the snapshot only after successful verified delivery.\n- Ensure the HTML contains no literal backslash-n escape text. Verify the sent email before declaring success.\n- Use official links directly, and report England/Wales/Northern Ireland vs Scotland reporting differences where relevant.",
-        "toolsAllow": [
-          "web_fetch",
-          "memory_search",
-          "memory_get",
-          "exec"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "account",
-        "ownerSessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
-        "ownerAccountId": "default"
-      },
-      "state": {
-        "nextRunAtMs": 1794646800000,
-        "lastRunAtMs": 1794560400028,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 149645,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDelivered": false
-      },
-      "updatedAtMs": 1794560549673,
-      "configRevision": "sha256:o88Wl6dRdB0jF4rNGLb5xPU-abexRm5lE679iOO-np0",
-      "nextRunAtMs": 1794646800000,
-      "lastRunAtMs": 1794560400028,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1794679200000,
-        "lastRunAtMs": 1794592800042,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 30838,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDelivered": true
-      },
-      "updatedAtMs": 1794592830880,
-      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
-      "nextRunAtMs": 1794679200000,
-      "lastRunAtMs": 1794592800042,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
-      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
-      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
-      "agentId": "kali-rbsd-cybersecurity",
-      "name": "heartbeat-kali-rbsd-cybersecurity",
-      "enabled": true,
-      "createdAtMs": 1791276189655,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 86400000,
-        "anchorMs": 84454921
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "heartbeat"
-      },
-      "state": {
-        "nextRunAtMs": 1794698858518,
-        "scheduleActivatedAtMs": 1791276439274,
-        "lastRunAtMs": 1794612458518,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 17538,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1794612476056,
-      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
-      "nextRunAtMs": 1794698858518,
-      "lastRunAtMs": 1794612458518,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "kali-rbsd-cybersecurity",
-      "status": "ok"
-    },
-    {
-      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
-      "declarationKey": "memory-core:memory-dreaming-promotion",
-      "name": "Memory Dreaming Promotion",
-      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
-      "enabled": true,
-      "createdAtMs": 1788337645701,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "__openclaw_memory_core_short_term_promotion_dream__",
-        "lightContext": true,
-        "toolsAllow": [
-          "*"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1794711600000,
-        "lastRunAtMs": 1794625200068,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 42365,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1794625242433,
-      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1794711600000,
-      "lastRunAtMs": 1794625200068,
+      "nextRunAtMs": 1794729600000,
+      "lastRunAtMs": 1794643200067,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -505,6 +227,264 @@
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "researcher-bot",
       "status": "error"
+    },
+    {
+      "id": "57aee636-469a-4644-8214-862f2a21f8ad",
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "daily-health-and-continuous-improvement-kali-rbsd-cybersecurity",
+      "description": "Daily read-only uptime, route, workspace integrity and continuous-improvement checks for Kali agent",
+      "enabled": true,
+      "createdAtMs": 1791276486276,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 1791276486276
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Run the daily read-only health routine for this agent. Check gateway and agent uptime, config validity, Discord binding precedence and route visibility, workspace/brief integrity, and recent .learnings for durable continuous-improvement signals. Do not initiate network testing, install/update packages, change permissions, restart services, or alter credentials. Report only redacted status, blockers, and evidence paths. Audit material drift in #admin-desk.",
+        "toolsAllow": [
+          "read",
+          "exec",
+          "session_status"
+        ]
+      },
+      "delivery": {
+        "mode": "none",
+        "channel": "last"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1794732487142,
+        "lastRunAtMs": 1794646087142,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 184278,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1794646271420,
+      "configRevision": "sha256:CKRKn40GjDGPZafj5omRpxgeacBxod_OVMz5DyTtdkU",
+      "nextRunAtMs": 1794732487142,
+      "lastRunAtMs": 1794646087142,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "kali-rbsd-cybersecurity",
+      "status": "ok"
+    },
+    {
+      "id": "794842be-ee0b-4cfc-b640-36e96c160fb6",
+      "displayName": "Daily UK cyber-fraud and identity-scam report",
+      "owner": {
+        "agentId": "manager-bot",
+        "sessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+        "accountId": "default"
+      },
+      "agentId": "manager-bot",
+      "name": "Daily UK cyber-fraud and identity-scam report",
+      "description": "Research and email a deduplicated daily UK cyber-fraud and identity-fraud awareness report.",
+      "enabled": true,
+      "createdAtMs": 1793897537259,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "model": "openai/gpt-5.6-luna",
+        "thinking": "high",
+        "timeoutSeconds": 240,
+        "message": "Produce and email the daily UK cyber-fraud and identity-fraud awareness report.\n\nRecipient: vincent.reynolds@digitalrbs.co.uk\nSign as: Ada\nRun time: daily at 09:00 UTC.\n\nScope:\n- Identify the top 15 currently operating cybercriminal activities, cyber-enabled frauds, and identity-fraud scams affecting people or organisations in the UK.\n- Use authoritative, current sources first: NCSC, Report Fraud/Action Fraud, GOV.UK/Stop! Think Fraud, UK Finance, FCA, Ofcom, Cifas, CPS, police or regulator sources.\n- Keep the report defensive and awareness-focused. Do not include exploit instructions, evasion methods, targeting advice, or operational criminal detail.\n- For each item include: canonical deduplicated name, what it is, common warning signs, where reliable guidance can be found, how to report it, source URLs, and publication/last-checked dates where available.\n- Rank using an explicit evidence-based method, prioritising current UK prevalence/loss/volume and authoritative warnings. State limitations; do not imply a precise national ranking when sources are not directly comparable.\n- Deduplicate overlapping labels. Maintain stable canonical IDs in the snapshot so “phishing email”, “smishing” and “vishing” are not double-counted when they are the same underlying impersonation/payment theme unless the evidence supports separate entries.\n\nChange/snapshot rules:\n- Use /home/vin/.openclaw/workspaces/manager-bot/state/uk-cyber-fraud-snapshot.json as the durable previous snapshot; create the directory/file if needed.\n- Compare canonical IDs, material ranking changes, wording/source changes, and new/removed scams against yesterday.\n- If the current deduplicated list and materially relevant details are exactly unchanged, do not send the full report. Send only an HTML email with subject “Daily UK Cyber-Fraud Report — no material change” stating: “Nothing has changed from yesterday’s report.”\n- If changed, send a full professional HTML report with concise executive summary, ranked sections, defensive advice, official reporting links, sources and a change log.\n- If a source is unavailable or current evidence cannot be validated, send an HTML warning email identifying the affected source, do not invent or reuse stale rankings, and do not update the snapshot.\n- Treat source extraction, deduplication/validation, email generation, email delivery verification and snapshot update as separate success gates. Update the snapshot only after successful verified delivery.\n- Ensure the HTML contains no literal backslash-n escape text. Verify the sent email before declaring success.\n- Use official links directly, and report England/Wales/Northern Ireland vs Scotland reporting differences where relevant.",
+        "toolsAllow": [
+          "web_fetch",
+          "memory_search",
+          "memory_get",
+          "exec"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "account",
+        "ownerSessionKey": "agent:manager-bot:discord:channel:1504151367164498050",
+        "ownerAccountId": "default"
+      },
+      "state": {
+        "nextRunAtMs": 1794733200000,
+        "lastRunAtMs": 1794646800023,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 120005,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": false
+      },
+      "updatedAtMs": 1794646920028,
+      "configRevision": "sha256:o88Wl6dRdB0jF4rNGLb5xPU-abexRm5lE679iOO-np0",
+      "nextRunAtMs": 1794733200000,
+      "lastRunAtMs": 1794646800023,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1794765600000,
+        "lastRunAtMs": 1794679200076,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 46234,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1794679246310,
+      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
+      "nextRunAtMs": 1794765600000,
+      "lastRunAtMs": 1794679200076,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
+      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
+      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
+      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "heartbeat-kali-rbsd-cybersecurity",
+      "enabled": true,
+      "createdAtMs": 1791276189655,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 84454921
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1794785258535,
+        "scheduleActivatedAtMs": 1791276439274,
+        "lastRunAtMs": 1794698858535,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 20179,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1794698878714,
+      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
+      "nextRunAtMs": 1794785258535,
+      "lastRunAtMs": 1794698858535,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "kali-rbsd-cybersecurity",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1794798000000,
+        "lastRunAtMs": 1794711600058,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 35426,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1794711635484,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1794798000000,
+      "lastRunAtMs": 1794711600058,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
     },
     {
       "id": "c8da1b69-7b66-4483-8472-52284f11067b",
@@ -1924,7 +1904,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:lM6EsUP_qqqLKRR2yS6AZTayDUkvA0HYwsXW99fevC0",
+  "snapshotRevision": "sha256:MjJhUZSQxCDKZr44G7l9ss7hWorsZ36pU5W9-41JRyU",
   "total": 29,
   "offset": 0,
   "limit": 200,
@@ -1940,6 +1920,10 @@
       "detail": "explicit"
     },
     "f50f03d8-5a5f-4948-8f61-6678448f94c1": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "e4c3ac2b-656e-4822-a481-76aaf0b26d17": {
       "label": "not requested",
       "detail": "not requested"
     },
@@ -1960,10 +1944,6 @@
       "detail": "not requested"
     },
     "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "e4c3ac2b-656e-4822-a481-76aaf0b26d17": {
       "label": "not requested",
       "detail": "not requested"
     },
