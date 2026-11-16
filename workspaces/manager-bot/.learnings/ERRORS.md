@@ -156,3 +156,27 @@ A report preflight Python check correctly flagged an intentional £260 occurrenc
 ## 2026-11-12 — Gmail verification jq shape mismatch
 
 The first post-send verification query assumed Gmail headers were an array, but gog returned a top-level headers object plus a nested message object. The send completed; verification was retried using the actual returned schema.
+
+## [ERR-20261115-001] snapshot-update-apply-patch
+
+**Logged**: 2026-11-15T09:01:30Z
+**Priority**: medium
+**Status**: pending
+**Area**: infra
+
+### Summary
+The scheduled snapshot update attempted to use apply_patch, but the helper is not installed in the execution PATH.
+
+### Error
+```
+/bin/bash: apply_patch: command not found
+```
+
+### Context
+- Email delivery and Gmail verification had already succeeded.
+- Snapshot JSON still required the verified delivery metadata update.
+
+### Suggested Fix
+Use the available patching/editing fallback for this runtime, then consider documenting the helper path.
+
+---

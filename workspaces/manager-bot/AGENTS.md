@@ -177,6 +177,18 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 
 ### Local notes (migrated from TOOLS.md)
 
+# TOOLS.md - Local Notes
+
+## Runtime patching
+
+- The `apply_patch` shell helper may be absent from scheduled-job PATH even when the agent patch tool is available; use the agent patch tool or a controlled fallback rather than treating this as an automation blocker.
+
+## JSON verification
+
+- Before writing `jq` assertions against external CLI output, inspect one real response and assert its actual root shape; keep mixed array/root checks in one parenthesized root expression.
+
+
+
 ### JSON/jq verification
 
 - Inspect the actual returned JSON shape before writing jq assertions; provider responses may expose fields as objects rather than arrays. For mixed root/array checks, keep one root-level expression and parenthesize array predicates. Run validation with fail-fast or explicit exit-code checks before delivery.

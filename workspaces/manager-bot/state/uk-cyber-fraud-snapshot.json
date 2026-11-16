@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T09:00:00Z",
-  "checked_at": "2026-11-13T09:00:00Z",
+  "generated_at": "2026-11-15T09:00:00Z",
+  "checked_at": "2026-11-15T09:00:00Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
@@ -98,15 +98,15 @@
   "report_sha256": "e8d5fef5ac7635ac2929cfc928c81a8b7bfd51dd7b822e5cc8701412769f7535",
   "delivery": {
     "verified": true,
-    "message_id": "1a1d423aeb9f2d59",
-    "thread_id": "1a1d423aeb9f2d59",
+    "message_id": "1a1de70402216c8c",
+    "thread_id": "1a1de70402216c8c",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud and Identity-Fraud Awareness Report — 13 November 2026",
-    "verified_at": "2026-11-13T09:01:00Z"
+    "subject": "Daily UK Cyber-Fraud Report — no material change",
+    "verified_at": "2026-11-15T09:01:00Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-13T09:00:00Z",
+    "checked_at": "2026-11-15T09:00:00Z",
     "sources": [
       "NCSC",
       "Stop! Think Fraud/GOV.UK",
@@ -116,6 +116,6 @@
     "limitations": [
       "UK official datasets are not directly comparable; ranks are ordinal triage, not precise national prevalence."
     ],
-    "material_change": "Material source change from 2026-11-12: NCSC phishing metrics moved from the September to October 2026 figures (60.5m reports; 267.3k removals across 472,300 URLs). Ofcom's current index also exposes newer 3 November and 21 October 2026 scam-enforcement items. Canonical IDs and ranked awareness order otherwise unchanged."
+    "material_change": "No material change from the previous validated snapshot: canonical IDs, ranks, and materially relevant guidance/source details unchanged. NCSC phishing metrics remain 60.5m reports and 267.3k removals across 472,300 URLs (as of October 2026); Ofcom index and FCA guidance remain consistent."
   }
 }

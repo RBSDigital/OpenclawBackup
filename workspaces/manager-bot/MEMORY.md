@@ -224,3 +224,11 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-13 06:04 UTC)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-13 00:04 review. New signal: Gmail post-send verification assumed headers were an array, but `gog` returned a root-level headers object plus nested message data. This repeats the provider JSON-shape/`jq` validation pattern already documented in `AGENTS.md`; no further promotion or feature action was needed.
+
+## Consolidated Memory (2026-11-15 22:45 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-13 review. New signal: the snapshot update again attempted to call the unavailable shell `apply_patch` helper; delivery and verification had already succeeded. This repeats the runtime-tooling pattern already documented in `TOOLS.md`; use the agent patch tool or a controlled fallback. No new feature request or sensitive item; no further promotion was needed.
+
+## Consolidated Memory (2026-11-16 00:04 UTC)
+
+- Reviewed `.learnings` across all workspace roots for the last day. New signal: the 2026-11-15 snapshot update again encountered the unavailable shell `apply_patch` helper; delivery and Gmail verification had already succeeded. This repeats the runtime-tooling pattern already documented in `TOOLS.md`; no additional promotion, feature action, or sensitive item was found.
