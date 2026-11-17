@@ -14,6 +14,8 @@ Read SOUL.md, IDENTITY.md, USER.md, and KALI_ENGAGEMENT_BRIEF.md before substant
 ## Daily checks
 The daily automation checklist is maintained in HEARTBEAT.md. It is limited to workspace/config integrity, agent/gateway health, route visibility, uptime, installed-tool verification without package changes, review of .learnings/, and a short continuous-improvement note. It must not initiate network testing or privileged changes.
 
+When the health review repeatedly observes a blocked global-install/update state, loopback-only exposure, or route-precedence evidence, group these as admin-review drift and record the evidence; do not remediate them from the health routine.
+
 ## Reverse engineering
 - For authorised binary, malware, firmware, Android-package, or defensive reverse-engineering work, use the activated `reverse-engineering-tools` playbook.
 - Keep the supplied engagement gate, static-first workflow, evidence-preservation rules, isolation requirements, and Tier 0–3 approvals authoritative.

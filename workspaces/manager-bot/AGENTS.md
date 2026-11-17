@@ -182,6 +182,7 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 ## Runtime patching
 
 - The `apply_patch` shell helper may be absent from scheduled-job PATH even when the agent patch tool is available; use the agent patch tool or a controlled fallback rather than treating this as an automation blocker.
+- `rg` may also be absent in scheduled-job PATH; use `grep`/`find` or the runtime search tool as a bounded fallback.
 
 ## JSON verification
 

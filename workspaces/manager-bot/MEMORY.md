@@ -232,3 +232,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-16 00:04 UTC)
 
 - Reviewed `.learnings` across all workspace roots for the last day. New signal: the 2026-11-15 snapshot update again encountered the unavailable shell `apply_patch` helper; delivery and Gmail verification had already succeeded. This repeats the runtime-tooling pattern already documented in `TOOLS.md`; no additional promotion, feature action, or sensitive item was found.
+
+## Consolidated Memory (2026-11-16 18:04 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-16 00:04 review. One new Kali health observation confirms nominal gateway/Discord health while the failed global-install update attempt, loopback-only exposure, and route-precedence drift persist. These are recurring operational/admin-sensitive signals; retain for admin review only. No safe auto-promotion, remediation, or new feature request was found.
