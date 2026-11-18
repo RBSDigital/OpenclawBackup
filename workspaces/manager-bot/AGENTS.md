@@ -57,6 +57,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - Log first, then decide whether an item belongs in `AGENTS.md`, `TOOLS.md`, `SOUL.md`, or `MEMORY.md`.
 - If a review finds no new `.learnings` entries, report that briefly and stop instead of restating old patterns.
 - For utilisation and automation status, use the supported runtime telemetry/tools (session status, sessions list/history, and automations status/list); do not invoke unsupported CLI status commands or report them as blockers.
+- For scheduled reports, treat source extraction, report validation, delivery, and post-delivery verification as separate success gates; do not send or mark success when a preflight check fails.
 - For recurring reminder jobs, keep a durable schedule manifest and verify each item's next trigger date before posting; do not reconstruct reminders from partial channel history or live search. Also verify the destination channel explicitly before sending.
 
 ## Red Lines
@@ -176,6 +177,15 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 - **WhatsApp:** No headers — use **bold** or CAPS for emphasis
 
 ### Local notes (migrated from TOOLS.md)
+
+# TOOLS.md - Local Notes
+
+## Shell and editing utilities
+
+- The shell PATH may not provide `apply_patch`; use the native patch tool for file edits.
+- If `rg` is unavailable in a scheduled runtime, fall back to `grep`/`sed` for read-only inspection.
+
+
 
 # TOOLS.md - Local Notes
 
