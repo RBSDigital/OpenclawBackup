@@ -180,3 +180,24 @@ The scheduled snapshot update attempted to use apply_patch, but the helper is no
 Use the available patching/editing fallback for this runtime, then consider documenting the helper path.
 
 ---
+
+## [ERR-20261119-001] local-tooling
+
+**Logged**: 2026-11-19T09:00:30Z
+**Priority**: low
+**Status**: pending
+**Area**: infra
+
+### Summary
+Endpoint probe used `python`, which is not installed; `python3` is available.
+
+### Error
+`/bin/bash: python: command not found`
+
+### Context
+- Attempted read-only validation of official source endpoints.
+
+### Suggested Fix
+Use `python3` explicitly in scheduled probes.
+
+---

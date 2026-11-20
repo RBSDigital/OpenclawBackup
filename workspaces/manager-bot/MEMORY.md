@@ -219,6 +219,10 @@ Good research prompts include the decision supported, exact question, timeframe,
 
 ## Consolidated Memory (2026-11-11 10:45 UTC)
 
+## Consolidated Memory (2026-11-19)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-11 review. New signal: repeated scheduled-runtime use of unavailable `python` (2026-09-17 and 2026-11-19); the smallest low-risk fix is now durable in `TOOLS.md`: use `python3` explicitly. Recent Gmail/schema, patch-helper, and validation entries are already covered by durable tooling notes. Kali daily health entries continue to report operational/admin-sensitive update, binding, reconnect, and route/skill-precedence drift; retain for admin review only. No other auto-promotion or feature action was needed.
+
 - Reviewed entries added since the earlier 2026-11-11 review: a report workflow lacked fail-fast validation before delivery, and the runtime lacked `rg`/`apply_patch` in that workflow. The fail-fast issue repeats the existing report extraction/delivery gate pattern, so the smallest low-risk fix was promoted to `AGENTS.md`; the utility availability issue was one-off and not promoted. No new feature request or sensitive item.
 
 ## Consolidated Memory (2026-11-13 06:04 UTC)

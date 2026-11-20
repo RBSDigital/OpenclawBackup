@@ -178,6 +178,14 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 
 ### Local notes (migrated from TOOLS.md)
 
+# Tooling Notes
+
+- Scheduled shell runtimes may not expose `rg` or the `apply_patch` executable. Use the native patch tool for edits and fall back to `grep`/`find` for searches when those commands are unavailable.
+- Use `python3` explicitly in scheduled probes and extraction commands; `python` is not installed on this host.
+- For report automations, validate the actual JSON/schema returned by each integration before writing post-send checks; keep shell preflight commands fail-fast (`set -e`).
+
+
+
 # TOOLS.md - Local Notes
 
 ## Shell and editing utilities
