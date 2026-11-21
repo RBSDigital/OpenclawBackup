@@ -1,0 +1,4 @@
+# 2026-11-20 daily health observation
+
+- Evidence (2026-11-20 08:48 UTC): config lint returned two warnings; active `openclaw.json` matched `openclaw.json.last-good` by SHA-256; gateway was active with a healthy loopback probe; Discord was configured/OK and the Kali route was visible with peer-specific precedence. Workspace and engagement-gate files were present and hashed. Status still records the failed global-install update state, loopback-only binding, legacy HEARTBEAT placement, and shared-runtime security warnings.
+- Improvement: keep update/install failure, loopback exposure, legacy heartbeat migration, shared-runtime findings, and route/skill-precedence evidence grouped as recurring admin-review drift; this routine performed no network testing, package change, restart, permission change, credential change, or service alteration.

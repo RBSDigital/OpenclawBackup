@@ -248,3 +248,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-18 16:45 UTC)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-17 10:45 review. One new Kali health observation confirms nominal gateway/config health while the failed global-install update preflight, loopback-only binding, Discord reconnects, and skill/route-precedence drift persist. These remain operational/admin-sensitive; no safe auto-promotion or remediation was made, and no new feature request was found.
+
+## Consolidated Memory (2026-11-20 10:45 UTC)
+
+- Reviewed new `.learnings` across all workspace roots since the 2026-11-18 review. New signals: one repeated `python`-instead-of-`python3` scheduled probe failure (already covered by `TOOLS.md`) and a Kali health observation confirming nominal gateway/Discord health alongside recurring update/install, loopback-binding, legacy-heartbeat, shared-runtime, and route/skill-precedence drift. The latter is operational/admin-sensitive; retain for admin review only. No further auto-promotion, remediation, or feature action was needed.
