@@ -178,6 +178,13 @@ Skills define how tools work. Keep environment-specific local notes in this sect
 
 ### Local notes (migrated from TOOLS.md)
 
+# TOOLS.md - Local Tooling Notes
+
+- Use `python3` explicitly; `python` is not installed on this host.
+- The `apply_patch` shell binary may be absent in scheduled runtimes. Use the native patch tool when available, or a controlled editing fallback.
+
+
+
 # Tooling Notes
 
 - Scheduled shell runtimes may not expose `rg` or the `apply_patch` executable. Use the native patch tool for edits and fall back to `grep`/`find` for searches when those commands are unavailable.
