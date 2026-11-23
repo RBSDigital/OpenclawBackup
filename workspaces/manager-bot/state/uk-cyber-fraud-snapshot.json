@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T09:00:00Z",
-  "checked_at": "2026-11-21T09:00:00Z",
+  "generated_at": "2026-11-22T09:00:00Z",
+  "checked_at": "2026-11-22T09:00:00Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
@@ -98,15 +98,15 @@
   "report_sha256": "f3bc0c8aec9b6891be25ed7b2dd9fd60e90befdcf03818371b47546b01b77099",
   "delivery": {
     "verified": true,
-    "message_id": "1a1fd574a7e70e91",
-    "thread_id": "1a1fd574a7e70e91",
+    "message_id": "1a2027d05020bf39",
+    "thread_id": "1a2027d05020bf39",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud Report — 21 November 2026",
-    "verified_at": "2026-11-21T09:01:00Z"
+    "subject": "Daily UK Cyber-Fraud Report — no material change",
+    "verified_at": "2026-11-22T09:01:00Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-21T09:00:00Z",
+    "checked_at": "2026-11-22T09:00:00Z",
     "sources": [
       "ONS",
       "NCSC",
@@ -120,6 +120,6 @@
       "Latest ONS prevalence estimates cited are for England and Wales; Scotland reporting routes differ.",
       "UK Finance and direct Report Fraud pages were not used as evidence where automated retrieval was blocked; current evidence was validated from accessible official ONS, NCSC, Stop! Think Fraud, Ofcom, FCA and Cifas pages."
     ],
-    "material_change": "Full report sent: canonical IDs and ranks unchanged, but ONS YE September 2025 evidence, current Ofcom October/November 2026 warnings and FCA fake-communications guidance updated the evidence/source wording."
+    "material_change": "No material change: canonical IDs, ranks, wording and validated official source evidence are unchanged from the 21 November 2026 snapshot."
   }
 }

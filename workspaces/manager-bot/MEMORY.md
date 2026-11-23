@@ -256,3 +256,11 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-21 22:45 UTC)
 
 - Reviewed new `.learnings` across all workspace roots since the 2026-11-20 review. New signal: Kali health remains nominal, while failed global-install update state, loopback-only binding, Discord reconnects, and route-precedence drift persist. These remain operational/admin-sensitive; retain for admin review only. No auto-promotion, remediation, or new feature action was needed.
+
+## Consolidated Memory (2026-11-22 10:45 UTC)
+
+- Reviewed new `.learnings` across all workspace roots since the 2026-11-21 review. New signal: Kali health remains nominal, while the failed global-install update state, loopback-only binding, and route-precedence drift persist. These remain operational/admin-sensitive; retain for admin review only. No safe auto-promotion, remediation, or new feature action was needed.
+
+## Consolidated Memory (2026-11-22 12:04 UTC)
+
+- Reviewed `.learnings` across all workspace roots for the last day and since the 2026-11-22 10:45 UTC review. No new entries were found. Existing Kali update/install, loopback-binding, and route-precedence drift remains operational/admin-sensitive and already has the correct admin-review handling. No auto-promotion, remediation, or feature action was needed.
