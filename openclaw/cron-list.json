@@ -23,21 +23,21 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1795409131660,
-        "lastRunAtMs": 1795387531660,
+        "nextRunAtMs": 1795495531766,
+        "lastRunAtMs": 1795473931766,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 27486,
+        "lastDurationMs": 28190,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1795387559146,
+      "updatedAtMs": 1795473959956,
       "configRevision": "sha256:lGKa5PpQ0GKKwzPY9oMtNU62SxUbmeyQ7dpqJbAqv5s",
-      "nextRunAtMs": 1795409131660,
-      "lastRunAtMs": 1795387531660,
+      "nextRunAtMs": 1795495531766,
+      "lastRunAtMs": 1795473931766,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -72,26 +72,24 @@
         "accountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1795413894831,
-        "lastRunAtMs": 1795392294855,
+        "nextRunAtMs": 1795500294831,
+        "lastRunAtMs": 1795478694849,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 23138,
-        "lastDeliveryStatus": "not-delivered",
+        "lastDurationMs": 21362,
+        "lastDeliveryStatus": "delivered",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
-        "lastDelivered": false,
-        "deliverySuppressionReason": "silent"
+        "lastDelivered": true
       },
-      "updatedAtMs": 1795392317993,
+      "updatedAtMs": 1795478716211,
       "configRevision": "sha256:-GIV7TELis0GviXQrsi4KFi3uOC8vuVWC-lxJ2X7D0o",
-      "nextRunAtMs": 1795413894831,
-      "lastRunAtMs": 1795392294855,
+      "nextRunAtMs": 1795500294831,
+      "lastRunAtMs": 1795478694849,
       "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-delivered",
-      "deliverySuppressionReason": "silent",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "manager-bot",
       "status": "ok"
@@ -136,21 +134,21 @@
         "ownerAccountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1795420800000,
-        "lastRunAtMs": 1795334400066,
+        "nextRunAtMs": 1795507200000,
+        "lastRunAtMs": 1795420800077,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 46318,
+        "lastDurationMs": 48755,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1795334446384,
+      "updatedAtMs": 1795420848832,
       "configRevision": "sha256:B6TJ03hK5ksaDUKpq5CE2gxAPLNLXSn9R6WSdRliuPM",
-      "nextRunAtMs": 1795420800000,
-      "lastRunAtMs": 1795334400066,
+      "nextRunAtMs": 1795507200000,
+      "lastRunAtMs": 1795420800077,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -190,21 +188,21 @@
         "mode": "trusted"
       },
       "state": {
-        "nextRunAtMs": 1795423687315,
-        "lastRunAtMs": 1795337287315,
+        "nextRunAtMs": 1795510087338,
+        "lastRunAtMs": 1795423687338,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 203008,
+        "lastDurationMs": 176531,
         "lastDelivered": false,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0
       },
-      "updatedAtMs": 1795337490323,
+      "updatedAtMs": 1795423863869,
       "configRevision": "sha256:CKRKn40GjDGPZafj5omRpxgeacBxod_OVMz5DyTtdkU",
-      "nextRunAtMs": 1795423687315,
-      "lastRunAtMs": 1795337287315,
+      "nextRunAtMs": 1795510087338,
+      "lastRunAtMs": 1795423687338,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -255,160 +253,21 @@
         "ownerAccountId": "default"
       },
       "state": {
-        "nextRunAtMs": 1795424400000,
-        "lastRunAtMs": 1795338000048,
+        "nextRunAtMs": 1795510800000,
+        "lastRunAtMs": 1795424400072,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 90221,
+        "lastDurationMs": 71019,
         "lastDeliveryStatus": "not-requested",
         "lastFailureNotificationDeliveryStatus": "not-requested",
         "consecutiveErrors": 0,
         "consecutiveSkipped": 0,
         "lastDelivered": false
       },
-      "updatedAtMs": 1795338090269,
+      "updatedAtMs": 1795424471091,
       "configRevision": "sha256:o88Wl6dRdB0jF4rNGLb5xPU-abexRm5lE679iOO-np0",
-      "nextRunAtMs": 1795424400000,
-      "lastRunAtMs": 1795338000048,
-      "lastRunStatus": "ok",
-      "lastDelivered": false,
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
-      "name": "Daily model utilisation and effectiveness check",
-      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
-      "enabled": true,
-      "createdAtMs": 1780747512840,
-      "agentId": "manager-bot",
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 18 * * *",
-        "tz": "UTC"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
-        "timeoutSeconds": 600
-      },
-      "delivery": {
-        "mode": "announce",
-        "channel": "discord",
-        "to": "channel:1504151367164498050",
-        "bestEffort": true
-      },
-      "state": {
-        "nextRunAtMs": 1795456800000,
-        "lastRunAtMs": 1795370400043,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 34778,
-        "lastDeliveryStatus": "delivered",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0,
-        "lastDelivered": true
-      },
-      "updatedAtMs": 1795370434821,
-      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
-      "nextRunAtMs": 1795456800000,
-      "lastRunAtMs": 1795370400043,
-      "lastRunStatus": "ok",
-      "lastDelivered": true,
-      "lastDeliveryStatus": "delivered",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "manager-bot",
-      "status": "ok"
-    },
-    {
-      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
-      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
-      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
-      "agentId": "kali-rbsd-cybersecurity",
-      "name": "heartbeat-kali-rbsd-cybersecurity",
-      "enabled": true,
-      "createdAtMs": 1791276189655,
-      "schedule": {
-        "kind": "every",
-        "everyMs": 86400000,
-        "anchorMs": 84454921
-      },
-      "sessionTarget": "main",
-      "wakeMode": "next-heartbeat",
-      "payload": {
-        "kind": "heartbeat"
-      },
-      "state": {
-        "nextRunAtMs": 1795476458710,
-        "scheduleActivatedAtMs": 1791276439274,
-        "lastRunAtMs": 1795390058710,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 20150,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1795390078860,
-      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
-      "nextRunAtMs": 1795476458710,
-      "lastRunAtMs": 1795390058710,
-      "lastRunStatus": "ok",
-      "lastDeliveryStatus": "not-requested",
-      "lastFailureNotificationDeliveryStatus": "not-requested",
-      "effectiveAgentId": "kali-rbsd-cybersecurity",
-      "status": "ok"
-    },
-    {
-      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
-      "declarationKey": "memory-core:memory-dreaming-promotion",
-      "name": "Memory Dreaming Promotion",
-      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
-      "enabled": true,
-      "createdAtMs": 1788337645701,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 3 * * *"
-      },
-      "sessionTarget": "isolated",
-      "wakeMode": "now",
-      "payload": {
-        "kind": "agentTurn",
-        "message": "__openclaw_memory_core_short_term_promotion_dream__",
-        "lightContext": true,
-        "toolsAllow": [
-          "*"
-        ]
-      },
-      "delivery": {
-        "mode": "none"
-      },
-      "scheduledToolPolicy": {
-        "version": 1,
-        "mode": "trusted"
-      },
-      "state": {
-        "nextRunAtMs": 1795489200000,
-        "lastRunAtMs": 1795402800070,
-        "lastRunStatus": "ok",
-        "lastStatus": "ok",
-        "lastDurationMs": 40004,
-        "lastDelivered": false,
-        "lastDeliveryStatus": "not-requested",
-        "lastFailureNotificationDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "consecutiveSkipped": 0
-      },
-      "updatedAtMs": 1795402840074,
-      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
-      "nextRunAtMs": 1795489200000,
-      "lastRunAtMs": 1795402800070,
+      "nextRunAtMs": 1795510800000,
+      "lastRunAtMs": 1795424400072,
       "lastRunStatus": "ok",
       "lastDelivered": false,
       "lastDeliveryStatus": "not-requested",
@@ -571,6 +430,54 @@
       "status": "error"
     },
     {
+      "id": "71e316fb-e4e8-44fa-90a5-54103618ebf8",
+      "name": "Daily model utilisation and effectiveness check",
+      "description": "Daily review of recent OpenClaw usage with live session and cron coverage checks.",
+      "enabled": true,
+      "createdAtMs": 1780747512840,
+      "agentId": "manager-bot",
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Review the last 24 hours of OpenClaw activity for manager-bot and visible manager-tree sessions. Report model utilisation, token usage, errors, retries, efficiency, recommendation, and coverage. Use supported runtime session-status telemetry for the current session, supported sessions list/history tools for coverage, and supported automations status/list tools for scheduler state. Do not run or mention the unsupported CLI commands openclaw session status or openclaw cron status/list. Do not report those commands as blockers. Separate finished and in-progress work, state visibility limits, and report only genuine blockers. Do not expose secrets or raw transcripts.",
+        "timeoutSeconds": 600
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "discord",
+        "to": "channel:1504151367164498050",
+        "bestEffort": true
+      },
+      "state": {
+        "nextRunAtMs": 1795543200000,
+        "lastRunAtMs": 1795456800122,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 40386,
+        "lastDeliveryStatus": "delivered",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0,
+        "lastDelivered": true
+      },
+      "updatedAtMs": 1795456840508,
+      "configRevision": "sha256:0AVwvzEfdlL0b16tu6mn62tCw3jI3LYXwIVcnuSL7aM",
+      "nextRunAtMs": 1795543200000,
+      "lastRunAtMs": 1795456800122,
+      "lastRunStatus": "ok",
+      "lastDelivered": true,
+      "lastDeliveryStatus": "delivered",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
+    },
+    {
       "id": "53d4eeee-c8d6-4ef8-83f8-c0d1f4aaf999",
       "declarationKey": "skill-collection-review:kali-rbsd-cybersecurity",
       "displayName": "Skill collection review (kali-rbsd-cybersecurity)",
@@ -639,6 +546,97 @@
       "lastFailureNotificationDeliveryStatus": "not-requested",
       "effectiveAgentId": "kali-rbsd-cybersecurity",
       "status": "error"
+    },
+    {
+      "id": "2c8ce4a6-0911-44db-ad76-dac73e01b74d",
+      "declarationKey": "heartbeat:kali-rbsd-cybersecurity",
+      "displayName": "Heartbeat (kali-rbsd-cybersecurity)",
+      "agentId": "kali-rbsd-cybersecurity",
+      "name": "heartbeat-kali-rbsd-cybersecurity",
+      "enabled": true,
+      "createdAtMs": 1791276189655,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 86400000,
+        "anchorMs": 84454921
+      },
+      "sessionTarget": "main",
+      "wakeMode": "next-heartbeat",
+      "payload": {
+        "kind": "heartbeat"
+      },
+      "state": {
+        "nextRunAtMs": 1795562858735,
+        "scheduleActivatedAtMs": 1791276439274,
+        "lastRunAtMs": 1795476458735,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19249,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1795476477984,
+      "configRevision": "sha256:_LzT3sD62DqVTrNaLkfhr8jfOl82TeZVg3EzPOetD1U",
+      "nextRunAtMs": 1795562858735,
+      "lastRunAtMs": 1795476458735,
+      "lastRunStatus": "ok",
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "kali-rbsd-cybersecurity",
+      "status": "ok"
+    },
+    {
+      "id": "8d6d0a97-576f-49d5-9deb-0a773acb249f",
+      "declarationKey": "memory-core:memory-dreaming-promotion",
+      "name": "Memory Dreaming Promotion",
+      "description": "[managed-by=memory-core.short-term-promotion] Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.750, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "enabled": true,
+      "createdAtMs": 1788337645701,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "__openclaw_memory_core_short_term_promotion_dream__",
+        "lightContext": true,
+        "toolsAllow": [
+          "*"
+        ]
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "scheduledToolPolicy": {
+        "version": 1,
+        "mode": "trusted"
+      },
+      "state": {
+        "nextRunAtMs": 1795575600000,
+        "lastRunAtMs": 1795489200068,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 38259,
+        "lastDelivered": false,
+        "lastDeliveryStatus": "not-requested",
+        "lastFailureNotificationDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0,
+        "consecutiveSkipped": 0
+      },
+      "updatedAtMs": 1795489238327,
+      "configRevision": "sha256:Tqp6tN0pd_cU2WUq055h_qu9R-SjXaQb7FjWGYVJ7BI",
+      "nextRunAtMs": 1795575600000,
+      "lastRunAtMs": 1795489200068,
+      "lastRunStatus": "ok",
+      "lastDelivered": false,
+      "lastDeliveryStatus": "not-requested",
+      "lastFailureNotificationDeliveryStatus": "not-requested",
+      "effectiveAgentId": "manager-bot",
+      "status": "ok"
     },
     {
       "id": "e4d438e8-b4b9-462f-8174-c68934578167",
@@ -1904,7 +1902,7 @@
       "status": "idle"
     }
   ],
-  "snapshotRevision": "sha256:P-JvY88GHPf_qIDVvyk_5ba6wG5Ravu-v8WoLp8iiqg",
+  "snapshotRevision": "sha256:_rmwCPXhAtXcnmwEnQTURFrJaKmFTvJnz4BctLCtEjY",
   "total": 29,
   "offset": 0,
   "limit": 200,
@@ -1931,18 +1929,6 @@
       "label": "not requested",
       "detail": "not requested"
     },
-    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
-      "label": "announce -> discord:channel:1504151367164498050",
-      "detail": "explicit"
-    },
-    "2c8ce4a6-0911-44db-ad76-dac73e01b74d": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
-    "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
-      "label": "not requested",
-      "detail": "not requested"
-    },
     "c8da1b69-7b66-4483-8472-52284f11067b": {
       "label": "announce -> discord:channel:1504151367164498050",
       "detail": "explicit"
@@ -1951,7 +1937,19 @@
       "label": "not requested",
       "detail": "not requested"
     },
+    "71e316fb-e4e8-44fa-90a5-54103618ebf8": {
+      "label": "announce -> discord:channel:1504151367164498050",
+      "detail": "explicit"
+    },
     "53d4eeee-c8d6-4ef8-83f8-c0d1f4aaf999": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "2c8ce4a6-0911-44db-ad76-dac73e01b74d": {
+      "label": "not requested",
+      "detail": "not requested"
+    },
+    "8d6d0a97-576f-49d5-9deb-0a773acb249f": {
       "label": "not requested",
       "detail": "not requested"
     },
