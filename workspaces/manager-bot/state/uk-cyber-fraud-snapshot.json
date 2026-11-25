@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T09:00:00Z",
-  "checked_at": "2026-11-22T09:00:00Z",
+  "generated_at": "2026-11-24T09:00:00Z",
+  "checked_at": "2026-11-24T09:00:00Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
@@ -56,7 +56,7 @@
       "id": "ID-01",
       "name": "Identity theft and identity-document misuse",
       "rank": 9,
-      "material_version": "2026-11-21-ncsc-data-breach-cifas"
+      "material_version": "2026-11-24-cifas-gasa-and-fraudscape"
     },
     {
       "id": "JOB-01",
@@ -95,31 +95,44 @@
       "material_version": "2026-11-21-fca-guidance-19jan2026"
     }
   ],
-  "report_sha256": "f3bc0c8aec9b6891be25ed7b2dd9fd60e90befdcf03818371b47546b01b77099",
+  "report_sha256": "12c12210b824f21d111e1e5e8fa6391adc70eee79f34dd8068f156e7a58db604",
   "delivery": {
     "verified": true,
-    "message_id": "1a2027d05020bf39",
-    "thread_id": "1a2027d05020bf39",
+    "message_id": "1a20cca3cbc524f8",
+    "thread_id": "1a20cca3cbc524f8",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
-    "subject": "Daily UK Cyber-Fraud Report — no material change",
-    "verified_at": "2026-11-22T09:01:00Z"
+    "subject": "Daily UK Cyber-Fraud Report — 24 November 2026",
+    "verified_at": "2026-11-24T09:01:00Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-22T09:00:00Z",
+    "checked_at": "2026-11-24T09:00:00Z",
     "sources": [
       "ONS",
       "NCSC",
       "Stop! Think Fraud/GOV.UK",
       "Ofcom",
       "FCA",
-      "Cifas"
+      "Cifas/GASA"
     ],
     "limitations": [
       "UK official datasets are not directly comparable; ranks are ordinal triage, not precise national prevalence.",
       "Latest ONS prevalence estimates cited are for England and Wales; Scotland reporting routes differ.",
-      "UK Finance and direct Report Fraud pages were not used as evidence where automated retrieval was blocked; current evidence was validated from accessible official ONS, NCSC, Stop! Think Fraud, Ofcom, FCA and Cifas pages."
+      "Cifas/GASA exposure and loss figures are a UK survey with a stated 16 March–13 April 2026 field period and updated methodology; they are not directly comparable with ONS incidents, Cifas database cases or NCSC report/removal counts.",
+      "Direct Report Fraud and UK Finance pages were not used as quantitative evidence where automated retrieval was unavailable; official reporting routes were validated through Stop! Think Fraud and the linked service guidance."
     ],
-    "material_change": "No material change: canonical IDs, ranks, wording and validated official source evidence are unchanged from the 21 November 2026 snapshot."
+    "material_change": "Material source update since the previous validated snapshot: Cifas published its 24 November 2026 State of Scams in the UK 2026 release, and the report added the current Cifas/GASA and Fraudscape evidence to ID-01 and the executive summary. Canonical IDs and ordinal ranks are unchanged."
+  },
+  "comparison": {
+    "previous_checked_at": "2026-11-22T09:00:00Z",
+    "canonical_ids_added": [],
+    "canonical_ids_removed": [],
+    "material_rank_changes": [],
+    "material_wording_or_source_changes": [
+      "ID-01",
+      "executive-summary",
+      "change-log"
+    ],
+    "notes": "Full report sent because current authoritative evidence changed; no new or removed canonical scam category."
   }
 }
