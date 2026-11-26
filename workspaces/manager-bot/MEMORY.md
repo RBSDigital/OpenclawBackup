@@ -268,3 +268,11 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-25 00:04 UTC)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-22 12:04 UTC review. New entries were the 2026-11-23 and 2026-11-24 Kali health observations. They confirm nominal gateway/config/connectivity health alongside recurring global-install update failure, loopback-only binding, Discord reconnects, skill/route-precedence collision, and legacy session-owner migration drift. These remain operational/admin-sensitive; retain redacted evidence and route for admin-desk review only. No auto-promotion, remediation, or feature action was needed.
+
+## Consolidated Memory (2026-11-25 10:45 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-25 00:04 UTC review. New signal: the 2026-11-25 Kali health observation confirms nominal gateway/config/connectivity health while recurring global-install update failure and loopback-only binding remain admin-review drift; prior Discord reconnect, migration, and skill-precedence signals remain historical. No safe auto-promotion, remediation, or feature action was needed.
+
+## Consolidated Memory (2026-11-26 00:04 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-25 10:45 UTC review. No new entries were added after the 2026-11-25 Kali health observation. Existing global-install update failure and loopback-only binding remain operational/admin-sensitive drift; retain redacted evidence for admin-desk review. No auto-promotion, remediation, or new feature action was needed.

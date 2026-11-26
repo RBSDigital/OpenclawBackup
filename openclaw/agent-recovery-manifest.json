@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:30:50.546Z",
+  "generatedAt": "2026-11-26T04:30:48.582Z",
   "snapshotPolicy": {
     "privateMemoryFiles": "included in private redacted recovery snapshot",
     "excludedReinstallableOrGeneratedDirs": [
