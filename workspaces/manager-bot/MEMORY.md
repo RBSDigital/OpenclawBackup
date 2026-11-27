@@ -276,3 +276,7 @@ Good research prompts include the decision supported, exact question, timeframe,
 ## Consolidated Memory (2026-11-26 00:04 UTC)
 
 - Reviewed `.learnings` across all workspace roots since the 2026-11-25 10:45 UTC review. No new entries were added after the 2026-11-25 Kali health observation. Existing global-install update failure and loopback-only binding remain operational/admin-sensitive drift; retain redacted evidence for admin-desk review. No auto-promotion, remediation, or new feature action was needed.
+
+## Consolidated Memory (2026-11-26 10:45 UTC)
+
+- Reviewed `.learnings` across all workspace roots since the 2026-11-26 00:04 UTC review. New signal: one Kali health observation confirms nominal gateway/config/connectivity health while recurring global-install update failure and loopback-only binding remain admin-review drift. This is operational/admin-sensitive; no safe auto-promotion, remediation, or new feature action was made.

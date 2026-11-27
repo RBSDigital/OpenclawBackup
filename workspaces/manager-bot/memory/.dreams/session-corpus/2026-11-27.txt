@@ -1,0 +1,4 @@
+[manager-bot/sessions/manager-bot/839583fb-4f84-4d91-be6a-3ade61add976#L2305] Assistant: - **New since last 24h review:** one redacted health observation (2026-11-26): recurring global-install update failure and loopback-only gateway binding; route-precedence evidence remains relevant. - **Repeated patterns:** - Update/install failure — recur
+[manager-bot/sessions/manager-bot/839583fb-4f84-4d91-be6a-3ade61add976#L2305] Assistant: admin/security changes and were not auto-promoted.
+[manager-bot/sessions/manager-bot/ec647599-8ef5-40f0-a01d-27c7182dd268#L15] Assistant: - **New since last 24h review:** one redacted health observation (2026-11-26): recurring global-install update failure and loopback-only gateway binding; route-precedence evidence remains relevant. - **Repeated patterns:** - Update/install failure — recurri
+[manager-bot/sessions/manager-bot/ec647599-8ef5-40f0-a01d-27c7182dd268#L15] Assistant: admin/security changes and were not auto-promoted.
