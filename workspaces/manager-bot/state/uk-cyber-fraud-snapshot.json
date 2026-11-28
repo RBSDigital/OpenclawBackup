@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "generated_at": "2026-11-26T09:00:00Z",
-  "checked_at": "2026-11-26T09:00:00Z",
+  "checked_at": "2026-11-27T09:00:00Z",
   "method": "Ordinal triage: 50% current official activity signal, 30% likely harm and breadth, 20% recency and cross-sector corroboration. Not a precise national prevalence ranking because official datasets use different scopes and definitions.",
   "items": [
     {
@@ -95,18 +95,18 @@
       "material_version": "2026-11-21-fca-guidance-19jan2026"
     }
   ],
-  "report_sha256": "9fb1d293a91141fbf2937e999b6d517a1e30c5fe1bb62787c5711ac95eb91e04",
+  "report_sha256": "e59ae891e5389523aea3cf6e458c79a8fc186d00c5bf2a9854bab41b8457a032",
   "delivery": {
     "verified": true,
-    "message_id": "1a2171651a48919b",
-    "thread_id": "1a2171651a48919b",
+    "message_id": "1a21c3d1c3d9b171",
+    "thread_id": "1a21c3d1c3d9b171",
     "recipient": "vincent.reynolds@digitalrbs.co.uk",
     "subject": "Daily UK Cyber-Fraud Report — no material change",
-    "verified_at": "2026-11-26T09:01:00Z"
+    "verified_at": "2026-11-27T09:01:00Z"
   },
   "source_validation": {
     "status": "passed",
-    "checked_at": "2026-11-26T09:00:00Z",
+    "checked_at": "2026-11-27T09:00:00Z",
     "sources": [
       "ONS",
       "NCSC",
@@ -121,10 +121,10 @@
       "Cifas/GASA exposure and loss figures are a UK survey with a stated 16 March–13 April 2026 field period and updated methodology; they are not directly comparable with ONS incidents, Cifas database cases or NCSC report/removal counts.",
       "Direct Report Fraud and UK Finance pages were not used as quantitative evidence where automated retrieval was unavailable; official reporting routes were validated through Stop! Think Fraud and the linked service guidance."
     ],
-    "material_change": "No material source, canonical-list, ranking, wording or source-set changes detected since the validated 2026-11-25 snapshot."
+    "material_change": "No material source, canonical-list, ranking, wording or source-set changes detected since the validated 2026-11-26 snapshot."
   },
   "comparison": {
-    "previous_checked_at": "2026-11-25T09:00:00Z",
+    "previous_checked_at": "2026-11-26T09:00:00Z",
     "canonical_ids_added": [],
     "canonical_ids_removed": [],
     "material_rank_changes": [],
